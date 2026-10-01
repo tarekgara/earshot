@@ -1,0 +1,2631 @@
+# Earshot library definition.
+#
+# Taxonomy, perceptual traits (used by "Not sure?"), listening cues, the
+# confusion map, and which recordings become reference clips.
+# `python tools/build.py` turns this into js/data.js and audio/.
+#
+# Trait vocabulary (keep in sync with `questions`):
+#   source:   voice body animal nature machine signal object
+#   shape:    once repeats steady irregular
+#   pitched:  yes | no
+#   tone:     airy rough voiced ringing knock rumble shrill crackle watery drone rattle creak
+#   register: low | mid | high
+
+sources:
+  commons:
+    name: Wikimedia Commons
+    url: https://commons.wikimedia.org/
+    license: per file (CC0, public domain, CC BY or CC BY-SA)
+    credit: Individual authors, credited per clip
+  url:
+    name: Direct downloads
+    url: ""
+    license: per file
+    credit: Credited per clip
+  generated:
+    name: Earshot signal generator
+    url: tools/signals.py
+    license: CC0-1.0
+    credit: Generated in code for this library
+
+families:
+  - id: voice
+    name: Voice and mouth
+    blurb: Sounds people make with their voice, breath and mouth, other than words.
+  - id: body
+    name: Body and actions
+    blurb: People moving, touching and doing things.
+  - id: animals
+    name: Animals
+    blurb: Calls, cries and movement of animals, wild and domestic.
+  - id: nature
+    name: Nature and weather
+    blurb: Rain, wind, water and fire.
+  - id: home
+    name: Home and objects
+    blurb: Doors, kitchens, bathrooms and the small things we handle every day.
+  - id: vehicles
+    name: Vehicles
+    blurb: Engines, horns, brakes and things that pass by.
+  - id: signals
+    name: Alarms and signals
+    blurb: Sounds designed to get attention.
+  - id: machines
+    name: Tools and machines
+    blurb: Motors, power tools and electrical hums.
+  - id: impacts
+    name: Impacts and bangs
+    blurb: Hits, crashes, shots and explosions.
+
+questions:
+  - id: source
+    short: Made by
+    ask: What do you think made it?
+    hint: Your first instinct is usually right. Skip it if you have no idea.
+    weight: 3
+    options:
+      - { value: voice, label: "A person's voice or mouth" }
+      - { value: body, label: "A person moving or doing something" }
+      - { value: animal, label: "An animal" }
+      - { value: nature, label: "Nature or weather" }
+      - { value: machine, label: "A machine, engine or vehicle" }
+      - { value: signal, label: "A beep, bell or alarm" }
+      - { value: object, label: "Objects hitting, breaking or moving" }
+  - id: shape
+    short: Over time
+    ask: How does it play out over time?
+    hint: Listen for a few seconds. Is it one event, a pattern, or a continuous sound?
+    weight: 2.5
+    options:
+      - { value: once, label: "One short event" }
+      - { value: repeats, label: "Repeats in a regular pattern" }
+      - { value: steady, label: "Keeps going steadily" }
+      - { value: irregular, label: "Comes and goes unevenly" }
+  - id: tone
+    short: Texture
+    ask: Which texture is closest?
+    hint: Ignore what it might be and just listen to the grain of the sound.
+    weight: 3
+    options:
+      - { value: airy, label: "Airy, breathy, whooshing" }
+      - { value: rough, label: "Rough, raspy, harsh" }
+      - { value: voiced, label: "Voice-like, vocal" }
+      - { value: ringing, label: "Ringing, bell-like" }
+      - { value: knock, label: "A knock, tap or thud" }
+      - { value: rumble, label: "A deep rumble or roar" }
+      - { value: shrill, label: "Shrill, piercing" }
+      - { value: crackle, label: "Crackling, sizzling" }
+      - { value: watery, label: "Watery, splashing" }
+      - { value: drone, label: "A hum, whir or buzz" }
+      - { value: rattle, label: "A rattle, clatter or jingle" }
+      - { value: creak, label: "A creak, squeak or scrape" }
+  - id: pitched
+    short: Pitch
+    ask: Could you hum along with it?
+    hint: Some sounds have a clear note (a beep, a meow, a whistle). Others are pure noise (rain, a cough).
+    weight: 1.5
+    options:
+      - { value: "yes", label: "Yes, there's a clear tone" }
+      - { value: "no", label: "No, it's more like noise" }
+  - id: register
+    short: Register
+    ask: Where does it sit?
+    hint: Is it deep and heavy, in the middle, or high and thin?
+    weight: 1.5
+    options:
+      - { value: low, label: "Low and deep" }
+      - { value: mid, label: "In the middle" }
+      - { value: high, label: "High and thin" }
+
+# Sounds. `samples` are filled in from sources/; entries without samples are
+# listed (and appear in the confusion map) until a recording is found.
+
+sounds:
+
+  # ---------------------------------------------------------------- voice
+  - id: cough
+    name: Cough
+    family: voice
+    sub: Respiratory
+    traits: { source: voice, shape: [once, irregular], tone: [rough], pitched: "no", register: [mid] }
+    summary: A sudden burst of air forced out of the lungs. Explosive start, rough, often in clusters.
+    listen: ["A hard, explosive start", "A rough, noisy burst with little pitch"]
+    confusions:
+      - { id: throat-clear, cue: "Throat-clearing is smaller and voiced, a deliberate 'ahem'." }
+      - { id: sneeze, cue: "A sneeze has a breath-in build-up, then one sharp 'choo'." }
+      - { id: laugh, cue: "Laughter is pitched and rhythmic: 'ha-ha-ha'." }
+      - { id: bark, cue: "A dog bark is pitched and voiced; a cough is noise." }
+    samples:
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_cough.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_cough.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "commons", "file": "File:Woman coughing three times.wav", "label": "Recording 3"}
+
+  - id: throat-clear
+    name: Throat clearing
+    family: voice
+    sub: Respiratory
+    aliases: [ahem, harrumph]
+    traits: { source: voice, shape: [once], tone: [rough, voiced], pitched: "no", register: [low, mid] }
+    summary: A short, deliberate rasp to clear the throat. Often a polite "ahem".
+    listen: ["A small, controlled rasp", "Often two parts: 'a-hem'"]
+    confusions:
+      - { id: cough, cue: "A cough is bigger and more explosive." }
+      - { id: grunt, cue: "A grunt comes from effort, not the throat." }
+      - { id: scoff, cue: "A scoff is a puff of air through the nose or lips." }
+    samples:
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_throatclearing.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_throatclearing.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "commons", "file": "File:Laughter and clearing voice.ogg", "label": "Recording 3"}
+
+  - id: sneeze
+    name: Sneeze
+    family: voice
+    sub: Respiratory
+    aliases: [achoo]
+    traits: { source: voice, shape: [once], tone: [airy, rough], pitched: "no", register: [mid, high] }
+    summary: An involuntary explosion of air through nose and mouth, usually after a sharp intake of breath.
+    listen: ["A quick breath in ('ah... ah...')", "One sharp, sprayed 'choo'"]
+    confusions:
+      - { id: cough, cue: "A cough has no build-up and repeats more." }
+      - { id: sniff, cue: "A sniff goes in, not out." }
+    samples:
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_sneeze.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_sneeze.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "commons", "file": "File:Double sneeze (man).ogg", "label": "Recording 3"}
+
+  - id: sniff
+    name: Sniff
+    family: voice
+    sub: Respiratory
+    aliases: [sniffle]
+    traits: { source: voice, shape: [once, repeats], tone: [airy], pitched: "no", register: [mid, high] }
+    summary: A quick breath in through the nose. Short, airy, sometimes wet with a cold.
+    listen: ["Air rushing inward through the nose", "Short and hissy"]
+    confusions:
+      - { id: sneeze, cue: "A sneeze bursts outward." }
+      - { id: sigh, cue: "A sigh is a long breath out through the mouth." }
+      - { id: scoff, cue: "A scoff is a short puff out, often with attitude." }
+    samples:
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_sniff.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_sniff.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/sniff.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 3"}
+
+  - id: laugh
+    name: Laugh
+    family: voice
+    sub: Emotional
+    aliases: [laughter, belly laugh]
+    traits: { source: voice, shape: [repeats, irregular], tone: [voiced], pitched: "yes", register: [mid] }
+    summary: Rhythmic, voiced bursts of breath. "Ha-ha-ha", from a chuckle to a roar.
+    listen: ["Repeated voiced pulses", "Pitch that rises and falls with each burst"]
+    confusions:
+      - { id: crying, cue: "Sobbing has a similar rhythm but sounds strained and falls in pitch." }
+      - { id: giggle, cue: "A giggle is higher, lighter and smaller." }
+      - { id: chuckle, cue: "A chuckle is low and mostly kept in the chest." }
+      - { id: cough, cue: "A cough is noisy and unpitched." }
+    samples:
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_laughter.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_laughter.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "commons", "file": "File:Bursting out laughing.ogg", "label": "Recording 3"}
+
+  - id: giggle
+    name: Giggle
+    family: voice
+    sub: Emotional
+    aliases: [titter, snicker]
+    traits: { source: voice, shape: [repeats], tone: [voiced, airy], pitched: "yes", register: [high] }
+    summary: A light, high, nervous or playful laugh, often half-suppressed.
+    listen: ["High, quick, breathy pulses", "Lighter and smaller than a laugh"]
+    confusions:
+      - { id: laugh, cue: "A full laugh is louder and lower." }
+      - { id: baby-laugh, cue: "A baby's laugh is even higher, with squeals." }
+    samples:
+      - {"src": "commons", "file": "File:Giggle.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Boy giggle.ogg", "label": "Recording 2", "start": 3.0, "dur": 3.0}
+      - {"src": "commons", "file": "File:Four Years Old child laughing.ogg", "label": "Recording 3"}
+
+  - id: chuckle
+    name: Chuckle
+    family: voice
+    sub: Emotional
+    traits: { source: voice, shape: [repeats, once], tone: [voiced], pitched: "yes", register: [low, mid] }
+    summary: A quiet, low laugh, mostly in the chest with the mouth closed or barely open.
+    listen: ["Low, soft 'heh-heh'", "Short and contained"]
+    confusions:
+      - { id: laugh, cue: "A laugh opens up and gets louder." }
+      - { id: scoff, cue: "A scoff is one dismissive puff, not a series." }
+      - { id: grunt, cue: "A grunt is a single strained sound." }
+    samples:
+      - {"src": "commons", "file": "File:Different-Types-of-Laughter-Modulate-Connectivity-within-Distinct-Parts-of-the-Laughter-Perception-pone.0063441.s011.oga", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Short male snorts and giggles.ogg", "label": "Recording 2", "start": 2.0, "dur": 2.0}
+      - {"src": "commons", "file": "File:Short clip of girl laughing.wav", "label": "Recording 3"}
+
+  - id: scoff
+    name: Scoff
+    family: voice
+    status: wanted
+    sub: Emotional
+    aliases: [pff, pfft, snort laugh, derisive laugh]
+    traits: { source: voice, shape: [once], tone: [airy], pitched: "no", register: [mid] }
+    summary: A short, dismissive puff of air through the nose or lips, "pff". Disbelief or contempt.
+    listen: ["One quick puff, often through the nose", "Little or no voice in it"]
+    confusions:
+      - { id: snort, cue: "A snort is louder and rattles in the nose." }
+      - { id: sigh, cue: "A sigh is long and slow; a scoff is instant." }
+      - { id: chuckle, cue: "A chuckle is voiced and repeats." }
+      - { id: sniff, cue: "A sniff goes inward." }
+  - id: snort
+    name: Snort
+    family: voice
+    sub: Emotional
+    traits: { source: voice, shape: [once], tone: [rough], pitched: "no", register: [low, mid] }
+    summary: A forceful burst of air through the nose that rattles the soft palate. Laughing, mocking or surprise.
+    listen: ["A rattling, piggy rasp in the nose"]
+    confusions:
+      - { id: scoff, cue: "A scoff is a soft puff without the rattle." }
+      - { id: pig, cue: "A pig grunts in repeated, lower rasps." }
+      - { id: snore, cue: "A snore repeats with breathing, slowly." }
+    samples:
+      - {"src": "commons", "file": "File:Short male snorts and giggles.ogg", "label": "Recording 1"}
+
+  - id: sigh
+    name: Sigh
+    family: voice
+    sub: Breath
+    traits: { source: voice, shape: [once], tone: [airy, voiced], pitched: "no", register: [mid] }
+    summary: A long, audible breath out, often with a falling voice. Tiredness, relief or frustration.
+    listen: ["A slow exhale lasting a second or more", "Sometimes a falling 'haaa'"]
+    confusions:
+      - { id: gasp, cue: "A gasp is a sharp breath in." }
+      - { id: yawn, cue: "A yawn is longer, opens the mouth wide, and rises then falls." }
+      - { id: scoff, cue: "A scoff is a quick puff." }
+      - { id: groan, cue: "A groan is voiced and strained." }
+    samples:
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_sigh.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_sigh.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "commons", "file": "File:Three sighs.ogg", "label": "Recording 3"}
+
+  - id: gasp
+    name: Gasp
+    family: voice
+    sub: Breath
+    traits: { source: voice, shape: [once], tone: [airy], pitched: "no", register: [mid, high] }
+    summary: A sudden, sharp breath in. Surprise, shock or effort.
+    listen: ["A quick, noisy intake through the mouth"]
+    confusions:
+      - { id: sigh, cue: "A sigh breathes out, slowly." }
+      - { id: sniff, cue: "A sniff goes through the nose and is smaller." }
+      - { id: panting, cue: "Panting repeats in and out." }
+    samples:
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/gasp1.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 1"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/freakedbreath.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 2"}
+
+  - id: groan
+    name: Groan
+    family: voice
+    sub: Emotional
+    traits: { source: voice, shape: [once], tone: [voiced, rough], pitched: "yes", register: [low] }
+    summary: A low, drawn-out voiced sound of displeasure, annoyance or pain. "Ughhh".
+    listen: ["Low, sustained and voiced", "Strained or creaky in the throat"]
+    confusions:
+      - { id: moan, cue: "A moan is softer, smoother and more about pain or pleasure." }
+      - { id: grunt, cue: "A grunt is short and clipped." }
+      - { id: sigh, cue: "A sigh is mostly breath, not voice." }
+    samples:
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/female_hurt_grunts_groans_1.ogg", "page": "https://opengameart.org/content/female-hurt-grunts-groans", "license": "CC0", "author": "Nocturnal_Vanguard", "label": "Recording 3"}
+
+  - id: moan
+    name: Moan
+    family: voice
+    status: wanted
+    sub: Emotional
+    traits: { source: voice, shape: [once, irregular], tone: [voiced], pitched: "yes", register: [low, mid] }
+    summary: A long, low, wavering voiced sound, usually of pain or discomfort.
+    listen: ["A smooth, sustained, wavering hum-like voice"]
+    confusions:
+      - { id: groan, cue: "A groan is rougher and more annoyed." }
+      - { id: hum, cue: "Humming follows a tune." }
+  - id: grunt
+    name: Grunt
+    family: voice
+    sub: Effort
+    traits: { source: voice, shape: [once], tone: [voiced, rough], pitched: "no", register: [low] }
+    summary: A short, low, guttural sound pushed out with effort, like lifting something heavy.
+    listen: ["Short, low and clipped", "A tight push from the belly"]
+    confusions:
+      - { id: groan, cue: "A groan is longer and drawn out." }
+      - { id: throat-clear, cue: "Throat clearing rasps higher in the throat." }
+      - { id: pig, cue: "A pig's grunt is nasal and repeats." }
+    samples:
+      - {"src": "commons", "file": "File:Male grunts jumps.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Male pain grunts.ogg", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/01._effort_grunt_male.wav", "page": "https://opengameart.org/content/effort-sounds-male-audio-pack", "license": "CC-BY-SA 4.0", "author": "VoiceBosch", "label": "Recording 3"}
+
+  - id: yawn
+    name: Yawn
+    family: voice
+    sub: Breath
+    traits: { source: voice, shape: [once], tone: [airy, voiced], pitched: "no", register: [mid] }
+    summary: A long, wide-mouthed breath in and out, often with a voiced stretch at the end.
+    listen: ["A long inhale, then a voiced 'aaah' that falls"]
+    confusions:
+      - { id: sigh, cue: "A sigh is only the breath out, shorter." }
+      - { id: groan, cue: "A groan has no long inhale first." }
+    samples:
+      - {"src": "commons", "file": "File:Yawning 1.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Yawning twice.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Yawning 2.ogg", "label": "Recording 3"}
+
+  - id: hum
+    name: Humming
+    family: voice
+    sub: Vocal
+    traits: { source: voice, shape: [steady], tone: [voiced, drone], pitched: "yes", register: [mid] }
+    summary: Singing a tune with the mouth closed. "Mmm-mm-mmm".
+    listen: ["A muffled, nasal voice following a melody"]
+    confusions:
+      - { id: moan, cue: "A moan doesn't follow a tune." }
+      - { id: whistling, cue: "Whistling is pure and airy, higher." }
+    samples:
+      - {"src": "commons", "file": "File:Woman humming a nondescript tune.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Deep humming noise.wav", "label": "Recording 2"}
+
+  - id: whistling
+    name: Whistling
+    family: voice
+    sub: Vocal
+    aliases: [human whistle, wolf whistle]
+    traits: { source: voice, shape: [steady, once], tone: [shrill, airy], pitched: "yes", register: [high] }
+    summary: A pure, high tone blown through pursed lips, as a tune or a call.
+    listen: ["A pure, high, slightly breathy tone", "Slides between notes"]
+    confusions:
+      - { id: songbird, cue: "Birds are faster and more complex." }
+      - { id: kettle, cue: "A kettle whistle is steady and rising, not a tune." }
+      - { id: hum, cue: "Humming is voiced and lower." }
+    samples:
+      - {"src": "commons", "file": "File:Wolf whistle.ogg", "label": "Recording 1"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/attention-whistle.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/wolf-whistle.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 3"}
+
+  - id: scream
+    name: Scream
+    family: voice
+    sub: Emotional
+    aliases: [shriek]
+    traits: { source: voice, shape: [once], tone: [shrill, voiced], pitched: "yes", register: [high] }
+    summary: A loud, high, piercing cry of fear, pain or excitement.
+    listen: ["Very loud and high, often rough at the edges"]
+    confusions:
+      - { id: shout, cue: "A shout is lower and usually has words." }
+      - { id: baby-cry, cue: "A baby's cry repeats in breathy waves." }
+      - { id: siren, cue: "A siren is a pure tone that sweeps up and down." }
+    samples:
+      - {"src": "commons", "file": "File:NOW screaming.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:UncleSigmund - ahhh (cc0) (freesound).mp3", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Scream-c.wav", "label": "Recording 3"}
+
+  - id: shout
+    name: Shout
+    family: voice
+    sub: Vocal
+    aliases: [yell]
+    traits: { source: voice, shape: [once], tone: [voiced, rough], pitched: "yes", register: [mid] }
+    summary: A loud, forceful call, usually a word or name.
+    listen: ["Loud voice with a hard attack", "Often a word, cut short"]
+    confusions:
+      - { id: scream, cue: "A scream is higher and wordless." }
+      - { id: cheering, cue: "Cheering is many voices at once." }
+    samples:
+      - {"src": "commons", "file": "File:Goal Shout.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Wikipedistas en las luchas 01.wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Street parade carnival people yelling kamelle kamelle.ogg", "label": "Recording 3"}
+
+  - id: crying
+    name: Crying
+    family: voice
+    sub: Emotional
+    aliases: [sobbing, weeping]
+    traits: { source: voice, shape: [irregular], tone: [voiced, airy], pitched: "yes", register: [mid, high] }
+    summary: Adult sobbing. Shaky breaths in and broken, falling voice out.
+    listen: ["Gulping, shaky breaths in", "Falling, wavering voice"]
+    confusions:
+      - { id: laugh, cue: "Laughter rises and is lighter; sobbing falls and catches." }
+      - { id: baby-cry, cue: "A baby's cry is a steady, loud 'waa'." }
+      - { id: moan, cue: "A moan is steadier, without the catching breaths." }
+    samples:
+      - {"src": "commons", "file": "File:Male crying and weeping.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Woman crying.ogg", "label": "Recording 2", "start": 5.0, "dur": 5.0}
+      - {"src": "commons", "file": "File:Man Crying .ogg", "label": "Recording 3"}
+
+  - id: baby-cry
+    name: Baby crying
+    family: voice
+    sub: Baby
+    aliases: [infant cry, wailing]
+    traits: { source: voice, shape: [repeats], tone: [voiced, shrill], pitched: "yes", register: [high] }
+    summary: An infant's loud, rhythmic "waa", with gasps between cries.
+    listen: ["Loud, high 'waa' repeating", "Short gasps between"]
+    confusions:
+      - { id: cat-meow, cue: "A cat's meow is shorter and nasal; some cat calls sound very like a baby." }
+      - { id: scream, cue: "A scream is one burst, not rhythmic." }
+      - { id: crying, cue: "Adult sobbing is lower and more broken." }
+    samples:
+      - {"src": "commons", "file": "File:Crying newborn baby.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Newborn baby crying sounds 20190831 061900.wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Baby long wanting cry.ogg", "label": "Recording 3"}
+
+  - id: baby-laugh
+    name: Baby laughing
+    family: voice
+    sub: Baby
+    traits: { source: voice, shape: [repeats], tone: [voiced, shrill], pitched: "yes", register: [high] }
+    summary: An infant's giggles and squeals of delight.
+    listen: ["Very high, squealing giggles", "Gasping breaths in between"]
+    confusions:
+      - { id: giggle, cue: "An adult giggle is lower and more controlled." }
+      - { id: baby-cry, cue: "Crying is longer 'waa' sounds." }
+    samples:
+      - {"src": "commons", "file": "File:Baby Laugh.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Baby 5 months old gabbling laughing practising voice.ogg", "label": "Recording 2"}
+
+  - id: burp
+    name: Burp
+    family: voice
+    sub: Digestive
+    aliases: [belch]
+    traits: { source: voice, shape: [once], tone: [rough, voiced], pitched: "no", register: [low] }
+    summary: Air rising from the stomach. A low, croaky, rattling sound.
+    listen: ["A low, croaky rattle from the throat"]
+    confusions:
+      - { id: frog, cue: "A frog croak repeats in rhythm." }
+      - { id: grunt, cue: "A grunt is pushed, not bubbled up." }
+    samples:
+      - {"src": "commons", "file": "File:Burp.opus", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Burp.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Burping10.ogg", "label": "Recording 3"}
+
+  - id: hiccup
+    name: Hiccup
+    family: voice
+    sub: Digestive
+    traits: { source: voice, shape: [repeats], tone: [voiced], pitched: "no", register: [mid] }
+    summary: A sudden involuntary "hic", repeating every few seconds.
+    listen: ["A tiny, sudden 'hic'", "Repeats at uneven intervals"]
+    confusions:
+      - { id: gasp, cue: "A gasp is a single, longer intake." }
+      - { id: tongue-click, cue: "A tongue click has no voice in it." }
+    samples:
+      - {"src": "commons", "file": "File:Hiccupsound.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Hiccupsound02.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Beautiful girl coughing and having hiccups.ogg", "label": "Recording 3"}
+
+  - id: kiss
+    name: Kiss
+    family: voice
+    sub: Mouth
+    traits: { source: voice, shape: [once], tone: [knock], pitched: "no", register: [high] }
+    summary: A short, wet smack of the lips.
+    listen: ["A tiny, wet pop"]
+    confusions:
+      - { id: tongue-click, cue: "A tongue click is drier and sharper." }
+      - { id: finger-snap, cue: "A snap is louder and crisper." }
+
+  - id: shush
+    name: Shush
+    family: voice
+    sub: Mouth
+    aliases: [shh]
+    traits: { source: voice, shape: [once], tone: [airy], pitched: "no", register: [high] }
+    summary: A long "shhh" to ask for quiet.
+    listen: ["A sustained, hissy 'sh' with no voice"]
+    confusions:
+      - { id: air-hiss, cue: "Escaping air is steadier and mechanical." }
+      - { id: wind, cue: "Wind rises and falls slowly." }
+    samples:
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/shh1.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 1"}
+
+  - id: tongue-click
+    name: Tongue click
+    family: voice
+    sub: Mouth
+    aliases: [tsk, tut-tut, cluck]
+    traits: { source: voice, shape: [once, repeats], tone: [knock], pitched: "no", register: [high] }
+    summary: A sharp click of the tongue against the roof of the mouth. "Tsk" of disapproval, or calling a horse.
+    listen: ["A dry, hollow pop", "Often doubled: 'tsk-tsk'"]
+    confusions:
+      - { id: kiss, cue: "A kiss is wetter, with the lips." }
+      - { id: clock-tick, cue: "A clock ticks steadily, forever." }
+    samples:
+      - {"src": "commons", "file": "File:Postalveolar click.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Dental click.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Alveolar lateral click.ogg", "label": "Recording 3"}
+
+  - id: breathing
+    name: Breathing
+    family: voice
+    sub: Breath
+    traits: { source: voice, shape: [repeats], tone: [airy], pitched: "no", register: [mid] }
+    summary: Steady breaths in and out, heard up close.
+    listen: ["Slow, even cycles of in and out"]
+    confusions:
+      - { id: panting, cue: "Panting is fast and short." }
+      - { id: snore, cue: "Snoring rattles on the in-breath." }
+      - { id: wind, cue: "Wind has no regular cycle." }
+    samples:
+      - {"src": "commons", "file": "File:Breathing man.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Heavy breathing 3.ogg", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/breath-female.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 3"}
+
+  - id: panting
+    name: Panting
+    family: voice
+    sub: Breath
+    aliases: [heavy breathing, out of breath]
+    traits: { source: voice, shape: [repeats], tone: [airy], pitched: "no", register: [mid] }
+    summary: Fast, heavy breathing after effort. Short, quick, open-mouthed breaths.
+    listen: ["Quick, loud breaths in and out"]
+    confusions:
+      - { id: breathing, cue: "Normal breathing is slow and quiet." }
+      - { id: dog-pant, cue: "A dog pants much faster, with the tongue out." }
+    samples:
+      - {"src": "commons", "file": "File:Heavy breathing 2.ogg", "label": "Recording 1"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/breathing%20tired.wav", "page": "https://opengameart.org/content/breathing-tired", "license": "CC0", "author": "mikeask", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/scared-breathing.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 3"}
+
+  - id: snore
+    name: Snoring
+    family: voice
+    sub: Breath
+    traits: { source: voice, shape: [repeats], tone: [rough, rumble], pitched: "no", register: [low] }
+    summary: A rattling, rumbling breath while asleep, usually on the in-breath.
+    listen: ["A slow, rattly rumble every few seconds"]
+    confusions:
+      - { id: pig, cue: "Pig grunts are quicker and more nasal." }
+      - { id: snort, cue: "A snort is a single blast." }
+      - { id: cat-purr, cue: "A purr is continuous and much faster." }
+    samples:
+      - {"src": "commons", "file": "File:Joseph Sardin - Ronflements.oga", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Schnarchen 01.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Snore man 50 years 160 kg.ogg", "label": "Recording 3"}
+
+  - id: gargle
+    name: Gargling
+    family: voice
+    sub: Mouth
+    traits: { source: voice, shape: [steady], tone: [watery, rough], pitched: "no", register: [mid] }
+    summary: Bubbling water in the back of the throat.
+    listen: ["A wet, bubbling rattle"]
+    confusions:
+      - { id: brook, cue: "A stream is gentler and has no voice." }
+      - { id: snore, cue: "Snoring is dry and slower." }
+
+  # ---------------------------------------------------------------- body
+    samples:
+      - {"src": "commons", "file": "File:Gargling.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Gargle.ogg", "label": "Recording 2"}
+
+  - id: footsteps
+    name: Footsteps
+    family: body
+    sub: Movement
+    aliases: [walking, steps]
+    traits: { source: body, shape: [repeats], tone: [knock], pitched: "no", register: [low, mid] }
+    summary: Someone walking. The rhythm says the pace; the surface changes the texture.
+    listen: ["A steady two-beat rhythm", "Heel then toe on hard floors"]
+    confusions:
+      - { id: knock, cue: "Knocking is quick bursts with the knuckles, in groups." }
+      - { id: heartbeat, cue: "A heartbeat is a low double thump, inside the body." }
+      - { id: horse-hooves, cue: "Hooves are a faster four-beat clip-clop." }
+    samples:
+      - {"src": "commons", "file": "File:Walking on gravel (Gravity Sound).mp3", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Walking on small wooden bridge (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Walking through snow.mp3", "label": "Recording 3"}
+
+  - id: clapping
+    name: Clapping
+    family: body
+    sub: Hands
+    traits: { source: body, shape: [repeats], tone: [knock], pitched: "no", register: [mid] }
+    summary: One person clapping their hands. Sharp, slappy and rhythmic.
+    listen: ["Sharp, flat slaps in rhythm"]
+    confusions:
+      - { id: applause, cue: "Applause is many people, a continuous wash." }
+      - { id: finger-snap, cue: "A snap is smaller and crisper." }
+      - { id: gunshot, cue: "A gunshot is far louder, with an echo." }
+    samples:
+      - {"src": "commons", "file": "File:OneHandClapping.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Clapping hurray (cropped).oga", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/solo-clap.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 3"}
+
+  - id: applause
+    name: Applause
+    family: body
+    sub: Crowd
+    traits: { source: body, shape: [steady], tone: [crackle], pitched: "no", register: [mid, high] }
+    summary: A crowd clapping together. A dense, crackling wash.
+    listen: ["A thick, sizzling wash of claps", "Swells and dies away"]
+    confusions:
+      - { id: rain, cue: "Heavy rain is steadier and softer, with no individual slaps." }
+      - { id: fire, cue: "Fire crackles irregularly, with pops." }
+      - { id: frying, cue: "Frying is a tight, high sizzle." }
+      - { id: cheering, cue: "Cheering is voices, not hands." }
+    samples:
+      - {"src": "commons", "file": "File:277021 sandermotions applause-2.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Applause-2.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Sound Effects - Applause after a concert.ogg", "label": "Recording 3"}
+
+  - id: finger-snap
+    name: Finger snap
+    family: body
+    sub: Hands
+    traits: { source: body, shape: [once, repeats], tone: [knock], pitched: "no", register: [high] }
+    summary: A crisp click made by snapping a finger against the thumb.
+    listen: ["A single sharp, dry click"]
+    confusions:
+      - { id: clapping, cue: "A clap is bigger and slappier." }
+      - { id: tongue-click, cue: "A tongue click is hollower." }
+    samples:
+      - {"src": "commons", "file": "File:Finger clicks.ogg", "label": "Recording 1"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/click-finger-snap.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 2"}
+
+  - id: knock
+    name: Knocking
+    family: body
+    sub: Hands
+    aliases: [knock on door, rapping]
+    traits: { source: body, shape: [repeats], tone: [knock], pitched: "no", register: [low, mid] }
+    summary: Knuckles on a door or table, usually in a group of two to four.
+    listen: ["Hollow, woody raps in a quick group"]
+    confusions:
+      - { id: footsteps, cue: "Footsteps are evenly spaced and keep going." }
+      - { id: hammering, cue: "Hammering is harder, metallic, and more regular." }
+      - { id: door-slam, cue: "A slam is one big bang." }
+    samples:
+      - {"src": "commons", "file": "File:Knock on door.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Shave and a haircut - Knocking on door.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Knocking on wood or door.ogg", "label": "Recording 3"}
+
+  - id: typing
+    name: Typing
+    family: body
+    sub: Hands
+    aliases: [keyboard, keystrokes]
+    traits: { source: body, shape: [irregular], tone: [knock, rattle], pitched: "no", register: [mid, high] }
+    summary: Fingers on a computer keyboard. Fast, uneven clicks and a bigger thunk on the space bar.
+    listen: ["Rapid, uneven little clicks", "A deeper clack for space or enter"]
+    confusions:
+      - { id: clock-tick, cue: "A clock ticks evenly, once a second." }
+      - { id: rain, cue: "Rain is a continuous patter." }
+    samples:
+      - {"src": "commons", "file": "File:Typing - Model M 1986.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Typing on Keychron V1 Ultra (Red Linear Switch).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Computer keyboard.ogg", "label": "Recording 3"}
+
+  - id: writing
+    name: Writing
+    family: body
+    sub: Hands
+    aliases: [pen on paper, pencil, scribbling]
+    traits: { source: body, shape: [irregular], tone: [creak, airy], pitched: "no", register: [high] }
+    summary: A pen or pencil moving on paper. A soft, scratchy scribble.
+    listen: ["A dry, scratchy whisper in short strokes"]
+    confusions:
+      - { id: paper-rustle, cue: "Rustling is the paper moving, louder and crinkly." }
+      - { id: handsaw, cue: "A saw is much bigger and rhythmic." }
+    samples:
+      - {"src": "commons", "file": "File:Pencil scratchings.ogg", "label": "Recording 1"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Paper/pencil-scratch-1.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Paper/pencil-scratch-2.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 3"}
+
+  - id: chewing
+    name: Chewing
+    family: body
+    sub: Eating
+    aliases: [eating, crunching, munching]
+    traits: { source: body, shape: [repeats], tone: [crackle], pitched: "no", register: [mid] }
+    summary: Food being chewed. Crunchy for crisps and apples, wet and soft for others.
+    listen: ["Rhythmic crunching close to the mic"]
+    confusions:
+      - { id: footsteps, cue: "Footsteps on gravel crunch slower and heavier." }
+      - { id: fire, cue: "Fire crackles irregularly." }
+    samples:
+      - {"src": "commons", "file": "File:Eating something crunchy (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Eating something crunchy 3 (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Chewing gum mouth open.ogg", "label": "Recording 3"}
+
+  - id: drinking
+    name: Drinking
+    family: body
+    sub: Eating
+    aliases: [gulping, swallowing, slurping]
+    traits: { source: body, shape: [repeats], tone: [watery], pitched: "no", register: [mid] }
+    summary: Gulps of liquid being swallowed.
+    listen: ["Rhythmic, wet gulps in the throat"]
+    confusions:
+      - { id: pour, cue: "Pouring is a continuous stream." }
+      - { id: hiccup, cue: "A hiccup is a single sudden 'hic'." }
+    samples:
+      - {"src": "commons", "file": "File:Drinking a glass of wat.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Swallowing gulp.ogg", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/drink-sip-and-swallow.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 3"}
+
+  - id: heartbeat
+    name: Heartbeat
+    family: body
+    sub: Body
+    aliases: [pulse, heart]
+    traits: { source: body, shape: [repeats], tone: [knock, rumble], pitched: "no", register: [low] }
+    summary: The heart heard through a stethoscope or in film sound. A low "lub-dub" double thump.
+    listen: ["A muffled double thump, about once a second"]
+    confusions:
+      - { id: footsteps, cue: "Footsteps are drier and not paired." }
+      - { id: knock, cue: "Knocks are sharper and come in groups." }
+    samples:
+      - {"src": "commons", "file": "File:Heartbeat.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Human heart beating at 61 bpm (Cc-by-3.0).ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Athletic bradycardia wav.wav", "label": "Recording 3"}
+
+  - id: crowd
+    name: Crowd chatter
+    family: body
+    sub: Crowd
+    aliases: [walla, murmur, background voices, restaurant noise]
+    traits: { source: body, shape: [steady], tone: [voiced], pitched: "no", register: [mid] }
+    summary: Many people talking at once. A murmur where no single voice is clear.
+    listen: ["A babble of overlapping voices", "No words you can follow"]
+    confusions:
+      - { id: cheering, cue: "Cheering is loud, together and excited." }
+      - { id: applause, cue: "Applause is hands, not voices." }
+    samples:
+      - {"src": "commons", "file": "File:1 minute at the alexa mall in berlin.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:High school cafeteria.ogg", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/crowd_-_mall_ambience.mp3", "page": "https://opengameart.org/content/free-general-ambience-sounds", "license": "CC-BY-SA 4.0", "author": "Gregor Quendel", "label": "Recording 3"}
+
+  - id: cheering
+    name: Cheering
+    family: body
+    sub: Crowd
+    aliases: [crowd cheer, roar of the crowd]
+    traits: { source: body, shape: [once, steady], tone: [voiced, rough], pitched: "no", register: [mid, high] }
+    summary: A crowd shouting with excitement, often with whistles and clapping.
+    listen: ["A big, rising roar of voices", "Whistles and shouts on top"]
+    confusions:
+      - { id: booing, cue: "Booing is low and sustained 'ooo'." }
+      - { id: crowd, cue: "Chatter is quieter, with no shared reaction." }
+      - { id: applause, cue: "Applause is clapping, without the voices." }
+    samples:
+      - {"src": "commons", "file": "File:House cheer.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Clapping hurray.ogg", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/gregor_quendel_-_free_crowd_cheering_sounds_-_mp3.zip", "inner": "Gregor Quendel - Free Crowd Cheering Sounds - MP3/Gregor Quendel - Crowd Cheering Sounds - 05 - Soft cheering - I.mp3", "page": "https://opengameart.org/content/free-crowd-cheering-sounds", "license": "CC-BY 4.0", "author": "Gregor Quendel", "label": "Recording 3"}
+
+  - id: booing
+    name: Booing
+    family: body
+    status: wanted
+    sub: Crowd
+    traits: { source: body, shape: [steady], tone: [voiced], pitched: "yes", register: [low] }
+    summary: A crowd voicing disapproval with a long, low "boooo".
+    listen: ["A low, sustained 'ooo' from many voices"]
+    confusions:
+      - { id: cheering, cue: "Cheering is higher and brighter." }
+      - { id: wind, cue: "Wind howling has no voices in it." }
+
+  # ---------------------------------------------------------------- animals
+  - id: bark
+    name: Dog barking
+    family: animals
+    sub: Dog
+    aliases: [dog bark, woof, yap]
+    traits: { source: animal, shape: [repeats, once], tone: [voiced, rough], pitched: "yes", register: [mid] }
+    summary: A dog's sharp, voiced "woof". Small dogs yap high; big dogs boom low.
+    listen: ["Short, punchy voiced bursts", "Often in a series"]
+    confusions:
+      - { id: cough, cue: "A cough is unvoiced noise." }
+      - { id: seal, cue: "Seals bark too, but rougher and more honking." }
+      - { id: goose, cue: "A goose honks, more nasal." }
+    samples:
+      - {"src": "commons", "file": "File:Barking of a dog.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Woof (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Perro labrador ladrando 01.ogg", "label": "Recording 3"}
+
+  - id: growl
+    name: Dog growling
+    family: animals
+    sub: Dog
+    aliases: [snarl]
+    traits: { source: animal, shape: [steady], tone: [rough, rumble], pitched: "no", register: [low] }
+    summary: A dog's low, rumbling warning, from deep in the throat.
+    listen: ["A continuous low, rolling rumble"]
+    confusions:
+      - { id: cat-purr, cue: "A purr is soft, even and contented." }
+      - { id: car-idle, cue: "An engine idle is steadier and mechanical." }
+      - { id: snore, cue: "Snoring cycles with breathing." }
+    samples:
+      - {"src": "commons", "file": "File:Madsen-audio-01.flac", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Dogs'-Expectation-about-Signalers'-Body-Size-by-Virtue-of-Their-Growls-pone.0015175.s007.ogg", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/dog-frieda-grunt-96khz-01.flac", "page": "https://opengameart.org/content/dog-grunt", "license": "CC0", "author": "qubodup", "label": "Recording 3"}
+
+  - id: whine
+    name: Dog whining
+    family: animals
+    sub: Dog
+    aliases: [whimper]
+    traits: { source: animal, shape: [irregular], tone: [voiced, shrill], pitched: "yes", register: [high] }
+    summary: A high, nasal, pleading sound from a dog.
+    listen: ["High, thin, wavering whimpers"]
+    confusions:
+      - { id: baby-cry, cue: "A baby's cry is louder and rhythmic." }
+      - { id: door-creak, cue: "A creaking door can whine, but it's dry and mechanical." }
+    samples:
+      - {"src": "commons", "file": "File:Potential-Sources-of-High-Frequency-and-Biphonic-Vocalization-in-the-Dhole-(Cuon-alpinus)-pone.0146330.s001.oga", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Puppy at a night.ogg", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/dog.7z", "page": "https://opengameart.org/content/dog-sounds", "license": "CC0", "author": "pauliuw", "label": "Recording 3"}
+
+  - id: dog-pant
+    name: Dog panting
+    family: animals
+    sub: Dog
+    traits: { source: animal, shape: [repeats], tone: [airy], pitched: "no", register: [mid] }
+    summary: A dog's fast, open-mouthed breathing to cool down.
+    listen: ["Very fast, short huffs"]
+    confusions:
+      - { id: panting, cue: "A person pants slower and deeper." }
+      - { id: train, cue: "A steam train chuffs in a slower rhythm." }
+
+  - id: cat-meow
+    name: Cat meowing
+    family: animals
+    sub: Cat
+    aliases: [meow, miaow, mew]
+    traits: { source: animal, shape: [once, irregular], tone: [voiced, shrill], pitched: "yes", register: [mid, high] }
+    summary: A cat's nasal "meow", rising and falling in pitch.
+    listen: ["A nasal, bending 'mee-ow'"]
+    confusions:
+      - { id: baby-cry, cue: "A baby's cry is longer and repeats in rhythm." }
+      - { id: seagull, cue: "Gulls are harsher and come in a series." }
+      - { id: door-creak, cue: "A door creak is dry and has no voice." }
+    samples:
+      - {"src": "commons", "file": "File:Meow.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Felis silvestris catus meows.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Meow of a Siamese cat - freemaster2.wav", "label": "Recording 3"}
+
+  - id: cat-purr
+    name: Cat purring
+    family: animals
+    sub: Cat
+    aliases: [purr]
+    traits: { source: animal, shape: [steady], tone: [drone, rumble], pitched: "no", register: [low] }
+    summary: A contented cat's soft, rapid rumble, on the breath in and out.
+    listen: ["A fast, soft, fluttering rumble"]
+    confusions:
+      - { id: growl, cue: "A growl is louder, rougher and threatening." }
+      - { id: motorcycle, cue: "A distant idling engine is steadier." }
+      - { id: snore, cue: "A snore is slower, with gaps." }
+    samples:
+      - {"src": "commons", "file": "File:Purr (10 sec loopable).ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Whiskers' purr edit.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Jupey purring.wav", "label": "Recording 3"}
+
+  - id: cat-hiss
+    name: Cat hissing
+    family: animals
+    sub: Cat
+    traits: { source: animal, shape: [once], tone: [airy, rough], pitched: "no", register: [high] }
+    summary: A cat's sharp, spitting hiss of warning.
+    listen: ["A sudden, explosive hiss of air", "Sometimes a spit at the start"]
+    confusions:
+      - { id: air-hiss, cue: "Escaping air is steady and mechanical." }
+      - { id: snake, cue: "A snake's hiss is long and even." }
+      - { id: shush, cue: "A shush is soft and human." }
+    samples:
+      - {"src": "commons", "file": "File:Cat hissing - Zabuhailo.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Gruñido gato (Chacha).ogg", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/Cat%201.wav", "page": "https://opengameart.org/content/cat-sfx", "license": "CC-BY 3.0", "author": "Macro", "label": "Recording 3"}
+
+  - id: cow
+    name: Cow mooing
+    family: animals
+    sub: Farm
+    aliases: [moo, cattle]
+    traits: { source: animal, shape: [once], tone: [voiced, rumble], pitched: "yes", register: [low] }
+    summary: A long, low, nasal "moo".
+    listen: ["A deep, drawn-out bellow"]
+    confusions:
+      - { id: foghorn, cue: "A foghorn is steady and mechanical." }
+      - { id: elephant, cue: "An elephant trumpets high, or rumbles even lower." }
+      - { id: groan, cue: "A human groan is shorter and quieter." }
+    samples:
+      - {"src": "commons", "file": "File:Single Cow Moo.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Mudchute cow 1.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Boerlaedje vatches.ogg", "label": "Recording 3"}
+
+  - id: horse-neigh
+    name: Horse neighing
+    family: animals
+    sub: Farm
+    aliases: [whinny, neigh]
+    traits: { source: animal, shape: [once], tone: [voiced, shrill], pitched: "yes", register: [high] }
+    summary: A horse's high, shaking whinny that falls away, often ending with a snort.
+    listen: ["A high, wobbling cry that falls", "A blowing snort at the end"]
+    confusions:
+      - { id: laugh, cue: "Laughter is pulsed and human." }
+      - { id: goat, cue: "A goat bleats in shorter, nasal bursts." }
+    samples:
+      - {"src": "commons", "file": "File:Wiehern.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Segregation-of-information-about-emotional-arousal-and-valence-in-horse-whinnies-srep09989-s2.oga", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Segregation-of-information-about-emotional-arousal-and-valence-in-horse-whinnies-srep09989-s3.oga", "label": "Recording 3"}
+
+  - id: horse-hooves
+    name: Horse hooves
+    family: animals
+    sub: Farm
+    aliases: [clip-clop, hoofbeats, galloping]
+    traits: { source: animal, shape: [repeats], tone: [knock], pitched: "no", register: [mid] }
+    summary: Hooves on a hard road. The classic "clip-clop", faster when trotting or galloping.
+    listen: ["A hollow, four-beat clip-clop"]
+    confusions:
+      - { id: footsteps, cue: "Human footsteps are a two-beat rhythm." }
+      - { id: knock, cue: "Knocking is grouped, not continuous." }
+    samples:
+      - {"src": "commons", "file": "File:WWS Clatterofhorseshoesonthepavement.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Horse chase (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:2023-Mai-20 15h52min Wien Stephansplatz Fiaker anhalten einparken.wav", "label": "Recording 3"}
+
+  - id: rooster
+    name: Rooster crowing
+    family: animals
+    sub: Farm
+    aliases: [cock-a-doodle-doo, cockerel]
+    traits: { source: animal, shape: [once], tone: [voiced, shrill], pitched: "yes", register: [high] }
+    summary: The loud dawn call, "cock-a-doodle-doo".
+    listen: ["A loud, strained, four-part call"]
+    confusions:
+      - { id: chicken, cue: "Hens cluck quietly and continuously." }
+      - { id: goose, cue: "A goose honks in short repeated blasts." }
+    samples:
+      - {"src": "commons", "file": "File:Coq qui chante (DenisChardonnet).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Rooster crowing.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Medium rooster crowing.ogg", "label": "Recording 3"}
+
+  - id: chicken
+    name: Chickens clucking
+    family: animals
+    sub: Farm
+    aliases: [hen, cluck]
+    traits: { source: animal, shape: [irregular], tone: [voiced], pitched: "yes", register: [mid] }
+    summary: Hens murmuring and clucking, with the occasional "bawk".
+    listen: ["Soft, chattering clucks"]
+    confusions:
+      - { id: rooster, cue: "A rooster is one loud crowing call." }
+      - { id: duck, cue: "Ducks quack, flatter and more nasal." }
+    samples:
+      - {"src": "commons", "file": "File:Hen announcing shes lain an egg.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Chicken 01.wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Hens leaving coop.ogg", "label": "Recording 3"}
+
+  - id: pig
+    name: Pig grunting
+    family: animals
+    sub: Farm
+    aliases: [oink, hog, squeal]
+    traits: { source: animal, shape: [repeats, irregular], tone: [rough], pitched: "no", register: [low, mid] }
+    summary: Short, nasal grunts, and high squeals when excited.
+    listen: ["Snuffling, nasal grunts", "Sudden high squeals"]
+    confusions:
+      - { id: snort, cue: "A human snort is a single blast." }
+      - { id: snore, cue: "Snoring is slow and tied to breathing." }
+    samples:
+      - {"src": "commons", "file": "File:Pig grunt - Erdie.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Mudchute pig 2.ogg", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/mudchuteanimals.7z", "page": "https://opengameart.org/content/farm-animals", "license": "CC-BY-SA 3.0", "author": "qubodup", "label": "Recording 3"}
+
+  - id: sheep
+    name: Sheep bleating
+    family: animals
+    sub: Farm
+    aliases: [baa, lamb]
+    traits: { source: animal, shape: [once, irregular], tone: [voiced], pitched: "yes", register: [mid] }
+    summary: A wavering, nasal "baa".
+    listen: ["A shaky, vibrato 'baaa'"]
+    confusions:
+      - { id: goat, cue: "A goat is harsher and more human-sounding." }
+      - { id: cow, cue: "A cow is much lower and longer." }
+    samples:
+      - {"src": "commons", "file": "File:Sheep bleating.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Sheep bleat.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Lamb bleating and its mother's response.flac", "label": "Recording 3"}
+
+  - id: goat
+    name: Goat bleating
+    family: animals
+    sub: Farm
+    traits: { source: animal, shape: [once, irregular], tone: [voiced, rough], pitched: "yes", register: [mid] }
+    summary: A harsh, nasal bleat that can sound eerily like a person yelling.
+    listen: ["A rough, bleating 'meh-eh-eh'"]
+    confusions:
+      - { id: sheep, cue: "A sheep is softer and more even." }
+      - { id: shout, cue: "A human shout has words and less vibrato." }
+    samples:
+      - {"src": "commons", "file": "File:Herd of goats bleating.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Chèvre Angora cri.ogg", "label": "Recording 2"}
+
+  - id: duck
+    name: Duck quacking
+    family: animals
+    sub: Birds
+    aliases: [quack]
+    traits: { source: animal, shape: [repeats], tone: [voiced, rough], pitched: "yes", register: [mid] }
+    summary: A flat, nasal "quack", often in a falling series.
+    listen: ["Raspy, nasal quacks in a row"]
+    confusions:
+      - { id: goose, cue: "A goose honks louder and higher." }
+      - { id: chicken, cue: "Chickens cluck, softer and rounder." }
+    samples:
+      - {"src": "commons", "file": "File:Domestic duck sound 01.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Anas platyrhynchos - Mallard XC62258.mp3", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Ducks snatching.ogg", "label": "Recording 3"}
+
+  - id: goose
+    name: Goose honking
+    family: animals
+    sub: Birds
+    aliases: [honk, geese]
+    traits: { source: animal, shape: [repeats], tone: [voiced, shrill], pitched: "yes", register: [mid, high] }
+    summary: A loud, brassy honk, often a flock overhead.
+    listen: ["Loud, trumpet-like honks"]
+    confusions:
+      - { id: duck, cue: "A duck is flatter and smaller." }
+      - { id: car-horn, cue: "A car horn is a steady electronic tone." }
+      - { id: bark, cue: "A dog bark is lower and punchier." }
+    samples:
+      - {"src": "commons", "file": "File:Geese Honking (loud).ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Geese Honking (distant).ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Screaming geese.ogg", "label": "Recording 3"}
+
+  - id: crow
+    name: Crow cawing
+    family: animals
+    sub: Birds
+    aliases: [caw, raven, rook]
+    traits: { source: animal, shape: [repeats], tone: [rough], pitched: "no", register: [mid] }
+    summary: A harsh, rasping "caw", usually in threes or fours.
+    listen: ["Harsh, flat 'caw-caw-caw'"]
+    confusions:
+      - { id: seagull, cue: "Gulls are higher and laughing." }
+      - { id: duck, cue: "Ducks are more nasal and less harsh." }
+    samples:
+      - {"src": "commons", "file": "File:Carrion Crow (Corvus corone) (W1CDR0001425 BD18).ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Ruf der Krähe.OGG", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Waldatmo mit Krähen, Winter.mp3", "label": "Recording 3"}
+
+  - id: songbird
+    name: Songbird
+    family: animals
+    sub: Birds
+    aliases: [bird song, chirping, tweeting, blackbird, robin]
+    traits: { source: animal, shape: [irregular], tone: [shrill], pitched: "yes", register: [high] }
+    summary: A single small bird singing. Fast, high, complex phrases.
+    listen: ["Quick, high, liquid phrases", "Trills and repeats"]
+    confusions:
+      - { id: whistling, cue: "A person whistles slower and simpler." }
+      - { id: birdsong-ambience, cue: "A dawn chorus is many birds at once." }
+      - { id: squeak, cue: "Squeaks are single and mechanical." }
+    samples:
+      - {"src": "commons", "file": "File:Common blackbird singing denoised.flac", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Robin (Erithacus rubecula) song - Bærum, Norway 2021-04-03 (02).mp3", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Erithacus rubecula - European Robin XC510540.mp3", "label": "Recording 3"}
+
+  - id: owl
+    name: Owl hooting
+    family: animals
+    sub: Birds
+    aliases: [hoot, tawny owl]
+    traits: { source: animal, shape: [once, repeats], tone: [voiced, airy], pitched: "yes", register: [low, mid] }
+    summary: A soft, hollow "hoo-hoo", the sound of night.
+    listen: ["Round, hollow 'hoo' calls with gaps"]
+    confusions:
+      - { id: pigeon, cue: "Pigeons coo in a softer, rolling burble." }
+      - { id: whistling, cue: "Blowing across a bottle is steadier." }
+    samples:
+      - {"src": "commons", "file": "File:Strix aluco male.oga", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Joseph SARDIN - Chouette hulotte 2.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Strix aluco - Tawny Owl XC86915.mp3", "label": "Recording 3"}
+
+  - id: pigeon
+    name: Pigeon cooing
+    family: animals
+    sub: Birds
+    aliases: [dove, coo]
+    traits: { source: animal, shape: [repeats], tone: [voiced], pitched: "yes", register: [low, mid] }
+    summary: A soft, throaty "coo-roo-coo".
+    listen: ["A gentle, rolling burble"]
+    confusions:
+      - { id: owl, cue: "An owl's hoot is cleaner and spaced out." }
+      - { id: cat-purr, cue: "A purr is steady with no phrases." }
+    samples:
+      - {"src": "commons", "file": "File:Columba livia - Rock Dove XC541143.mp3", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Dove cooing.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Blue rock pigeon song recorded in May 2012 at Sangli.wav", "label": "Recording 3"}
+
+  - id: seagull
+    name: Seagull
+    family: animals
+    sub: Birds
+    aliases: [gull]
+    traits: { source: animal, shape: [repeats], tone: [shrill, voiced], pitched: "yes", register: [high] }
+    summary: A gull's piercing, laughing call, the sound of the seaside.
+    listen: ["Loud, high, laughing 'kyow-kyow'"]
+    confusions:
+      - { id: cat-meow, cue: "A meow is a single call." }
+      - { id: crow, cue: "A crow is lower and harsher." }
+    samples:
+      - {"src": "commons", "file": "File:Möwengeschrei.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Western Gull Golden Gate National Recreation Area.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Gull 2.ogg", "label": "Recording 3"}
+
+  - id: frog
+    name: Frog croaking
+    family: animals
+    sub: Wild
+    aliases: [ribbit, toad]
+    traits: { source: animal, shape: [repeats], tone: [rough, voiced], pitched: "no", register: [low, mid] }
+    summary: Rhythmic croaks, often a chorus of many frogs at night.
+    listen: ["Pulsing, rattly croaks", "Often many at once"]
+    confusions:
+      - { id: crickets, cue: "Crickets are higher, thinner chirps." }
+      - { id: burp, cue: "A burp is a single sound." }
+      - { id: duck, cue: "Ducks quack in a falling series." }
+    samples:
+      - {"src": "commons", "file": "File:Marsh frog (Pelophylax ridibundus) call.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Single Frog Croak.oga", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Bufo bufo call1.ogg", "label": "Recording 3"}
+
+  - id: crickets
+    name: Crickets
+    family: animals
+    sub: Insects
+    aliases: [cicadas, chirping insects, night insects]
+    traits: { source: animal, shape: [repeats, steady], tone: [shrill], pitched: "yes", register: [high] }
+    summary: High, pulsing chirps on a warm night.
+    listen: ["High, regular chirp-chirp-chirp", "Many layered together"]
+    confusions:
+      - { id: frog, cue: "Frogs are lower and croakier." }
+      - { id: electrical-hum, cue: "An electrical whine is steady, with no pulses." }
+      - { id: smoke-alarm, cue: "A smoke alarm beeps louder and more evenly." }
+    samples:
+      - {"src": "commons", "file": "File:Gryllus campestris 02 (HS).ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Field cricket Gryllus pennsylvanicus.ogg", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/crickets_0.mp3", "page": "https://opengameart.org/content/crickets", "license": "CC-BY 3.0", "author": "dklon", "label": "Recording 3"}
+
+  - id: bees
+    name: Bees buzzing
+    family: animals
+    sub: Insects
+    aliases: [hive, wasps, swarm]
+    traits: { source: animal, shape: [steady], tone: [drone], pitched: "yes", register: [mid] }
+    summary: The busy drone of bees around flowers or a hive.
+    listen: ["A wavering, humming drone"]
+    confusions:
+      - { id: fly, cue: "A single fly zips around and comes and goes." }
+      - { id: electrical-hum, cue: "Electrical hum is perfectly steady." }
+      - { id: drill, cue: "A drill is a harder, mechanical whine." }
+    samples:
+      - {"src": "commons", "file": "File:Bee sounds near Cologne, Germany - reinsamba.wav", "label": "Recording 1"}
+
+  - id: fly
+    name: Fly buzzing
+    family: animals
+    sub: Insects
+    aliases: [housefly, bluebottle]
+    traits: { source: animal, shape: [irregular], tone: [drone], pitched: "yes", register: [mid] }
+    summary: A single fly zipping around, getting louder and softer as it passes.
+    listen: ["A buzzing that swoops in and out"]
+    confusions:
+      - { id: mosquito, cue: "A mosquito is higher and thinner." }
+      - { id: bees, cue: "Bees are many, a steady drone." }
+    samples:
+      - {"src": "commons", "file": "File:Zumbido de mosca doméstica.ogg", "label": "Recording 1"}
+
+  - id: mosquito
+    name: Mosquito
+    family: animals
+    sub: Insects
+    traits: { source: animal, shape: [irregular], tone: [drone, shrill], pitched: "yes", register: [high] }
+    summary: The thin, high whine of a mosquito near your ear.
+    listen: ["A very high, thin whine that wavers"]
+    confusions:
+      - { id: fly, cue: "A fly is lower and buzzier." }
+      - { id: electrical-hum, cue: "An electrical whine doesn't move around." }
+    samples:
+      - {"src": "commons", "file": "File:Komar.flac", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Wiki Mosquito.wav", "label": "Recording 2"}
+
+  - id: wolf
+    name: Wolf howling
+    family: animals
+    sub: Wild
+    aliases: [howl, coyote]
+    traits: { source: animal, shape: [once], tone: [voiced], pitched: "yes", register: [mid] }
+    summary: A long, eerie, gliding howl, often answered by others.
+    listen: ["A long, smooth, rising and falling howl"]
+    confusions:
+      - { id: siren, cue: "A siren is electronic and sweeps evenly." }
+      - { id: whine, cue: "A dog's whine is short and pleading." }
+      - { id: wind, cue: "Wind howls without a clear voice." }
+    samples:
+      - {"src": "commons", "file": "File:Wolf howls.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Rallying.ogg", "label": "Recording 2"}
+
+  - id: lion
+    name: Lion roaring
+    family: animals
+    sub: Wild
+    aliases: [roar, big cat, tiger]
+    traits: { source: animal, shape: [once], tone: [rumble, rough], pitched: "no", register: [low] }
+    summary: A huge, deep roar, often ending in a series of grunts.
+    listen: ["A massive, deep, rough roar"]
+    confusions:
+      - { id: growl, cue: "A dog's growl is smaller and continuous." }
+      - { id: motorcycle, cue: "An engine rev is mechanical and steady." }
+      - { id: thunder, cue: "Thunder has no voice, and rolls on." }
+    samples:
+      - {"src": "commons", "file": "File:Lionroar.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Lion raring-sound1TamilNadu178.ogg", "label": "Recording 2"}
+
+  - id: elephant
+    name: Elephant trumpeting
+    family: animals
+    sub: Wild
+    traits: { source: animal, shape: [once], tone: [shrill, voiced], pitched: "yes", register: [high] }
+    summary: A loud, brassy blast through the trunk.
+    listen: ["A loud, blaring, trumpet-like call"]
+    confusions:
+      - { id: car-horn, cue: "A car horn is a steady electronic tone." }
+      - { id: goose, cue: "A goose is smaller and repeats." }
+    samples:
+      - {"src": "commons", "file": "File:Elephant voice - trumpeting.ogg", "label": "Recording 1"}
+
+  - id: seal
+    name: Seal barking
+    family: animals
+    sub: Wild
+    aliases: [sea lion]
+    status: wanted
+    traits: { source: animal, shape: [repeats], tone: [rough, voiced], pitched: "yes", register: [mid] }
+    summary: A sea lion's honking bark.
+    listen: ["Rough, honking barks"]
+    confusions:
+      - { id: bark, cue: "A dog's bark is cleaner and punchier." }
+
+  - id: snake
+    name: Snake hissing
+    family: animals
+    sub: Wild
+    status: wanted
+    traits: { source: animal, shape: [steady], tone: [airy], pitched: "no", register: [high] }
+    summary: A long, even hiss of warning.
+    listen: ["A steady, airy hiss"]
+    confusions:
+      - { id: cat-hiss, cue: "A cat's hiss is short and explosive." }
+
+  # ---------------------------------------------------------------- nature
+  - id: rain
+    name: Rain
+    family: nature
+    sub: Weather
+    aliases: [rainfall, downpour, drizzle]
+    traits: { source: nature, shape: [steady], tone: [crackle, watery], pitched: "no", register: [mid, high] }
+    summary: Raindrops falling. A soft patter in drizzle, a dense roar in a downpour.
+    listen: ["A dense, even patter or hiss", "Drips and splashes up close"]
+    confusions:
+      - { id: applause, cue: "Applause has individual slaps and swells, then stops." }
+      - { id: frying, cue: "Frying is a tighter, higher sizzle with pops." }
+      - { id: shower, cue: "A shower is a steady spray with a hollow room sound." }
+      - { id: fire, cue: "Fire crackles in irregular pops." }
+    samples:
+      - {"src": "commons", "file": "File:Heavy Rain in Summer.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Sound of rain.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Rain.ogg", "label": "Recording 3"}
+
+  - id: thunder
+    name: Thunder
+    family: nature
+    sub: Weather
+    aliases: [thunderstorm, thunderclap]
+    traits: { source: nature, shape: [once], tone: [rumble], pitched: "no", register: [low] }
+    summary: A crack or a long, rolling rumble after lightning.
+    listen: ["A deep rumble that rolls on for seconds", "Sometimes a sharp crack first"]
+    confusions:
+      - { id: explosion, cue: "An explosion is a single blast, then debris." }
+      - { id: airplane, cue: "A plane's rumble rises and falls smoothly." }
+      - { id: truck, cue: "A truck rumble has engine rhythm." }
+    samples:
+      - {"src": "commons", "file": "File:Thunder crack 2B.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Very close thunder cracks.flac", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Booming Thunder 2023-10-09 2-07-34 am.ogg", "label": "Recording 3"}
+
+  - id: wind
+    name: Wind
+    family: nature
+    sub: Weather
+    aliases: [gale, gusts, breeze, howling wind]
+    traits: { source: nature, shape: [steady, irregular], tone: [airy, rumble], pitched: "no", register: [low, mid] }
+    summary: Moving air, from a soft breeze to howling gusts that rise and fall.
+    listen: ["A whooshing roar that swells and fades", "Whistles around edges in strong gusts"]
+    confusions:
+      - { id: waves, cue: "Waves rise and crash in a slow rhythm." }
+      - { id: traffic, cue: "Distant traffic is a steady roar." }
+      - { id: air-hiss, cue: "Escaping air is a narrow, steady hiss." }
+    samples:
+      - {"src": "commons", "file": "File:Windy day (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Wind outside atmosphere (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Joseph SARDIN - Vent.ogg", "label": "Recording 3"}
+
+  - id: waves
+    name: Ocean waves
+    family: nature
+    sub: Water
+    aliases: [surf, sea, beach]
+    traits: { source: nature, shape: [repeats], tone: [watery, airy], pitched: "no", register: [low, mid] }
+    summary: Surf breaking and washing back, in a slow cycle of a few seconds.
+    listen: ["A crash, then a long hiss as water pulls back", "A slow, breathing rhythm"]
+    confusions:
+      - { id: wind, cue: "Wind has no regular crash." }
+      - { id: traffic, cue: "Passing cars whoosh faster." }
+      - { id: breathing, cue: "Breathing up close is much faster." }
+    samples:
+      - {"src": "commons", "file": "File:Sea waves.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Small sea waves at rocky beach.opus", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:On a pebble beach.ogg", "label": "Recording 3"}
+
+  - id: brook
+    name: Stream
+    family: nature
+    sub: Water
+    aliases: [brook, creek, river, babbling water]
+    traits: { source: nature, shape: [steady], tone: [watery], pitched: "no", register: [mid, high] }
+    summary: Water running over stones. A busy, bubbling babble.
+    listen: ["Continuous gurgling and trickling"]
+    confusions:
+      - { id: tap-water, cue: "A tap is a single steady stream." }
+      - { id: rain, cue: "Rain is drops falling, not flowing." }
+      - { id: pour, cue: "Pouring rises in pitch as the glass fills." }
+    samples:
+      - {"src": "commons", "file": "File:Brook sound.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Hemlock stream.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:River flowing (Gravity Sound).mp3", "label": "Recording 3"}
+
+  - id: fire
+    name: Fire crackling
+    family: nature
+    sub: Fire
+    aliases: [campfire, fireplace, bonfire]
+    traits: { source: nature, shape: [irregular], tone: [crackle], pitched: "no", register: [mid, high] }
+    summary: Wood burning. A soft roar with random snaps and pops.
+    listen: ["Irregular sharp pops and snaps", "A soft, airy roar underneath"]
+    confusions:
+      - { id: rain, cue: "Rain is an even patter." }
+      - { id: frying, cue: "Frying is a continuous high sizzle." }
+      - { id: applause, cue: "Applause is denser and even." }
+      - { id: paper-rustle, cue: "Paper crinkles under handling." }
+    samples:
+      - {"src": "commons", "file": "File:Campfire sound ambience.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:WWS Bonfireburning.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Dry grass burning in open fireplace.ogg", "label": "Recording 3"}
+
+  - id: birdsong-ambience
+    name: Dawn chorus
+    family: nature
+    sub: Ambience
+    aliases: [birds, forest ambience, woodland]
+    traits: { source: nature, shape: [steady], tone: [shrill], pitched: "yes", register: [high] }
+    summary: Many birds singing together outdoors.
+    listen: ["Layers of overlapping bird calls", "Near and far voices"]
+    confusions:
+      - { id: songbird, cue: "One bird sings clear phrases on its own." }
+      - { id: crickets, cue: "Crickets repeat one chirp." }
+
+  # ---------------------------------------------------------------- home
+    samples:
+      - {"src": "commons", "file": "File:Réveil des oiseaux.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Atmo – Waldatmo Vögel.mp3", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Forest ambience (Gravity Sound).wav", "label": "Recording 3"}
+
+  - id: door
+    name: Door opening and closing
+    family: home
+    sub: Doors
+    aliases: [door close, latch]
+    traits: { source: object, shape: [once], tone: [knock], pitched: "no", register: [low, mid] }
+    summary: A handle, a latch and a soft thump as the door shuts.
+    listen: ["A metallic latch click", "A wooden thud"]
+    confusions:
+      - { id: door-slam, cue: "A slam is a big, sudden bang." }
+      - { id: knock, cue: "Knocking is several quick raps." }
+      - { id: car-door, cue: "A car door is a heavy, padded clunk." }
+    samples:
+      - {"src": "commons", "file": "File:Open and close bathroom door (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Open and close closet door (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Closing an old door.ogg", "label": "Recording 3"}
+
+  - id: door-slam
+    name: Door slam
+    family: home
+    sub: Doors
+    traits: { source: object, shape: [once], tone: [knock, rumble], pitched: "no", register: [low] }
+    summary: A door shut hard. One loud bang and a rattle of the frame.
+    listen: ["A single loud bang", "Rattling of the frame and room"]
+    confusions:
+      - { id: gunshot, cue: "A gunshot is sharper and cracks." }
+      - { id: thud, cue: "Something falling lands without the latch and frame rattle." }
+      - { id: door, cue: "A normal close is soft." }
+    samples:
+      - {"src": "commons", "file": "File:Slam closet door (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Door jam low pitch 01.flac", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip", "inner": "Audio/doorClose_4.ogg", "page": "https://kenney.nl/assets/rpg-audio", "license": "CC0", "author": "Kenney (kenney.nl)", "label": "doorClose 4"}
+
+  - id: door-creak
+    name: Door creaking
+    family: home
+    sub: Doors
+    aliases: [squeaky hinge]
+    traits: { source: object, shape: [once], tone: [creak], pitched: "yes", register: [mid, high] }
+    summary: A dry hinge groaning slowly as a door opens. A horror-film staple.
+    listen: ["A slow, scratchy, wavering squeal"]
+    confusions:
+      - { id: cat-meow, cue: "A cat has a voice and a nasal shape." }
+      - { id: whine, cue: "A dog's whine is wetter, and breathes." }
+      - { id: squeak, cue: "A squeak is short." }
+    samples:
+      - {"src": "commons", "file": "File:Open squeaky door (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Squeaky door.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Squeaky door hinge.ogg", "label": "Recording 3"}
+
+  - id: keys
+    name: Keys jingling
+    family: home
+    sub: Small objects
+    aliases: [keyring]
+    traits: { source: object, shape: [irregular], tone: [rattle, ringing], pitched: "no", register: [high] }
+    summary: A bunch of keys shaken or handled. Small metallic clinks.
+    listen: ["Bright, tinkly metallic jangle"]
+    confusions:
+      - { id: coins, cue: "Coins clink and spin, fuller and rounder." }
+      - { id: dishes, cue: "Cutlery is bigger and duller." }
+    samples:
+      - {"src": "commons", "file": "File:Keys shaking (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Metal Jingle (Gravity Sound).mp3", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/MoreSounds.zip", "inner": "Keys, Locks, Door/Key_Lock_Door_01.wav", "page": "https://opengameart.org/content/202-more-sound-effects", "license": "CC0", "author": "OwlishMedia", "label": "Recording 3"}
+
+  - id: dishes
+    name: Dishes and cutlery
+    family: home
+    sub: Kitchen
+    aliases: [cutlery, washing up, clatter, plates]
+    traits: { source: object, shape: [irregular], tone: [rattle, ringing], pitched: "no", register: [mid, high] }
+    summary: Plates, glasses and cutlery handled in a kitchen or restaurant.
+    listen: ["Clinks and clatters of ceramic and metal"]
+    confusions:
+      - { id: keys, cue: "Keys are smaller and jinglier." }
+      - { id: glass-break, cue: "Breaking glass shatters and tinkles out." }
+      - { id: glass-clink, cue: "A toast is one bright 'ting'." }
+    samples:
+      - {"src": "commons", "file": "File:Sorting cutlery (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Rustling cutlery 4 (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Cutlery on table.ogg", "label": "Recording 3"}
+
+  - id: glass-break
+    name: Glass breaking
+    family: home
+    sub: Kitchen
+    aliases: [shatter, smash]
+    traits: { source: object, shape: [once], tone: [ringing, crackle], pitched: "no", register: [high] }
+    summary: Glass hitting the floor and shattering into pieces that tinkle and settle.
+    listen: ["A sharp crash", "Bright tinkling shards settling"]
+    confusions:
+      - { id: dishes, cue: "Dishes clink but stay whole." }
+      - { id: crash, cue: "A crash is heavier and duller." }
+      - { id: keys, cue: "Keys jingle without the impact." }
+    samples:
+      - {"src": "commons", "file": "File:Glass breaking (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Glass breaking 3 (Gravity Sound).wav", "label": "Recording 2"}
+
+  - id: tap-water
+    name: Running tap
+    family: home
+    sub: Water
+    aliases: [faucet, sink]
+    traits: { source: object, shape: [steady], tone: [watery], pitched: "no", register: [mid] }
+    summary: Water from a tap into a sink. A steady splashy stream.
+    listen: ["A continuous, even splashing stream"]
+    confusions:
+      - { id: shower, cue: "A shower is a wider spray, in a tiled room." }
+      - { id: brook, cue: "A stream babbles over stones, uneven." }
+      - { id: toilet-flush, cue: "A flush rushes and gurgles away." }
+    samples:
+      - {"src": "commons", "file": "File:Tapsinkwaternoise.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Water tap (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Faucet water into sink.ogg", "label": "Recording 3"}
+
+  - id: shower
+    name: Shower
+    family: home
+    sub: Water
+    status: wanted
+    traits: { source: object, shape: [steady], tone: [watery, airy], pitched: "no", register: [mid, high] }
+    summary: A shower running in a tiled bathroom.
+    listen: ["A dense spray hiss with a hollow room sound"]
+    confusions:
+      - { id: rain, cue: "Rain is outdoors, without the tiled echo." }
+      - { id: tap-water, cue: "A tap is one narrower stream." }
+
+  - id: pour
+    name: Pouring liquid
+    family: home
+    sub: Kitchen
+    aliases: [pouring water, filling a glass]
+    traits: { source: object, shape: [once], tone: [watery], pitched: "yes", register: [mid, high] }
+    summary: Liquid poured into a glass. The pitch rises as it fills.
+    listen: ["A glugging stream whose pitch climbs"]
+    confusions:
+      - { id: tap-water, cue: "A tap runs steadily with no rising pitch." }
+      - { id: drinking, cue: "Drinking is gulps in a throat." }
+
+  - id: toilet-flush
+    name: Toilet flushing
+    family: home
+    sub: Water
+    aliases: [flush]
+    traits: { source: object, shape: [once], tone: [watery, rumble], pitched: "no", register: [mid] }
+    summary: A rush of water, a swirl and gurgle, then the tank refilling.
+    listen: ["A sudden rush and gurgle", "A hissing refill afterwards"]
+    confusions:
+      - { id: tap-water, cue: "A tap is steady, without the rush." }
+      - { id: waves, cue: "Waves repeat in a slow cycle." }
+    samples:
+      - {"src": "commons", "file": "File:Toilet flush stereo low-flow high-quality 2020.10.13.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Toilet-flush.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Toilet flush (Gravity Sound).wav", "label": "Recording 3"}
+
+  - id: microwave
+    name: Microwave
+    family: home
+    sub: Appliances
+    aliases: [microwave beep, microwave hum]
+    traits: { source: machine, shape: [steady, once], tone: [drone, shrill], pitched: "yes", register: [mid, high] }
+    summary: The low hum of a running microwave, then the three-beep "done".
+    listen: ["A steady low hum with a turntable rattle", "Three short beeps at the end"]
+    confusions:
+      - { id: fan, cue: "A fan whooshes and has no beeps." }
+      - { id: alarm-clock, cue: "An alarm keeps beeping until stopped." }
+    samples:
+      - {"src": "commons", "file": "File:Panasonic NN-E225M microwave.flac", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Microwave oven.ogg", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/microwave01.wav", "page": "https://opengameart.org/content/general-household-sound-effects", "license": "CC0", "author": "bretbernhoft", "label": "Recording 3"}
+
+  - id: kettle
+    name: Kettle
+    family: home
+    sub: Appliances
+    aliases: [kettle whistle, boiling water]
+    traits: { source: object, shape: [steady], tone: [shrill, crackle], pitched: "yes", register: [high] }
+    summary: Water heating to a rumble, then a whistling kettle's rising shriek.
+    listen: ["A rumbling, bubbling build-up", "A piercing whistle that rises"]
+    confusions:
+      - { id: whistling, cue: "A person whistles a tune." }
+      - { id: train-horn, cue: "A steam whistle is louder and outdoors." }
+      - { id: air-hiss, cue: "Escaping air hisses without pitch." }
+    samples:
+      - {"src": "commons", "file": "File:Kettle whistle.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:WWS Whistlingkettle.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Tea kettle whistle.ogg", "label": "Recording 3"}
+
+  - id: frying
+    name: Frying
+    family: home
+    sub: Kitchen
+    aliases: [sizzling, frying pan, bacon]
+    traits: { source: object, shape: [steady], tone: [crackle], pitched: "no", register: [high] }
+    summary: Food in hot oil. A tight, bright sizzle with spits and pops.
+    listen: ["A high, constant sizzle", "Little spitting pops"]
+    confusions:
+      - { id: rain, cue: "Rain is softer and lower." }
+      - { id: applause, cue: "Applause has individual claps and fades." }
+      - { id: fire, cue: "Fire pops less often, with a soft roar." }
+
+  - id: vacuum
+    name: Vacuum cleaner
+    family: home
+    sub: Appliances
+    aliases: [hoover]
+    traits: { source: machine, shape: [steady], tone: [drone, airy], pitched: "yes", register: [mid, high] }
+    summary: A loud motor whine and rushing air that changes as it's pushed around.
+    listen: ["A whining motor over a roar of air"]
+    confusions:
+      - { id: hairdryer, cue: "A hairdryer is higher and steadier." }
+      - { id: blender, cue: "A blender changes pitch as it chops." }
+      - { id: airplane, cue: "A jet's roar is bigger and outdoors." }
+    samples:
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/vacuumcleaner01.wav", "page": "https://opengameart.org/content/general-household-sound-effects", "license": "CC0", "author": "bretbernhoft", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Vacuum and trumpet.ogg", "label": "Recording 2"}
+
+  - id: hairdryer
+    name: Hairdryer
+    family: home
+    sub: Appliances
+    status: wanted
+    traits: { source: machine, shape: [steady], tone: [drone, airy], pitched: "yes", register: [high] }
+    summary: A small motor blowing hot air, a steady whine and whoosh.
+    listen: ["A steady high whine and rush of air"]
+    confusions:
+      - { id: vacuum, cue: "A vacuum is louder and changes as it moves." }
+
+  - id: blender
+    name: Blender
+    family: home
+    sub: Appliances
+    aliases: [food processor, mixer]
+    traits: { source: machine, shape: [steady], tone: [drone, rattle], pitched: "yes", register: [mid, high] }
+    summary: A high motor whine with chopping and grinding that changes as food breaks down.
+    listen: ["A high whine with rattling chunks"]
+    confusions:
+      - { id: drill, cue: "A drill runs in short bursts." }
+      - { id: vacuum, cue: "A vacuum roars with air." }
+    samples:
+      - {"src": "commons", "file": "File:Licuadora.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Het vermalen van fruit in een blender - SoundCloud - marloeskunst.ogg", "label": "Recording 2"}
+
+  - id: washing-machine
+    name: Washing machine
+    family: home
+    sub: Appliances
+    aliases: [laundry, spin cycle]
+    traits: { source: machine, shape: [steady, repeats], tone: [drone, watery], pitched: "no", register: [low, mid] }
+    summary: Sloshing water and a drum turning, then a high, rattling spin.
+    listen: ["Rhythmic sloshing", "A rising spin whine"]
+    confusions:
+      - { id: dishwasher, cue: "A dishwasher sprays rather than sloshes." }
+      - { id: train, cue: "A train has track clicks." }
+    samples:
+      - {"src": "commons", "file": "File:Washing machine mid program.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Washing machine last spin.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Lavadora en acción.ogg", "label": "Recording 3"}
+
+  - id: dishwasher
+    name: Dishwasher
+    family: home
+    sub: Appliances
+    status: wanted
+    traits: { source: machine, shape: [steady], tone: [watery, drone], pitched: "no", register: [mid] }
+    summary: Water spraying inside a closed box, with a pump hum.
+    listen: ["A muffled spraying swish"]
+    confusions:
+      - { id: washing-machine, cue: "A washing machine sloshes and spins." }
+
+  - id: clock-tick
+    name: Clock ticking
+    family: home
+    sub: Small objects
+    aliases: [tick-tock, clock]
+    traits: { source: object, shape: [repeats], tone: [knock], pitched: "no", register: [high] }
+    summary: A mechanical clock's steady tick, once or twice a second.
+    listen: ["Small, dry, perfectly even ticks"]
+    confusions:
+      - { id: metronome, cue: "A metronome is louder and often accents beats." }
+      - { id: typing, cue: "Typing is uneven." }
+      - { id: tongue-click, cue: "A tongue click is a one-off." }
+    samples:
+      - {"src": "commons", "file": "File:Grandfather Clock Ticking.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:LA2 kitchen clock.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:WWS Wallclockwithweightticking.ogg", "label": "Recording 3"}
+
+  - id: metronome
+    name: Metronome
+    family: home
+    sub: Small objects
+    traits: { source: object, shape: [repeats], tone: [knock], pitched: "no", register: [mid, high] }
+    summary: A musician's timekeeper. A steady, sharp click.
+    listen: ["Sharp, even clicks at a musical tempo"]
+    confusions:
+      - { id: clock-tick, cue: "A clock is quieter and ticks once a second." }
+    note: Generated in code; real devices vary, but share these patterns.
+    samples:
+      - { src: generated, preset: metronome, label: "100 bpm, accent on one" }
+      - { src: generated, preset: metronome-fast, label: "160 bpm" }
+
+  - id: alarm-clock
+    name: Alarm clock
+    family: home
+    sub: Signals
+    aliases: [alarm, wake-up alarm]
+    traits: { source: signal, shape: [repeats], tone: [shrill, ringing], pitched: "yes", register: [high] }
+    summary: A digital "beep-beep-beep" or a bell clock's frantic ringing.
+    listen: ["Repeating beeps or a rapid bell", "Doesn't stop by itself"]
+    confusions:
+      - { id: smoke-alarm, cue: "A smoke alarm is louder and harsher." }
+      - { id: microwave, cue: "A microwave beeps three times and stops." }
+      - { id: phone-ring, cue: "A phone rings in two-part bursts." }
+    samples:
+      - {"src": "commons", "file": "File:Alarmclock-mechanical.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Alarm clock - 01.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Electronic Alarmclocksound.ogg", "label": "Recording 3"}
+
+  - id: doorbell
+    name: Doorbell
+    family: home
+    sub: Signals
+    aliases: [ding-dong, chime]
+    traits: { source: signal, shape: [once], tone: [ringing], pitched: "yes", register: [mid, high] }
+    summary: A two-tone "ding-dong" chime, or a buzz.
+    listen: ["Two bell tones, high then low"]
+    confusions:
+      - { id: notification, cue: "Phone notifications are shorter and electronic." }
+      - { id: church-bell, cue: "Church bells are huge and keep ringing." }
+    samples:
+      - {"src": "commons", "file": "File:Doorbell-classic-dingdong.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Doorbell.wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Sound Effect - Door Bell.ogg", "label": "Recording 3"}
+
+  - id: phone-ring
+    name: Phone ringing
+    family: home
+    sub: Signals
+    aliases: [telephone, landline, ringtone]
+    traits: { source: signal, shape: [repeats], tone: [ringing, shrill], pitched: "yes", register: [high] }
+    summary: "A telephone's ring: a trilling bell or electronic warble, in bursts."
+    listen: ["A rapid trill, then a pause, repeating"]
+    confusions:
+      - { id: alarm-clock, cue: "An alarm beeps without the long pauses." }
+      - { id: doorbell, cue: "A doorbell is one ding-dong." }
+      - { id: school-bell, cue: "A school bell rings continuously." }
+    samples:
+      - {"src": "commons", "file": "File:Model 500 Telephone British ring.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Klingelton FeTAp 751.wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Automatic telephone Iskra ATA 2 - ringing.webm", "label": "Recording 3"}
+
+  - id: phone-vibrate
+    name: Phone vibrating
+    family: home
+    sub: Signals
+    aliases: [vibration, buzz]
+    traits: { source: signal, shape: [repeats], tone: [drone, rattle], pitched: "no", register: [low, mid] }
+    summary: A phone buzzing on a table in short bursts.
+    listen: ["A rattly buzz in short pulses"]
+    confusions:
+      - { id: fly, cue: "A fly buzzes continuously, moving around." }
+      - { id: electric-razor, cue: "A razor buzzes steadily." }
+    samples:
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Technology/Phone_vibrate.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 1"}
+
+  - id: notification
+    name: Notification sound
+    family: home
+    sub: Signals
+    aliases: [ding, ping, message alert]
+    traits: { source: signal, shape: [once], tone: [ringing], pitched: "yes", register: [high] }
+    summary: A short electronic chime from a phone or computer.
+    listen: ["A brief, clean 'ding' or 'ping'"]
+    confusions:
+      - { id: doorbell, cue: "A doorbell is two tones and louder." }
+      - { id: glass-clink, cue: "A glass clink is acoustic and rings unevenly." }
+    note: Generated in code; real devices vary, but share these patterns.
+    samples:
+      - { src: generated, preset: chime, label: "Two-note chime" }
+      - { src: generated, preset: chime-3, label: "Rising three-note chime" }
+      - { src: generated, preset: ping, label: "Single ping" }
+
+  - id: camera-shutter
+    name: Camera shutter
+    family: home
+    sub: Small objects
+    aliases: [shutter click, photo]
+    traits: { source: object, shape: [once], tone: [knock], pitched: "no", register: [mid, high] }
+    summary: A camera taking a photo. A quick double click.
+    listen: ["A crisp 'click-clack'"]
+    confusions:
+      - { id: finger-snap, cue: "A snap is one fleshy click." }
+      - { id: gun-cock, cue: "Cocking a gun is heavier and metallic." }
+    samples:
+      - {"src": "commons", "file": "File:Canon T50 shutter noise.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Holga shuttersound.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Auslösegeräusch SLR Serienaufnahme mit AF Schärfepriorität.ogg", "label": "Recording 3"}
+
+  - id: zipper
+    name: Zipper
+    family: home
+    sub: Small objects
+    aliases: [zip]
+    traits: { source: object, shape: [once], tone: [creak, rattle], pitched: "no", register: [high] }
+    summary: A zip pulled open or closed. A fast, ratchety "zzzip".
+    listen: ["A quick, buzzy rip"]
+    confusions:
+      - { id: paper-tear, cue: "Tearing paper is softer and crackly." }
+      - { id: tape, cue: "Packing tape screeches." }
+    samples:
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/zipper-1.wav", "page": "https://opengameart.org/content/zipper", "license": "CC0", "author": "AntumDeluge", "label": "Recording 1"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Cloth, Rustle/212180__owlstorm__bag-zipper.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 2"}
+
+  - id: paper-rustle
+    name: Paper rustling
+    family: home
+    sub: Small objects
+    aliases: [crinkle, newspaper, plastic bag]
+    traits: { source: object, shape: [irregular], tone: [crackle], pitched: "no", register: [high] }
+    summary: Paper or a bag being handled. Crisp, crinkly noise.
+    listen: ["Crinkly, crackly handling noise"]
+    confusions:
+      - { id: fire, cue: "Fire pops with a roar underneath." }
+      - { id: paper-tear, cue: "Tearing is one long rip." }
+    samples:
+      - {"src": "commons", "file": "File:Book paper pages assorted.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Food wrapper crumpling.ogg", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Paper/crumples1.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 3"}
+
+  - id: paper-tear
+    name: Paper tearing
+    family: home
+    sub: Small objects
+    aliases: [ripping paper]
+    traits: { source: object, shape: [once], tone: [crackle, creak], pitched: "no", register: [high] }
+    summary: A sheet of paper ripped in one stroke.
+    listen: ["A dry, fibrous rip"]
+    confusions:
+      - { id: zipper, cue: "A zip is buzzier and mechanical." }
+      - { id: paper-rustle, cue: "Rustling has no single rip." }
+    samples:
+      - {"src": "commons", "file": "File:Tearing off small strip.ogg", "label": "Recording 1"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/MoreSounds.zip", "inner": "Paper & Stationery/Stationery_01.wav", "page": "https://opengameart.org/content/202-more-sound-effects", "license": "CC0", "author": "OwlishMedia", "label": "Recording 2"}
+
+  - id: scissors
+    name: Scissors
+    family: home
+    sub: Small objects
+    aliases: [cutting, snipping]
+    traits: { source: object, shape: [repeats], tone: [creak, knock], pitched: "no", register: [high] }
+    summary: Blades cutting paper or fabric. A crisp "snip".
+    listen: ["A short, metallic slicing snip"]
+    confusions:
+      - { id: paper-tear, cue: "Tearing has no blade sound." }
+      - { id: camera-shutter, cue: "A shutter clicks without the slice." }
+    samples:
+      - {"src": "commons", "file": "File:WWS Paper-cuttingscissorsSloveniaPartisanPrintingShop.ogg", "label": "Recording 1"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/scissors_0.ogg", "page": "https://opengameart.org/content/scissors", "license": "CC0", "author": "themightyglider", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/hair_scissors_01.mp3", "page": "https://opengameart.org/content/various-scissors", "license": "CC0", "author": "sinny", "label": "Recording 3"}
+
+  - id: tape
+    name: Packing tape
+    family: home
+    sub: Small objects
+    status: wanted
+    traits: { source: object, shape: [once], tone: [creak], pitched: "no", register: [high] }
+    summary: Tape pulled off a roll. A loud, sticky screech.
+    listen: ["A loud, ripping screech"]
+    confusions:
+      - { id: zipper, cue: "A zip is shorter and ratchety." }
+
+  - id: electric-razor
+    name: Electric razor
+    family: home
+    sub: Appliances
+    status: wanted
+    traits: { source: machine, shape: [steady], tone: [drone], pitched: "yes", register: [mid] }
+    summary: A shaver's steady buzz.
+    listen: ["A steady, rattly buzz"]
+    confusions:
+      - { id: phone-vibrate, cue: "A phone buzzes in pulses." }
+
+  # ---------------------------------------------------------------- vehicles
+  - id: car-idle
+    name: Car engine idling
+    family: vehicles
+    sub: Car
+    aliases: [engine running, idle]
+    traits: { source: machine, shape: [steady], tone: [rumble, drone], pitched: "no", register: [low] }
+    summary: A stationary car's engine ticking over. A low, steady, pulsing rumble.
+    listen: ["A low, steady burble with a fast pulse"]
+    confusions:
+      - { id: truck, cue: "A diesel truck is louder, clattery and deeper." }
+      - { id: cat-purr, cue: "A purr is soft and breathes." }
+      - { id: growl, cue: "A growl is a voice, and wavers." }
+    samples:
+      - {"src": "commons", "file": "File:Het stationair draaien van een A-Ford - SoundCloud - Beeld en Geluid.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Peugeot 204, starten, stationair, doorgassen en motor afzetten - SoundCloud - Beeld en Geluid.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:225 Slant Six.ogg", "label": "Recording 3"}
+
+  - id: car-pass
+    name: Car passing
+    family: vehicles
+    sub: Car
+    aliases: [drive-by, pass-by, whoosh]
+    traits: { source: machine, shape: [once], tone: [airy, rumble], pitched: "no", register: [low, mid] }
+    summary: A car approaching and going past. A swelling whoosh with a falling pitch.
+    listen: ["Rises, peaks, then falls away", "The engine pitch drops as it passes"]
+    confusions:
+      - { id: traffic, cue: "Traffic is many cars, a steady roar." }
+      - { id: wind, cue: "A gust has no engine." }
+      - { id: motorcycle, cue: "A motorbike is buzzier and higher." }
+    samples:
+      - {"src": "commons", "file": "File:Peugeot 204, voorbijrijden - SoundCloud - Beeld en Geluid.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:WWS Policevanpassingby.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Cars passing over bridge.ogg", "label": "Recording 3"}
+
+  - id: traffic
+    name: Traffic
+    family: vehicles
+    sub: Ambience
+    aliases: [road noise, city street, busy road]
+    traits: { source: machine, shape: [steady], tone: [rumble, airy], pitched: "no", register: [low, mid] }
+    summary: A busy road. A continuous roar with cars passing and the odd horn.
+    listen: ["A constant roar with passing swells"]
+    confusions:
+      - { id: waves, cue: "Waves break in a slow rhythm." }
+      - { id: wind, cue: "Wind gusts with no engines." }
+      - { id: car-pass, cue: "A single car comes and goes." }
+
+  - id: car-horn
+    name: Car horn
+    family: vehicles
+    sub: Car
+    aliases: [honk, hooter, beep]
+    traits: { source: signal, shape: [once], tone: [shrill, drone], pitched: "yes", register: [mid] }
+    summary: A car's horn, a loud, brassy two-note blast.
+    listen: ["A loud, buzzy, steady tone", "Short taps or a long lean"]
+    confusions:
+      - { id: goose, cue: "A goose honks in a series with a voice." }
+      - { id: train-horn, cue: "A train horn is huge and chordal." }
+      - { id: buzzer, cue: "A buzzer is a flat electronic tone." }
+    samples:
+      - {"src": "commons", "file": "File:Car Horn.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:WWS VolkswagenBeetle8211horn.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Peugeot 204, claxonneren - SoundCloud - Beeld en Geluid.ogg", "label": "Recording 3"}
+
+  - id: car-door
+    name: Car door
+    family: vehicles
+    sub: Car
+    status: wanted
+    traits: { source: object, shape: [once], tone: [knock], pitched: "no", register: [low] }
+    summary: A car door closing. A heavy, padded, solid clunk.
+    listen: ["A dull, heavy, sealed thump"]
+    confusions:
+      - { id: door, cue: "A house door has a latch and a wooden knock." }
+
+  - id: motorcycle
+    name: Motorcycle
+    family: vehicles
+    sub: Motorbike
+    aliases: [motorbike, scooter, dirt bike]
+    traits: { source: machine, shape: [steady, once], tone: [rough, drone], pitched: "yes", register: [mid] }
+    summary: A motorbike engine. Buzzy and raspy, revving up through the gears.
+    listen: ["A raspy, buzzing engine that revs and drops"]
+    confusions:
+      - { id: chainsaw, cue: "A chainsaw is higher and stays in one place." }
+      - { id: car-pass, cue: "A car is smoother and lower." }
+      - { id: lawn-mower, cue: "A mower drones steadily, slower." }
+    samples:
+      - {"src": "commons", "file": "File:Kawasaki ER-5.oga", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Jawa350 motorbike exhaust sound2.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Motorbike 1.ogg", "label": "Recording 3"}
+
+  - id: truck
+    name: Truck
+    family: vehicles
+    sub: Heavy
+    aliases: [lorry, diesel engine, bus]
+    traits: { source: machine, shape: [steady], tone: [rumble, rattle], pitched: "no", register: [low] }
+    summary: A heavy diesel engine. Deep, clattering, with a hiss of air brakes.
+    listen: ["A deep, knocking diesel rumble"]
+    confusions:
+      - { id: car-idle, cue: "A car is smaller and smoother." }
+      - { id: thunder, cue: "Thunder rolls without an engine rhythm." }
+      - { id: air-brakes, cue: "Air brakes are a sudden hiss." }
+    samples:
+      - {"src": "commons", "file": "File:Het rijden van een vrachtwagen - SoundCloud - Beeld en Geluid.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Het voorbijrijden van een AA FORD vrachtwagen - SoundCloud - Beeld en Geluid.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Sonido de un camión al pasar por la calle.ogg", "label": "Recording 3"}
+
+  - id: air-brakes
+    name: Air brakes
+    family: vehicles
+    sub: Heavy
+    aliases: [bus brakes, truck brakes, air release]
+    traits: { source: machine, shape: [once], tone: [airy, shrill], pitched: "no", register: [high] }
+    summary: A truck or bus releasing compressed air. A loud, sudden "pssssh".
+    listen: ["A sudden, loud burst of hissing air"]
+    confusions:
+      - { id: air-hiss, cue: "A slow leak is quieter and continuous." }
+      - { id: cat-hiss, cue: "A cat's hiss is smaller and spits." }
+      - { id: shush, cue: "A shush is a human voice." }
+
+  - id: air-hiss
+    name: Escaping air
+    family: machines
+    sub: Air
+    aliases: [hiss, leak, compressor, steam]
+    traits: { source: machine, shape: [steady], tone: [airy], pitched: "no", register: [high] }
+    summary: Compressed air or steam escaping through a valve. A steady hiss.
+    listen: ["A narrow, even hiss"]
+    confusions:
+      - { id: cat-hiss, cue: "A cat's hiss is short and explosive." }
+      - { id: wind, cue: "Wind swells and fades." }
+      - { id: shush, cue: "A shush is a breath." }
+
+  - id: train
+    name: Train
+    family: vehicles
+    sub: Rail
+    aliases: [railway, freight train, clickety-clack]
+    traits: { source: machine, shape: [repeats, steady], tone: [rumble, rattle], pitched: "no", register: [low] }
+    summary: A train on tracks. A deep rumble with the "clickety-clack" of wheels on joints.
+    listen: ["Rhythmic clacks over a heavy rumble"]
+    confusions:
+      - { id: subway, cue: "A metro screeches and rumbles in a tunnel." }
+      - { id: thunder, cue: "Thunder has no rhythm." }
+      - { id: washing-machine, cue: "A washer sloshes indoors." }
+    samples:
+      - {"src": "commons", "file": "File:Het voorbijrijden over een wissel van een elektrische trein - SoundCloud - Beeld en Geluid.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Train passing by in the Wirikuta Desert (Mexico, SLP).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Nmbs class41-departing.ogg", "label": "Recording 3"}
+
+  - id: train-horn
+    name: Train horn
+    family: vehicles
+    sub: Rail
+    aliases: [train whistle, locomotive horn]
+    traits: { source: signal, shape: [once], tone: [drone, shrill], pitched: "yes", register: [mid] }
+    summary: A locomotive's huge, chordal horn blast, carrying for miles.
+    listen: ["A massive, sustained chord of horns"]
+    confusions:
+      - { id: car-horn, cue: "A car horn is smaller and buzzier." }
+      - { id: foghorn, cue: "A foghorn is one deep note." }
+      - { id: kettle, cue: "A kettle whistle is thin and rising." }
+    samples:
+      - {"src": "commons", "file": "File:The horn of a Bluebird railcar.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Kawasaki 5205 Horn.wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:3000 class train horn.ogg", "label": "Recording 3"}
+
+  - id: subway
+    name: Subway train
+    family: vehicles
+    sub: Rail
+    aliases: [metro, underground, tube]
+    traits: { source: machine, shape: [once, steady], tone: [rumble, creak], pitched: "yes", register: [low, high] }
+    summary: A metro train arriving in a tunnel. A rising rumble, screeching brakes, a hiss of doors.
+    listen: ["A rising rumble with metallic squeals"]
+    confusions:
+      - { id: train, cue: "An overground train has open-air clacks." }
+      - { id: tire-screech, cue: "A tire screech is short and rubbery." }
+    samples:
+      - {"src": "commons", "file": "File:London Underground 1996 Stock train arriving in a station.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:London Underground 1996 Stock train departing a station.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:BVG Warnsignal U-Bahn.mp3", "label": "Recording 3"}
+
+  - id: airplane
+    name: Jet plane
+    family: vehicles
+    sub: Air
+    aliases: [aircraft, jet, airliner, flyover]
+    traits: { source: machine, shape: [once, steady], tone: [rumble, airy], pitched: "no", register: [low, mid] }
+    summary: A jet flying over or taking off. A huge, tearing roar that slowly fades.
+    listen: ["A big roar that builds and fades over many seconds", "A high whine under the roar"]
+    confusions:
+      - { id: thunder, cue: "Thunder rolls, but in bursts." }
+      - { id: wind, cue: "Wind gusts without a smooth rise and fall." }
+      - { id: vacuum, cue: "A vacuum is close and indoors." }
+    samples:
+      - {"src": "commons", "file": "File:Jet airliner overhead.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:428086 inspectorj airplane-boeing-flyby-right-to-left-a.wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Start einer Airbus A320 (Air Berlin).oga", "label": "Recording 3"}
+
+  - id: helicopter
+    name: Helicopter
+    family: vehicles
+    sub: Air
+    aliases: [chopper]
+    traits: { source: machine, shape: [repeats, steady], tone: [knock, rumble], pitched: "no", register: [low] }
+    summary: Rotor blades chopping the air. A fast, thudding "whup-whup-whup".
+    listen: ["A rapid, rhythmic thudding beat"]
+    confusions:
+      - { id: train, cue: "A train's rhythm is clacks, not thuds." }
+      - { id: washing-machine, cue: "A washer is indoors and slower." }
+      - { id: heartbeat, cue: "A heartbeat is slow and paired." }
+    samples:
+      - {"src": "commons", "file": "File:Chinook helicopter flying over Greenwich in London.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Helicopter over a lake.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Mil Mi-8MTV-1 helicopter starting up.ogg", "label": "Recording 3"}
+
+  - id: bicycle-bell
+    name: Bicycle bell
+    family: vehicles
+    sub: Bicycle
+    aliases: [bike bell]
+    traits: { source: signal, shape: [once, repeats], tone: [ringing], pitched: "yes", register: [high] }
+    summary: A thumb-flicked bell on handlebars. A bright "ring-ring".
+    listen: ["A bright, quick double ring"]
+    confusions:
+      - { id: phone-ring, cue: "A phone trill is electronic and longer." }
+      - { id: glass-clink, cue: "A glass clink rings once, softer." }
+    samples:
+      - {"src": "commons", "file": "File:Bell-ring.flac", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Bicycle-bell-1.wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:186096 marcel-farres bicycle-bell.wav", "label": "Recording 3"}
+
+  - id: tire-screech
+    name: Tire screech
+    family: vehicles
+    sub: Car
+    aliases: [skid, squealing tyres]
+    traits: { source: machine, shape: [once], tone: [shrill, creak], pitched: "yes", register: [high] }
+    summary: Rubber skidding on tarmac under hard braking.
+    listen: ["A loud, high, rubbery squeal"]
+    confusions:
+      - { id: subway, cue: "Train brakes are metallic." }
+      - { id: scream, cue: "A scream is a voice." }
+
+  # ---------------------------------------------------------------- signals
+  - id: siren
+    name: Siren
+    family: signals
+    sub: Emergency
+    aliases: [police siren, ambulance, fire engine, wail, yelp, hi-lo]
+    traits: { source: signal, shape: [repeats], tone: [shrill], pitched: "yes", register: [high] }
+    summary: An emergency vehicle's siren. A slow wail, a fast yelp, or a two-tone hi-lo.
+    listen: ["A pure tone sweeping up and down", "Often a Doppler pitch drop as it passes"]
+    note: The wail, yelp and hi-lo clips are generated in code to the same patterns real electronic sirens use.
+    confusions:
+      - { id: wolf, cue: "A howl is a voice and doesn't repeat evenly." }
+      - { id: scream, cue: "A scream is a single human cry." }
+      - { id: smoke-alarm, cue: "A smoke alarm beeps on one pitch." }
+    samples:
+      - { src: generated, preset: siren-wail, label: "Wail" }
+      - { src: generated, preset: siren-yelp, label: "Yelp" }
+      - { src: generated, preset: siren-hilo, label: "Hi-lo (European two-tone)" }
+      - { src: generated, preset: siren-passby, label: "Wail passing by (Doppler)" }
+
+  - id: smoke-alarm
+    name: Smoke alarm
+    family: signals
+    sub: Emergency
+    aliases: [fire alarm, smoke detector]
+    traits: { source: signal, shape: [repeats], tone: [shrill], pitched: "yes", register: [high] }
+    summary: A piercing beep in groups of three (the T3 fire pattern), or a lone chirp for a low battery.
+    listen: ["Three loud beeps, a pause, repeat", "Very high and harsh"]
+    note: Generated in code using the standard T3 temporal pattern.
+    confusions:
+      - { id: alarm-clock, cue: "An alarm clock is gentler and rhythmic." }
+      - { id: reversing-beeper, cue: "A reversing beeper is lower and evenly spaced." }
+      - { id: crickets, cue: "Crickets chirp softly and in many layers." }
+    samples:
+      - { src: generated, preset: smoke-t3, label: "T3 fire pattern" }
+      - { src: generated, preset: smoke-chirp, label: "Low-battery chirp" }
+
+  - id: reversing-beeper
+    name: Reversing beeper
+    family: signals
+    sub: Vehicle
+    aliases: [backup alarm, truck reversing]
+    traits: { source: signal, shape: [repeats], tone: [shrill], pitched: "yes", register: [mid, high] }
+    summary: A truck backing up. An evenly spaced "beep... beep... beep".
+    listen: ["Slow, even, loud beeps"]
+    note: Generated in code.
+    confusions:
+      - { id: smoke-alarm, cue: "Smoke alarms beep in threes, higher." }
+      - { id: microwave, cue: "A microwave beeps three times and stops." }
+    samples:
+      - { src: generated, preset: reversing, label: "Backing up" }
+
+  - id: buzzer
+    name: Buzzer
+    family: signals
+    sub: Electronic
+    aliases: [wrong answer, game show buzzer, intercom]
+    traits: { source: signal, shape: [once], tone: [drone, rough], pitched: "yes", register: [low, mid] }
+    summary: A harsh, flat electronic buzz.
+    listen: ["A rough, square-wave drone"]
+    note: Generated in code.
+    confusions:
+      - { id: car-horn, cue: "A horn is brassier and outdoors." }
+      - { id: phone-vibrate, cue: "Vibration rattles in pulses." }
+    samples:
+      - { src: generated, preset: buzzer, label: "Buzz" }
+
+  - id: dial-tone
+    name: Phone tones
+    family: signals
+    sub: Telephone
+    aliases: [dial tone, busy signal, engaged tone, dtmf, touch tones]
+    traits: { source: signal, shape: [steady, repeats], tone: [drone], pitched: "yes", register: [mid] }
+    summary: The tones of a phone line. A steady dial tone, a pulsing busy signal, touch-tone digits.
+    listen: ["A steady chord, or pulsing beeps", "Two-note blips for each key"]
+    note: Generated in code to the standard North American and European tone plans.
+    confusions:
+      - { id: electrical-hum, cue: "Mains hum is lower and never pulses." }
+      - { id: reversing-beeper, cue: "A reversing beeper is a single, harsh tone." }
+    samples:
+      - { src: generated, preset: dial-us, label: "Dial tone (North America)" }
+      - { src: generated, preset: dial-uk, label: "Dial tone (UK)" }
+      - { src: generated, preset: busy-us, label: "Busy signal" }
+      - { src: generated, preset: ringback-us, label: "Ringing (caller side)" }
+      - { src: generated, preset: dtmf, label: "Touch-tone dialing" }
+
+  - id: church-bell
+    name: Church bells
+    family: signals
+    sub: Bells
+    aliases: [bell tower, tolling, peal]
+    traits: { source: signal, shape: [repeats], tone: [ringing], pitched: "yes", register: [low, mid] }
+    summary: Large bronze bells ringing from a tower. Deep, long-ringing tones.
+    listen: ["Deep, complex bell strikes that hum for seconds"]
+    confusions:
+      - { id: school-bell, cue: "A school bell rings fast and continuously." }
+      - { id: doorbell, cue: "A doorbell is small and electronic." }
+      - { id: gong, cue: "A gong blooms with no clear pitch." }
+    samples:
+      - {"src": "commons", "file": "File:Church Bells of Murbach.flac", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Sośnicowice St James church bell ringing 2022.wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Conches-sur-Gondoire - Cloche de l'église Notre-Dame-de-L'Assomption-15h.oga", "label": "Recording 3"}
+
+  - id: school-bell
+    name: Electric bell
+    family: signals
+    sub: Bells
+    aliases: [school bell, fire bell, ringing bell]
+    traits: { source: signal, shape: [steady], tone: [ringing, rattle], pitched: "yes", register: [high] }
+    summary: A clapper hammering a small bell many times a second. Loud and urgent.
+    listen: ["A continuous, rattling ring"]
+    confusions:
+      - { id: phone-ring, cue: "A phone rings in bursts." }
+      - { id: alarm-clock, cue: "A bell alarm clock is the same idea, smaller." }
+    samples:
+      - {"src": "commons", "file": "File:Old school bell 1.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Electronic Tone School Bell Sound.wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Bachgasse Schulglocke Paganinnni 2021 01.ogg", "label": "Recording 3"}
+
+  - id: foghorn
+    name: Foghorn
+    family: signals
+    sub: Horns
+    status: wanted
+    traits: { source: signal, shape: [once], tone: [drone, rumble], pitched: "yes", register: [low] }
+    summary: A deep warning horn from a ship or lighthouse.
+    listen: ["One deep, long, blaring note"]
+    confusions:
+      - { id: cow, cue: "A cow's moo is a voice that bends." }
+      - { id: train-horn, cue: "A train horn is a chord, higher." }
+
+  - id: gong
+    name: Gong
+    family: signals
+    sub: Bells
+    status: wanted
+    traits: { source: signal, shape: [once], tone: [ringing, rumble], pitched: "no", register: [low] }
+    summary: A large bronze disc struck once, swelling into a roar.
+    listen: ["A dark strike that blooms louder"]
+    confusions:
+      - { id: church-bell, cue: "Bells have a clear pitch." }
+
+  # ---------------------------------------------------------------- machines
+  - id: drill
+    name: Drill
+    family: machines
+    sub: Power tools
+    aliases: [power drill, electric drill, screwdriver]
+    traits: { source: machine, shape: [once, irregular], tone: [drone, shrill], pitched: "yes", register: [mid, high] }
+    summary: A power drill whining up to speed, then straining as it bites.
+    listen: ["A high motor whine in bursts", "The pitch drops under load"]
+    confusions:
+      - { id: blender, cue: "A blender runs longer with chopping." }
+      - { id: dentist-drill, cue: "A dental drill is much higher and thinner." }
+      - { id: mosquito, cue: "A mosquito is quiet and wavers." }
+    samples:
+      - {"src": "commons", "file": "File:WWS Eastereggdrilling.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Drilling next door 4.ogg", "label": "Recording 2"}
+
+  - id: dentist-drill
+    name: Dentist's drill
+    family: machines
+    sub: Power tools
+    status: wanted
+    traits: { source: machine, shape: [irregular], tone: [shrill], pitched: "yes", register: [high] }
+    summary: An air-driven dental drill. A piercing, very high whine.
+    listen: ["An extremely high, thin whine"]
+    confusions:
+      - { id: drill, cue: "A power drill is lower and grindier." }
+
+  - id: hammering
+    name: Hammering
+    family: machines
+    sub: Hand tools
+    aliases: [hammer, nailing]
+    traits: { source: object, shape: [repeats], tone: [knock, ringing], pitched: "no", register: [mid] }
+    summary: A hammer driving a nail. Sharp, ringing blows in a steady rhythm.
+    listen: ["Hard, metallic-wooden whacks", "Regular, then a pause"]
+    confusions:
+      - { id: knock, cue: "Knocking is knuckles, softer." }
+      - { id: jackhammer, cue: "A jackhammer is a machine, very fast." }
+      - { id: footsteps, cue: "Footsteps are softer and walk." }
+    samples:
+      - {"src": "commons", "file": "File:Ruido de martillo.ogg", "label": "Recording 1"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/forger_0.ogg", "page": "https://opengameart.org/content/hammer-on-anvil", "license": "CC0", "author": "themightyglider", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/hjm-smithing.wav", "page": "https://opengameart.org/content/smithing-sound", "license": "CC-BY 3.0, CC-BY-SA 3.0, GPL 2.0, GPL 3.0, OGA-BY 3.0", "author": "Varkalandar", "label": "Recording 3"}
+
+  - id: handsaw
+    name: Sawing
+    family: machines
+    sub: Hand tools
+    aliases: [handsaw, saw, cutting wood]
+    traits: { source: object, shape: [repeats], tone: [rough, creak], pitched: "no", register: [mid] }
+    summary: A handsaw cutting wood. A rasping back-and-forth rhythm.
+    listen: ["Rough, rasping strokes back and forth"]
+    confusions:
+      - { id: snore, cue: "Snoring is slower and a breath." }
+      - { id: chainsaw, cue: "A chainsaw is a motor." }
+      - { id: writing, cue: "Writing is tiny and quiet." }
+    samples:
+      - {"src": "commons", "file": "File:Sawing an empty toilet paper roll.ogg", "label": "Recording 1"}
+
+  - id: chainsaw
+    name: Chainsaw
+    family: machines
+    sub: Power tools
+    traits: { source: machine, shape: [steady, irregular], tone: [rough, drone], pitched: "yes", register: [mid] }
+    summary: A two-stroke engine revving and dropping as it cuts.
+    listen: ["A loud, raspy, revving engine"]
+    confusions:
+      - { id: motorcycle, cue: "A motorbike moves and shifts gears." }
+      - { id: lawn-mower, cue: "A mower drones more steadily and lower." }
+    samples:
+      - {"src": "commons", "file": "File:Chainsaw 1.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Chainsaw 3.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Druzhba-4.wav", "label": "Recording 3"}
+
+  - id: jackhammer
+    name: Jackhammer
+    family: machines
+    sub: Construction
+    aliases: [pneumatic drill, road drill]
+    traits: { source: machine, shape: [repeats], tone: [knock, rattle], pitched: "no", register: [mid] }
+    summary: A pneumatic breaker smashing concrete. A loud, rapid hammering.
+    listen: ["Very fast, loud, rattling blows"]
+    confusions:
+      - { id: helicopter, cue: "Rotors thud lower and are airborne." }
+      - { id: hammering, cue: "A hammer strikes slowly, by hand." }
+      - { id: gunshot, cue: "Gunfire is sharper, with echo, and irregular." }
+    samples:
+      - {"src": "commons", "file": "File:Pneumatic drill - The Cleveland Pneumatic Tool Company.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:WWS PneumatichammerZ300.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:WWS Pneumaticdrill.ogg", "label": "Recording 3"}
+
+  - id: lawn-mower
+    name: Lawn mower
+    family: machines
+    sub: Garden
+    aliases: [mower, strimmer, leaf blower]
+    traits: { source: machine, shape: [steady], tone: [drone, rough], pitched: "yes", register: [mid] }
+    summary: A petrol mower droning across a garden.
+    listen: ["A steady, buzzy engine drone", "Changes as it turns or hits long grass"]
+    confusions:
+      - { id: chainsaw, cue: "A chainsaw revs sharply." }
+      - { id: motorcycle, cue: "A motorbike revs and passes." }
+    samples:
+      - {"src": "commons", "file": "File:WWS Lawnmower.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:El terror de la clorofila.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Lawnmover diesel.ogg", "label": "Recording 3"}
+
+  - id: fan
+    name: Fan
+    family: machines
+    sub: Air
+    aliases: [air conditioner, ventilation, extractor fan, hvac, room tone]
+    traits: { source: machine, shape: [steady], tone: [airy, drone], pitched: "no", register: [low, mid] }
+    summary: A fan or air conditioner. A soft, steady whoosh with a faint motor hum.
+    listen: ["A constant, airy whoosh", "A faint hum underneath"]
+    confusions:
+      - { id: wind, cue: "Wind changes; a fan doesn't." }
+      - { id: electrical-hum, cue: "Electrical hum has no air in it." }
+      - { id: rain, cue: "Rain has a patter." }
+    samples:
+      - {"src": "commons", "file": "File:Fan (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Air conditioner hum (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Space heater sound - bjornredtail.ogg", "label": "Recording 3"}
+
+  - id: printer
+    name: Printer
+    family: machines
+    sub: Office
+    aliases: [inkjet, laser printer]
+    traits: { source: machine, shape: [repeats, irregular], tone: [drone, rattle], pitched: "yes", register: [mid] }
+    summary: A printer feeding paper and moving its head. Whirrs, clicks and a paper swish.
+    listen: ["Whirring passes back and forth", "Clicks and paper feeding"]
+    confusions:
+      - { id: typing, cue: "Typing is clicks without motors." }
+      - { id: washing-machine, cue: "A washer is bigger and wet." }
+    samples:
+      - {"src": "commons", "file": "File:Star-LC-10-printer-01.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Bachgasse Wiki Theresa Obermair Druckergeraeusche v2.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Inkjet printer on and off.ogg", "label": "Recording 3"}
+
+  - id: electrical-hum
+    name: Electrical hum
+    family: machines
+    sub: Electrical
+    aliases: [mains hum, buzz, transformer, 50 hz, 60 hz, ground hum]
+    traits: { source: machine, shape: [steady], tone: [drone], pitched: "yes", register: [low] }
+    summary: The low, constant buzz of mains electricity (50 or 60 Hz) in power lines, amplifiers and fluorescent lights.
+    listen: ["A low, perfectly steady buzz", "Never changes"]
+    note: Generated in code at 50 Hz and 60 Hz with typical harmonics.
+    confusions:
+      - { id: fan, cue: "A fan has air movement." }
+      - { id: bees, cue: "Bees waver and move." }
+      - { id: dial-tone, cue: "A dial tone is higher and cleaner." }
+
+  # ---------------------------------------------------------------- impacts
+    samples:
+      - { src: generated, preset: hum-50, label: "50 Hz mains hum (Europe, Asia, Africa)" }
+      - { src: generated, preset: hum-60, label: "60 Hz mains hum (Americas)" }
+
+  - id: gunshot
+    name: Gunshot
+    family: impacts
+    sub: Weapons
+    aliases: [gunfire, shot, rifle, pistol]
+    traits: { source: object, shape: [once, irregular], tone: [knock, crackle], pitched: "no", register: [mid, high] }
+    summary: A firearm being fired. An extremely sharp crack, followed by echo outdoors.
+    listen: ["An instant, very loud crack", "Echo rolling off buildings or hills"]
+    confusions:
+      - { id: fireworks, cue: "Fireworks whoosh up, then bang and crackle." }
+      - { id: door-slam, cue: "A slam is a duller thud with rattle." }
+      - { id: clapping, cue: "A clap is tiny by comparison." }
+      - { id: car-backfire, cue: "A backfire is a lower, muffled bang from an engine." }
+    samples:
+      - {"src": "commons", "file": "File:Wurstelprater Wien 2024 Luftgewehr Pressluft schießt zweimal.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Gunshots 8.ogg", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/shots.7z", "page": "https://opengameart.org/content/chaingun-pistol-rifle-shotgun-shots", "license": "CC-BY 3.0", "author": "qubodup", "label": "Recording 3"}
+
+  - id: gun-cock
+    name: Gun cocking
+    family: impacts
+    sub: Weapons
+    status: wanted
+    traits: { source: object, shape: [once], tone: [knock], pitched: "no", register: [mid] }
+    summary: A slide or bolt racked back. A heavy, metallic double click.
+    listen: ["A sliding, then snapping metal 'click-clack'"]
+    confusions:
+      - { id: camera-shutter, cue: "A shutter is lighter and quicker." }
+
+  - id: car-backfire
+    name: Car backfire
+    family: impacts
+    sub: Bangs
+    status: wanted
+    traits: { source: machine, shape: [once], tone: [knock, rumble], pitched: "no", register: [low] }
+    summary: Unburnt fuel igniting in an exhaust. A loud, muffled bang.
+    listen: ["A deep, popping bang from a car"]
+    confusions:
+      - { id: gunshot, cue: "A gunshot is sharper and cracks." }
+
+  - id: explosion
+    name: Explosion
+    family: impacts
+    sub: Bangs
+    aliases: [blast, boom, detonation, bomb]
+    traits: { source: object, shape: [once], tone: [rumble, crackle], pitched: "no", register: [low] }
+    summary: A huge blast. A deep boom, a roar, and debris falling.
+    listen: ["A massive low boom", "Rumble and debris afterwards"]
+    confusions:
+      - { id: thunder, cue: "Thunder rolls longer, with no debris." }
+      - { id: gunshot, cue: "A gunshot is a sharp crack." }
+      - { id: fireworks, cue: "Fireworks crackle and repeat." }
+    samples:
+      - {"src": "commons", "file": "File:Explosion-LS100155.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Explosions-LS100152.ogg", "label": "Recording 2"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/explosions.7z", "page": "https://opengameart.org/content/2-high-quality-explosions", "license": "CC-BY 3.0", "author": "qubodup", "label": "Recording 3"}
+
+  - id: fireworks
+    name: Fireworks
+    family: impacts
+    sub: Bangs
+    aliases: [firecrackers, bangers]
+    traits: { source: object, shape: [irregular], tone: [crackle, knock], pitched: "no", register: [mid, high] }
+    summary: Rockets whistling up, bursting with bangs, crackles and fizz.
+    listen: ["A rising whistle, then a bang", "Crackling showers and distant echoes"]
+    confusions:
+      - { id: gunshot, cue: "Gunshots have no whistle or crackle." }
+      - { id: thunder, cue: "Thunder is a single rolling rumble." }
+    samples:
+      - {"src": "commons", "file": "File:Fireworks in Rome 01.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Fireworks in distance 1.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Silvester fireworks from the street 03 end.ogg", "label": "Recording 3"}
+
+  - id: glass-clink
+    name: Glasses clinking
+    family: impacts
+    sub: Glass
+    aliases: [cheers, toast]
+    traits: { source: object, shape: [once], tone: [ringing], pitched: "yes", register: [high] }
+    summary: Two glasses touched in a toast. A bright, ringing "ting".
+    listen: ["One clear, high 'ting' that rings briefly"]
+    confusions:
+      - { id: glass-break, cue: "Breaking glass shatters." }
+      - { id: notification, cue: "A notification is electronic and clean." }
+      - { id: bicycle-bell, cue: "A bike bell rings twice, metallic." }
+    samples:
+      - {"src": "commons", "file": "File:WWS Sparklingwineopeningpouringandmakingatoast.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Flick a glass (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "zip", "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip", "inner": "Audio/impactGlass_light_000.ogg", "page": "https://kenney.nl/assets/impact-sounds", "license": "CC0", "author": "Kenney (kenney.nl)", "label": "impactGlass light 000"}
+
+  - id: coins
+    name: Coins
+    family: impacts
+    sub: Metal
+    aliases: [change, loose change, coins dropping]
+    traits: { source: object, shape: [irregular], tone: [ringing, rattle], pitched: "no", register: [high] }
+    summary: Coins dropped, counted or spinning on a table.
+    listen: ["Bright clinks", "A spinning coin whirring to a stop"]
+    confusions:
+      - { id: keys, cue: "Keys jingle together, on a ring." }
+      - { id: dishes, cue: "Cutlery is heavier." }
+    samples:
+      - {"src": "commons", "file": "File:Shaking coins in palm.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Coins dropped on wooden floor.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Coins 5 (Gravity Sound).mp3", "label": "Recording 3"}
+
+  - id: splash
+    name: Splash
+    family: impacts
+    sub: Water
+    aliases: [jump in water, plop, dive]
+    traits: { source: object, shape: [once], tone: [watery], pitched: "no", register: [mid] }
+    summary: Something or someone hitting water.
+    listen: ["A sudden, wet impact", "Water falling back afterwards"]
+    confusions:
+      - { id: waves, cue: "Waves repeat." }
+      - { id: toilet-flush, cue: "A flush is a rush, then a gurgle." }
+    samples:
+      - {"src": "commons", "file": "File:Jump into Water (Gravity Sound).mp3", "label": "Recording 1"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/water-splash-slime-sfx.zip", "inner": "(splash files)", "page": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx", "license": "CC0", "author": "rubberduck", "label": "Recording 2"}
+
+  - id: thud
+    name: Thud
+    family: impacts
+    sub: Falls
+    aliases: [fall, bump, something dropping]
+    traits: { source: object, shape: [once], tone: [knock, rumble], pitched: "no", register: [low] }
+    summary: Something heavy and soft hitting the floor. A dull, low thump.
+    listen: ["A dull, low, short thump"]
+    confusions:
+      - { id: door-slam, cue: "A slam is sharper, with rattle." }
+      - { id: heartbeat, cue: "A heartbeat repeats." }
+      - { id: explosion, cue: "An explosion is huge and rolls on." }
+    samples:
+      - {"src": "commons", "file": "File:Dull thud.ogg", "label": "Recording 1"}
+      - {"src": "zip", "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip", "inner": "Audio/impactSoft_heavy_000.ogg", "page": "https://kenney.nl/assets/impact-sounds", "license": "CC0", "author": "Kenney (kenney.nl)", "label": "impactSoft heavy 000"}
+      - {"src": "zip", "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip", "inner": "Audio/impactSoft_heavy_001.ogg", "page": "https://kenney.nl/assets/impact-sounds", "license": "CC0", "author": "Kenney (kenney.nl)", "label": "impactSoft heavy 001"}
+
+  - id: crash
+    name: Crash
+    family: impacts
+    sub: Falls
+    aliases: [smash, collision, things falling]
+    traits: { source: object, shape: [once], tone: [rattle, crackle], pitched: "no", register: [mid] }
+    summary: Objects falling or colliding. A loud, messy clatter.
+    listen: ["A loud, chaotic clatter", "Bits bouncing and settling"]
+    confusions:
+      - { id: glass-break, cue: "Glass shatters and tinkles." }
+      - { id: thud, cue: "A thud is a single soft blow." }
+      - { id: explosion, cue: "An explosion booms first." }
+    samples:
+      - {"src": "commons", "file": "File:Crash hit (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Pots and pans hits 1 (Gravity Sound).wav", "label": "Recording 2"}
+
+  - id: squeak
+    name: Squeak
+    family: impacts
+    sub: Friction
+    status: wanted
+    aliases: [squeaky shoes, rubber squeak, chair squeak]
+    traits: { source: object, shape: [once], tone: [creak, shrill], pitched: "yes", register: [high] }
+    summary: Rubber or wood rubbing. A short, high squeal.
+    listen: ["A short, high, rubbery squeal"]
+    confusions:
+      - { id: door-creak, cue: "A creak is slower and longer." }

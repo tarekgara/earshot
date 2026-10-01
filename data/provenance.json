@@ -1,0 +1,4768 @@
+{
+ "cough/ex-1": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_cough.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "2.2-6.2s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "cough/ex-2": [
+  {
+   "source": "zip",
+   "file": "audio_16k/m0020_0_cough.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-3.4s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "cough/speech": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_cough.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "2.2-6.2s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cough/far": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_cough.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "2.2-6.2s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cough/phone": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_cough.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "2.2-6.2s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "throat-clear/ex-1": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_throatclearing.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "throat-clear/ex-2": [
+  {
+   "source": "zip",
+   "file": "audio_16k/m0020_0_throatclearing.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "1.0-5.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "throat-clear/speech": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_throatclearing.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "throat-clear/far": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_throatclearing.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "throat-clear/phone": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_throatclearing.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "sneeze/ex-1": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sneeze.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "sneeze/ex-2": [
+  {
+   "source": "zip",
+   "file": "audio_16k/m0020_0_sneeze.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-3.1s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "sneeze/speech": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sneeze.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "sneeze/far": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sneeze.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "sneeze/phone": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sneeze.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "sniff/ex-1": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sniff.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-4.1s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "sniff/ex-2": [
+  {
+   "source": "zip",
+   "file": "audio_16k/m0020_0_sniff.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "sniff/ex-3": [
+  {
+   "source": "zip",
+   "file": "Human/sniff.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-1.0s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "sniff/speech": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sniff.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-4.1s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "sniff/far": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sniff.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-4.1s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "sniff/phone": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sniff.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-4.1s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "laugh/ex-1": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_laughter.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-6.1s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "laugh/ex-2": [
+  {
+   "source": "zip",
+   "file": "audio_16k/m0020_0_laughter.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-3.3s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "laugh/speech": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_laughter.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-6.1s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "laugh/far": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_laughter.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-6.1s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "laugh/phone": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_laughter.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.1-6.1s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "giggle/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Giggle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Giggle.ogg",
+   "license": "CC BY 3.0",
+   "author": "Lomond",
+   "excerpt": "1.0-7.0s",
+   "credit": "Lomond (Wikimedia Commons)"
+  }
+ ],
+ "giggle/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Boy giggle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Boy_giggle.ogg",
+   "license": "CC BY 3.0",
+   "author": "thatjeffcarter",
+   "excerpt": "3.0-6.0s",
+   "credit": "thatjeffcarter (Wikimedia Commons)"
+  }
+ ],
+ "giggle/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Four Years Old child laughing.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Four_Years_Old_child_laughing.ogg",
+   "license": "CC BY 3.0",
+   "author": "morgantj",
+   "excerpt": "1.3-7.3s",
+   "credit": "morgantj (Wikimedia Commons)"
+  }
+ ],
+ "giggle/speech": [
+  {
+   "source": "commons",
+   "file": "File:Giggle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Giggle.ogg",
+   "license": "CC BY 3.0",
+   "author": "Lomond",
+   "excerpt": "1.0-7.0s",
+   "credit": "Lomond (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "giggle/far": [
+  {
+   "source": "commons",
+   "file": "File:Giggle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Giggle.ogg",
+   "license": "CC BY 3.0",
+   "author": "Lomond",
+   "excerpt": "1.0-7.0s",
+   "credit": "Lomond (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "giggle/phone": [
+  {
+   "source": "commons",
+   "file": "File:Giggle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Giggle.ogg",
+   "license": "CC BY 3.0",
+   "author": "Lomond",
+   "excerpt": "1.0-7.0s",
+   "credit": "Lomond (Wikimedia Commons)"
+  }
+ ],
+ "chuckle/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Different-Types-of-Laughter-Modulate-Connectivity-within-Distinct-Parts-of-the-Laughter-Perception-pone.0063441.s011.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Different-Types-of-Laughter-Modulate-Connectivity-within-Distinct-Parts-of-the-Laughter-Perception-pone.0063441.s011.oga",
+   "license": "CC BY 2.5",
+   "author": "Wildgruber D, Szameitat D, Ethofer T, Bruck C, Alter K, Grodd W, Kreifelts B",
+   "excerpt": "0.7-6.7s",
+   "credit": "Wildgruber D, Szameitat D, Ethofer T, Bruck C, Alter K, Grodd W, Kreifelts B (Wikimedia Commons)"
+  }
+ ],
+ "chuckle/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Short male snorts and giggles.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Short_male_snorts_and_giggles.ogg",
+   "license": "CC BY 3.0",
+   "author": "pfranzen",
+   "excerpt": "2.0-4.0s",
+   "credit": "pfranzen (Wikimedia Commons)"
+  }
+ ],
+ "chuckle/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Short clip of girl laughing.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Short_clip_of_girl_laughing.wav",
+   "license": "CC0",
+   "author": "lmbubec",
+   "excerpt": "0.0-1.3s",
+   "credit": "lmbubec (Wikimedia Commons)"
+  }
+ ],
+ "chuckle/speech": [
+  {
+   "source": "commons",
+   "file": "File:Different-Types-of-Laughter-Modulate-Connectivity-within-Distinct-Parts-of-the-Laughter-Perception-pone.0063441.s011.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Different-Types-of-Laughter-Modulate-Connectivity-within-Distinct-Parts-of-the-Laughter-Perception-pone.0063441.s011.oga",
+   "license": "CC BY 2.5",
+   "author": "Wildgruber D, Szameitat D, Ethofer T, Bruck C, Alter K, Grodd W, Kreifelts B",
+   "excerpt": "0.7-6.7s",
+   "credit": "Wildgruber D, Szameitat D, Ethofer T, Bruck C, Alter K, Grodd W, Kreifelts B (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "chuckle/far": [
+  {
+   "source": "commons",
+   "file": "File:Different-Types-of-Laughter-Modulate-Connectivity-within-Distinct-Parts-of-the-Laughter-Perception-pone.0063441.s011.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Different-Types-of-Laughter-Modulate-Connectivity-within-Distinct-Parts-of-the-Laughter-Perception-pone.0063441.s011.oga",
+   "license": "CC BY 2.5",
+   "author": "Wildgruber D, Szameitat D, Ethofer T, Bruck C, Alter K, Grodd W, Kreifelts B",
+   "excerpt": "0.7-6.7s",
+   "credit": "Wildgruber D, Szameitat D, Ethofer T, Bruck C, Alter K, Grodd W, Kreifelts B (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "chuckle/phone": [
+  {
+   "source": "commons",
+   "file": "File:Different-Types-of-Laughter-Modulate-Connectivity-within-Distinct-Parts-of-the-Laughter-Perception-pone.0063441.s011.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Different-Types-of-Laughter-Modulate-Connectivity-within-Distinct-Parts-of-the-Laughter-Perception-pone.0063441.s011.oga",
+   "license": "CC BY 2.5",
+   "author": "Wildgruber D, Szameitat D, Ethofer T, Bruck C, Alter K, Grodd W, Kreifelts B",
+   "excerpt": "0.7-6.7s",
+   "credit": "Wildgruber D, Szameitat D, Ethofer T, Bruck C, Alter K, Grodd W, Kreifelts B (Wikimedia Commons)"
+  }
+ ],
+ "snort/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Short male snorts and giggles.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Short_male_snorts_and_giggles.ogg",
+   "license": "CC BY 3.0",
+   "author": "pfranzen",
+   "excerpt": "12.4-16.4s",
+   "credit": "pfranzen (Wikimedia Commons)"
+  }
+ ],
+ "snort/speech": [
+  {
+   "source": "commons",
+   "file": "File:Short male snorts and giggles.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Short_male_snorts_and_giggles.ogg",
+   "license": "CC BY 3.0",
+   "author": "pfranzen",
+   "excerpt": "12.4-16.4s",
+   "credit": "pfranzen (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "snort/far": [
+  {
+   "source": "commons",
+   "file": "File:Short male snorts and giggles.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Short_male_snorts_and_giggles.ogg",
+   "license": "CC BY 3.0",
+   "author": "pfranzen",
+   "excerpt": "12.4-16.4s",
+   "credit": "pfranzen (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "snort/phone": [
+  {
+   "source": "commons",
+   "file": "File:Short male snorts and giggles.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Short_male_snorts_and_giggles.ogg",
+   "license": "CC BY 3.0",
+   "author": "pfranzen",
+   "excerpt": "12.4-16.4s",
+   "credit": "pfranzen (Wikimedia Commons)"
+  }
+ ],
+ "sigh/ex-1": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sigh.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "sigh/ex-2": [
+  {
+   "source": "zip",
+   "file": "audio_16k/m0020_0_sigh.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-2.9s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "sigh/speech": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sigh.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "sigh/far": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sigh.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "sigh/phone": [
+  {
+   "source": "zip",
+   "file": "audio_16k/f0027_0_sigh.wav",
+   "url": "https://github.com/YuanGongND/vocalsound",
+   "license": "CC BY-SA 4.0",
+   "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
+   "excerpt": "0.0-4.0s",
+   "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
+  }
+ ],
+ "gasp/ex-1": [
+  {
+   "source": "zip",
+   "file": "Human/gasp1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-4.0s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "gasp/ex-2": [
+  {
+   "source": "zip",
+   "file": "Human/freakedbreath.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-1.3s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "gasp/speech": [
+  {
+   "source": "zip",
+   "file": "Human/gasp1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-4.0s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "gasp/far": [
+  {
+   "source": "zip",
+   "file": "Human/gasp1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-4.0s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "gasp/phone": [
+  {
+   "source": "zip",
+   "file": "Human/gasp1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-4.0s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "groan/ex-1": [
+  {
+   "source": "url",
+   "file": "female_hurt_grunts_groans_1.ogg",
+   "url": "https://opengameart.org/content/female-hurt-grunts-groans",
+   "license": "CC0",
+   "author": "Nocturnal_Vanguard",
+   "excerpt": "3.6-7.6s",
+   "credit": "Nocturnal_Vanguard"
+  }
+ ],
+ "groan/speech": [
+  {
+   "source": "url",
+   "file": "female_hurt_grunts_groans_1.ogg",
+   "url": "https://opengameart.org/content/female-hurt-grunts-groans",
+   "license": "CC0",
+   "author": "Nocturnal_Vanguard",
+   "excerpt": "3.6-7.6s",
+   "credit": "Nocturnal_Vanguard"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "groan/far": [
+  {
+   "source": "url",
+   "file": "female_hurt_grunts_groans_1.ogg",
+   "url": "https://opengameart.org/content/female-hurt-grunts-groans",
+   "license": "CC0",
+   "author": "Nocturnal_Vanguard",
+   "excerpt": "3.6-7.6s",
+   "credit": "Nocturnal_Vanguard"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "groan/phone": [
+  {
+   "source": "url",
+   "file": "female_hurt_grunts_groans_1.ogg",
+   "url": "https://opengameart.org/content/female-hurt-grunts-groans",
+   "license": "CC0",
+   "author": "Nocturnal_Vanguard",
+   "excerpt": "3.6-7.6s",
+   "credit": "Nocturnal_Vanguard"
+  }
+ ],
+ "grunt/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Male grunts jumps.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Male_grunts_jumps.ogg",
+   "license": "Public domain",
+   "author": "stilgar",
+   "excerpt": "0.2-4.2s",
+   "credit": "stilgar (Wikimedia Commons)"
+  }
+ ],
+ "grunt/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Male pain grunts.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Male_pain_grunts.ogg",
+   "license": "Public domain",
+   "author": "stilgar",
+   "excerpt": "0.4-4.3s",
+   "credit": "stilgar (Wikimedia Commons)"
+  }
+ ],
+ "grunt/ex-3": [
+  {
+   "source": "url",
+   "file": "01._effort_grunt_male.wav",
+   "url": "https://opengameart.org/content/effort-sounds-male-audio-pack",
+   "license": "CC-BY-SA 4.0",
+   "author": "VoiceBosch",
+   "excerpt": "0.0-0.4s",
+   "credit": "VoiceBosch"
+  }
+ ],
+ "grunt/speech": [
+  {
+   "source": "commons",
+   "file": "File:Male grunts jumps.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Male_grunts_jumps.ogg",
+   "license": "Public domain",
+   "author": "stilgar",
+   "excerpt": "0.2-4.2s",
+   "credit": "stilgar (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "grunt/far": [
+  {
+   "source": "commons",
+   "file": "File:Male grunts jumps.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Male_grunts_jumps.ogg",
+   "license": "Public domain",
+   "author": "stilgar",
+   "excerpt": "0.2-4.2s",
+   "credit": "stilgar (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "grunt/phone": [
+  {
+   "source": "commons",
+   "file": "File:Male grunts jumps.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Male_grunts_jumps.ogg",
+   "license": "Public domain",
+   "author": "stilgar",
+   "excerpt": "0.2-4.2s",
+   "credit": "stilgar (Wikimedia Commons)"
+  }
+ ],
+ "yawn/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Yawning 1.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Yawning_1.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "0.4-4.4s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "yawn/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Yawning twice.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Yawning_twice.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "1.1-5.1s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "yawn/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Yawning 2.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Yawning_2.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "0.0-4.0s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "yawn/speech": [
+  {
+   "source": "commons",
+   "file": "File:Yawning 1.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Yawning_1.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "0.4-4.4s",
+   "credit": "ezwa (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "yawn/far": [
+  {
+   "source": "commons",
+   "file": "File:Yawning 1.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Yawning_1.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "0.4-4.4s",
+   "credit": "ezwa (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "yawn/phone": [
+  {
+   "source": "commons",
+   "file": "File:Yawning 1.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Yawning_1.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "0.4-4.4s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "hum/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Woman humming a nondescript tune.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Woman_humming_a_nondescript_tune.wav",
+   "license": "CC0",
+   "author": "PSsoundproject",
+   "excerpt": "11.4-17.4s",
+   "credit": "PSsoundproject (Wikimedia Commons)"
+  }
+ ],
+ "hum/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Deep humming noise.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Deep_humming_noise.wav",
+   "license": "CC BY 3.0",
+   "author": "retropttam",
+   "excerpt": "3.3-9.3s",
+   "credit": "retropttam (Wikimedia Commons)"
+  }
+ ],
+ "hum/speech": [
+  {
+   "source": "commons",
+   "file": "File:Woman humming a nondescript tune.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Woman_humming_a_nondescript_tune.wav",
+   "license": "CC0",
+   "author": "PSsoundproject",
+   "excerpt": "11.4-17.4s",
+   "credit": "PSsoundproject (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "hum/far": [
+  {
+   "source": "commons",
+   "file": "File:Woman humming a nondescript tune.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Woman_humming_a_nondescript_tune.wav",
+   "license": "CC0",
+   "author": "PSsoundproject",
+   "excerpt": "11.4-17.4s",
+   "credit": "PSsoundproject (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "hum/phone": [
+  {
+   "source": "commons",
+   "file": "File:Woman humming a nondescript tune.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Woman_humming_a_nondescript_tune.wav",
+   "license": "CC0",
+   "author": "PSsoundproject",
+   "excerpt": "11.4-17.4s",
+   "credit": "PSsoundproject (Wikimedia Commons)"
+  }
+ ],
+ "whistling/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Wolf whistle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Wolf_whistle.ogg",
+   "license": "Public domain",
+   "author": "self",
+   "excerpt": "0.0-3.0s",
+   "credit": "self (Wikimedia Commons)"
+  }
+ ],
+ "whistling/ex-2": [
+  {
+   "source": "zip",
+   "file": "Human/attention-whistle.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-0.7s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "whistling/ex-3": [
+  {
+   "source": "zip",
+   "file": "Human/wolf-whistle.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-1.5s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "whistling/speech": [
+  {
+   "source": "commons",
+   "file": "File:Wolf whistle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Wolf_whistle.ogg",
+   "license": "Public domain",
+   "author": "self",
+   "excerpt": "0.0-3.0s",
+   "credit": "self (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "whistling/far": [
+  {
+   "source": "commons",
+   "file": "File:Wolf whistle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Wolf_whistle.ogg",
+   "license": "Public domain",
+   "author": "self",
+   "excerpt": "0.0-3.0s",
+   "credit": "self (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "whistling/phone": [
+  {
+   "source": "commons",
+   "file": "File:Wolf whistle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Wolf_whistle.ogg",
+   "license": "Public domain",
+   "author": "self",
+   "excerpt": "0.0-3.0s",
+   "credit": "self (Wikimedia Commons)"
+  }
+ ],
+ "scream/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:NOW screaming.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:NOW_screaming.ogg",
+   "license": "CC0",
+   "author": "Ranch9613",
+   "excerpt": "0.0-4.0s",
+   "credit": "Ranch9613 (Wikimedia Commons)"
+  }
+ ],
+ "scream/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:UncleSigmund - ahhh (cc0) (freesound).mp3",
+   "url": "https://commons.wikimedia.org/wiki/File:UncleSigmund_-_ahhh_(cc0)_(freesound).mp3",
+   "license": "CC0",
+   "author": "UncleSigmund",
+   "excerpt": "0.0-2.6s",
+   "credit": "UncleSigmund (Wikimedia Commons)"
+  }
+ ],
+ "scream/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Scream-c.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Scream-c.wav",
+   "license": "CC BY-SA 4.0",
+   "author": "Raspberry Pi Foundation, Andy Oakley",
+   "excerpt": "0.0-0.7s",
+   "credit": "Raspberry Pi Foundation, Andy Oakley (Wikimedia Commons)"
+  }
+ ],
+ "scream/speech": [
+  {
+   "source": "commons",
+   "file": "File:NOW screaming.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:NOW_screaming.ogg",
+   "license": "CC0",
+   "author": "Ranch9613",
+   "excerpt": "0.0-4.0s",
+   "credit": "Ranch9613 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "scream/far": [
+  {
+   "source": "commons",
+   "file": "File:NOW screaming.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:NOW_screaming.ogg",
+   "license": "CC0",
+   "author": "Ranch9613",
+   "excerpt": "0.0-4.0s",
+   "credit": "Ranch9613 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "scream/phone": [
+  {
+   "source": "commons",
+   "file": "File:NOW screaming.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:NOW_screaming.ogg",
+   "license": "CC0",
+   "author": "Ranch9613",
+   "excerpt": "0.0-4.0s",
+   "credit": "Ranch9613 (Wikimedia Commons)"
+  }
+ ],
+ "shout/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Goal Shout.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Goal_Shout.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Frogfriend99",
+   "excerpt": "0.0-4.0s",
+   "credit": "Frogfriend99 (Wikimedia Commons)"
+  }
+ ],
+ "shout/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Wikipedistas en las luchas 01.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Wikipedistas_en_las_luchas_01.wav",
+   "license": "CC BY-SA 4.0",
+   "author": "Luis Alvaz",
+   "excerpt": "0.9-4.8s",
+   "credit": "Luis Alvaz (Wikimedia Commons)"
+  }
+ ],
+ "shout/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Street parade carnival people yelling kamelle kamelle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Street_parade_carnival_people_yelling_kamelle_kamelle.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "0.0-4.0s",
+   "credit": "stephan (Wikimedia Commons)"
+  }
+ ],
+ "shout/speech": [
+  {
+   "source": "commons",
+   "file": "File:Goal Shout.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Goal_Shout.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Frogfriend99",
+   "excerpt": "0.0-4.0s",
+   "credit": "Frogfriend99 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "shout/far": [
+  {
+   "source": "commons",
+   "file": "File:Goal Shout.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Goal_Shout.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Frogfriend99",
+   "excerpt": "0.0-4.0s",
+   "credit": "Frogfriend99 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "shout/phone": [
+  {
+   "source": "commons",
+   "file": "File:Goal Shout.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Goal_Shout.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Frogfriend99",
+   "excerpt": "0.0-4.0s",
+   "credit": "Frogfriend99 (Wikimedia Commons)"
+  }
+ ],
+ "crying/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Male crying and weeping.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Male_crying_and_weeping.ogg",
+   "license": "CC BY 3.0",
+   "author": "jacobmathiassen",
+   "excerpt": "1.0-7.0s",
+   "credit": "jacobmathiassen (Wikimedia Commons)"
+  }
+ ],
+ "crying/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Woman crying.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Woman_crying.ogg",
+   "license": "CC BY 3.0",
+   "author": "bulbastre",
+   "excerpt": "5.0-10.0s",
+   "credit": "bulbastre (Wikimedia Commons)"
+  }
+ ],
+ "crying/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Man Crying .ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Man_Crying_.ogg",
+   "license": "CC BY 3.0",
+   "author": "Iwan ‘qubodup’ Gabovitch",
+   "excerpt": "18.7-24.7s",
+   "credit": "Iwan ‘qubodup’ Gabovitch (Wikimedia Commons)"
+  }
+ ],
+ "crying/speech": [
+  {
+   "source": "commons",
+   "file": "File:Male crying and weeping.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Male_crying_and_weeping.ogg",
+   "license": "CC BY 3.0",
+   "author": "jacobmathiassen",
+   "excerpt": "1.0-7.0s",
+   "credit": "jacobmathiassen (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "crying/far": [
+  {
+   "source": "commons",
+   "file": "File:Male crying and weeping.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Male_crying_and_weeping.ogg",
+   "license": "CC BY 3.0",
+   "author": "jacobmathiassen",
+   "excerpt": "1.0-7.0s",
+   "credit": "jacobmathiassen (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "crying/phone": [
+  {
+   "source": "commons",
+   "file": "File:Male crying and weeping.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Male_crying_and_weeping.ogg",
+   "license": "CC BY 3.0",
+   "author": "jacobmathiassen",
+   "excerpt": "1.0-7.0s",
+   "credit": "jacobmathiassen (Wikimedia Commons)"
+  }
+ ],
+ "baby-cry/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Crying newborn baby.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Crying_newborn_baby.ogg",
+   "license": "CC0",
+   "author": "the_yura",
+   "excerpt": "14.1-20.1s",
+   "credit": "the_yura (Wikimedia Commons)"
+  }
+ ],
+ "baby-cry/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Newborn baby crying sounds 20190831 061900.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Newborn_baby_crying_sounds_20190831_061900.wav",
+   "license": "CC BY-SA 4.0",
+   "author": "Manoj Karingamadathil",
+   "excerpt": "12.7-18.7s",
+   "credit": "Manoj Karingamadathil (Wikimedia Commons)"
+  }
+ ],
+ "baby-cry/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Baby long wanting cry.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Baby_long_wanting_cry.ogg",
+   "license": "Public domain",
+   "author": "natalie",
+   "excerpt": "9.6-15.6s",
+   "credit": "natalie (Wikimedia Commons)"
+  }
+ ],
+ "baby-cry/speech": [
+  {
+   "source": "commons",
+   "file": "File:Crying newborn baby.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Crying_newborn_baby.ogg",
+   "license": "CC0",
+   "author": "the_yura",
+   "excerpt": "14.1-20.1s",
+   "credit": "the_yura (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "baby-cry/far": [
+  {
+   "source": "commons",
+   "file": "File:Crying newborn baby.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Crying_newborn_baby.ogg",
+   "license": "CC0",
+   "author": "the_yura",
+   "excerpt": "14.1-20.1s",
+   "credit": "the_yura (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "baby-cry/phone": [
+  {
+   "source": "commons",
+   "file": "File:Crying newborn baby.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Crying_newborn_baby.ogg",
+   "license": "CC0",
+   "author": "the_yura",
+   "excerpt": "14.1-20.1s",
+   "credit": "the_yura (Wikimedia Commons)"
+  }
+ ],
+ "baby-laugh/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Baby Laugh.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Baby_Laugh.ogg",
+   "license": "CC BY 3.0",
+   "author": "reinsamba",
+   "excerpt": "0.0-2.5s",
+   "credit": "reinsamba (Wikimedia Commons)"
+  }
+ ],
+ "baby-laugh/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Baby 5 months old gabbling laughing practising voice.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Baby_5_months_old_gabbling_laughing_practising_voice.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "138.2-144.2s",
+   "credit": "stephan (Wikimedia Commons)"
+  }
+ ],
+ "baby-laugh/speech": [
+  {
+   "source": "commons",
+   "file": "File:Baby Laugh.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Baby_Laugh.ogg",
+   "license": "CC BY 3.0",
+   "author": "reinsamba",
+   "excerpt": "0.0-2.5s",
+   "credit": "reinsamba (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "baby-laugh/far": [
+  {
+   "source": "commons",
+   "file": "File:Baby Laugh.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Baby_Laugh.ogg",
+   "license": "CC BY 3.0",
+   "author": "reinsamba",
+   "excerpt": "0.0-2.5s",
+   "credit": "reinsamba (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "baby-laugh/phone": [
+  {
+   "source": "commons",
+   "file": "File:Baby Laugh.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Baby_Laugh.ogg",
+   "license": "CC BY 3.0",
+   "author": "reinsamba",
+   "excerpt": "0.0-2.5s",
+   "credit": "reinsamba (Wikimedia Commons)"
+  }
+ ],
+ "burp/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Burp.opus",
+   "url": "https://commons.wikimedia.org/wiki/File:Burp.opus",
+   "license": "CC BY-SA 4.0",
+   "author": "HoTxStrike",
+   "excerpt": "0.0-3.8s",
+   "credit": "HoTxStrike (Wikimedia Commons)"
+  }
+ ],
+ "burp/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Burp.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Burp.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "0.0-1.8s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "burp/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Burping10.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Burping10.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Jeuwre",
+   "excerpt": "0.0-1.3s",
+   "credit": "Jeuwre (Wikimedia Commons)"
+  }
+ ],
+ "burp/speech": [
+  {
+   "source": "commons",
+   "file": "File:Burp.opus",
+   "url": "https://commons.wikimedia.org/wiki/File:Burp.opus",
+   "license": "CC BY-SA 4.0",
+   "author": "HoTxStrike",
+   "excerpt": "0.0-3.8s",
+   "credit": "HoTxStrike (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "burp/far": [
+  {
+   "source": "commons",
+   "file": "File:Burp.opus",
+   "url": "https://commons.wikimedia.org/wiki/File:Burp.opus",
+   "license": "CC BY-SA 4.0",
+   "author": "HoTxStrike",
+   "excerpt": "0.0-3.8s",
+   "credit": "HoTxStrike (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "burp/phone": [
+  {
+   "source": "commons",
+   "file": "File:Burp.opus",
+   "url": "https://commons.wikimedia.org/wiki/File:Burp.opus",
+   "license": "CC BY-SA 4.0",
+   "author": "HoTxStrike",
+   "excerpt": "0.0-3.8s",
+   "credit": "HoTxStrike (Wikimedia Commons)"
+  }
+ ],
+ "hiccup/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Hiccupsound.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Hiccupsound.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "SergeantBolt at English Wikipedia",
+   "excerpt": "0.0-0.8s",
+   "credit": "SergeantBolt at English Wikipedia (Wikimedia Commons)"
+  }
+ ],
+ "hiccup/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Hiccupsound02.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Hiccupsound02.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Valeriefarias",
+   "excerpt": "0.0-0.5s",
+   "credit": "Valeriefarias (Wikimedia Commons)"
+  }
+ ],
+ "hiccup/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Beautiful girl coughing and having hiccups.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Beautiful_girl_coughing_and_having_hiccups.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Krishtpt35",
+   "excerpt": "72.6-78.6s",
+   "credit": "Krishtpt35 (Wikimedia Commons)"
+  }
+ ],
+ "hiccup/speech": [
+  {
+   "source": "commons",
+   "file": "File:Hiccupsound.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Hiccupsound.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "SergeantBolt at English Wikipedia",
+   "excerpt": "0.0-0.8s",
+   "credit": "SergeantBolt at English Wikipedia (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "hiccup/far": [
+  {
+   "source": "commons",
+   "file": "File:Hiccupsound.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Hiccupsound.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "SergeantBolt at English Wikipedia",
+   "excerpt": "0.0-0.8s",
+   "credit": "SergeantBolt at English Wikipedia (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "hiccup/phone": [
+  {
+   "source": "commons",
+   "file": "File:Hiccupsound.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Hiccupsound.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "SergeantBolt at English Wikipedia",
+   "excerpt": "0.0-0.8s",
+   "credit": "SergeantBolt at English Wikipedia (Wikimedia Commons)"
+  }
+ ],
+ "shush/ex-1": [
+  {
+   "source": "zip",
+   "file": "Human/shh1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-0.5s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "shush/speech": [
+  {
+   "source": "zip",
+   "file": "Human/shh1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-0.5s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "shush/far": [
+  {
+   "source": "zip",
+   "file": "Human/shh1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-0.5s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "shush/phone": [
+  {
+   "source": "zip",
+   "file": "Human/shh1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-0.5s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "tongue-click/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Postalveolar click.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Postalveolar_click.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Unknown author",
+   "excerpt": "0.0-1.6s",
+   "credit": "Unknown author (Wikimedia Commons)"
+  }
+ ],
+ "tongue-click/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Dental click.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Dental_click.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Unknown author",
+   "excerpt": "0.0-2.2s",
+   "credit": "Unknown author (Wikimedia Commons)"
+  }
+ ],
+ "tongue-click/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Alveolar lateral click.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Alveolar_lateral_click.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Unknown author",
+   "excerpt": "0.0-1.8s",
+   "credit": "Unknown author (Wikimedia Commons)"
+  }
+ ],
+ "tongue-click/speech": [
+  {
+   "source": "commons",
+   "file": "File:Postalveolar click.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Postalveolar_click.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Unknown author",
+   "excerpt": "0.0-1.6s",
+   "credit": "Unknown author (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "tongue-click/far": [
+  {
+   "source": "commons",
+   "file": "File:Postalveolar click.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Postalveolar_click.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Unknown author",
+   "excerpt": "0.0-1.6s",
+   "credit": "Unknown author (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "tongue-click/phone": [
+  {
+   "source": "commons",
+   "file": "File:Postalveolar click.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Postalveolar_click.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Unknown author",
+   "excerpt": "0.0-1.6s",
+   "credit": "Unknown author (Wikimedia Commons)"
+  }
+ ],
+ "breathing/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Breathing man.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Breathing_man.ogg",
+   "license": "Public domain",
+   "author": "hugh",
+   "excerpt": "8.5-14.5s",
+   "credit": "hugh (Wikimedia Commons)"
+  }
+ ],
+ "breathing/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Heavy breathing 3.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Heavy_breathing_3.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "21.2-27.2s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "breathing/ex-3": [
+  {
+   "source": "zip",
+   "file": "Human/breath-female.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "1.0-7.0s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "breathing/speech": [
+  {
+   "source": "commons",
+   "file": "File:Breathing man.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Breathing_man.ogg",
+   "license": "Public domain",
+   "author": "hugh",
+   "excerpt": "8.5-14.5s",
+   "credit": "hugh (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "breathing/far": [
+  {
+   "source": "commons",
+   "file": "File:Breathing man.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Breathing_man.ogg",
+   "license": "Public domain",
+   "author": "hugh",
+   "excerpt": "8.5-14.5s",
+   "credit": "hugh (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "breathing/phone": [
+  {
+   "source": "commons",
+   "file": "File:Breathing man.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Breathing_man.ogg",
+   "license": "Public domain",
+   "author": "hugh",
+   "excerpt": "8.5-14.5s",
+   "credit": "hugh (Wikimedia Commons)"
+  }
+ ],
+ "panting/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Heavy breathing 2.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Heavy_breathing_2.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "91.6-97.6s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "panting/ex-2": [
+  {
+   "source": "url",
+   "file": "breathing%20tired.wav",
+   "url": "https://opengameart.org/content/breathing-tired",
+   "license": "CC0",
+   "author": "mikeask",
+   "excerpt": "0.0-3.2s",
+   "credit": "mikeask"
+  }
+ ],
+ "panting/ex-3": [
+  {
+   "source": "zip",
+   "file": "Human/scared-breathing.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "1.1-7.0s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "panting/speech": [
+  {
+   "source": "commons",
+   "file": "File:Heavy breathing 2.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Heavy_breathing_2.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "91.6-97.6s",
+   "credit": "ezwa (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "panting/far": [
+  {
+   "source": "commons",
+   "file": "File:Heavy breathing 2.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Heavy_breathing_2.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "91.6-97.6s",
+   "credit": "ezwa (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "panting/phone": [
+  {
+   "source": "commons",
+   "file": "File:Heavy breathing 2.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Heavy_breathing_2.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "91.6-97.6s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "snore/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Joseph Sardin - Ronflements.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Joseph_Sardin_-_Ronflements.oga",
+   "license": "CC0",
+   "author": "Joseph Sardin",
+   "excerpt": "8.5-14.5s",
+   "credit": "Joseph Sardin (Wikimedia Commons)"
+  }
+ ],
+ "snore/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Schnarchen 01.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Schnarchen_01.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Huhu Uet",
+   "excerpt": "42.0-48.0s",
+   "credit": "Huhu Uet (Wikimedia Commons)"
+  }
+ ],
+ "snore/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Snore man 50 years 160 kg.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Snore_man_50_years_160_kg.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Vladlen666",
+   "excerpt": "3.9-9.9s",
+   "credit": "Vladlen666 (Wikimedia Commons)"
+  }
+ ],
+ "snore/speech": [
+  {
+   "source": "commons",
+   "file": "File:Joseph Sardin - Ronflements.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Joseph_Sardin_-_Ronflements.oga",
+   "license": "CC0",
+   "author": "Joseph Sardin",
+   "excerpt": "8.5-14.5s",
+   "credit": "Joseph Sardin (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "snore/far": [
+  {
+   "source": "commons",
+   "file": "File:Joseph Sardin - Ronflements.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Joseph_Sardin_-_Ronflements.oga",
+   "license": "CC0",
+   "author": "Joseph Sardin",
+   "excerpt": "8.5-14.5s",
+   "credit": "Joseph Sardin (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "snore/phone": [
+  {
+   "source": "commons",
+   "file": "File:Joseph Sardin - Ronflements.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Joseph_Sardin_-_Ronflements.oga",
+   "license": "CC0",
+   "author": "Joseph Sardin",
+   "excerpt": "8.5-14.5s",
+   "credit": "Joseph Sardin (Wikimedia Commons)"
+  }
+ ],
+ "gargle/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Gargling.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Gargling.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Jeuwre",
+   "excerpt": "1.1-7.0s",
+   "credit": "Jeuwre (Wikimedia Commons)"
+  }
+ ],
+ "gargle/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Gargle.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Gargle.ogg",
+   "license": "CC BY-SA 2.5",
+   "author": "User:Keffy",
+   "excerpt": "0.0-1.9s",
+   "credit": "User:Keffy (Wikimedia Commons)"
+  }
+ ],
+ "gargle/speech": [
+  {
+   "source": "commons",
+   "file": "File:Gargling.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Gargling.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Jeuwre",
+   "excerpt": "1.1-7.0s",
+   "credit": "Jeuwre (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "gargle/far": [
+  {
+   "source": "commons",
+   "file": "File:Gargling.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Gargling.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Jeuwre",
+   "excerpt": "1.1-7.0s",
+   "credit": "Jeuwre (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "gargle/phone": [
+  {
+   "source": "commons",
+   "file": "File:Gargling.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Gargling.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Jeuwre",
+   "excerpt": "1.1-7.0s",
+   "credit": "Jeuwre (Wikimedia Commons)"
+  }
+ ],
+ "footsteps/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Walking on gravel (Gravity Sound).mp3",
+   "url": "https://commons.wikimedia.org/wiki/File:Walking_on_gravel_(Gravity_Sound).mp3",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "1.0-7.0s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  }
+ ],
+ "footsteps/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Walking on small wooden bridge (Gravity Sound).wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Walking_on_small_wooden_bridge_(Gravity_Sound).wav",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "4.5-10.6s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  }
+ ],
+ "footsteps/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Walking through snow.mp3",
+   "url": "https://commons.wikimedia.org/wiki/File:Walking_through_snow.mp3",
+   "license": "CC BY 4.0",
+   "author": "Lukas Beck",
+   "excerpt": "6.2-12.2s",
+   "credit": "Lukas Beck (Wikimedia Commons)"
+  }
+ ],
+ "footsteps/speech": [
+  {
+   "source": "commons",
+   "file": "File:Walking on gravel (Gravity Sound).mp3",
+   "url": "https://commons.wikimedia.org/wiki/File:Walking_on_gravel_(Gravity_Sound).mp3",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "1.0-7.0s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "footsteps/far": [
+  {
+   "source": "commons",
+   "file": "File:Walking on gravel (Gravity Sound).mp3",
+   "url": "https://commons.wikimedia.org/wiki/File:Walking_on_gravel_(Gravity_Sound).mp3",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "1.0-7.0s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "footsteps/phone": [
+  {
+   "source": "commons",
+   "file": "File:Walking on gravel (Gravity Sound).mp3",
+   "url": "https://commons.wikimedia.org/wiki/File:Walking_on_gravel_(Gravity_Sound).mp3",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "1.0-7.0s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  }
+ ],
+ "clapping/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:OneHandClapping.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:OneHandClapping.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Cyp at English Wikipedia",
+   "excerpt": "3.7-9.7s",
+   "credit": "Cyp at English Wikipedia (Wikimedia Commons)"
+  }
+ ],
+ "clapping/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Clapping hurray (cropped).oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Clapping_hurray_(cropped).oga",
+   "license": "Public domain",
+   "author": "Starlite",
+   "excerpt": "1.5-7.5s",
+   "credit": "Starlite (Wikimedia Commons)"
+  }
+ ],
+ "clapping/ex-3": [
+  {
+   "source": "zip",
+   "file": "Human/solo-clap.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-3.4s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "clapping/speech": [
+  {
+   "source": "commons",
+   "file": "File:OneHandClapping.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:OneHandClapping.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Cyp at English Wikipedia",
+   "excerpt": "3.7-9.7s",
+   "credit": "Cyp at English Wikipedia (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "clapping/far": [
+  {
+   "source": "commons",
+   "file": "File:OneHandClapping.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:OneHandClapping.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Cyp at English Wikipedia",
+   "excerpt": "3.7-9.7s",
+   "credit": "Cyp at English Wikipedia (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "clapping/phone": [
+  {
+   "source": "commons",
+   "file": "File:OneHandClapping.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:OneHandClapping.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Cyp at English Wikipedia",
+   "excerpt": "3.7-9.7s",
+   "credit": "Cyp at English Wikipedia (Wikimedia Commons)"
+  }
+ ],
+ "applause/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:277021 sandermotions applause-2.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:277021_sandermotions_applause-2.wav",
+   "license": "CC0",
+   "author": "Sandermotions",
+   "excerpt": "0.3-6.3s",
+   "credit": "Sandermotions (Wikimedia Commons)"
+  }
+ ],
+ "applause/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Applause-2.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Applause-2.ogg",
+   "license": "CC BY 3.0",
+   "author": "RHumphries",
+   "excerpt": "1.2-7.2s",
+   "credit": "RHumphries (Wikimedia Commons)"
+  }
+ ],
+ "applause/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Sound Effects - Applause after a concert.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Sound_Effects_-_Applause_after_a_concert.ogg",
+   "license": "CC0",
+   "author": "Amada44",
+   "excerpt": "1.0-7.0s",
+   "credit": "Amada44 (Wikimedia Commons)"
+  }
+ ],
+ "applause/speech": [
+  {
+   "source": "commons",
+   "file": "File:277021 sandermotions applause-2.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:277021_sandermotions_applause-2.wav",
+   "license": "CC0",
+   "author": "Sandermotions",
+   "excerpt": "0.3-6.3s",
+   "credit": "Sandermotions (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "applause/far": [
+  {
+   "source": "commons",
+   "file": "File:277021 sandermotions applause-2.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:277021_sandermotions_applause-2.wav",
+   "license": "CC0",
+   "author": "Sandermotions",
+   "excerpt": "0.3-6.3s",
+   "credit": "Sandermotions (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "applause/phone": [
+  {
+   "source": "commons",
+   "file": "File:277021 sandermotions applause-2.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:277021_sandermotions_applause-2.wav",
+   "license": "CC0",
+   "author": "Sandermotions",
+   "excerpt": "0.3-6.3s",
+   "credit": "Sandermotions (Wikimedia Commons)"
+  }
+ ],
+ "finger-snap/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Finger clicks.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Finger_clicks.ogg",
+   "license": "Public domain",
+   "author": "cori",
+   "excerpt": "6.2-10.2s",
+   "credit": "cori (Wikimedia Commons)"
+  }
+ ],
+ "finger-snap/ex-2": [
+  {
+   "source": "zip",
+   "file": "Human/click-finger-snap.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-0.3s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "finger-snap/speech": [
+  {
+   "source": "commons",
+   "file": "File:Finger clicks.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Finger_clicks.ogg",
+   "license": "Public domain",
+   "author": "cori",
+   "excerpt": "6.2-10.2s",
+   "credit": "cori (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "finger-snap/far": [
+  {
+   "source": "commons",
+   "file": "File:Finger clicks.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Finger_clicks.ogg",
+   "license": "Public domain",
+   "author": "cori",
+   "excerpt": "6.2-10.2s",
+   "credit": "cori (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "finger-snap/phone": [
+  {
+   "source": "commons",
+   "file": "File:Finger clicks.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Finger_clicks.ogg",
+   "license": "Public domain",
+   "author": "cori",
+   "excerpt": "6.2-10.2s",
+   "credit": "cori (Wikimedia Commons)"
+  }
+ ],
+ "knock/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Knock on door.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Knock_on_door.wav",
+   "license": "CC0",
+   "author": "Asud12",
+   "excerpt": "0.0-3.7s",
+   "credit": "Asud12 (Wikimedia Commons)"
+  }
+ ],
+ "knock/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Shave and a haircut - Knocking on door.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Shave_and_a_haircut_-_Knocking_on_door.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Wobuzowatsj",
+   "excerpt": "0.0-3.6s",
+   "credit": "Wobuzowatsj (Wikimedia Commons)"
+  }
+ ],
+ "knock/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Knocking on wood or door.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Knocking_on_wood_or_door.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "0.2-6.2s",
+   "credit": "stephan (Wikimedia Commons)"
+  }
+ ],
+ "knock/speech": [
+  {
+   "source": "commons",
+   "file": "File:Knock on door.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Knock_on_door.wav",
+   "license": "CC0",
+   "author": "Asud12",
+   "excerpt": "0.0-3.7s",
+   "credit": "Asud12 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "knock/far": [
+  {
+   "source": "commons",
+   "file": "File:Knock on door.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Knock_on_door.wav",
+   "license": "CC0",
+   "author": "Asud12",
+   "excerpt": "0.0-3.7s",
+   "credit": "Asud12 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "knock/phone": [
+  {
+   "source": "commons",
+   "file": "File:Knock on door.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Knock_on_door.wav",
+   "license": "CC0",
+   "author": "Asud12",
+   "excerpt": "0.0-3.7s",
+   "credit": "Asud12 (Wikimedia Commons)"
+  }
+ ],
+ "typing/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Typing - Model M 1986.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Typing_-_Model_M_1986.ogg",
+   "license": "CC0",
+   "author": "Raymangold22",
+   "excerpt": "1.0-7.0s",
+   "credit": "Raymangold22 (Wikimedia Commons)"
+  }
+ ],
+ "typing/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Typing on Keychron V1 Ultra (Red Linear Switch).wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Typing_on_Keychron_V1_Ultra_(Red_Linear_Switch).wav",
+   "license": "CC BY 4.0",
+   "author": "C40115",
+   "excerpt": "3.3-9.3s",
+   "credit": "C40115 (Wikimedia Commons)"
+  }
+ ],
+ "typing/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Computer keyboard.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Computer_keyboard.ogg",
+   "license": "Public domain",
+   "author": "russiandoll",
+   "excerpt": "24.6-30.6s",
+   "credit": "russiandoll (Wikimedia Commons)"
+  }
+ ],
+ "typing/speech": [
+  {
+   "source": "commons",
+   "file": "File:Typing - Model M 1986.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Typing_-_Model_M_1986.ogg",
+   "license": "CC0",
+   "author": "Raymangold22",
+   "excerpt": "1.0-7.0s",
+   "credit": "Raymangold22 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "typing/far": [
+  {
+   "source": "commons",
+   "file": "File:Typing - Model M 1986.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Typing_-_Model_M_1986.ogg",
+   "license": "CC0",
+   "author": "Raymangold22",
+   "excerpt": "1.0-7.0s",
+   "credit": "Raymangold22 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "typing/phone": [
+  {
+   "source": "commons",
+   "file": "File:Typing - Model M 1986.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Typing_-_Model_M_1986.ogg",
+   "license": "CC0",
+   "author": "Raymangold22",
+   "excerpt": "1.0-7.0s",
+   "credit": "Raymangold22 (Wikimedia Commons)"
+  }
+ ],
+ "writing/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Pencil scratchings.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Pencil_scratchings.ogg",
+   "license": "Public domain",
+   "author": "gypsygirl",
+   "excerpt": "68.2-74.2s",
+   "credit": "gypsygirl (Wikimedia Commons)"
+  }
+ ],
+ "writing/ex-2": [
+  {
+   "source": "zip",
+   "file": "Paper/pencil-scratch-1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "3.3-9.3s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "writing/ex-3": [
+  {
+   "source": "zip",
+   "file": "Paper/pencil-scratch-2.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "20.2-26.2s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "writing/speech": [
+  {
+   "source": "commons",
+   "file": "File:Pencil scratchings.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Pencil_scratchings.ogg",
+   "license": "Public domain",
+   "author": "gypsygirl",
+   "excerpt": "68.2-74.2s",
+   "credit": "gypsygirl (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "writing/far": [
+  {
+   "source": "commons",
+   "file": "File:Pencil scratchings.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Pencil_scratchings.ogg",
+   "license": "Public domain",
+   "author": "gypsygirl",
+   "excerpt": "68.2-74.2s",
+   "credit": "gypsygirl (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "writing/phone": [
+  {
+   "source": "commons",
+   "file": "File:Pencil scratchings.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Pencil_scratchings.ogg",
+   "license": "Public domain",
+   "author": "gypsygirl",
+   "excerpt": "68.2-74.2s",
+   "credit": "gypsygirl (Wikimedia Commons)"
+  }
+ ],
+ "chewing/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Eating something crunchy (Gravity Sound).wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Eating_something_crunchy_(Gravity_Sound).wav",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "0.0-4.5s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  }
+ ],
+ "chewing/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Eating something crunchy 3 (Gravity Sound).wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Eating_something_crunchy_3_(Gravity_Sound).wav",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "1.0-7.0s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  }
+ ],
+ "chewing/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Chewing gum mouth open.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Chewing_gum_mouth_open.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "1.2-7.2s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "chewing/speech": [
+  {
+   "source": "commons",
+   "file": "File:Eating something crunchy (Gravity Sound).wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Eating_something_crunchy_(Gravity_Sound).wav",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "0.0-4.5s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "chewing/far": [
+  {
+   "source": "commons",
+   "file": "File:Eating something crunchy (Gravity Sound).wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Eating_something_crunchy_(Gravity_Sound).wav",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "0.0-4.5s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "chewing/phone": [
+  {
+   "source": "commons",
+   "file": "File:Eating something crunchy (Gravity Sound).wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Eating_something_crunchy_(Gravity_Sound).wav",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "0.0-4.5s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  }
+ ],
+ "drinking/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Drinking a glass of wat.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Drinking_a_glass_of_wat.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "3.0-9.0s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "drinking/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Swallowing gulp.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Swallowing_gulp.ogg",
+   "license": "Public domain",
+   "author": "gregoryweir",
+   "excerpt": "0.0-0.4s",
+   "credit": "gregoryweir (Wikimedia Commons)"
+  }
+ ],
+ "drinking/ex-3": [
+  {
+   "source": "zip",
+   "file": "Human/drink-sip-and-swallow.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-2.5s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "drinking/speech": [
+  {
+   "source": "commons",
+   "file": "File:Drinking a glass of wat.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Drinking_a_glass_of_wat.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "3.0-9.0s",
+   "credit": "ezwa (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "drinking/far": [
+  {
+   "source": "commons",
+   "file": "File:Drinking a glass of wat.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Drinking_a_glass_of_wat.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "3.0-9.0s",
+   "credit": "ezwa (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "drinking/phone": [
+  {
+   "source": "commons",
+   "file": "File:Drinking a glass of wat.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Drinking_a_glass_of_wat.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "3.0-9.0s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "heartbeat/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Heartbeat.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Heartbeat.ogg",
+   "license": "CC BY 3.0",
+   "author": "HerbertBoland",
+   "excerpt": "2.0-8.0s",
+   "credit": "HerbertBoland (Wikimedia Commons)"
+  }
+ ],
+ "heartbeat/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Human heart beating at 61 bpm (Cc-by-3.0).ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Human_heart_beating_at_61_bpm_(Cc-by-3.0).ogg",
+   "license": "CC BY 3.0",
+   "author": "\"Benboncan\" at Freesound.org http://www.freesound.org/people/Benboncan/",
+   "excerpt": "6.6-12.6s",
+   "credit": "\"Benboncan\" at Freesound.org http://www.freesound.org/people/Benboncan/ (Wikimedia Commons)"
+  }
+ ],
+ "heartbeat/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Athletic bradycardia wav.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Athletic_bradycardia_wav.wav",
+   "license": "CC0",
+   "author": "Athletearrhythmia",
+   "excerpt": "11.9-17.9s",
+   "credit": "Athletearrhythmia (Wikimedia Commons)"
+  }
+ ],
+ "heartbeat/speech": [
+  {
+   "source": "commons",
+   "file": "File:Heartbeat.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Heartbeat.ogg",
+   "license": "CC BY 3.0",
+   "author": "HerbertBoland",
+   "excerpt": "2.0-8.0s",
+   "credit": "HerbertBoland (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "heartbeat/far": [
+  {
+   "source": "commons",
+   "file": "File:Heartbeat.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Heartbeat.ogg",
+   "license": "CC BY 3.0",
+   "author": "HerbertBoland",
+   "excerpt": "2.0-8.0s",
+   "credit": "HerbertBoland (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "heartbeat/phone": [
+  {
+   "source": "commons",
+   "file": "File:Heartbeat.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Heartbeat.ogg",
+   "license": "CC BY 3.0",
+   "author": "HerbertBoland",
+   "excerpt": "2.0-8.0s",
+   "credit": "HerbertBoland (Wikimedia Commons)"
+  }
+ ],
+ "crowd/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:1 minute at the alexa mall in berlin.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:1_minute_at_the_alexa_mall_in_berlin.ogg",
+   "license": "Public domain",
+   "author": "thore",
+   "excerpt": "8.8-14.8s",
+   "credit": "thore (Wikimedia Commons)"
+  }
+ ],
+ "crowd/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:High school cafeteria.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:High_school_cafeteria.ogg",
+   "license": "Public domain",
+   "author": "aradlaw",
+   "excerpt": "71.5-77.5s",
+   "credit": "aradlaw (Wikimedia Commons)"
+  }
+ ],
+ "crowd/ex-3": [
+  {
+   "source": "url",
+   "file": "crowd_-_mall_ambience.mp3",
+   "url": "https://opengameart.org/content/free-general-ambience-sounds",
+   "license": "CC-BY-SA 4.0",
+   "author": "Gregor Quendel",
+   "excerpt": "50.0-56.0s",
+   "credit": "Gregor Quendel"
+  }
+ ],
+ "crowd/speech": [
+  {
+   "source": "commons",
+   "file": "File:1 minute at the alexa mall in berlin.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:1_minute_at_the_alexa_mall_in_berlin.ogg",
+   "license": "Public domain",
+   "author": "thore",
+   "excerpt": "8.8-14.8s",
+   "credit": "thore (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "crowd/far": [
+  {
+   "source": "commons",
+   "file": "File:1 minute at the alexa mall in berlin.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:1_minute_at_the_alexa_mall_in_berlin.ogg",
+   "license": "Public domain",
+   "author": "thore",
+   "excerpt": "8.8-14.8s",
+   "credit": "thore (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "crowd/phone": [
+  {
+   "source": "commons",
+   "file": "File:1 minute at the alexa mall in berlin.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:1_minute_at_the_alexa_mall_in_berlin.ogg",
+   "license": "Public domain",
+   "author": "thore",
+   "excerpt": "8.8-14.8s",
+   "credit": "thore (Wikimedia Commons)"
+  }
+ ],
+ "cheering/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:House cheer.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:House_cheer.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Yhos-",
+   "excerpt": "8.8-12.8s",
+   "credit": "Yhos- (Wikimedia Commons)"
+  }
+ ],
+ "cheering/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Clapping hurray.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Clapping_hurray.ogg",
+   "license": "Public domain",
+   "author": "starlite",
+   "excerpt": "1.3-5.3s",
+   "credit": "starlite (Wikimedia Commons)"
+  }
+ ],
+ "cheering/ex-3": [
+  {
+   "source": "zip",
+   "file": "Gregor Quendel - Free Crowd Cheering Sounds - MP3/Gregor Quendel - Crowd Cheering Sounds - 05 - Soft cheering - I.mp3",
+   "url": "https://opengameart.org/content/free-crowd-cheering-sounds",
+   "license": "CC-BY 4.0",
+   "author": "Gregor Quendel",
+   "excerpt": "7.6-11.6s",
+   "credit": "Gregor Quendel"
+  }
+ ],
+ "cheering/speech": [
+  {
+   "source": "commons",
+   "file": "File:House cheer.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:House_cheer.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Yhos-",
+   "excerpt": "8.8-12.8s",
+   "credit": "Yhos- (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cheering/far": [
+  {
+   "source": "commons",
+   "file": "File:House cheer.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:House_cheer.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Yhos-",
+   "excerpt": "8.8-12.8s",
+   "credit": "Yhos- (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cheering/phone": [
+  {
+   "source": "commons",
+   "file": "File:House cheer.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:House_cheer.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Yhos-",
+   "excerpt": "8.8-12.8s",
+   "credit": "Yhos- (Wikimedia Commons)"
+  }
+ ],
+ "bark/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Barking of a dog.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Barking_of_a_dog.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Amada44",
+   "excerpt": "0.0-2.6s",
+   "credit": "Amada44 (Wikimedia Commons)"
+  }
+ ],
+ "bark/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Woof (Gravity Sound).wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Woof_(Gravity_Sound).wav",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "excerpt": "10.8-16.8s",
+   "credit": "Gravity Sound (Wikimedia Commons)"
+  }
+ ],
+ "bark/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Perro labrador ladrando 01.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Perro_labrador_ladrando_01.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Luis Alvaz",
+   "excerpt": "0.0-1.7s",
+   "credit": "Luis Alvaz (Wikimedia Commons)"
+  }
+ ],
+ "bark/speech": [
+  {
+   "source": "commons",
+   "file": "File:Barking of a dog.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Barking_of_a_dog.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Amada44",
+   "excerpt": "0.0-2.6s",
+   "credit": "Amada44 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "bark/far": [
+  {
+   "source": "commons",
+   "file": "File:Barking of a dog.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Barking_of_a_dog.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Amada44",
+   "excerpt": "0.0-2.6s",
+   "credit": "Amada44 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "bark/phone": [
+  {
+   "source": "commons",
+   "file": "File:Barking of a dog.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Barking_of_a_dog.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Amada44",
+   "excerpt": "0.0-2.6s",
+   "credit": "Amada44 (Wikimedia Commons)"
+  }
+ ],
+ "growl/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Madsen-audio-01.flac",
+   "url": "https://commons.wikimedia.org/wiki/File:Madsen-audio-01.flac",
+   "license": "CC BY-SA 4.0",
+   "author": ".mw-parser-output .template-designermadsen-source{border:1px solid #a2a9b1;background-color:#f8f9fa;display:grid;padding-left:4em;padding-right:4em;grid-template-columns:1fr 8fr;grid-template-rows:1fr;grid-column-gap:4em}.mw-parser-output .tdm-flex-container-center{width:100%;margin:0px;padding:0px;display:flex;justify-content:center;flex-direction:row}.mw-parser-output .template-designermadsen-source .tdm-avatar{display:flex;justify-content:center;flex-wrap:wrap;flex-direction:column;width:100%;margin-top:1em;margin-bottom:1em}.mw-parser-output .tdm-avatar img{border:1px solid #a2a9b1;padding:0.25em 0.25em}.mw-parser-output .template-designermadsen-source .tdm-attributes{width:100%;display:flex;flex-direction:column;justify-content:center;margin-top:1em;margin-bottom:1em}.mw-parser-output .template-designermadsen-source .tdm-attributes p{width:100%;margin-top:0.5em;margin-bottom:0.5em}@media only screen and (max-width:764px){.mw-parser-output .template-designermadsen-source{grid-template-columns:1fr;grid-template-rows:1fr 1fr;grid-column-gap:0px}.mw-parser-output .template-designermadsen-source .tdm-avatar{}.mw-parser-output .template-designermadsen-source .tdm-attributes{justify-content:center;text-align:center}} Author: Kent Madsen Designermadsen Flickr Deviantart",
+   "excerpt": "0.0-4.0s",
+   "credit": ".mw-parser-output .template-designermadsen-source{border:1px solid #a2a9b1;background-color:#f8f9fa;display:grid;padding-left:4em;padding-right:4em;grid-template-columns:1fr 8fr;grid-template-rows:1fr;grid-column-gap:4em}.mw-parser-output .tdm-flex-container-center{width:100%;margin:0px;padding:0px;display:flex;justify-content:center;flex-direction:row}.mw-parser-output .template-designermadsen-source .tdm-avatar{display:flex;justify-content:center;flex-wrap:wrap;flex-direction:column;width:100%;margin-top:1em;margin-bottom:1em}.mw-parser-output .tdm-avatar img{border:1px solid #a2a9b1;padding:0.25em 0.25em}.mw-parser-output .template-designermadsen-source .tdm-attributes{width:100%;display:flex;flex-direction:column;justify-content:center;margin-top:1em;margin-bottom:1em}.mw-parser-output .template-designermadsen-source .tdm-attributes p{width:100%;margin-top:0.5em;margin-bottom:0.5em}@media only screen and (max-width:764px){.mw-parser-output .template-designermadsen-source{grid-template-columns:1fr;grid-template-rows:1fr 1fr;grid-column-gap:0px}.mw-parser-output .template-designermadsen-source .tdm-avatar{}.mw-parser-output .template-designermadsen-source .tdm-attributes{justify-content:center;text-align:center}} Author: Kent Madsen Designermadsen Flickr Deviantart (Wikimedia Commons)"
+  }
+ ],
+ "growl/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Dogs'-Expectation-about-Signalers'-Body-Size-by-Virtue-of-Their-Growls-pone.0015175.s007.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Dogs%27-Expectation-about-Signalers%27-Body-Size-by-Virtue-of-Their-Growls-pone.0015175.s007.ogg",
+   "license": "CC BY 2.5",
+   "author": "Faragó T, Pongrácz P, Miklósi Á, Huber L, Virányi Z, Range F",
+   "excerpt": "0.0-2.1s",
+   "credit": "Faragó T, Pongrácz P, Miklósi Á, Huber L, Virányi Z, Range F (Wikimedia Commons)"
+  }
+ ],
+ "growl/ex-3": [
+  {
+   "source": "url",
+   "file": "dog-frieda-grunt-96khz-01.flac",
+   "url": "https://opengameart.org/content/dog-grunt",
+   "license": "CC0",
+   "author": "qubodup",
+   "excerpt": "0.0-0.6s",
+   "credit": "qubodup"
+  }
+ ],
+ "growl/speech": [
+  {
+   "source": "commons",
+   "file": "File:Madsen-audio-01.flac",
+   "url": "https://commons.wikimedia.org/wiki/File:Madsen-audio-01.flac",
+   "license": "CC BY-SA 4.0",
+   "author": ".mw-parser-output .template-designermadsen-source{border:1px solid #a2a9b1;background-color:#f8f9fa;display:grid;padding-left:4em;padding-right:4em;grid-template-columns:1fr 8fr;grid-template-rows:1fr;grid-column-gap:4em}.mw-parser-output .tdm-flex-container-center{width:100%;margin:0px;padding:0px;display:flex;justify-content:center;flex-direction:row}.mw-parser-output .template-designermadsen-source .tdm-avatar{display:flex;justify-content:center;flex-wrap:wrap;flex-direction:column;width:100%;margin-top:1em;margin-bottom:1em}.mw-parser-output .tdm-avatar img{border:1px solid #a2a9b1;padding:0.25em 0.25em}.mw-parser-output .template-designermadsen-source .tdm-attributes{width:100%;display:flex;flex-direction:column;justify-content:center;margin-top:1em;margin-bottom:1em}.mw-parser-output .template-designermadsen-source .tdm-attributes p{width:100%;margin-top:0.5em;margin-bottom:0.5em}@media only screen and (max-width:764px){.mw-parser-output .template-designermadsen-source{grid-template-columns:1fr;grid-template-rows:1fr 1fr;grid-column-gap:0px}.mw-parser-output .template-designermadsen-source .tdm-avatar{}.mw-parser-output .template-designermadsen-source .tdm-attributes{justify-content:center;text-align:center}} Author: Kent Madsen Designermadsen Flickr Deviantart",
+   "excerpt": "0.0-4.0s",
+   "credit": ".mw-parser-output .template-designermadsen-source{border:1px solid #a2a9b1;background-color:#f8f9fa;display:grid;padding-left:4em;padding-right:4em;grid-template-columns:1fr 8fr;grid-template-rows:1fr;grid-column-gap:4em}.mw-parser-output .tdm-flex-container-center{width:100%;margin:0px;padding:0px;display:flex;justify-content:center;flex-direction:row}.mw-parser-output .template-designermadsen-source .tdm-avatar{display:flex;justify-content:center;flex-wrap:wrap;flex-direction:column;width:100%;margin-top:1em;margin-bottom:1em}.mw-parser-output .tdm-avatar img{border:1px solid #a2a9b1;padding:0.25em 0.25em}.mw-parser-output .template-designermadsen-source .tdm-attributes{width:100%;display:flex;flex-direction:column;justify-content:center;margin-top:1em;margin-bottom:1em}.mw-parser-output .template-designermadsen-source .tdm-attributes p{width:100%;margin-top:0.5em;margin-bottom:0.5em}@media only screen and (max-width:764px){.mw-parser-output .template-designermadsen-source{grid-template-columns:1fr;grid-template-rows:1fr 1fr;grid-column-gap:0px}.mw-parser-output .template-designermadsen-source .tdm-avatar{}.mw-parser-output .template-designermadsen-source .tdm-attributes{justify-content:center;text-align:center}} Author: Kent Madsen Designermadsen Flickr Deviantart (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "growl/far": [
+  {
+   "source": "commons",
+   "file": "File:Madsen-audio-01.flac",
+   "url": "https://commons.wikimedia.org/wiki/File:Madsen-audio-01.flac",
+   "license": "CC BY-SA 4.0",
+   "author": ".mw-parser-output .template-designermadsen-source{border:1px solid #a2a9b1;background-color:#f8f9fa;display:grid;padding-left:4em;padding-right:4em;grid-template-columns:1fr 8fr;grid-template-rows:1fr;grid-column-gap:4em}.mw-parser-output .tdm-flex-container-center{width:100%;margin:0px;padding:0px;display:flex;justify-content:center;flex-direction:row}.mw-parser-output .template-designermadsen-source .tdm-avatar{display:flex;justify-content:center;flex-wrap:wrap;flex-direction:column;width:100%;margin-top:1em;margin-bottom:1em}.mw-parser-output .tdm-avatar img{border:1px solid #a2a9b1;padding:0.25em 0.25em}.mw-parser-output .template-designermadsen-source .tdm-attributes{width:100%;display:flex;flex-direction:column;justify-content:center;margin-top:1em;margin-bottom:1em}.mw-parser-output .template-designermadsen-source .tdm-attributes p{width:100%;margin-top:0.5em;margin-bottom:0.5em}@media only screen and (max-width:764px){.mw-parser-output .template-designermadsen-source{grid-template-columns:1fr;grid-template-rows:1fr 1fr;grid-column-gap:0px}.mw-parser-output .template-designermadsen-source .tdm-avatar{}.mw-parser-output .template-designermadsen-source .tdm-attributes{justify-content:center;text-align:center}} Author: Kent Madsen Designermadsen Flickr Deviantart",
+   "excerpt": "0.0-4.0s",
+   "credit": ".mw-parser-output .template-designermadsen-source{border:1px solid #a2a9b1;background-color:#f8f9fa;display:grid;padding-left:4em;padding-right:4em;grid-template-columns:1fr 8fr;grid-template-rows:1fr;grid-column-gap:4em}.mw-parser-output .tdm-flex-container-center{width:100%;margin:0px;padding:0px;display:flex;justify-content:center;flex-direction:row}.mw-parser-output .template-designermadsen-source .tdm-avatar{display:flex;justify-content:center;flex-wrap:wrap;flex-direction:column;width:100%;margin-top:1em;margin-bottom:1em}.mw-parser-output .tdm-avatar img{border:1px solid #a2a9b1;padding:0.25em 0.25em}.mw-parser-output .template-designermadsen-source .tdm-attributes{width:100%;display:flex;flex-direction:column;justify-content:center;margin-top:1em;margin-bottom:1em}.mw-parser-output .template-designermadsen-source .tdm-attributes p{width:100%;margin-top:0.5em;margin-bottom:0.5em}@media only screen and (max-width:764px){.mw-parser-output .template-designermadsen-source{grid-template-columns:1fr;grid-template-rows:1fr 1fr;grid-column-gap:0px}.mw-parser-output .template-designermadsen-source .tdm-avatar{}.mw-parser-output .template-designermadsen-source .tdm-attributes{justify-content:center;text-align:center}} Author: Kent Madsen Designermadsen Flickr Deviantart (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "growl/phone": [
+  {
+   "source": "commons",
+   "file": "File:Madsen-audio-01.flac",
+   "url": "https://commons.wikimedia.org/wiki/File:Madsen-audio-01.flac",
+   "license": "CC BY-SA 4.0",
+   "author": ".mw-parser-output .template-designermadsen-source{border:1px solid #a2a9b1;background-color:#f8f9fa;display:grid;padding-left:4em;padding-right:4em;grid-template-columns:1fr 8fr;grid-template-rows:1fr;grid-column-gap:4em}.mw-parser-output .tdm-flex-container-center{width:100%;margin:0px;padding:0px;display:flex;justify-content:center;flex-direction:row}.mw-parser-output .template-designermadsen-source .tdm-avatar{display:flex;justify-content:center;flex-wrap:wrap;flex-direction:column;width:100%;margin-top:1em;margin-bottom:1em}.mw-parser-output .tdm-avatar img{border:1px solid #a2a9b1;padding:0.25em 0.25em}.mw-parser-output .template-designermadsen-source .tdm-attributes{width:100%;display:flex;flex-direction:column;justify-content:center;margin-top:1em;margin-bottom:1em}.mw-parser-output .template-designermadsen-source .tdm-attributes p{width:100%;margin-top:0.5em;margin-bottom:0.5em}@media only screen and (max-width:764px){.mw-parser-output .template-designermadsen-source{grid-template-columns:1fr;grid-template-rows:1fr 1fr;grid-column-gap:0px}.mw-parser-output .template-designermadsen-source .tdm-avatar{}.mw-parser-output .template-designermadsen-source .tdm-attributes{justify-content:center;text-align:center}} Author: Kent Madsen Designermadsen Flickr Deviantart",
+   "excerpt": "0.0-4.0s",
+   "credit": ".mw-parser-output .template-designermadsen-source{border:1px solid #a2a9b1;background-color:#f8f9fa;display:grid;padding-left:4em;padding-right:4em;grid-template-columns:1fr 8fr;grid-template-rows:1fr;grid-column-gap:4em}.mw-parser-output .tdm-flex-container-center{width:100%;margin:0px;padding:0px;display:flex;justify-content:center;flex-direction:row}.mw-parser-output .template-designermadsen-source .tdm-avatar{display:flex;justify-content:center;flex-wrap:wrap;flex-direction:column;width:100%;margin-top:1em;margin-bottom:1em}.mw-parser-output .tdm-avatar img{border:1px solid #a2a9b1;padding:0.25em 0.25em}.mw-parser-output .template-designermadsen-source .tdm-attributes{width:100%;display:flex;flex-direction:column;justify-content:center;margin-top:1em;margin-bottom:1em}.mw-parser-output .template-designermadsen-source .tdm-attributes p{width:100%;margin-top:0.5em;margin-bottom:0.5em}@media only screen and (max-width:764px){.mw-parser-output .template-designermadsen-source{grid-template-columns:1fr;grid-template-rows:1fr 1fr;grid-column-gap:0px}.mw-parser-output .template-designermadsen-source .tdm-avatar{}.mw-parser-output .template-designermadsen-source .tdm-attributes{justify-content:center;text-align:center}} Author: Kent Madsen Designermadsen Flickr Deviantart (Wikimedia Commons)"
+  }
+ ],
+ "cat-meow/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Meow.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Meow.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "The original uploader was Dcrosby at English Wikipedia.",
+   "excerpt": "0.0-0.8s",
+   "credit": "The original uploader was Dcrosby at English Wikipedia. (Wikimedia Commons)"
+  }
+ ],
+ "cat-meow/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Felis silvestris catus meows.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus_meows.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Tobias Puderer",
+   "excerpt": "6.5-10.5s",
+   "credit": "Tobias Puderer (Wikimedia Commons)"
+  }
+ ],
+ "cat-meow/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Meow of a Siamese cat - freemaster2.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Meow_of_a_Siamese_cat_-_freemaster2.wav",
+   "license": "CC0",
+   "author": "freemaster2",
+   "excerpt": "0.0-1.5s",
+   "credit": "freemaster2 (Wikimedia Commons)"
+  }
+ ],
+ "cat-meow/speech": [
+  {
+   "source": "commons",
+   "file": "File:Meow.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Meow.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "The original uploader was Dcrosby at English Wikipedia.",
+   "excerpt": "0.0-0.8s",
+   "credit": "The original uploader was Dcrosby at English Wikipedia. (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cat-meow/far": [
+  {
+   "source": "commons",
+   "file": "File:Meow.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Meow.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "The original uploader was Dcrosby at English Wikipedia.",
+   "excerpt": "0.0-0.8s",
+   "credit": "The original uploader was Dcrosby at English Wikipedia. (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cat-meow/phone": [
+  {
+   "source": "commons",
+   "file": "File:Meow.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Meow.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "The original uploader was Dcrosby at English Wikipedia.",
+   "excerpt": "0.0-0.8s",
+   "credit": "The original uploader was Dcrosby at English Wikipedia. (Wikimedia Commons)"
+  }
+ ],
+ "cat-purr/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Purr (10 sec loopable).ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Purr_(10_sec_loopable).ogg",
+   "license": "Public domain",
+   "author": "Insanejeff at English Wikipedia",
+   "excerpt": "3.4-9.4s",
+   "credit": "Insanejeff at English Wikipedia (Wikimedia Commons)"
+  }
+ ],
+ "cat-purr/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Whiskers' purr edit.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Whiskers%27_purr_edit.ogg",
+   "license": "Public domain",
+   "author": "Adam Cuerden, edited by X!",
+   "excerpt": "1.0-7.0s",
+   "credit": "Adam Cuerden, edited by X! (Wikimedia Commons)"
+  }
+ ],
+ "cat-purr/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Jupey purring.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Jupey_purring.wav",
+   "license": "CC BY-SA 4.0",
+   "author": "Pangea1962",
+   "excerpt": "2.3-8.3s",
+   "credit": "Pangea1962 (Wikimedia Commons)"
+  }
+ ],
+ "cat-purr/speech": [
+  {
+   "source": "commons",
+   "file": "File:Purr (10 sec loopable).ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Purr_(10_sec_loopable).ogg",
+   "license": "Public domain",
+   "author": "Insanejeff at English Wikipedia",
+   "excerpt": "3.4-9.4s",
+   "credit": "Insanejeff at English Wikipedia (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cat-purr/far": [
+  {
+   "source": "commons",
+   "file": "File:Purr (10 sec loopable).ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Purr_(10_sec_loopable).ogg",
+   "license": "Public domain",
+   "author": "Insanejeff at English Wikipedia",
+   "excerpt": "3.4-9.4s",
+   "credit": "Insanejeff at English Wikipedia (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cat-purr/phone": [
+  {
+   "source": "commons",
+   "file": "File:Purr (10 sec loopable).ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Purr_(10_sec_loopable).ogg",
+   "license": "Public domain",
+   "author": "Insanejeff at English Wikipedia",
+   "excerpt": "3.4-9.4s",
+   "credit": "Insanejeff at English Wikipedia (Wikimedia Commons)"
+  }
+ ],
+ "cat-hiss/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Cat hissing - Zabuhailo.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Cat_hissing_-_Zabuhailo.wav",
+   "license": "CC0",
+   "author": "Zabuhailo",
+   "excerpt": "0.0-2.3s",
+   "credit": "Zabuhailo (Wikimedia Commons)"
+  }
+ ],
+ "cat-hiss/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Gruñido gato (Chacha).ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Gru%C3%B1ido_gato_(Chacha).ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Luisalvaz",
+   "excerpt": "22.0-26.0s",
+   "credit": "Luisalvaz (Wikimedia Commons)"
+  }
+ ],
+ "cat-hiss/ex-3": [
+  {
+   "source": "url",
+   "file": "Cat%201.wav",
+   "url": "https://opengameart.org/content/cat-sfx",
+   "license": "CC-BY 3.0",
+   "author": "Macro",
+   "excerpt": "0.0-1.2s",
+   "credit": "Macro"
+  }
+ ],
+ "cat-hiss/speech": [
+  {
+   "source": "commons",
+   "file": "File:Cat hissing - Zabuhailo.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Cat_hissing_-_Zabuhailo.wav",
+   "license": "CC0",
+   "author": "Zabuhailo",
+   "excerpt": "0.0-2.3s",
+   "credit": "Zabuhailo (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cat-hiss/far": [
+  {
+   "source": "commons",
+   "file": "File:Cat hissing - Zabuhailo.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Cat_hissing_-_Zabuhailo.wav",
+   "license": "CC0",
+   "author": "Zabuhailo",
+   "excerpt": "0.0-2.3s",
+   "credit": "Zabuhailo (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cat-hiss/phone": [
+  {
+   "source": "commons",
+   "file": "File:Cat hissing - Zabuhailo.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:Cat_hissing_-_Zabuhailo.wav",
+   "license": "CC0",
+   "author": "Zabuhailo",
+   "excerpt": "0.0-2.3s",
+   "credit": "Zabuhailo (Wikimedia Commons)"
+  }
+ ],
+ "cow/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Single Cow Moo.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Single_Cow_Moo.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "MichaeltheFox8621",
+   "excerpt": "0.0-3.8s",
+   "credit": "MichaeltheFox8621 (Wikimedia Commons)"
+  }
+ ],
+ "cow/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Mudchute cow 1.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Mudchute_cow_1.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Secretlondon",
+   "excerpt": "0.0-2.2s",
+   "credit": "Secretlondon (Wikimedia Commons)"
+  }
+ ],
+ "cow/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Boerlaedje vatches.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Boerlaedje_vatches.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Lucyin",
+   "excerpt": "16.9-20.9s",
+   "credit": "Lucyin (Wikimedia Commons)"
+  }
+ ],
+ "cow/speech": [
+  {
+   "source": "commons",
+   "file": "File:Single Cow Moo.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Single_Cow_Moo.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "MichaeltheFox8621",
+   "excerpt": "0.0-3.8s",
+   "credit": "MichaeltheFox8621 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cow/far": [
+  {
+   "source": "commons",
+   "file": "File:Single Cow Moo.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Single_Cow_Moo.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "MichaeltheFox8621",
+   "excerpt": "0.0-3.8s",
+   "credit": "MichaeltheFox8621 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "cow/phone": [
+  {
+   "source": "commons",
+   "file": "File:Single Cow Moo.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Single_Cow_Moo.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "MichaeltheFox8621",
+   "excerpt": "0.0-3.8s",
+   "credit": "MichaeltheFox8621 (Wikimedia Commons)"
+  }
+ ],
+ "horse-neigh/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Wiehern.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Wiehern.ogg",
+   "license": "Public domain",
+   "author": "Hü.",
+   "excerpt": "0.0-2.3s",
+   "credit": "Hü. (Wikimedia Commons)"
+  }
+ ],
+ "horse-neigh/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Segregation-of-information-about-emotional-arousal-and-valence-in-horse-whinnies-srep09989-s2.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Segregation-of-information-about-emotional-arousal-and-valence-in-horse-whinnies-srep09989-s2.oga",
+   "license": "CC BY 4.0",
+   "author": "Briefer E, Maigrot A, Mandel R, Freymond S, Bachmann I, Hillmann E",
+   "excerpt": "3.8-7.8s",
+   "credit": "Briefer E, Maigrot A, Mandel R, Freymond S, Bachmann I, Hillmann E (Wikimedia Commons)"
+  }
+ ],
+ "horse-neigh/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Segregation-of-information-about-emotional-arousal-and-valence-in-horse-whinnies-srep09989-s3.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Segregation-of-information-about-emotional-arousal-and-valence-in-horse-whinnies-srep09989-s3.oga",
+   "license": "CC BY 4.0",
+   "author": "Briefer E, Maigrot A, Mandel R, Freymond S, Bachmann I, Hillmann E",
+   "excerpt": "11.9-15.9s",
+   "credit": "Briefer E, Maigrot A, Mandel R, Freymond S, Bachmann I, Hillmann E (Wikimedia Commons)"
+  }
+ ],
+ "horse-neigh/speech": [
+  {
+   "source": "commons",
+   "file": "File:Wiehern.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Wiehern.ogg",
+   "license": "Public domain",
+   "author": "Hü.",
+   "excerpt": "0.0-2.3s",
+   "credit": "Hü. (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "horse-neigh/far": [
+  {
+   "source": "commons",
+   "file": "File:Wiehern.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Wiehern.ogg",
+   "license": "Public domain",
+   "author": "Hü.",
+   "excerpt": "0.0-2.3s",
+   "credit": "Hü. (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "horse-neigh/phone": [
+  {
+   "source": "commons",
+   "file": "File:Wiehern.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Wiehern.ogg",
+   "license": "Public domain",
+   "author": "Hü.",
+   "excerpt": "0.0-2.3s",
+   "credit": "Hü. (Wikimedia Commons)"
+  }
+ ],
+ "horse-hooves/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:WWS Clatterofhorseshoesonthepavement.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Clatterofhorseshoesonthepavement.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Museum of Municipal Engineering",
+   "excerpt": "1.0-7.0s",
+   "credit": "Work With Sounds / Museum of Municipal Engineering (Wikimedia Commons)"
+  }
+ ],
+ "horse-hooves/speech": [
+  {
+   "source": "commons",
+   "file": "File:WWS Clatterofhorseshoesonthepavement.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Clatterofhorseshoesonthepavement.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Museum of Municipal Engineering",
+   "excerpt": "1.0-7.0s",
+   "credit": "Work With Sounds / Museum of Municipal Engineering (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "horse-hooves/far": [
+  {
+   "source": "commons",
+   "file": "File:WWS Clatterofhorseshoesonthepavement.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Clatterofhorseshoesonthepavement.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Museum of Municipal Engineering",
+   "excerpt": "1.0-7.0s",
+   "credit": "Work With Sounds / Museum of Municipal Engineering (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "horse-hooves/phone": [
+  {
+   "source": "commons",
+   "file": "File:WWS Clatterofhorseshoesonthepavement.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Clatterofhorseshoesonthepavement.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Museum of Municipal Engineering",
+   "excerpt": "1.0-7.0s",
+   "credit": "Work With Sounds / Museum of Municipal Engineering (Wikimedia Commons)"
+  }
+ ],
+ "crickets/ex-1": [
+  {
+   "source": "url",
+   "file": "crickets_0.mp3",
+   "url": "https://opengameart.org/content/crickets",
+   "license": "CC-BY 3.0",
+   "author": "dklon",
+   "excerpt": "11.5-17.5s",
+   "credit": "dklon"
+  }
+ ],
+ "crickets/speech": [
+  {
+   "source": "url",
+   "file": "crickets_0.mp3",
+   "url": "https://opengameart.org/content/crickets",
+   "license": "CC-BY 3.0",
+   "author": "dklon",
+   "excerpt": "11.5-17.5s",
+   "credit": "dklon"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "crickets/far": [
+  {
+   "source": "url",
+   "file": "crickets_0.mp3",
+   "url": "https://opengameart.org/content/crickets",
+   "license": "CC-BY 3.0",
+   "author": "dklon",
+   "excerpt": "11.5-17.5s",
+   "credit": "dklon"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "crickets/phone": [
+  {
+   "source": "url",
+   "file": "crickets_0.mp3",
+   "url": "https://opengameart.org/content/crickets",
+   "license": "CC-BY 3.0",
+   "author": "dklon",
+   "excerpt": "11.5-17.5s",
+   "credit": "dklon"
+  }
+ ],
+ "door-slam/ex-1": [
+  {
+   "source": "zip",
+   "file": "Audio/doorClose_4.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.6s",
+   "credit": "Kenney (kenney.nl)"
+  }
+ ],
+ "door-slam/speech": [
+  {
+   "source": "zip",
+   "file": "Audio/doorClose_4.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.6s",
+   "credit": "Kenney (kenney.nl)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "door-slam/far": [
+  {
+   "source": "zip",
+   "file": "Audio/doorClose_4.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.6s",
+   "credit": "Kenney (kenney.nl)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "door-slam/phone": [
+  {
+   "source": "zip",
+   "file": "Audio/doorClose_4.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.6s",
+   "credit": "Kenney (kenney.nl)"
+  }
+ ],
+ "keys/ex-1": [
+  {
+   "source": "zip",
+   "file": "Keys, Locks, Door/Key_Lock_Door_01.wav",
+   "url": "https://opengameart.org/content/202-more-sound-effects",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-2.6s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "keys/speech": [
+  {
+   "source": "zip",
+   "file": "Keys, Locks, Door/Key_Lock_Door_01.wav",
+   "url": "https://opengameart.org/content/202-more-sound-effects",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-2.6s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "keys/far": [
+  {
+   "source": "zip",
+   "file": "Keys, Locks, Door/Key_Lock_Door_01.wav",
+   "url": "https://opengameart.org/content/202-more-sound-effects",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-2.6s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "keys/phone": [
+  {
+   "source": "zip",
+   "file": "Keys, Locks, Door/Key_Lock_Door_01.wav",
+   "url": "https://opengameart.org/content/202-more-sound-effects",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-2.6s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "microwave/ex-1": [
+  {
+   "source": "url",
+   "file": "microwave01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "59.4-65.4s",
+   "credit": "bretbernhoft"
+  }
+ ],
+ "microwave/speech": [
+  {
+   "source": "url",
+   "file": "microwave01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "59.4-65.4s",
+   "credit": "bretbernhoft"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "microwave/far": [
+  {
+   "source": "url",
+   "file": "microwave01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "59.4-65.4s",
+   "credit": "bretbernhoft"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "microwave/phone": [
+  {
+   "source": "url",
+   "file": "microwave01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "59.4-65.4s",
+   "credit": "bretbernhoft"
+  }
+ ],
+ "vacuum/ex-1": [
+  {
+   "source": "url",
+   "file": "vacuumcleaner01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "20.8-26.8s",
+   "credit": "bretbernhoft"
+  }
+ ],
+ "vacuum/speech": [
+  {
+   "source": "url",
+   "file": "vacuumcleaner01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "20.8-26.8s",
+   "credit": "bretbernhoft"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "vacuum/far": [
+  {
+   "source": "url",
+   "file": "vacuumcleaner01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "20.8-26.8s",
+   "credit": "bretbernhoft"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "vacuum/phone": [
+  {
+   "source": "url",
+   "file": "vacuumcleaner01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "20.8-26.8s",
+   "credit": "bretbernhoft"
+  }
+ ],
+ "metronome/ex-1": [
+  {
+   "source": "generated",
+   "preset": "metronome",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "metronome/ex-2": [
+  {
+   "source": "generated",
+   "preset": "metronome-fast",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "metronome/speech": [
+  {
+   "source": "generated",
+   "preset": "metronome",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "metronome/far": [
+  {
+   "source": "generated",
+   "preset": "metronome",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "metronome/phone": [
+  {
+   "source": "generated",
+   "preset": "metronome",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "phone-vibrate/ex-1": [
+  {
+   "source": "zip",
+   "file": "Technology/Phone_vibrate.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "4.5-10.5s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "phone-vibrate/speech": [
+  {
+   "source": "zip",
+   "file": "Technology/Phone_vibrate.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "4.5-10.5s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "phone-vibrate/far": [
+  {
+   "source": "zip",
+   "file": "Technology/Phone_vibrate.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "4.5-10.5s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "phone-vibrate/phone": [
+  {
+   "source": "zip",
+   "file": "Technology/Phone_vibrate.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "4.5-10.5s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "notification/ex-1": [
+  {
+   "source": "generated",
+   "preset": "chime",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "notification/ex-2": [
+  {
+   "source": "generated",
+   "preset": "chime-3",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "notification/ex-3": [
+  {
+   "source": "generated",
+   "preset": "ping",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "notification/speech": [
+  {
+   "source": "generated",
+   "preset": "chime",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "notification/far": [
+  {
+   "source": "generated",
+   "preset": "chime",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "notification/phone": [
+  {
+   "source": "generated",
+   "preset": "chime",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "zipper/ex-1": [
+  {
+   "source": "url",
+   "file": "zipper-1.wav",
+   "url": "https://opengameart.org/content/zipper",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "excerpt": "0.0-0.8s",
+   "credit": "AntumDeluge"
+  }
+ ],
+ "zipper/ex-2": [
+  {
+   "source": "zip",
+   "file": "Cloth, Rustle/212180__owlstorm__bag-zipper.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "1.6-5.6s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "zipper/speech": [
+  {
+   "source": "url",
+   "file": "zipper-1.wav",
+   "url": "https://opengameart.org/content/zipper",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "excerpt": "0.0-0.8s",
+   "credit": "AntumDeluge"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "zipper/far": [
+  {
+   "source": "url",
+   "file": "zipper-1.wav",
+   "url": "https://opengameart.org/content/zipper",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "excerpt": "0.0-0.8s",
+   "credit": "AntumDeluge"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "zipper/phone": [
+  {
+   "source": "url",
+   "file": "zipper-1.wav",
+   "url": "https://opengameart.org/content/zipper",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "excerpt": "0.0-0.8s",
+   "credit": "AntumDeluge"
+  }
+ ],
+ "paper-rustle/ex-1": [
+  {
+   "source": "zip",
+   "file": "Paper/crumples1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-1.8s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "paper-rustle/speech": [
+  {
+   "source": "zip",
+   "file": "Paper/crumples1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-1.8s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "paper-rustle/far": [
+  {
+   "source": "zip",
+   "file": "Paper/crumples1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-1.8s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "paper-rustle/phone": [
+  {
+   "source": "zip",
+   "file": "Paper/crumples1.wav",
+   "url": "https://opengameart.org/content/sound-effects-pack",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-1.8s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "paper-tear/ex-1": [
+  {
+   "source": "zip",
+   "file": "Paper & Stationery/Stationery_01.wav",
+   "url": "https://opengameart.org/content/202-more-sound-effects",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-0.8s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "paper-tear/speech": [
+  {
+   "source": "zip",
+   "file": "Paper & Stationery/Stationery_01.wav",
+   "url": "https://opengameart.org/content/202-more-sound-effects",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-0.8s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "paper-tear/far": [
+  {
+   "source": "zip",
+   "file": "Paper & Stationery/Stationery_01.wav",
+   "url": "https://opengameart.org/content/202-more-sound-effects",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-0.8s",
+   "credit": "OwlishMedia"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "paper-tear/phone": [
+  {
+   "source": "zip",
+   "file": "Paper & Stationery/Stationery_01.wav",
+   "url": "https://opengameart.org/content/202-more-sound-effects",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "0.0-0.8s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "scissors/ex-1": [
+  {
+   "source": "url",
+   "file": "scissors_0.ogg",
+   "url": "https://opengameart.org/content/scissors",
+   "license": "CC0",
+   "author": "themightyglider",
+   "excerpt": "0.0-1.2s",
+   "credit": "themightyglider"
+  }
+ ],
+ "scissors/ex-2": [
+  {
+   "source": "url",
+   "file": "hair_scissors_01.mp3",
+   "url": "https://opengameart.org/content/various-scissors",
+   "license": "CC0",
+   "author": "sinny",
+   "excerpt": "0.0-0.3s",
+   "credit": "sinny"
+  }
+ ],
+ "scissors/speech": [
+  {
+   "source": "url",
+   "file": "scissors_0.ogg",
+   "url": "https://opengameart.org/content/scissors",
+   "license": "CC0",
+   "author": "themightyglider",
+   "excerpt": "0.0-1.2s",
+   "credit": "themightyglider"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "scissors/far": [
+  {
+   "source": "url",
+   "file": "scissors_0.ogg",
+   "url": "https://opengameart.org/content/scissors",
+   "license": "CC0",
+   "author": "themightyglider",
+   "excerpt": "0.0-1.2s",
+   "credit": "themightyglider"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "scissors/phone": [
+  {
+   "source": "url",
+   "file": "scissors_0.ogg",
+   "url": "https://opengameart.org/content/scissors",
+   "license": "CC0",
+   "author": "themightyglider",
+   "excerpt": "0.0-1.2s",
+   "credit": "themightyglider"
+  }
+ ],
+ "siren/ex-1": [
+  {
+   "source": "generated",
+   "preset": "siren-wail",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "siren/ex-2": [
+  {
+   "source": "generated",
+   "preset": "siren-yelp",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "siren/ex-3": [
+  {
+   "source": "generated",
+   "preset": "siren-hilo",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "siren/ex-4": [
+  {
+   "source": "generated",
+   "preset": "siren-passby",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "siren/speech": [
+  {
+   "source": "generated",
+   "preset": "siren-wail",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "siren/far": [
+  {
+   "source": "generated",
+   "preset": "siren-wail",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "siren/phone": [
+  {
+   "source": "generated",
+   "preset": "siren-wail",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "smoke-alarm/ex-1": [
+  {
+   "source": "generated",
+   "preset": "smoke-t3",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "smoke-alarm/ex-2": [
+  {
+   "source": "generated",
+   "preset": "smoke-chirp",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "smoke-alarm/speech": [
+  {
+   "source": "generated",
+   "preset": "smoke-t3",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "smoke-alarm/far": [
+  {
+   "source": "generated",
+   "preset": "smoke-t3",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "smoke-alarm/phone": [
+  {
+   "source": "generated",
+   "preset": "smoke-t3",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "reversing-beeper/ex-1": [
+  {
+   "source": "generated",
+   "preset": "reversing",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "reversing-beeper/speech": [
+  {
+   "source": "generated",
+   "preset": "reversing",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "reversing-beeper/far": [
+  {
+   "source": "generated",
+   "preset": "reversing",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "reversing-beeper/phone": [
+  {
+   "source": "generated",
+   "preset": "reversing",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "buzzer/ex-1": [
+  {
+   "source": "generated",
+   "preset": "buzzer",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "buzzer/speech": [
+  {
+   "source": "generated",
+   "preset": "buzzer",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "buzzer/far": [
+  {
+   "source": "generated",
+   "preset": "buzzer",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "buzzer/phone": [
+  {
+   "source": "generated",
+   "preset": "buzzer",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dial-tone/ex-1": [
+  {
+   "source": "generated",
+   "preset": "dial-us",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dial-tone/ex-2": [
+  {
+   "source": "generated",
+   "preset": "dial-uk",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dial-tone/ex-3": [
+  {
+   "source": "generated",
+   "preset": "busy-us",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dial-tone/ex-4": [
+  {
+   "source": "generated",
+   "preset": "ringback-us",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dial-tone/ex-5": [
+  {
+   "source": "generated",
+   "preset": "dtmf",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dial-tone/speech": [
+  {
+   "source": "generated",
+   "preset": "dial-us",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dial-tone/far": [
+  {
+   "source": "generated",
+   "preset": "dial-us",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dial-tone/phone": [
+  {
+   "source": "generated",
+   "preset": "dial-us",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "hammering/ex-1": [
+  {
+   "source": "url",
+   "file": "forger_0.ogg",
+   "url": "https://opengameart.org/content/hammer-on-anvil",
+   "license": "CC0",
+   "author": "themightyglider",
+   "excerpt": "0.0-2.4s",
+   "credit": "themightyglider"
+  }
+ ],
+ "hammering/ex-2": [
+  {
+   "source": "url",
+   "file": "hjm-smithing.wav",
+   "url": "https://opengameart.org/content/smithing-sound",
+   "license": "CC-BY 3.0, CC-BY-SA 3.0, GPL 2.0, GPL 3.0, OGA-BY 3.0",
+   "author": "Varkalandar",
+   "excerpt": "0.0-4.0s",
+   "credit": "Varkalandar"
+  }
+ ],
+ "hammering/speech": [
+  {
+   "source": "url",
+   "file": "forger_0.ogg",
+   "url": "https://opengameart.org/content/hammer-on-anvil",
+   "license": "CC0",
+   "author": "themightyglider",
+   "excerpt": "0.0-2.4s",
+   "credit": "themightyglider"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "hammering/far": [
+  {
+   "source": "url",
+   "file": "forger_0.ogg",
+   "url": "https://opengameart.org/content/hammer-on-anvil",
+   "license": "CC0",
+   "author": "themightyglider",
+   "excerpt": "0.0-2.4s",
+   "credit": "themightyglider"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "hammering/phone": [
+  {
+   "source": "url",
+   "file": "forger_0.ogg",
+   "url": "https://opengameart.org/content/hammer-on-anvil",
+   "license": "CC0",
+   "author": "themightyglider",
+   "excerpt": "0.0-2.4s",
+   "credit": "themightyglider"
+  }
+ ],
+ "electrical-hum/ex-1": [
+  {
+   "source": "generated",
+   "preset": "hum-50",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "electrical-hum/ex-2": [
+  {
+   "source": "generated",
+   "preset": "hum-60",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "electrical-hum/speech": [
+  {
+   "source": "generated",
+   "preset": "hum-50",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "electrical-hum/far": [
+  {
+   "source": "generated",
+   "preset": "hum-50",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "electrical-hum/phone": [
+  {
+   "source": "generated",
+   "preset": "hum-50",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "glass-clink/ex-1": [
+  {
+   "source": "zip",
+   "file": "Audio/impactGlass_light_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.2s",
+   "credit": "Kenney (kenney.nl)"
+  }
+ ],
+ "glass-clink/speech": [
+  {
+   "source": "zip",
+   "file": "Audio/impactGlass_light_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.2s",
+   "credit": "Kenney (kenney.nl)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "glass-clink/far": [
+  {
+   "source": "zip",
+   "file": "Audio/impactGlass_light_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.2s",
+   "credit": "Kenney (kenney.nl)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "glass-clink/phone": [
+  {
+   "source": "zip",
+   "file": "Audio/impactGlass_light_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.2s",
+   "credit": "Kenney (kenney.nl)"
+  }
+ ],
+ "thud/ex-1": [
+  {
+   "source": "zip",
+   "file": "Audio/impactSoft_heavy_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.5s",
+   "credit": "Kenney (kenney.nl)"
+  }
+ ],
+ "thud/ex-2": [
+  {
+   "source": "zip",
+   "file": "Audio/impactSoft_heavy_001.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.6s",
+   "credit": "Kenney (kenney.nl)"
+  }
+ ],
+ "thud/speech": [
+  {
+   "source": "zip",
+   "file": "Audio/impactSoft_heavy_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.5s",
+   "credit": "Kenney (kenney.nl)"
+  },
+  {
+   "source": "generated",
+   "preset": "speech-shaped noise",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "thud/far": [
+  {
+   "source": "zip",
+   "file": "Audio/impactSoft_heavy_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.5s",
+   "credit": "Kenney (kenney.nl)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "thud/phone": [
+  {
+   "source": "zip",
+   "file": "Audio/impactSoft_heavy_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "license": "CC0",
+   "author": "Kenney (kenney.nl)",
+   "excerpt": "0.0-0.5s",
+   "credit": "Kenney (kenney.nl)"
+  }
+ ]
+}
