@@ -11,7 +11,7 @@
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="preload" href="assets/fonts/instrument-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/app.css?v=0901d25469">
   <script>
     // Apply the saved theme before first paint to avoid a flash.
     try { var t = localStorage.getItem('es.theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
@@ -36,6 +36,7 @@
       <nav class="nav">
         <a href="#/" data-nav="library"><svg aria-hidden="true"><use href="#i-library"/></svg>Library</a>
         <a href="#/identify" data-nav="identify"><svg aria-hidden="true"><use href="#i-identify"/></svg>Not sure?</a>
+        <a href="#/words" data-nav="words"><svg aria-hidden="true"><use href="#i-words"/></svg>Words</a>
         <a href="#/quiz" data-nav="quiz"><svg aria-hidden="true"><use href="#i-quiz"/></svg>Quiz</a>
         <a href="#/compare" data-nav="compare"><svg aria-hidden="true"><use href="#i-compare"/></svg>Compare<span class="nav-count" data-compare-count hidden></span></a>
       </nav>
@@ -97,7 +98,7 @@
     <div class="palette-box" role="dialog" aria-modal="true" aria-label="Search sounds">
       <div class="palette-input">
         <svg aria-hidden="true"><use href="#i-search"/></svg>
-        <input type="text" placeholder="Sound, alias or texture: “cough”, “sizzle”, “hoover”" autocomplete="off" spellcheck="false" data-palette-input aria-controls="palette-results">
+        <input type="text" placeholder="Any word for a sound: “groan”, “whimper”, “achoo”, “clatter”" autocomplete="off" spellcheck="false" data-palette-input aria-controls="palette-results">
         <kbd>esc</kbd>
       </div>
       <ul class="palette-results" id="palette-results" role="listbox" data-palette-results></ul>
@@ -130,15 +131,16 @@
       <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 11v5.5M12 7.5v.5"/></symbol>
       <symbol id="i-wave" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M3 12h1m3-4v8m3-11v14m3-10v6m3-9v12m3-8v4m3-1v-2"/></symbol>
       <symbol id="i-quiz" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.3M12 17v.2"/></symbol>
+      <symbol id="i-words" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 18 7.5 6l4.5 12M4.6 14h5.8M14.5 10.5h4.2a1.8 1.8 0 0 1 1.8 1.8V18m0-3.5h-3.7a1.8 1.8 0 0 0 0 3.5h3.7"/></symbol>
       <symbol id="i-flip" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7 4v16M7 4 4 7m3-3 3 3m7 13V4m0 16-3-3m3 3 3-3"/></symbol>
     </defs>
   </svg>
 
-  <script src="js/data.js"></script>
-  <script src="js/dsp.js"></script>
-  <script src="js/audio.js"></script>
-  <script src="js/ui.js"></script>
-  <script src="js/views.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/data.js?v=1bf5db42b0"></script>
+  <script src="js/dsp.js?v=465b5f0b39"></script>
+  <script src="js/audio.js?v=39ee12ed2f"></script>
+  <script src="js/ui.js?v=0d73df2201"></script>
+  <script src="js/views.js?v=5f1b31a6f7"></script>
+  <script src="js/app.js?v=2310124843"></script>
 </body>
 </html>

@@ -1,0 +1,1074 @@
+# How and why: voice, body and animal sounds.
+# One entry per sound id in library.yaml (families voice, body, animals).
+
+# ---------------------------------------------------------------- voice
+
+cough:
+  how: >-
+    The vocal folds snap shut, the chest and belly muscles squeeze to build pressure in the lungs, then the folds burst open and air rushes out at high speed. It is a reflex for clearing the airway, though it can also be done on purpose.
+  why: >-
+    The sudden release gives a hard, explosive start, and the fast, turbulent air makes a rough noise rather than a note, because the vocal folds are blown apart instead of vibrating evenly. Each cough lasts a fraction of a second, and because one blast rarely clears the airway, they often come in uneven clusters.
+  where: >-
+    Heard anywhere people gather, especially in waiting rooms, concert halls and offices in winter; in film it is close-up and used to signal illness or an awkward pause.
+  vs:
+    throat-clear: >-
+      A cough is a reflex: the closed vocal folds burst open under high pressure, so it starts with an explosive pop. Clearing the throat is a controlled rasp with lower pressure and some voice in it. Listen for the pop: a cough has it, a throat clear doesn't.
+    sneeze: >-
+      A sneeze is set off by an itch in the nose and starts with a deep breath in before the blast goes out through nose and mouth together. A cough needs no wind-up and comes from the chest. Listen for the "ah... ah..." before the burst: only a sneeze has it.
+    laugh: >-
+      In laughter the vocal folds vibrate, so each burst carries a pitch, and the bursts come in an even, bouncing rhythm. A cough blows the folds apart, giving noise with little pitch and an uneven rhythm. If you can hum along with the bursts, it is a laugh.
+    bark: >-
+      A dog's bark is voiced: the dog's vocal folds vibrate, so the bark has a clear pitch, high for small dogs and low for big ones. A cough is mostly unpitched rushing air. Listen for a note inside the burst: a bark has one, a cough is just noise.
+
+throat-clear:
+  how: >-
+    The vocal folds are pulled together and air is pushed through them with moderate force, so they rattle against each other and shake loose mucus. It is a deliberate action, often in two steps.
+  why: >-
+    The pressure is lower than in a cough, so there is no explosive start, just a short scraping rasp. The folds partly vibrate, which gives the rasp a little voice and pitch, and people often shape it into a two-part "a-hem" with a small rise or fall between the parts.
+  where: >-
+    Heard before someone speaks or to get attention politely; in film it is a stock cue for "excuse me" or awkwardness, close-up in quiet scenes.
+  vs:
+    cough: >-
+      A cough builds high pressure behind closed vocal folds and then bursts, so it starts with a pop. A throat clear is a gentler, controlled rasp with some voice in it. Listen for the start: an explosion means cough, a scrape means throat clear.
+    grunt: >-
+      A grunt happens when the belly tightens against a closed throat during effort, then lets out a short, low, pushed sound. A throat clear is a scraping rasp aimed at the throat itself. Listen for scrape versus push: a throat clear rattles, a grunt thuds out low and clipped.
+    scoff: >-
+      A scoff is a puff of air through the nose or lips with almost no voice. A throat clear is made at the vocal folds and has a rasp and some pitch. Listen for the rasp: a scoff is just a breathy "pff", with nothing rattling.
+
+sneeze:
+  how: >-
+    An irritation inside the nose triggers a reflex: a deep breath in, a brief closing of the throat, then a violent blast of air out through the nose and mouth together.
+  why: >-
+    The breath in is heard as a rising "ah... ah..." because the vocal folds often catch on it. The release is a single, very fast, unpitched spray of air, so it sounds like a sharp "choo" or "tish", noisy and bright, and it is over almost at once.
+  where: >-
+    Heard indoors and outdoors in allergy and cold season; in film and video it is close-up, often used as a comic beat or to give away a hiding character.
+  vs:
+    cough: >-
+      A sneeze is a nose reflex with a deep breath in first, then one blast through nose and mouth. A cough comes from the chest with no wind-up and tends to repeat. Listen for the build-up: a sneeze has an "ah... ah..." before it, a cough does not.
+    sniff: >-
+      A sniff pulls air in through the nose; a sneeze blasts it out. That is the key, and you can hear it: a sniff is a short hiss that sounds sucked in, while a sneeze is an outward spray with a sharp, explosive edge.
+
+sniff:
+  how: >-
+    A short, quick breath in through the nose, made by pulling with the chest while the mouth stays closed. The air speeds up through the narrow nostrils.
+  why: >-
+    Fast air squeezing through the narrow nostrils makes a hissy noise with no voice in it. It is short, often under half a second, and with a cold the mucus adds a wet, bubbly edge. Because the air goes in, the sound has a sucking quality rather than a blowing one.
+  where: >-
+    Heard from people with colds, people smelling something, or people crying; in recordings it is close-up and quiet, easy to miss at a distance.
+  vs:
+    sneeze: >-
+      A sniff draws air in through the nose; a sneeze blows it out violently after a deep breath in. Listen for direction and force: a sniff is a small inward hiss, a sneeze is a loud outward burst.
+    sigh: >-
+      A sigh is a long, slow breath out, usually through the mouth, often with some voice. A sniff is a short, sharp breath in through the nose. Listen for length and direction: a sniff is over in an instant and sounds sucked in.
+    scoff: >-
+      A scoff is a short puff of air out through the nose or lips; a sniff is a short pull of air in through the nose. Both are quick and voiceless, so listen for the direction: a scoff blows outward, a sniff sounds sucked in.
+
+laugh:
+  how: >-
+    The muscles between the ribs and the diaphragm (the sheet of muscle under the lungs) contract in quick, repeated pulses, pushing out short bursts of air while the vocal folds vibrate.
+  why: >-
+    Because the vocal folds vibrate, each "ha" has a pitch, and the pulses come several times a second in a bouncing rhythm. A hearty laugh opens the mouth wide and gets loud, and the pitch often rises at the start and drifts down as the breath runs out, with gasps in between when the laugh goes on.
+  where: >-
+    Heard at social gatherings, in comedy clubs and in conversation; in TV and film it appears both from on-screen characters and as audience laughter.
+  vs:
+    crying: >-
+      Laughing and sobbing both use repeated breath pulses, but sobbing comes with shaky, catching breaths in and a strained voice that falls and breaks. Laughter is lighter and bounces. Listen for the in-breaths: in sobbing they are jerky and gulping.
+    giggle: >-
+      A giggle is the same mechanism with a smaller, higher, often half-held-back voice, so the pulses are quieter, faster and breathier. A full laugh is louder and lower. Listen for size: a laugh fills the room, a giggle stays small.
+    chuckle: >-
+      A chuckle keeps the mouth closed or nearly closed, so the sound is low, soft and muffled in the chest and nose. A laugh opens the mouth and lets the voice out. Listen for openness: a laugh rings, a chuckle stays muffled.
+    cough: >-
+      In a laugh the vocal folds vibrate, giving each burst a pitch; in a cough they are blown apart, giving rough noise. Listen for a note and a steady bounce: a laugh has both, a cough has neither.
+
+giggle:
+  how: >-
+    The same pulsing breath as a laugh, but with smaller, quicker pushes and a raised, lighter voice, often partly held back with the mouth half-closed.
+  why: >-
+    A higher, tighter voice gives each pulse a high pitch, and holding back lets extra air leak through, so giggles sound breathy. The pulses are fast and quiet, and they often come in short runs that stop and restart as the person tries to hold them in.
+  where: >-
+    Heard from children and from adults in playful or nervous moments; in film it is often off-screen or whispered in quiet scenes.
+  vs:
+    laugh: >-
+      A full laugh opens the mouth and pushes harder, so it is louder, lower and fuller. A giggle is small, high and breathy, often half-suppressed. Listen for volume and pitch: a giggle stays high and light.
+    baby-laugh: >-
+      A baby's voice comes from a very small larynx (voice box), so its pitch is much higher, and babies often laugh on the breath in as well as the breath out, which gives squeals and gasps. An adult giggle is lower and more controlled. Listen for squeals: they mark the baby.
+
+chuckle:
+  how: >-
+    Small laughing pulses pushed from the chest while the mouth stays closed or barely open, so most of the sound comes out through the nose.
+  why: >-
+    The closed mouth muffles the voice and lets low pitches through, so a chuckle sounds low, soft and rounded, like "heh-heh" or "hmm-hmm". It is short, with only a few pulses, and rarely gets loud.
+  where: >-
+    Heard in quiet conversation, often from older men in film, in meetings or while reading; it needs a close microphone to be heard clearly.
+  vs:
+    laugh: >-
+      A laugh opens the mouth and lets the voice ring out, so it is louder and brighter. A chuckle keeps the sound in the chest and nose. Listen for openness: a chuckle stays muffled and low.
+    scoff: >-
+      A chuckle is voiced and comes as a short series of pulses; a scoff is one voiceless puff of air. Listen for pitch and count: a chuckle hums a few times, a scoff is a single "pff".
+    grunt: >-
+      A grunt is one strained, pushed sound from effort, made by releasing a tight throat. A chuckle is relaxed and repeats. Listen for repetition and tension: a grunt is single and tight.
+
+scoff:
+  how: >-
+    A single short puff of air pushed out through the nose or through loosely closed lips, usually with no vocal fold vibration.
+  why: >-
+    With no voice, the sound is just air noise, a quick "pff" or "hmph". It starts abruptly and ends almost at once, and when it goes through the nose it sounds duller and more muffled than through the lips.
+  where: >-
+    Heard in arguments and in sarcastic or dismissive replies; in film it is a small close-up reaction, easy to miss under music.
+  vs:
+    snort: >-
+      A snort is a harder blast through the nose that makes the soft palate (the soft back of the roof of the mouth) rattle. A scoff is a gentler puff with no rattle. Listen for the vibration: a snort buzzes, a scoff only hisses.
+    sigh: >-
+      A sigh is a long, slow breath out lasting a second or more, often with voice. A scoff is an instant puff. Listen for length: a scoff is over before a sigh has started.
+    chuckle: >-
+      A chuckle has voice and repeats in a few soft pulses; a scoff is one voiceless puff. Listen for pitch: a chuckle hums, a scoff only blows.
+    sniff: >-
+      A sniff pulls air in through the nose; a scoff pushes it out. Listen for direction: a sniff sounds sucked in, a scoff sounds blown away.
+
+snort:
+  how: >-
+    A forceful burst of air through the nose that makes the soft palate (the soft back of the roof of the mouth) flutter, producing a rattle. It can be on the breath out or, in a snorting laugh, on the breath in.
+  why: >-
+    The fluttering soft palate chops the airflow many times a second, so instead of a smooth hiss you hear a buzzy, piggy rattle. It is short and low to mid in pitch, and the closed mouth gives it a nasal, muffled character.
+  where: >-
+    Heard during laughter, in mockery or surprise; in film and cartoons it is played close-up for comedy.
+  vs:
+    scoff: >-
+      A scoff is a soft puff through the nose or lips with nothing vibrating. A snort pushes harder and makes the soft palate rattle. Listen for the buzz: a snort has it.
+    pig: >-
+      A pig's grunts come from its larynx (voice box) and snout and repeat in a run of low, nasal rasps. A human snort is usually one blast. Listen for repetition: pigs keep going, a person snorts once or twice.
+    snore: >-
+      A snore is the same kind of rattle but happens while asleep, slowly, once per breath for minutes at a time. A snort is a single, sudden blast. Listen for the pattern: snores come back every few seconds.
+
+sigh:
+  how: >-
+    A deeper-than-usual breath in, followed by a long, slow breath out through the mouth, sometimes with the vocal folds vibrating gently on the way out.
+  why: >-
+    Most of the sound is air flowing out, so it is soft and breathy, lasting a second or more. When the voice joins in, it gives a falling "haaa" as the breath and pressure run out. The start is gradual, not sudden.
+  where: >-
+    Heard in moments of tiredness, relief or frustration; in film it is close-up dialogue texture, often in quiet interior scenes.
+  vs:
+    gasp: >-
+      A gasp is a sudden, sharp breath in; a sigh is a slow breath out. Listen for speed and direction: a gasp is quick and sucked in, a sigh is long and blown out.
+    yawn: >-
+      A yawn starts with a long, wide-mouthed breath in, peaks, and then lets out a voiced "aaah" that rises then falls. A sigh is mostly just the breath out and is shorter. Listen for the long inhale first: only a yawn has it.
+    scoff: >-
+      A scoff is an instant puff; a sigh takes a second or more. Listen for duration: a sigh unwinds slowly.
+    groan: >-
+      A groan is mainly voice, low and strained, with the vocal folds pressed tight. A sigh is mainly breath with only a little soft voice. Listen for how much buzz there is: a groan hums, a sigh whooshes.
+
+gasp:
+  how: >-
+    A sudden, sharp breath in through the open mouth, as the diaphragm pulls down quickly in surprise or effort.
+  why: >-
+    Air rushes in fast through the mouth and past the vocal folds, making a short, noisy, breathy sound that seems sucked inward. It has a sudden start, little or no pitch, and is over in a fraction of a second, sometimes ending with a catch as the throat closes.
+  where: >-
+    Heard in moments of shock, fear or after holding the breath; in film it is a common close-up reaction, and audiences gasp in cinemas and theatres.
+  vs:
+    sigh: >-
+      A sigh is a slow breath out; a gasp is a sharp breath in. Listen for direction and speed: the gasp is quick and inward.
+    sniff: >-
+      A sniff goes in through the narrow nostrils and is small and hissy. A gasp goes in through the open mouth and is bigger and more open. Listen for size: a gasp has a wider, breathier "hah" sound.
+    panting: >-
+      Panting is a fast, repeating cycle of breaths in and out. A gasp is a single sharp breath in. Listen for repetition: if it keeps going in and out, it is panting.
+
+groan:
+  how: >-
+    A long, low sound made by pushing air through vocal folds that are pressed tightly together, often with the throat tense.
+  why: >-
+    Tight vocal folds vibrate slowly and unevenly, which gives a low pitch and a creaky, strained texture. The sound lasts a second or more, starts fairly gently and often falls in pitch, like "ughhh".
+  where: >-
+    Heard in moments of annoyance, pain or effort; in film it comes from injured characters or from people reacting to bad news, close-up.
+  vs:
+    moan: >-
+      A moan uses looser vocal folds, so the voice is smoother, softer and often wavers in pitch. A groan is pressed and creaky, with an annoyed or strained edge. Listen for texture: rough and creaky means groan, smooth and wavering means moan.
+    grunt: >-
+      A grunt is short and clipped, a single push of effort. A groan is drawn out. Listen for length: a grunt is over in an instant.
+    sigh: >-
+      A sigh is mainly breath, soft and airy. A groan is mainly voice, low and buzzy. Listen for whether you can hear a pitch: a groan has one.
+
+moan:
+  how: >-
+    A long voiced sound made with relaxed vocal folds and the mouth partly or fully closed, often letting the pitch drift up and down.
+  why: >-
+    Relaxed vocal folds vibrate smoothly, giving a soft, steady voice rather than a rasp. With the mouth near closed, much of the sound comes out through the nose, so it is muffled and hum-like, and the pitch wavers without following any tune.
+  where: >-
+    Heard from people in pain or discomfort, or from people half-asleep; in film it is used in hospital scenes and in horror, close-up.
+  vs:
+    groan: >-
+      A groan uses pressed, tense vocal folds, which give a rough, creaky, annoyed sound. A moan is smoother and softer. Listen for the creak: a groan has it.
+    hum: >-
+      Humming is a closed-mouth voice that follows a tune, with clear steps between notes. A moan wavers without a melody. Listen for a tune you could whistle back: that means humming.
+
+grunt:
+  how: >-
+    The belly and chest muscles tighten against a closed throat, as when lifting something heavy, and then a short burst of air is pushed out through the vocal folds.
+  why: >-
+    The release from a held throat gives a sudden start, and the tight, low voice makes a short, guttural sound with little clear pitch. It is clipped, usually under half a second, and feels pushed from the belly.
+  where: >-
+    Heard in gyms, sports and heavy physical work; in film and video games it is used for fights and effort, close-up.
+  vs:
+    groan: >-
+      A groan holds the voice for a second or more, falling and strained. A grunt is one short push. Listen for length: a grunt stops almost as soon as it starts.
+    throat-clear: >-
+      A throat clear is a scraping rasp aimed at moving mucus, higher in the throat and often in two parts. A grunt is a single low push from effort. Listen for the scrape: a throat clear has it, a grunt thuds.
+    pig: >-
+      A pig's grunt comes through the snout, so it is nasal and snuffly, and pigs grunt over and over. A human grunt is single and comes from the chest. Listen for the nasal snuffle and repetition: they mean pig.
+
+yawn:
+  how: >-
+    An involuntary stretch in which the jaw opens wide and a long, deep breath is drawn in, held briefly at the peak, then let out, often with the voice joining on the way out.
+  why: >-
+    The wide-open mouth makes the in-breath a long, hollow rush of air. The out-breath is shorter and often carries a voiced "aaah" that rises then falls. The whole yawn lasts several seconds, longer than most breath sounds.
+  where: >-
+    Heard late at night, in the morning or in boring meetings; in film it is a close-up cue for tiredness or boredom.
+  vs:
+    sigh: >-
+      A sigh is mainly the breath out and lasts a second or two. A yawn starts with a long, wide breath in. Listen for that long inhale: only a yawn has it.
+    groan: >-
+      A groan is a strained voice with no special breath in before it. A yawn has a long, open inhale first, and its voice is relaxed. Listen to the start: a yawn begins with rushing air.
+
+hum:
+  how: >-
+    The vocal folds vibrate as in singing, but the mouth stays closed, so the sound leaves through the nose.
+  why: >-
+    Because the vocal folds vibrate, humming has a clear pitch that follows a melody. With the lips closed, the bright upper part of the voice is damped and the nose adds resonance, so it sounds muffled, buzzy and nasal, like "mmm". It can last as long as the breath.
+  where: >-
+    Heard from people working or walking alone; in film it is close-up, often a character humming a tune that matters to the story.
+  vs:
+    moan: >-
+      A moan uses the same closed-mouth voice but does not follow a tune; its pitch wanders. Listen for a melody: humming has one.
+    whistling: >-
+      Whistling uses no vocal folds at all; air blown through the lips makes a pure, high tone. Humming is voiced and lower, with a buzzy, nasal texture. Listen for purity: a whistle sounds like a flute, a hum sounds like a muffled voice.
+
+whistling:
+  how: >-
+    Air is blown through a small opening in rounded lips, and the space inside the mouth acts as a resonator; moving the tongue changes the space and so changes the note. The vocal folds are not used.
+  why: >-
+    A single resonating air space gives a very pure tone, close to a flute, with little texture. It is high because the mouth space is small, and a faint breathiness is often heard on top. Notes glide into each other because the tongue moves smoothly.
+  where: >-
+    Heard from people walking, working or calling a dog or a taxi; in film it is often a character's tune or a signal, close-up or echoing outdoors.
+  vs:
+    songbird: >-
+      Birds sing with a syrinx (a bird's voice box) that can change pitch much faster than lips and tongue, so their phrases are quicker, more complex and full of trills. A human whistle is slower and simpler. Listen for speed: if the notes flicker too fast to copy, it is a bird.
+    kettle: >-
+      A kettle whistle is steam forced through a fixed hole, so it holds one note or slides steadily upward as pressure builds, without a tune. Listen for a melody or changing notes: that is a person.
+    hum: >-
+      Humming is voiced, lower and buzzy, coming through the nose. Whistling is pure and airy, made only with the lips. Listen for buzz: a hum has it, a whistle does not.
+
+scream:
+  how: >-
+    A very forceful breath out through tightly stretched vocal folds with the mouth wide open, pushed hard enough that the folds vibrate at a high pitch and often irregularly.
+  why: >-
+    Tense vocal folds give a high pitch, and the strong air push makes it very loud. When the folds are driven this hard they vibrate unevenly, adding a harsh, rattling edge that the ear finds alarming. A scream is usually a single long burst with a sudden start.
+  where: >-
+    Heard on fairground rides, in emergencies and at concerts; in film it is a staple of horror and action, often loud and close.
+  vs:
+    shout: >-
+      A shout is usually a word at a comfortable pitch, just louder; a scream is wordless and pushed much higher. Listen for words: a shout has them, a scream has a vowel only.
+    baby-cry: >-
+      A baby's cry repeats in waves, each "waa" followed by a quick gasp in. A scream is one long burst. Listen for rhythm: crying pulses, a scream does not.
+    siren: >-
+      A siren is an electronic or mechanical tone that sweeps up and down evenly and smoothly, with no rough edge. A scream is harsh and ends when the breath runs out. Listen for roughness and for the breath ending: a scream has both.
+
+shout:
+  how: >-
+    Speech pushed out with much more air pressure than normal, with the vocal folds tensed and the mouth open wide.
+  why: >-
+    Extra pressure makes the voice loud and slightly raised in pitch, with a hard attack on the first sound. Because it is usually a word or name, you hear consonants and a shaped vowel, and it is often cut off short. Strong shouts pick up some roughness.
+  where: >-
+    Heard at sports, in streets, from parents calling children; in recordings it often carries an echo from buildings or open space.
+  vs:
+    scream: >-
+      A scream is wordless and much higher, pushed to the top of the voice. A shout keeps a speaking pitch and usually has a word. Listen for consonants: a shout has them.
+    cheering: >-
+      Cheering is many voices at once, so the sound is a thick, wide roar with no single word clear. A shout is one voice. Listen for one person versus a crowd.
+
+crying:
+  how: >-
+    Adult sobbing mixes jerky, catching breaths in, caused by spasms of the diaphragm, with broken, shaky voice on the breath out.
+  why: >-
+    The spasms make the in-breaths gulping and uneven, so you hear little hiccup-like catches. On the way out the voice is strained and falls in pitch, and it breaks off and wavers because the breathing keeps being interrupted. Sniffs are often mixed in.
+  where: >-
+    Heard in moments of grief or distress; in film it is close-up and quiet, often mixed under music.
+  vs:
+    laugh: >-
+      Both use repeated breath pulses, but laughter is light and bouncy and often rises, while sobbing falls in pitch and catches on jerky breaths in. Listen for the catching in-breaths: they mean crying.
+    baby-cry: >-
+      A baby cries with a loud, steady, high "waa" repeated in rhythm. Adult sobbing is lower, quieter and broken up. Listen for the steady rhythm: that is a baby.
+    moan: >-
+      A moan is a smooth, sustained voice without interruptions. Crying is broken up by gulping breaths. Listen for the catches: only crying has them.
+
+baby-cry:
+  how: >-
+    The baby pushes out a long breath with the vocal folds vibrating, making a "waa", then takes a quick, sharp breath in and repeats. Babies' vocal folds are short, which raises the pitch.
+  why: >-
+    Short vocal folds give a high pitch, and a baby can push air hard, so the cry is loud and piercing. The pattern is very regular: a voiced cry on the out-breath, then a short gasp, over and over. When the baby is very upset the voice turns rough and breaks.
+  where: >-
+    Heard in homes, on planes and in shops; in film it is often off-screen, in another room, to signal a newborn.
+  vs:
+    cat-meow: >-
+      A cat's meow is shorter and has a nasal bend as the mouth opens and closes ("mee-ow"). A baby's cry is longer and comes in a steady rhythm with gasps between. Some cat calls, especially from cats on heat, can sound very like a baby. Listen for the gasp between calls: that suggests a baby.
+    scream: >-
+      A scream is a single long burst. A baby's cry is rhythmic, with gasps between each "waa". Listen for the repeating pulse.
+    crying: >-
+      Adult sobbing is lower, quieter and broken up by catching breaths. A baby cries high, loud and evenly. Listen for pitch and steadiness.
+
+baby-laugh:
+  how: >-
+    The baby makes quick bursts of voiced breath, and young babies often laugh on the breath in as well as the breath out, which adults rarely do.
+  why: >-
+    A small larynx (voice box) and short vocal folds make the pitch very high, and pushing hard on a small voice tips it into squeals. Laughing on both breaths produces gasping, squeaky in-breaths between the giggles, giving a less regular rhythm than adult laughter.
+  where: >-
+    Heard during play at home; widely shared in online videos, recorded close on phones.
+  vs:
+    giggle: >-
+      An adult giggle is lower and more controlled, with pulses on the breath out only. A baby's laugh is higher, with squeals and squeaky gasps in between. Listen for the squeals.
+    baby-cry: >-
+      Crying is a series of longer "waa" sounds on the out-breath, falling or level, with sharp gasps between. Baby laughter is quicker, shorter pulses and squeals. Listen for length: each cry lasts much longer than each giggle.
+
+burp:
+  how: >-
+    Gas from the stomach rises up the oesophagus (food pipe) and is pushed out through the muscle ring at its top, which vibrates as the gas passes.
+  why: >-
+    The muscle ring vibrates loosely and unevenly, so the sound is a low, croaky rattle rather than a clean note. The mouth shapes it, so a burp can sound like a vowel, but it is not made by the vocal folds. It is usually single and lasts under a second.
+  where: >-
+    Heard after meals and fizzy drinks; in film and video it is close-up and usually played for comedy.
+  vs:
+    frog: >-
+      A frog croaks in a steady, repeating rhythm, often with many frogs together. A burp is a single sound. Listen for repetition: if it keeps pulsing, it is a frog.
+    grunt: >-
+      A grunt is pushed out from the chest through the vocal folds by effort, and is clipped. A burp bubbles up from the stomach and rattles. Listen for the bubbling, croaky texture of a burp.
+
+hiccup:
+  how: >-
+    The diaphragm (the muscle under the lungs) twitches suddenly, pulling in a quick breath, and a fraction of a second later the vocal folds snap shut, stopping the air.
+  why: >-
+    The sudden closing of the vocal folds cuts the incoming air off, making a short, sharp "hic" with a little voice. It is tiny and abrupt, and hiccups repeat every few seconds for minutes at a time, at slightly uneven intervals.
+  where: >-
+    Heard after eating or drinking quickly; in film and cartoons hiccups are close-up and comic.
+  vs:
+    gasp: >-
+      A gasp is a single, longer breath in with the throat open. A hiccup is cut short as the vocal folds slam shut. Listen for the sharp stop at the end: that is a hiccup.
+    tongue-click: >-
+      A tongue click is made in the mouth by the tongue breaking a seal, with no voice and no breath. A hiccup comes from a breath in and has a little voice. Listen for the voiced "ic" sound: only the hiccup has it.
+
+kiss:
+  how: >-
+    The lips are pressed together with a little suction, then pulled apart; air rushes in to fill the space, making a small pop.
+  why: >-
+    The pop is short and quiet, and the moist lips separating add a wet, smacking texture. It has no pitch and is high in register because the opening is so small. It lasts only a fraction of a second.
+  where: >-
+    Heard up close between people, or as a blown kiss; in film it is often exaggerated by foley (added studio sound) for comedy or romance.
+  vs:
+    tongue-click: >-
+      A tongue click is made inside the mouth by the tongue pulling away from the roof, and it is drier and sharper. A kiss is made by the lips and sounds wetter and softer. Listen for wetness.
+    finger-snap: >-
+      A finger snap is a finger striking the base of the thumb, giving a louder, crisper crack. A kiss is a quiet, wet pop. Listen for loudness and dryness: a snap is dry and sharp.
+
+shush:
+  how: >-
+    Air is pushed out through a narrow channel between the tongue and the roof of the mouth, against the teeth, with the lips rounded, and with no vocal fold vibration.
+  why: >-
+    With no voice, the sound is pure turbulent air noise, a hiss. The rounded lips make it duller than an "sss". It is held steadily for a second or more and fades out as the breath ends.
+  where: >-
+    Heard in libraries, cinemas and from parents soothing babies; in film it is close-up and quiet.
+  vs:
+    air-hiss: >-
+      Escaping air from a tyre or pipe comes from a fixed hole under pressure, so it is steady and does not end with a breath. A shush rises and fades with one human breath. Listen for the natural fade: that is a person.
+    wind: >-
+      Wind rises and falls slowly over many seconds and has no fixed start or end. A shush is a single breath long, with a clear start and stop. Listen for the edges.
+
+tongue-click:
+  how: >-
+    The tongue seals against the roof of the mouth, the space behind it is enlarged to lower the pressure, and the tongue is snapped away, letting air in with a pop.
+  why: >-
+    The sudden release gives a sharp, dry, hollow click with no voice and no breath. The mouth shape gives it a slight hollow pitch. It is very short and often doubled as "tsk-tsk".
+  where: >-
+    Heard as a sign of disapproval, when urging a horse along, or in some languages as a speech sound; in recordings it is close-up and small.
+  vs:
+    kiss: >-
+      A kiss is made by the lips with moisture, so it sounds wet and soft. A tongue click is made by the tongue against the roof of the mouth and sounds dry and hollow. Listen for wetness.
+    clock-tick: >-
+      A clock ticks steadily, once a second, forever, made by a mechanism. A tongue click comes once or twice. Listen for the regular pattern: that is a clock.
+
+breathing:
+  how: >-
+    Air drawn in and pushed out through the nose or mouth by the diaphragm, in steady cycles.
+  why: >-
+    Air moving through the narrow passages of the nose and throat makes soft turbulent noise with no voice. Each breath rises and falls gently, and the cycles repeat at a steady, slow rate, every few seconds at rest. The in-breath and out-breath often sound slightly different in brightness.
+  where: >-
+    Heard only up close: in close-microphone recordings, ASMR videos, and in film scenes of tension or hiding.
+  vs:
+    panting: >-
+      Panting is fast, short and loud, after effort. Normal breathing is slow and quiet. Listen for speed: count the breaths, panting is several times faster.
+    snore: >-
+      A snore rattles because the soft tissues in the throat vibrate in the airflow, usually on the breath in. Plain breathing is a smooth hiss. Listen for the rattle.
+    wind: >-
+      Wind has no regular cycle; it swells and dies at random. Breathing repeats evenly in and out. Listen for the regular rhythm.
+
+panting:
+  how: >-
+    Fast, shallow breaths in and out through an open mouth, after exercise or in fear, to move air quickly.
+  why: >-
+    Air moving fast through the open mouth makes a louder, rougher hiss than normal breathing, and each breath is short. The in and out breaths come in a quick, even rhythm, often with a slight voice on the out-breath when the person is very tired.
+  where: >-
+    Heard after running and climbing; in film it marks chase scenes and exertion, close-up.
+  vs:
+    breathing: >-
+      Normal breathing is slow and quiet, usually through the nose. Panting is quick and loud, through the mouth. Listen for speed and volume.
+    dog-pant: >-
+      A dog pants to cool down, with its tongue out, and its breaths are much faster and shallower than a person's. A person pants slower and deeper. Listen for speed: a dog's huffs are very rapid.
+
+snore:
+  how: >-
+    During sleep the throat muscles relax, and the soft palate (the soft back of the roof of the mouth) and nearby tissues flutter in the airflow, usually on the breath in.
+  why: >-
+    The fluttering tissue chops the air, giving a low, rattly rumble rather than a smooth hiss. Because it is tied to breathing, each snore lasts about as long as an in-breath and repeats every few seconds, with quieter breath-out gaps between.
+  where: >-
+    Heard at night in bedrooms, on trains and planes; in film and cartoons it is played up for comedy.
+  vs:
+    pig: >-
+      A pig grunts quickly and nasally, while awake, in short runs. A snore is slow and tied to a sleeping person's breath. Listen for timing: snores come every few seconds, evenly.
+    snort: >-
+      A snort is a single blast through the nose. A snore repeats with every breath. Listen for repetition.
+    cat-purr: >-
+      A cat purrs on both the breath in and out, so the rumble is nearly continuous and the flutter much faster. A snore rattles mainly on the breath in, with gaps. Listen for gaps: a snore has them.
+
+gargle:
+  how: >-
+    Water is held at the back of the throat with the head tilted back, and air is pushed up from the lungs through it, often with the voice on.
+  why: >-
+    Air bursting through the water makes bubbles, which pop in a fast, irregular, wet rattle. When the voice is on, a buzzing pitch shows through the bubbling. It lasts as long as the breath, a few seconds.
+  where: >-
+    Heard in bathrooms when people rinse their mouths; in recordings it is close-up and rare outside comedy.
+  vs:
+    brook: >-
+      A stream bubbles over stones by itself and has no voice in it, and it goes on without stopping. Gargling has a human buzz under the bubbles and stops when the breath runs out. Listen for the voice and the breath-long length.
+    snore: >-
+      A snore is a dry rattle and slower, once per breath. Gargling is a fast, wet bubbling. Listen for wetness.
+
+# ---------------------------------------------------------------- body
+
+footsteps:
+  how: >-
+    Each step is the heel striking the ground and then the rest of the foot rolling down onto it, with the shoe and the floor both making sound.
+  why: >-
+    Two feet alternating give a steady two-beat rhythm, and on hard floors you can often hear the heel, then the sole. The surface sets the texture: sharp clicks on tiles, dull thuds on carpet, crunches on gravel, and the pace tells you if someone is walking or running.
+  where: >-
+    Heard in corridors, stairwells and streets; in film footsteps are usually added by foley (studio sound effects) and made louder than in real life.
+  vs:
+    knock: >-
+      Knocking is knuckles striking a door in a quick group of two to four, then stopping. Footsteps continue at an even, slower pace. Listen for groups versus a steady march.
+    heartbeat: >-
+      A heartbeat is a low, muffled double thump, "lub-dub", heard through the body, with the two beats close together and a longer gap after. Footsteps are drier, evenly spaced and travel through the air. Listen for the paired beats.
+    horse-hooves: >-
+      A horse has four legs, so a walk has four beats per stride, and the hard hoof, often with a metal shoe, makes a hollow "clip-clop". Human footsteps are two-beat and softer. Listen for the extra beats.
+
+clapping:
+  how: >-
+    One hand strikes the other, trapping and squeezing a pocket of air between the palms, which pushes out with a sharp crack.
+  why: >-
+    The sudden squeeze of air gives a very fast attack and no lasting pitch, so a clap is a flat, slappy crack. Cupped hands trap more air and sound lower and hollower; flat hands sound higher and sharper. A single person claps in a steady rhythm you can follow.
+  where: >-
+    Heard at the end of talks, in music and games; in recordings single claps often have room echo after them.
+  vs:
+    applause: >-
+      Applause is many people clapping at different moments, so the individual claps blur into a dense, crackling wash. One person's clapping has a clear, countable rhythm. Listen for whether you can count the claps.
+    finger-snap: >-
+      A finger snap comes from a finger striking the base of the thumb, a smaller cavity, so it is a smaller, crisper click. A clap is bigger and slappier. Listen for size.
+    gunshot: >-
+      A gunshot is an explosion, many times louder, with a sharp blast followed by a long echo. A clap is small and dies away quickly. Listen for the echo trail.
+
+applause:
+  how: >-
+    Many people clapping at once, each at their own speed, so the claps fall at random moments.
+  why: >-
+    With hundreds of claps at slightly different times, the individual cracks merge into a dense, sizzling wash of noise. It usually swells at the start, holds, then thins out as people stop, and sometimes falls into a shared rhythm.
+  where: >-
+    Heard in theatres, concert halls and stadiums; in TV and film it marks the end of performances, often with cheering on top.
+  vs:
+    rain: >-
+      Heavy rain is drops hitting surfaces, softer and steadier, with no clear start or end. Applause has sharper individual slaps in it and swells and fades over seconds. Listen for slaps and for the swell.
+    fire: >-
+      A fire crackles irregularly with louder pops and a soft roar underneath. Applause is a more even wash of claps. Listen for the sparse, louder pops of fire.
+    frying: >-
+      Frying is a tight, high sizzle of water bursting in hot oil, steady for minutes. Applause is lower and slappier, and swells and fades. Listen for the slaps.
+    cheering: >-
+      Cheering is voices shouting, with pitch and vowels in it. Applause is only hands, pure noise. Listen for voices.
+
+finger-snap:
+  how: >-
+    The middle finger is pressed against the thumb, then slides off and strikes the base of the thumb and palm, squeezing a small pocket of air.
+  why: >-
+    The very fast strike makes a short, dry, crisp click with no pitch. Because the cavity is small, it is higher and thinner than a clap, and it lasts only an instant.
+  where: >-
+    Heard when people keep time to music or call attention; in film it often appears in musical numbers or as a cue.
+  vs:
+    clapping: >-
+      A clap traps air between two palms, so it is bigger, lower and slappier. A snap is a small, crisp click. Listen for size.
+    tongue-click: >-
+      A tongue click is made in the mouth and sounds hollow, with a slight pitch from the mouth space. A finger snap is drier and crisper. Listen for hollowness.
+
+knock:
+  how: >-
+    Knuckles strike a door or table, making the panel vibrate briefly.
+  why: >-
+    The hard knuckle gives a sharp attack, and the door panel resonates, so each rap sounds hollow and woody. People knock in quick groups of two to four with a pause after, and the size and thickness of the door changes how deep it sounds.
+  where: >-
+    Heard at front doors and office doors; in film knocks are a stock sound to start a scene, often added by foley (studio sound effects).
+  vs:
+    footsteps: >-
+      Footsteps are evenly spaced and keep going. Knocks come in a quick group and then stop. Listen for the group and the pause.
+    hammering: >-
+      A hammer is metal on metal or wood, harder and louder, with a ringing edge, and it repeats in a steady working rhythm. Knocking is softer, hollow and grouped. Listen for the metallic ring.
+    door-slam: >-
+      A slam is the whole door hitting its frame, one big bang with a rattle. A knock is several small raps. Listen for one big hit versus a group of small ones.
+
+typing:
+  how: >-
+    Fingers press keys down until they bottom out and then release them, and each keystroke and spring return makes a small click.
+  why: >-
+    Many small plastic impacts give quick clicks with no pitch. Because people type in bursts, the rhythm is fast and uneven, with pauses for thought. The space bar and enter key are larger and sound deeper and louder.
+  where: >-
+    Heard in offices and at home; in film it signals work or hacking, and in video calls it is picked up loudly by laptop microphones.
+  vs:
+    clock-tick: >-
+      A clock ticks evenly, about once a second, forever. Typing is fast and irregular, in bursts. Listen for the uneven rhythm.
+    rain: >-
+      Rain is a continuous patter with no gaps. Typing stops and starts and has the occasional deeper space-bar clack. Listen for pauses and that bigger thunk.
+
+writing:
+  how: >-
+    A pen or pencil tip drags across paper, catching and releasing on its fibres, and the paper and desk pass the vibration into the air.
+  why: >-
+    The catching and slipping makes a soft, dry, scratchy noise with no pitch. It comes in short strokes that match letters and words, with tiny gaps as the pen lifts. Pencils sound grittier than smooth pens.
+  where: >-
+    Heard in classrooms, exams and offices; in film it is close-up, often for letters or signing documents.
+  vs:
+    paper-rustle: >-
+      Rustling is the whole sheet bending and crinkling, which is louder and crackly. Writing is the small tip scratching. Listen for size: writing is a whisper, rustling is a crinkle.
+    handsaw: >-
+      A saw is a much bigger rasp, in a long, steady back-and-forth rhythm. Writing is small, quick strokes. Listen for scale and the regular push-pull of a saw.
+
+chewing:
+  how: >-
+    The teeth crush food as the jaw opens and closes, and the food breaks or squashes in the mouth.
+  why: >-
+    Crisp foods fracture into many tiny cracks, which sound like crunching, and soft foods squelch wetly. The jaw moves at a steady pace, so the crunches come in a rhythm of about one or two a second. Much of the sound travels through the jaw bone, so it is louder to the eater than to others.
+  where: >-
+    Heard at meals; in recordings it needs a close microphone, as in ASMR and food videos.
+  vs:
+    footsteps: >-
+      Footsteps on gravel also crunch, but slower and heavier, and the sound moves with the walker. Chewing is quicker, closer and wetter. Listen for wet, close-up texture.
+    fire: >-
+      A fire crackles at random with sharp pops. Chewing crunches in a steady jaw rhythm. Listen for the regular rhythm.
+
+drinking:
+  how: >-
+    The tongue pushes a mouthful of liquid back and the throat muscles squeeze it down, while the airway closes briefly; then the next mouthful follows.
+  why: >-
+    Each swallow makes a wet "gulp" from liquid and air moving in the throat. Gulps come at a steady pace while someone drinks a lot, and you may hear small breaths or the liquid in the glass between.
+  where: >-
+    Heard close up, as in drink adverts, ASMR and film scenes of thirst.
+  vs:
+    pour: >-
+      Pouring is a continuous stream of liquid into a container, often rising in pitch as it fills. Drinking is separate gulps. Listen for continuous versus pulsed.
+    hiccup: >-
+      A hiccup is a single sudden "hic" with a sharp stop, repeated every few seconds at uneven intervals. Drinking gulps are wet and steady. Listen for the wet sound of liquid.
+
+heartbeat:
+  how: >-
+    The heart's valves snap shut in two stages: the "lub" when the valves between the upper and lower chambers close, and the "dub" when the valves leading out of the heart close.
+  why: >-
+    The closing valves send low thumps through the chest, so the sound is deep and muffled. The two beats are close together, then a longer gap, giving the "lub-dub" pattern, about once a second at rest and faster with excitement.
+  where: >-
+    Heard through a stethoscope or with an ear on a chest; in film it is a common effect for tension, suspense or close-up emotion.
+  vs:
+    footsteps: >-
+      Footsteps are drier, single beats, evenly spaced, with no pairing. A heartbeat is paired, low and muffled. Listen for the "lub-dub" pair.
+    knock: >-
+      Knocks are sharper and come in groups, then stop. A heartbeat keeps going at a steady pace and sounds muffled. Listen for the muffling.
+
+crowd:
+  how: >-
+    Many people talking at the same time, each with their own words and timing.
+  why: >-
+    Overlapping voices cover each other, so no one sentence is clear and you hear a steady babble with the pitch and rhythm of speech. Single laughs or words pop out now and then. The level stays roughly even, rising slowly as more people talk.
+  where: >-
+    Heard in restaurants, stations, parties and markets; in film it is called walla, recorded or added as background.
+  vs:
+    cheering: >-
+      Cheering is everyone reacting together at once, loud and excited, with a rising roar. Crowd chatter has no shared moment. Listen for a sudden swell together.
+    applause: >-
+      Applause is hands, pure noise without pitch or voice. Crowd chatter has the pitch and rhythm of speech. Listen for voices.
+
+cheering:
+  how: >-
+    A crowd shouting together at the same moment, often with whistles and clapping mixed in.
+  why: >-
+    Many voices shouting at once blend into a big roar, and because the voices are excited they are high and rough. Cheering swells suddenly, peaks and decays. Individual whistles and shouts stand out on top.
+  where: >-
+    Heard at sports matches, concerts and celebrations; in TV and film it is used for victories and big moments.
+  vs:
+    booing: >-
+      Booing is a low, sustained "ooo" from many voices, dark and steady. Cheering is higher, brighter and rougher. Listen for the vowel: a long "oo" means booing.
+    crowd: >-
+      Chatter is quieter, with no shared reaction. Cheering is loud and sudden. Listen for the swell together.
+    applause: >-
+      Applause is clapping without voices. Cheering is voices shouting. Listen for pitch: cheering has it.
+
+booing:
+  how: >-
+    Many people hold a long "ooo" vowel together, with rounded lips, to show disapproval.
+  why: >-
+    The rounded lips make the voice dark and low, and holding the same vowel gives a steady, sustained tone that rises and falls slowly. Many voices at slightly different pitches blend into a wide, droning moan.
+  where: >-
+    Heard at sports matches, pantomimes and political events; in recordings it is a crowd sound, often heard in the background.
+  vs:
+    cheering: >-
+      Cheering is higher, brighter and rougher, with whistles and shouts. Booing is low, dark and sustained on one vowel. Listen for the long "ooo".
+    wind: >-
+      Wind howling has no voices in it and rises and falls irregularly. Booing has the buzz of many human voices. Listen for voices.
+
+
+# ---------------------------------------------------------------- animals
+
+bark:
+  how: >-
+    The dog pushes a short, strong breath out through its larynx (voice box), so the vocal folds vibrate, while the mouth snaps open and shut.
+  why: >-
+    Vibrating vocal folds give each bark a pitch, and the sudden push gives a hard attack and a short length. Small dogs have small larynxes and yap high, while big dogs bark low and booming. Barks often have a rough, noisy edge on top of the note and come in a series.
+  where: >-
+    Heard in streets, gardens and parks; in recordings dogs bark in the background of suburban and village scenes, often with an echo off houses.
+  vs:
+    cough: >-
+      A dog's vocal folds vibrate during a bark, so it carries a clear pitch. A cough blows the vocal folds apart and is mostly unpitched noise. Listen for a note inside the burst: a bark has one.
+    seal: >-
+      A sea lion's bark is pushed from a bigger chest through a throat suited to loud, carrying calls, so it is rougher, more honking and goes on in long, steady runs. A dog's bark is cleaner and punchier, with more variation between barks. Listen for the honk and the long, even series.
+    goose: >-
+      A goose honks through a long neck and windpipe, which gives a nasal, brassy, trumpet-like tone. A dog's bark is lower, shorter and punchier, without the nasal ring. Listen for the brass: it means goose.
+
+growl:
+  how: >-
+    The dog vibrates its vocal folds slowly with a steady push of air, usually on the breath out, while keeping its mouth mostly closed or its lips drawn back.
+  why: >-
+    Slow vocal fold vibration gives a low pitch, and irregular vibration makes it rough and rolling rather than smooth. The growl is held for a whole breath, so it is continuous for a second or more, then pauses for the next breath.
+  where: >-
+    Heard when a dog guards food or a toy, or feels threatened; in film it is used for tension and is often close and low in the mix.
+  vs:
+    cat-purr: >-
+      A purr is made by the cat's larynx opening and closing rapidly on both breaths, so it is soft, even and nearly continuous. A growl is louder and rougher, and stops between breaths. Listen for the pauses and the threatening roughness: they mean growl.
+    car-idle: >-
+      An idling engine fires its cylinders at a fixed rate, so its rumble is perfectly steady and never needs a breath. A growl swells and fades with the dog's breathing. Listen for the breath pauses.
+    snore: >-
+      A snore is soft tissue flapping on a sleeping person's in-breath, so it comes in slow cycles with quiet gaps. A growl is a voiced rumble held through the out-breath, louder and tenser. Listen for the regular sleepy cycle of a snore.
+
+whine:
+  how: >-
+    The dog makes a high, thin voiced sound, usually with its mouth closed, so the sound leaves mainly through the nose.
+  why: >-
+    Tight vocal folds give a high pitch, and the closed mouth makes it nasal and soft. The pitch wavers and slides, and whines come in short, uneven bursts or long, pleading whimpers.
+  where: >-
+    Heard when a dog wants attention, food or to go out, or is anxious or hurt; in recordings it is quiet and close-up.
+  vs:
+    baby-cry: >-
+      A baby pushes hard with an open mouth, so its cry is loud and comes in a steady rhythm with gasps between. A dog's whine is softer, thinner and more nasal, and wavers without a steady beat. Listen for loudness and the regular gasps.
+    door-creak: >-
+      A door creak is dry friction in a hinge, a scratchy, stuttering squeal with no breath behind it. A whine is smooth and voiced, and breaks off when the dog breathes. Listen for the scratchy stutter of a hinge.
+
+dog-pant:
+  how: >-
+    The dog breathes in and out very fast through its open mouth with its tongue out, which evaporates moisture from the tongue and airways to cool it down.
+  why: >-
+    The breaths are shallow and very fast, so you hear rapid, short huffs with no voice. The open mouth and wet tongue add a slobbery texture, and the rhythm is quick and even, sometimes broken by a swallow or a lick.
+  where: >-
+    Heard on hot days or after a dog has run; in recordings it is close-up, common in home videos.
+  vs:
+    panting: >-
+      A person pants to take in more air after effort, with fewer, deeper breaths. A dog pants to cool down, with much faster, shallower breaths. Listen for speed: a dog's huffs are far quicker.
+    train: >-
+      A steam train chuffs as steam is released from its cylinders, so the rhythm is mechanical and changes smoothly with speed, and it is much louder and heavier. Listen for the metallic, heavy chuff and the clank of machinery.
+
+cat-meow:
+  how: >-
+    The cat makes a voiced sound with its vocal folds while opening and then closing its mouth, which shapes the sound like "mee-ow".
+  why: >-
+    The changing mouth shape changes the resonance, so the meow seems to bend, getting brighter as the mouth opens and duller as it closes, and the pitch often rises then falls. Meows are nasal and usually last under a second. Adult cats mostly meow at people rather than at other cats.
+  where: >-
+    Heard in homes, at doors and at feeding time; in recordings it is close-up and very common in online videos.
+  vs:
+    baby-cry: >-
+      A baby cries in long, loud bursts in a steady rhythm, with a gasp between each. A meow is short, nasal and bends in shape as the mouth opens and closes. Some cat calls, especially from cats on heat, can sound very like a baby. Listen for the steady rhythm and the gasps: they suggest a baby.
+    seagull: >-
+      A gull's call is harsher and louder and comes in a laughing series. A meow is usually single and softer. Listen for the repeated "kyow-kyow" of a gull.
+    door-creak: >-
+      A door creak is dry friction in a hinge with no voice or breath. A meow is voiced and nasal, with a clear vowel shape. Listen for the vowel: a meow has one.
+
+cat-purr:
+  how: >-
+    The cat's larynx (voice box) muscles twitch about 25 times a second, opening and closing the vocal folds on both the in- and out-breath.
+  why: >-
+    The rapid opening and closing chops the airflow into a fast, fluttering rumble, low in pitch. Because it happens on both breaths, it is almost continuous, with only a slight change in tone as the breath turns around. It is soft and steady.
+  where: >-
+    Heard close up from contented cats, and sometimes from stressed ones; in recordings it needs a microphone very near and is popular in relaxation videos.
+  vs:
+    growl: >-
+      A dog's growl is a voiced rumble on the out-breath, louder, rougher and threatening, with pauses for breath. A purr is soft, even and nearly continuous. Listen for roughness and pauses.
+    motorcycle: >-
+      A distant idling engine fires at a fixed mechanical rate, so it is perfectly steady and never changes with breath. A purr has a gentle back-and-forth as the cat breathes in and out. Listen for that slow breath swell.
+    snore: >-
+      A snore rattles on the in-breath only and is slower, with quiet gaps. A purr is fast and almost continuous. Listen for gaps: a snore has them.
+
+cat-hiss:
+  how: >-
+    The cat opens its mouth, arches its tongue and forces air out suddenly through the gap, with no vocal fold vibration.
+  why: >-
+    With no voice, the hiss is pure air noise, high and harsh. It starts suddenly, sometimes with a spit (a sharp burst of air) at the beginning, and lasts a second or two, ending as the breath runs out.
+  where: >-
+    Heard when cats feel threatened, often during fights; in recordings it is close-up and sudden.
+  vs:
+    air-hiss: >-
+      Escaping air comes from a fixed hole under pressure, so it is steady and mechanical and does not stop for breath. A cat's hiss is sudden and explosive and ends with one breath. Listen for the explosive start.
+    snake: >-
+      A snake pushes air out slowly and steadily, so its hiss is long and even. A cat's hiss is short and explosive, often with a spit. Listen for length and the sharp start.
+    shush: >-
+      A shush is a human sound through rounded lips, soft and steady. A cat's hiss is harsher, brighter and sudden. Listen for the explosive start and harsh edge.
+
+cow:
+  how: >-
+    The cow pushes air through its large vocal folds, starting with the mouth closed and then opening it, making a long "mmm-ooo".
+  why: >-
+    Large vocal folds give a low pitch, and a big breath makes the moo long. The closed start gives a nasal "m", and opening the mouth brightens and swells the sound before it fades. It is loud and carries over open ground.
+  where: >-
+    Heard in fields and farms; in recordings it carries across countryside, often far away.
+  vs:
+    foghorn: >-
+      A foghorn is a machine blowing air through a horn, so it holds one steady pitch with a sharp end. A moo swells, bends and fades as the cow's mouth and breath change. Listen for the bend and the nasal start.
+    elephant: >-
+      An elephant trumpets through its trunk, a high, brassy blast, or rumbles even lower than a cow. A moo sits between, low and nasal. Listen for the blare of a trumpet or the very deep rumble.
+    groan: >-
+      A human groan comes from a smaller voice, so it is shorter, quieter and less resonant. A moo is long and loud. Listen for length and volume.
+
+horse-neigh:
+  how: >-
+    The horse pushes air through its vocal folds in a high, trembling call, often finishing with a snort as air is blown out through its nostrils.
+  why: >-
+    The call starts high and loud and falls away, with a fast shake in the pitch that gives the whinny its wobbling sound. The snort at the end is a burst of air through the nostrils that makes them flutter. It lasts a second or two.
+  where: >-
+    Heard on farms and at riding stables; in film it is a stock sound whenever a horse appears.
+  vs:
+    laugh: >-
+      A human laugh is a series of separate breath pulses with pauses. A neigh is one continuous, trembling call that falls away. Listen for separation: a laugh breaks into "ha-ha", a neigh does not.
+    goat: >-
+      A goat bleats in shorter, nasal bursts with a rough, buzzy shake. A neigh is longer, higher at the start and falls away. Listen for length and the falling shape.
+
+horse-hooves:
+  how: >-
+    The hooves, often fitted with metal shoes, strike a hard surface as the horse walks, trots or gallops.
+  why: >-
+    Hard hooves and shoes make a sharp, hollow knock with no pitch. The gait sets the rhythm: a walk has four beats per stride, a trot has two, and a canter or gallop has a rolling three or four. The surface changes the texture, sharp on roads and dull on grass.
+  where: >-
+    Heard on roads, in parades and at stables; in film it is usually added by foley (studio sound effects), classically with coconut shells.
+  vs:
+    footsteps: >-
+      A person has two feet, so footsteps are a simple two-beat rhythm and softer. A walking horse has four beats per stride with harder, hollow knocks. Listen for the extra beats.
+    knock: >-
+      Knocking is grouped, a few raps and a pause. Hooves keep going in a steady pattern. Listen for continuity.
+
+rooster:
+  how: >-
+    The rooster pushes a long breath through its syrinx (a bird's voice box at the base of the windpipe), stretching its neck forward to crow.
+  why: >-
+    The call is loud, high and strained, and is broken into four or five parts, rising and then holding. It lasts a couple of seconds and carries far.
+  where: >-
+    Heard on farms, especially at dawn but also through the day; in film it is a stock sign of morning in the countryside.
+  vs:
+    chicken: >-
+      Hens make small, soft clucks over and over, close by. A rooster gives one loud, long, multi-part call. Listen for loudness and length.
+    goose: >-
+      A goose honks in short, repeated, nasal blasts. A rooster crows in one long, shaped phrase. Listen for the long phrase.
+
+chicken:
+  how: >-
+    Hens make short voiced calls with their syrinx (a bird's voice box), with the beak partly open.
+  why: >-
+    Each cluck is short and soft, and a group of hens makes a steady, chattering murmur. Now and then a louder, more insistent "bawk" stands out, for example after laying an egg or when alarmed.
+  where: >-
+    Heard on farms and in back gardens; in recordings it is close and continuous in the background of rural scenes.
+  vs:
+    rooster: >-
+      A rooster gives one loud, long crow. Hens chatter quietly and keep going. Listen for loudness.
+    duck: >-
+      Ducks quack with a flatter, more nasal, raspy sound, often in a falling series. Hens cluck softer and rounder. Listen for nasality.
+
+pig:
+  how: >-
+    The pig makes short sounds with its larynx (voice box), with the air passing through its snout as well as its mouth, while rooting and moving about.
+  why: >-
+    Sound through the snout makes the grunts nasal and snuffly, and they are short and low, coming in irregular runs. When excited or hurt, a pig pushes much harder and gives sudden, very high, piercing squeals.
+  where: >-
+    Heard on farms and in pens; in recordings it is close-up, often used for comedy in film.
+  vs:
+    snort: >-
+      A human snort is a single blast of air through the nose. A pig grunts over and over in irregular runs. Listen for repetition.
+    snore: >-
+      Snoring is slow, tied to a sleeping person's breath, every few seconds. Pig grunts are quicker and come at random. Listen for timing.
+
+sheep:
+  how: >-
+    The sheep vibrates its vocal folds while opening its mouth, giving a "baa", with a fast tremble in the voice.
+  why: >-
+    The tremble gives a shaky, vibrato (wavering) quality, and the sound is nasal. The bleat lasts about a second and is fairly soft and even. Lambs bleat higher than adults.
+  where: >-
+    Heard in fields and hills; in recordings it is often distant and in the background of rural scenes.
+  vs:
+    goat: >-
+      A goat's voice is rougher and more strained, which makes it harsher and more human-sounding. A sheep is softer and more even. Listen for the harsh, buzzy edge of a goat.
+    cow: >-
+      A cow has much larger vocal folds, so a moo is much lower and longer. Listen for pitch: a sheep bleats in the middle register.
+
+goat:
+  how: >-
+    The goat vibrates its vocal folds with a strong push, often irregularly, while opening its mouth.
+  why: >-
+    The vibration is rough and uneven, so the bleat sounds harsh and buzzy, like "meh-eh-eh". It is nasal and can sound strikingly like a person yelling. Bleats last a second or so and come one at a time or in bursts.
+  where: >-
+    Heard on farms and in petting zoos; in online videos goats are known for human-like screams.
+  vs:
+    sheep: >-
+      A sheep's voice trembles more evenly, so it is softer and smoother. A goat is harsher and more human-sounding. Listen for the rough edge.
+    shout: >-
+      A human shout has words, made with consonants, and less wavering. A goat bleats a single vowel with vibrato. Listen for consonants.
+
+duck:
+  how: >-
+    The duck makes calls with its syrinx (a bird's voice box), shaped through its long, flat bill.
+  why: >-
+    The calls are raspy and nasal, like "quack". In mallards it is mainly the female that gives the loud quack, often in a falling series, while males make quieter, raspier sounds.
+  where: >-
+    Heard on ponds, rivers and in parks; in recordings it is in the background of waterside scenes.
+  vs:
+    goose: >-
+      A goose has a longer neck and bigger body, so its honk is louder, higher and more brassy. A duck is flatter and smaller. Listen for the brass.
+    chicken: >-
+      A hen clucks with short, soft, rounded calls in a chattering murmur. A duck quacks with a flatter, raspy, nasal tone, often in a falling run. Listen for the nasal rasp: it means duck.
+
+
+goose:
+  how: >-
+    The goose calls with its syrinx (a bird's voice box at the base of the windpipe), and the sound passes up its long neck and windpipe before leaving the bill.
+  why: >-
+    The long windpipe adds resonance, giving a loud, brassy, trumpet-like honk with a clear pitch and a nasal ring. Each honk is short, but geese repeat them over and over, and a flock gives many overlapping honks at slightly different pitches.
+  where: >-
+    Heard on lakes, parks and farm ponds, and overhead when flocks fly in a V; in recordings it often passes over from one side to the other.
+  vs:
+    duck: >-
+      A duck is smaller with a shorter neck, so its quack is flatter, raspier and less loud. A goose honk rings with a brassy tone. Listen for the trumpet quality: it means goose.
+    car-horn: >-
+      A car horn is an electrically driven disc vibrating at a fixed rate, so its tone is steady and unchanging and stops cleanly. A goose honk bends in pitch, has a breathy edge, and repeats irregularly. Listen for the bend and the uneven rhythm.
+    bark: >-
+      A dog's bark is a short, punchy burst from the throat, lower and without much nasal ring. A goose honk is higher, nasal and brassy. Listen for the ringing, horn-like tone.
+
+crow:
+  how: >-
+    The crow forces air hard through its syrinx (a bird's voice box), opening its bill wide, and the vibration is irregular rather than a clean note.
+  why: >-
+    Irregular vibration gives a harsh, rasping sound with little clear pitch, so a "caw" sounds flat and grating rather than musical. Crows usually call in short runs of three or four caws with even gaps, and others often answer.
+  where: >-
+    Heard in towns, fields and woodland edges all year; in film crows signal something ominous or eerie.
+  vs:
+    seagull: >-
+      A gull's calls are higher and more tonal, with a clear pitch that slides, and they run into a laughing series. A crow's caw is lower, harsher and flatter. Listen for musical pitch: the gull has it, the crow rasps.
+    duck: >-
+      A duck's quack is nasal and buzzy, and a mallard's quacks often fall in a series that gets quieter. A crow's caw is harsher and drier, with evenly spaced repeats. Listen for the nasal tone and the falling run: they mean duck.
+
+songbird:
+  how: >-
+    A small bird sings with its syrinx (a bird's voice box at the base of the windpipe), whose two sides can make sound separately, so it can change notes very quickly and sometimes sing two notes at once.
+  why: >-
+    Very fast control gives rapid trills, slides and clicks that no human voice can match, and the small body makes the song high. Songs are made of short phrases, a second or two long, often repeated with small changes and with pauses between.
+  where: >-
+    Heard in gardens, parks and woods, most of all on spring mornings; in recordings and film it is the standard sign of a peaceful outdoor scene.
+  vs:
+    whistling: >-
+      A person whistles with the lips and tongue, which move much more slowly than a syrinx, so human tunes are simpler with smoother slides. Listen for speed: bird phrases have trills and notes too fast to copy.
+    birdsong-ambience: >-
+      A dawn chorus is many birds of different species singing at once, so phrases overlap and blur into a layered wash. A single songbird has clear phrases with silence between. Listen for gaps: one bird leaves them.
+    squeak: >-
+      A squeak is friction, such as a hinge or a shoe on a floor, so it is a single, dry, mechanical sound. A songbird sings in shaped, repeated phrases. Listen for a phrase that repeats: that is a bird.
+
+owl:
+  how: >-
+    The owl hoots with its syrinx (a bird's voice box), usually with its bill closed and its throat puffed out, which acts as a resonating chamber.
+  why: >-
+    The puffed throat gives a soft, round, hollow tone with a fairly pure pitch, and low notes travel well through woods at night. Hoots have soft starts and ends and come with clear gaps between them, sometimes in a set pattern for each species.
+  where: >-
+    Heard in woods, parks and farmland at night; in film it is a stock sound to mark night-time.
+  vs:
+    pigeon: >-
+      A pigeon coos with its throat inflated too, but runs several notes into a soft, rolling burble. An owl's hoots are cleaner, single notes with gaps. Listen for the rolling: it means pigeon.
+    whistling: >-
+      Blowing across a bottle sends a jet of air over the opening and gives a steady, airy tone that holds as long as you blow. An owl's hoot is voiced, short and fades in and out. Listen for the soft swell of each hoot.
+
+pigeon:
+  how: >-
+    The pigeon coos with its bill closed, inflating its throat with air so the sound resonates inside.
+  why: >-
+    With the bill closed and the throat inflated, the sound is soft, low and throaty, and several notes run together into a rolling "coo-roo-coo". Phrases are short and repeated, often while the male bows and turns.
+  where: >-
+    Heard in town squares, stations and on rooftops; in recordings it is part of city ambience, often close.
+  vs:
+    owl: >-
+      An owl's hoot is a cleaner, single note with longer gaps. A pigeon rolls notes together into a burble. Listen for the rolling.
+    cat-purr: >-
+      A purr is a steady, continuous flutter with no phrases. A pigeon coos in short phrases that rise and fall, then stop. Listen for phrases and pauses.
+
+seagull:
+  how: >-
+    The gull calls with its syrinx (a bird's voice box), and for its long call it throws its head back and opens its bill wide.
+  why: >-
+    The calls are loud, high and piercing, with a clear pitch that slides, and they come in a run that sounds like laughter, "kyow-kyow-kyow". The open-water setting lets them carry far.
+  where: >-
+    Heard at the seaside, at harbours and on town rooftops near the coast; in film it is a stock sound for the coast.
+  vs:
+    cat-meow: >-
+      A cat usually gives a single meow, nasal and bending as its mouth opens and closes. A gull calls in a fast series of loud, laughing notes. Listen for the series.
+    crow: >-
+      A crow's caw is lower, harsher and flat. A gull's call is higher and more tonal. Listen for pitch: a gull sings out, a crow rasps.
+
+frog:
+  how: >-
+    A male frog pushes air from its lungs over its vocal cords into an inflatable vocal sac, which balloons and radiates the sound; the air is then pushed back to the lungs for the next call.
+  why: >-
+    The vocal sac acts like a loudspeaker, making the call loud for a small animal. Many species call in pulses, giving a rattling, croaking texture with a regular rhythm, and males call together in choruses at night to attract females.
+  where: >-
+    Heard near ponds and wetlands on spring and summer nights; in recordings it is a classic night-time ambience.
+  vs:
+    crickets: >-
+      Crickets make sound by rubbing their wings together, which gives a thinner, higher and purer chirp. Frogs use a voice and a vocal sac, so they are lower and croakier. Listen for pitch and the rough rattle.
+    burp: >-
+      A burp is a single rattle from a person's food pipe. A frog croaks over and over in a regular rhythm. Listen for repetition.
+    duck: >-
+      A duck's quacks often fall in pitch and loudness through a series and sound nasal. A frog's croaks keep an even pitch and rhythm. Listen for the falling series: it means duck.
+
+crickets:
+  how: >-
+    A male cricket rubs a scraper on one wing along a row of tiny teeth on the other wing, and the wing vibrates like a small sounding board.
+  why: >-
+    Each tooth strike gives a tiny click, and the wing turns the rapid clicks into a high, fairly pure tone. Chirps come in regular pulses, faster on warmer nights, and many crickets layer together into a shimmering background.
+  where: >-
+    Heard on warm nights in fields and gardens; in film it is a stock sound for night-time and for awkward silence.
+  vs:
+    frog: >-
+      Frogs use a voice and a vocal sac, giving lower, rougher croaks. Crickets use their wings, giving a higher, purer chirp. Listen for pitch.
+    electrical-hum: >-
+      An electrical whine comes from a transformer or device and is perfectly steady, with no pulses. Crickets chirp in pulses with tiny gaps. Listen for the pulsing.
+    smoke-alarm: >-
+      A smoke alarm has an electronic buzzer that beeps very loud and perfectly even, from one fixed place. Crickets are softer, many at once and slightly uneven. Listen for the mechanical precision of the alarm.
+
+bees:
+  how: >-
+    A bee's wings beat a couple of hundred times a second, pushing the air in rapid pulses that we hear as a hum.
+  why: >-
+    The steady wingbeat gives the hum a clear pitch. Each bee's pitch differs a little and changes as it flies, so many bees together make a wavering, swelling drone rather than one clean tone.
+  where: >-
+    Heard around flowering plants and hives in warm weather; in recordings it is close-up and outdoors.
+  vs:
+    fly: >-
+      A single fly is one buzzing source moving around, so it swoops louder and softer and stops and starts. Many bees make a steadier, fuller drone. Listen for one moving source versus a cloud.
+    electrical-hum: >-
+      Electrical hum comes from mains power and is perfectly steady in pitch and volume. Bees waver as they move. Listen for wavering.
+    drill: >-
+      A drill's motor gives a harder, mechanical whine that changes pitch when the trigger is pressed or the bit bites. Bees are softer and gently wavering. Listen for the hard mechanical edge.
+
+fly:
+  how: >-
+    A fly's wings beat very fast, hundreds of times a second, and the buzz follows the fly as it moves around.
+  why: >-
+    The wingbeats give a buzzing pitch, and as the fly swoops nearer and further away the sound swells and fades and bends slightly in pitch. It often stops suddenly when the fly lands, then starts again.
+  where: >-
+    Heard indoors and outdoors in warm weather; in recordings it is close-up and used in film to suggest heat, decay or boredom.
+  vs:
+    mosquito: >-
+      A mosquito's wings beat faster than a fly's, so its whine is higher and thinner. A fly is lower and buzzier. Listen for pitch.
+    bees: >-
+      Bees in a group make a steady, fuller drone. A single fly comes and goes. Listen for movement and stops.
+
+mosquito:
+  how: >-
+    A mosquito's tiny wings beat several hundred times a second, faster than a fly's.
+  why: >-
+    The very fast wingbeats give a high, thin whine with a clear pitch. Because the insect moves around your head, the whine swells and fades and wavers.
+  where: >-
+    Heard at night close to the ear; in film it is used for hot, humid or sleepless scenes.
+  vs:
+    fly: >-
+      A fly's wings beat more slowly, so it is lower and buzzier. A mosquito is higher and thinner. Listen for pitch.
+    electrical-hum: >-
+      An electrical whine comes from a fixed device and does not move or waver. A mosquito drifts around and changes loudness. Listen for movement.
+
+wolf:
+  how: >-
+    The wolf raises its head and holds a long, voiced note with its vocal folds, rounding its mouth and sliding the pitch smoothly up and down.
+  why: >-
+    A steady voice gives a clear, smooth pitch, and holding it for several seconds lets the howl glide slowly up and fall away. Howls carry far, and other wolves often join at different pitches, making an eerie chorus.
+  where: >-
+    Heard in wild northern forests and in wildlife parks; in film it is a stock sound for night, wilderness and danger, often with long echo.
+  vs:
+    siren: >-
+      A siren is an electronic or mechanical sound that sweeps up and down evenly and repeats exactly. A howl is one voice that rises, holds and falls once, then stops for breath. Listen for the exact repetition of a siren.
+    whine: >-
+      A dog's whine is short, nasal and pleading, made with the mouth closed. A howl is long, open-mouthed and clear. Listen for length.
+    wind: >-
+      Wind howls when it passes edges and gaps, so it is noisy and breathy without a clear voice, and it rises and falls irregularly. A wolf's howl has a clear pitch. Listen for a note you could hum.
+
+lion:
+  how: >-
+    The lion pushes a large volume of air through big vocal folds that have thick, fatty pads, letting them vibrate slowly and powerfully.
+  why: >-
+    Large, heavy vocal folds give a very low pitch and a rough, rumbling texture, and the roar is loud enough to carry a long way. A roaring bout often starts with softer moans, builds to full roars, and ends with a series of short grunts.
+  where: >-
+    Heard on the savanna, usually at dusk and night, and in zoos; in film it is a stock sound for power, often heavily processed.
+  vs:
+    growl: >-
+      A dog's growl is a smaller, continuous rumble from a smaller voice. A lion's roar is much bigger and deeper and comes in bouts with grunts at the end. Listen for size and the trailing grunts.
+    motorcycle: >-
+      An engine rev is mechanical and steady, with a fixed rhythm from its firing cylinders. A roar is a voice, rising and falling with breath. Listen for the breath and the grunts at the end.
+    thunder: >-
+      Thunder is air expanding suddenly along a lightning bolt, so it has no voice and rolls on for many seconds. A roar is voiced and ends with the lion's breath. Listen for voice and the end of each roar.
+
+elephant:
+  how: >-
+    The elephant blows air forcefully out through its trunk, which shapes the call into a loud, brassy blast. Elephants also make very low rumbles with their larynx (voice box), some too low for people to hear.
+  why: >-
+    The force of the blast and the long trunk give the trumpet a loud, blaring, slightly rough tone, high and sudden. It lasts a second or two. The low rumbles are a different sound, deep and soft.
+  where: >-
+    Heard in African and Asian wildlife areas and in zoos; in film it is a stock sound for elephants and the jungle.
+  vs:
+    car-horn: >-
+      A car horn is an electric vibrating disc giving a steady, unchanging tone. An elephant's trumpet is rough, bends in pitch and ends with the breath. Listen for the rough edge and the bend.
+    goose: >-
+      A goose is smaller, with a smaller voice, and honks in short, repeated blasts. An elephant gives one big, long blare. Listen for size and repetition.
+
+seal:
+  how: >-
+    A sea lion barks by pushing air out through its vocal folds in short, strong bursts, again and again.
+  why: >-
+    The bursts are voiced, but rough, honking and breathy, with a low to mid pitch. Barks come in long, even runs, and many animals barking together on a beach make a noisy, overlapping chorus.
+  where: >-
+    Heard on rocky coasts, harbours and piers where sea lions haul out, and in zoos; in recordings it is often mixed with waves.
+  vs:
+    bark: >-
+      A dog barks in shorter, punchier bursts with a cleaner pitch and more variation. A sea lion's bark is rougher, more honking and keeps an even rhythm in long runs. Listen for the honk and the long series.
+
+snake:
+  how: >-
+    The snake forces air out of its lungs through its glottis (the opening of the windpipe), with no vocal folds to vibrate.
+  why: >-
+    With no voice, the hiss is pure air noise, high and airy. It is steady and even, often lasting a few seconds, without the sudden start of a cat.
+  where: >-
+    Heard in the wild when a snake is threatened, and in reptile houses; in film it is a stock warning sound.
+  vs:
+    cat-hiss: >-
+      A cat's hiss is short and explosive, often starting with a spit. A snake's hiss is long and even. Listen for the explosive start.

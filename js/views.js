@@ -101,6 +101,29 @@
     return { resize: () => paintRowWaves(main) };
   }
 
+  const REPO = 'https://github.com/tarekgara/earshot';
+
+  /** A pre-filled GitHub issue for one clip, so feedback names exactly what's wrong. */
+  function reportUrl(inst, smp) {
+    const title = `Clip problem: ${inst.name}, ${smp.label}`;
+    const body = [
+      `**Sound:** ${inst.name} (\`${inst.id}\`)`,
+      `**Clip:** ${smp.label} (\`${smp.key}\`)`,
+      `**Source:** ${smp.credit.join(', ')} · ${smp.license}`,
+      `**Page:** ${location.href}`,
+      '',
+      '**What is wrong?** (tick one or more)',
+      '- [ ] It is not this sound',
+      '- [ ] Poor recording (noise, distortion, other sounds on top)',
+      '- [ ] Speech or music in the clip',
+      '- [ ] Other',
+      '',
+      '**Details:**',
+      '',
+    ].join('\n');
+    return `${REPO}/issues/new?labels=clip-feedback&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  }
+
   /* ================================================================ instrument */
 
   const AXIS = [8000, 2000, 500, 125];
@@ -148,7 +171,8 @@
               <div class="stage-label"><strong data-stage-title></strong><span data-stage-credit></span></div>
               <div class="stage-meta" data-stage-meta></div>
             </div>
-          </div>` : `
+          </div>
+          <p class="report-line"><a data-report target="_blank" rel="noopener">Something wrong with this clip?</a> Wrong sound, speech or music on top, bad recording: tell us on GitHub.</p>` : `
           <div class="stage"><div class="stage-view" style="display:grid;place-items:center;cursor:default">
             <div style="text-align:center;max-width:44ch;padding:24px;color:oklch(0.8 0.02 80)">
               <p style="font:400 26px/1.2 var(--f-serif);color:oklch(0.95 0.01 85)">No recording yet</p>
@@ -180,10 +204,23 @@
               </div></section>`;
             }).join('')}
           </div>
+
+          ${inst.how || inst.why ? `<section class="explain">
+            <h2 class="explain-title">How it's made, and why it sounds like this</h2>
+            ${[['How it is made', inst.how], ['Why it sounds like this', inst.why], ['Where you hear it', inst.music]]
+              .filter(([, t]) => t).map(([h, t]) => `<div class="explain-item"><h3 class="section-title">${h}</h3><p>${esc(t)}</p></div>`).join('')}
+          </section>` : ''}
         </div>
 
         <aside class="side">
           ${inst.listen.length ? `<section><h2 class="section-title">Listen for</h2><ol class="cues">${inst.listen.map(l => `<li>${esc(l)}</li>`).join('')}</ol></section>` : ''}
+          ${inst.words && (inst.words.synonyms.length || inst.words.written.length) ? `<section>
+            <h2 class="section-title">Words for it</h2>
+            ${inst.words.synonyms.length ? `<div class="word-chips">${inst.words.synonyms.map(w => `<a class="word-chip" href="#/words?w=${encodeURIComponent(w)}">${esc(w)}</a>`).join('')}</div>` : ''}
+            ${inst.words.written.length ? `<p class="word-sub">Written as ${inst.words.written.map(w => `<a href="#/words?w=${encodeURIComponent(w)}">“${esc(w)}”</a>`).join(', ')}</p>` : ''}
+            ${inst.words.loose.length ? `<p class="word-sub">Sometimes loosely called ${inst.words.loose.map(w => `<a href="#/words?w=${encodeURIComponent(w)}">${esc(w)}</a>`).join(', ')}</p>` : ''}
+            ${inst.wordNote ? `<p class="word-note">${esc(inst.wordNote)}</p>` : ''}
+          </section>` : ''}
           <section>
             <h2 class="section-title">Profile</h2>
             <dl class="traits">
@@ -210,7 +247,7 @@
         return `<div class="conf" data-fam="${o.family}">
           ${playBtn(o, s)}
           <div class="conf-name"><a href="#/i/${o.id}">${esc(o.name)}</a><span>${esc(famById.get(o.family).name)}${o.samples.length ? '' : ' · no recording yet'}</span></div>
-          <p class="conf-cue">${esc(c.cue)}</p>
+          <div class="conf-cue">${c.why ? `<p>${esc(c.why)}</p>` : ''}<p class="conf-tell"><b>Quick tell:</b> ${esc(c.cue)}</p></div>
           <div class="conf-actions">${o.samples.length && inst.samples.length ? `<button class="btn btn-sm" type="button" data-versus="${o.id}">${icon('flip')}Compare</button>` : ''}</div>
         </div>`;
       }).join('');
@@ -227,6 +264,8 @@
       main.querySelector('[data-stage-credit]').innerHTML = current.link
         ? `<a href="${esc(current.link)}" target="_blank" rel="noopener" style="color:inherit">${credit}</a>` : credit;
       main.querySelector('[data-stage-meta]').textContent = current.dur.toFixed(1) + ' s';
+      const report = main.querySelector('[data-report]');
+      if (report) report.href = reportUrl(inst, current);
       history.replaceState(null, '', `#/i/${inst.id}?s=${current.key}`);
       drawConf();
       window.UI.syncPlaying();
@@ -990,6 +1029,121 @@
     };
   }
 
+  /* ================================================================ words */
+
+  /** Synonym finder: any word for a sound, the sounds it can mean, and how to tell them apart. */
+  function wordsView(main, params) {
+    const { findWords, wordIndex, KIND_LABEL } = window.UI;
+    let q = params.get('w') || '';
+
+    main.innerHTML = `
+      <header class="page-head">
+        <h1 class="page-title">Find the <em>right word</em></h1>
+        <p class="page-lede">Type any word for a sound: a noun, a verb, or how it's written in captions (“ugh”, “achoo”). See every sound it can describe, the other words for each one, and how to tell the look-alikes apart.</p>
+      </header>
+      <div class="words-search">
+        <input type="search" data-word-input value="${esc(q)}" placeholder="groan, whimper, clatter, hiss…" aria-label="Look up a word" autocomplete="off" spellcheck="false">
+      </div>
+      <div data-word-out aria-live="polite"></div>`;
+
+    const input = main.querySelector('[data-word-input]');
+    const out = main.querySelector('[data-word-out]');
+
+    const chip = (w, extra = '') => {
+      const n = (wordIndex().get(w) || []).length;
+      return `<a class="word-chip ${extra}" href="#/words?w=${encodeURIComponent(w)}" data-word="${esc(w)}">${esc(w)}${n > 1 ? `<span class="word-count" title="Can mean ${n} sounds">${n}</span>` : ''}</a>`;
+    };
+
+    function soundRow({ inst, kind }) {
+      const s = canonical(inst);
+      const w = inst.words || {};
+      const others = [...(w.synonyms || []), ...(w.written || []).map(x => x)].filter((x, i, a) => a.indexOf(x) === i).slice(0, 10);
+      return `<div class="word-sound" data-fam="${inst.family}">
+        ${playBtn(inst, s)}
+        <div class="word-sound-main">
+          <div class="word-sound-head"><a href="#/i/${inst.id}">${esc(inst.name)}</a>
+            <span class="word-kind">${esc(KIND_LABEL[kind])}</span>${inst.samples.length ? '' : '<span class="tag tag-wanted">No recording yet</span>'}</div>
+          <p class="word-sound-sum">${esc(inst.summary)}</p>
+          ${others.length ? `<div class="word-chips">${others.map(x => chip(x, 'small')).join('')}</div>` : ''}
+          ${inst.wordNote ? `<p class="word-note">${esc(inst.wordNote)}</p>` : ''}
+        </div>
+      </div>`;
+    }
+
+    /** For every pair of matched sounds that are known look-alikes, say how they differ. */
+    function apart(sounds) {
+      const pairs = [];
+      for (let i = 0; i < sounds.length; i++) {
+        for (let j = i + 1; j < sounds.length; j++) {
+          const a = sounds[i].inst, b = sounds[j].inst;
+          const c = a.confusions.find(x => x.id === b.id) || b.confusions.find(x => x.id === a.id);
+          if (c) pairs.push({ a, b, c });
+        }
+      }
+      if (!pairs.length) return '';
+      return `<section class="word-apart"><h2 class="section-title">How to tell them apart</h2>
+        ${pairs.slice(0, 8).map(({ a, b, c }) => `<div class="word-pair">
+          <p class="word-pair-head"><a href="#/i/${a.id}">${esc(a.name)}</a> <span>or</span> <a href="#/i/${b.id}">${esc(b.name)}</a>
+          <button class="btn btn-ghost btn-sm" type="button" data-versus="${a.id},${b.id}">${icon('flip')}Compare</button></p>
+          ${c.why ? `<p>${esc(c.why)}</p>` : ''}<p class="conf-tell"><b>Quick tell:</b> ${esc(c.cue)}</p>
+        </div>`).join('')}
+      </section>`;
+    }
+
+    function alphabet() {
+      const all = [...wordIndex().keys()].sort((a, b) => a.localeCompare(b));
+      const groups = {};
+      all.forEach(w => { const k = /[a-z]/.test(w[0]) ? w[0] : '#'; (groups[k] = groups[k] || []).push(w); });
+      return `<p class="word-hint">${all.length} words. A number means the word can describe several different sounds.</p>
+        ${Object.entries(groups).map(([k, ws]) => `<section class="word-letter"><h2>${k.toUpperCase()}</h2><div class="word-chips">${ws.map(w => chip(w)).join('')}</div></section>`).join('')}`;
+    }
+
+    function render() {
+      const matches = findWords(q, 40);
+      if (!q.trim()) { out.innerHTML = alphabet(); return; }
+      if (!matches.length) {
+        out.innerHTML = `<p class="empty-note">No sound uses “${esc(q)}” yet. Try a simpler form of the word, or how it's written (“ugh”, “achoo”).</p>`;
+        return;
+      }
+      const best = matches[0];
+      const exact = best.r <= 0.5;
+      const focus = exact ? best : null;
+      const rest = matches.filter(m => m !== focus).slice(0, 24);
+      out.innerHTML = (focus ? `
+        <section class="word-focus">
+          ${(() => {
+            // Words like "rumble" fit many sounds loosely; lead with the ones the word really names.
+            const strong = focus.sounds.filter(x => x.kind !== 'loose');
+            const loose = focus.sounds.filter(x => x.kind === 'loose');
+            const lead = strong.length ? strong : loose;
+            const extra = strong.length ? loose : [];
+            return `<h2 class="word-title">“${esc(focus.word)}” ${lead.length > 1 ? `can mean ${lead.length} different sounds` : 'means'}</h2>
+              ${lead.map(soundRow).join('')}
+              ${lead.length > 1 ? apart(lead) : ''}
+              ${extra.length ? `<details class="word-loose"><summary>Also loosely used for ${extra.length} other sound${extra.length > 1 ? 's' : ''}</summary>${extra.map(soundRow).join('')}</details>` : ''}`;
+          })()}
+        </section>` : `<p class="word-hint">No exact match for “${esc(q)}”. Closest words:</p>`)
+        + (rest.length ? `<section class="word-more"><h2 class="section-title">${focus ? 'Related words' : 'Words'}</h2><div class="word-chips">${rest.map(m => chip(m.word)).join('')}</div></section>` : '');
+      window.UI.syncPlaying();
+    }
+
+    input.addEventListener('input', () => {
+      q = input.value;
+      history.replaceState(null, '', '#/words' + (q ? '?w=' + encodeURIComponent(q) : ''));
+      render();
+    });
+    main.addEventListener('click', e => {
+      const w = e.target.closest('[data-word]');
+      if (w) { e.preventDefault(); q = w.dataset.word; input.value = q; history.replaceState(null, '', '#/words?w=' + encodeURIComponent(q)); render(); main.scrollIntoView(); return; }
+      const vs = e.target.closest('[data-versus]');
+      if (vs) { compare.set(vs.dataset.versus.split(',')); location.hash = '#/compare'; }
+    });
+
+    render();
+    if (!q) input.focus();
+    return {};
+  }
+
   /* ================================================================ about */
 
   function about(main) {
@@ -1028,5 +1182,5 @@
       </div>`;
   }
 
-  window.Views = { library, instrument, identify, compare: compareView, quiz, about };
+  window.Views = { library, instrument, identify, compare: compareView, quiz, words: wordsView, about };
 })();

@@ -1,0 +1,1122 @@
+# Earshot vocabulary layer.
+#
+# For every sound id in library.yaml: the words people use for it.
+#   synonyms: words that name this sound well (base word, verb forms, caption verbs, US/UK variants)
+#   written:  how the sound is spelled in text, comics and subtitles
+#   loose:    imprecise or broader words, or words that mainly mean a neighbouring sound
+#   note:     how to choose when a common word is ambiguous
+
+# ================================================================ voice
+
+cough:
+  synonyms: [cough, coughs, coughing, coughing fit, hacking cough, hack, dry cough, chesty cough, splutter, sputter]
+  written: [cough, ahem]
+  loose: [throat clear, wheeze, choke, bark, clear throat]
+  note: >-
+    People write "ahem" for both, but a cough starts with an explosive pop from the chest while a throat clear is a gentler, deliberate rasp.
+
+throat-clear:
+  synonyms: [throat clearing, clears throat, clearing throat, clear throat, ahem, harrumph, hem]
+  written: [ahem, hem, harrumph, ehem]
+  loose: [cough, grunt, hack, rasp]
+  note: >-
+    A captioned "[clears throat]" is usually this sound, not a cough: listen for a scrape with a bit of voice rather than a burst.
+
+sneeze:
+  synonyms: [sneeze, sneezes, sneezing, sneezing fit]
+  written: [achoo, atchoo, atishoo, ah-choo]
+  loose: [cough, snort, sniff]
+
+sniff:
+  synonyms: [sniff, sniffs, sniffing, sniffle, sniffles, sniffling, snuffle, snuffling, snivel]
+  written: [sniff]
+  loose: [snort, inhale, breath in, scoff]
+  note: >-
+    A sniff is a quick breath in through the nose; a snort is a forceful blast that rattles, usually outwards.
+
+laugh:
+  synonyms: [laugh, laughs, laughing, laughter, belly laugh, guffaw, guffaws, cackle, cackling, roar of laughter, howl of laughter, hearty laugh]
+  written: [haha, hahaha, ha-ha, bwahaha, mwahaha]
+  loose: [chuckle, giggle, snicker, titter, snort, chortle, hoot]
+  note: >-
+    "Laugh" covers every kind; for a light high one search giggle, for a low closed-mouth one chuckle.
+
+giggle:
+  synonyms: [giggle, giggles, giggling, titter, tittering, snicker, snickering, snigger, sniggering, tee-hee]
+  written: [hehe, teehee, tee-hee, hihi]
+  loose: [laugh, chuckle, chortle, squeal]
+  note: >-
+    Snicker (US) and snigger (UK) are the same half-suppressed giggle, often a little mocking.
+
+chuckle:
+  synonyms: [chuckle, chuckles, chuckling, chortle, chortles, chortling, soft laugh, low laugh, quiet laugh]
+  written: [heh, heh heh]
+  loose: [laugh, giggle, snicker, scoff, snort]
+  note: >-
+    A chuckle is a low, mostly closed-mouth laugh; a chortle is a gleeful chuckle and sits between chuckle and laugh.
+
+scoff:
+  synonyms: [scoff, scoffs, scoffing, pff, pfft, derisive laugh, snort of contempt, dismissive snort, sneer]
+  written: [pff, pfft, pfff, psh, pssh, tch]
+  loose: [snort, sigh, chuckle, huff, scornful laugh, raspberry, tut]
+  note: >-
+    People say "snort" for a scoff; a scoff is a light puff of disbelief, a snort a heavier blast that rattles the nose.
+
+snort:
+  synonyms: [snort, snorts, snorting, snorting laugh, snort laugh, nasal snort]
+  written: [snrk, hmph, snort]
+  loose: [scoff, sniff, grunt, huff, oink, snore]
+  note: >-
+    A snort is a forceful burst out through the nose with a rattle; if it is a quick breath in, it is a sniff, and if it is asleep, a snore.
+
+sigh:
+  synonyms: [sigh, sighs, sighing, heavy sigh, deep sigh, sigh of relief, exhale, exhales]
+  written: [sigh, haah, phew, whew, hah]
+  loose: [huff, groan, breath, breathe out, moan, yawn]
+  note: >-
+    A sigh is mostly breath falling away; once it has a rough voiced "ugh" in it, it is a groan.
+
+gasp:
+  synonyms: [gasp, gasps, gasping, sharp intake of breath, sharp breath, inhale, inhales, gulp of air]
+  written: [gasp, hah]
+  loose: [pant, sniff, wheeze, sob, hiccup, breath in]
+  note: >-
+    A gasp is one sudden breath in from surprise or effort; repeated fast breaths are panting.
+
+groan:
+  synonyms: [groan, groans, groaning, grumble, grumbling, groan of annoyance, groan of pain]
+  written: [ugh, ughh, urgh, argh, uhh]
+  loose: [moan, grunt, sigh, whine, mutter, complain]
+  note: >-
+    People often say "moan" for a groan; a groan is rougher, lower and more annoyed, a moan smoother and longer, about pain or pleasure.
+
+moan:
+  synonyms: [moan, moans, moaning, low moan, wail, wailing]
+  written: [mmm, ohh, oooh]
+  loose: [groan, whimper, whine, hum, sigh, sob]
+  note: >-
+    In British English "moan" also means to complain, which is closer to a groan; the sound itself is a smooth, wavering voiced note.
+
+grunt:
+  synonyms: [grunt, grunts, grunting, grunt of effort, oof, umph, oomph, strain, straining, exertion]
+  written: [hnng, oof, umph, ungh, hmph]
+  loose: [groan, snort, huff, growl, oink]
+  note: >-
+    A grunt is short and pushed out with effort; if it drags on and sounds unhappy it is a groan.
+
+yawn:
+  synonyms: [yawn, yawns, yawning, big yawn, sleepy yawn]
+  written: [yawn, aaah]
+  loose: [sigh, groan, stretch, breath]
+
+hum:
+  synonyms: [hum, hums, humming, hummed tune, humming a tune, hum along]
+  written: [hmm, mmm, hmm-hmm, mm-hmm, la la la]
+  loose: [moan, drone, buzz, murmur, sing, croon, whir]
+  note: >-
+    "Hum" also names machine and electrical drones; this entry is a person humming a tune with the mouth closed.
+
+whistling:
+  synonyms: [whistle, whistles, whistling, wolf whistle, human whistle, whistled tune, catcall, whistling a tune]
+  written: [wheet-whew, fweet, tweet]
+  loose: [kettle whistle, train whistle, birdsong, hoot, pipe]
+  note: >-
+    "Whistle" also means a kettle, train or referee whistle; this entry is a person whistling through the lips.
+
+scream:
+  synonyms: [scream, screams, screaming, shriek, shrieks, shrieking, screech, screeching, scream of terror, bloodcurdling scream, squeal]
+  written: [aaah, aaaaah, eek, ahhh]
+  loose: [shout, yell, cry, wail, howl, holler, yelp]
+  note: >-
+    A scream is high and piercing with no words; a shout is lower and usually carries a word or name.
+
+shout:
+  synonyms: [shout, shouts, shouting, yell, yells, yelling, holler, hollering, bellow, bellowing, call out, cry out]
+  written: [hey, oi, hey you, yo]
+  loose: [scream, cheer, cry, roar, call, bawl]
+  note: >-
+    A shout or yell is loud speech; if it is wordless, high and frightened, it is a scream.
+
+crying:
+  synonyms: [cry, cries, crying, sob, sobs, sobbing, weep, weeping, blubbering, bawling, wailing, tears]
+  written: [sob, boohoo, waah, sniff]
+  loose: [whimper, wail, moan, sniffle, whine, howl]
+  note: >-
+    "Cry" can also mean shout ("a cry for help"); this entry is adult crying, with shaky sobs and broken breaths.
+
+baby-cry:
+  synonyms: [baby crying, baby cry, crying baby, infant crying, infant cry, newborn crying, baby wailing, baby screaming, bawling baby, wah]
+  written: [waah, wah wah, waaa, wahh]
+  loose: [wail, crying, scream, whimper, fussing, mewl, howl]
+  note: >-
+    Toddlers and babies both "cry", but an infant's cry is a rhythmic "waa" with gasps between, much less shaky than adult sobbing.
+
+baby-laugh:
+  synonyms: [baby laughing, baby laugh, baby giggling, baby giggle, infant laughing, toddler laughing, baby squealing, baby chuckle]
+  written: [hehe, eee, ahaha]
+  loose: [giggle, squeal, laugh, coo, babble, gurgle]
+
+burp:
+  synonyms: [burp, burps, burping, belch, belches, belching, eructation]
+  written: [burp, buurp, urp, brap]
+  loose: [croak, grunt, hiccup, gas]
+  note: >-
+    Burp and belch name the same thing; "belch" is usually used for a louder, longer one.
+
+hiccup:
+  synonyms: [hiccup, hiccups, hiccuping, hiccupping, hiccough, hiccoughs, the hiccups]
+  written: [hic, hick, hic hic]
+  loose: [gasp, gulp, burp]
+
+kiss:
+  synonyms: [kiss, kisses, kissing, smooch, smooching, peck, air kiss, smack, lip smack]
+  written: [mwah, muah, smack, smooch]
+  loose: [click, pop, slurp]
+
+shush:
+  synonyms: [shush, shushes, shushing, shh, hush, hushing, shushing sound]
+  written: [shh, shhh, sh, hush, psst]
+  loose: [hiss, whisper, sss]
+  note: >-
+    "Psst" is a short call for attention rather than a request for quiet, but it is the same airy hiss of the tongue.
+
+tongue-click:
+  synonyms: [tongue click, tongue clicks, clicking tongue, tut, tutting, tsk, tsking, tut-tut, cluck, clucking tongue]
+  written: [tsk, tsk tsk, tut, tut-tut, tch, tck]
+  loose: [click, clop, kiss, smack, tick]
+  note: >-
+    "Tsk" and "tut" are the disapproving click; the hollow "clop" to call a horse is the same tongue action, lower.
+
+breathing:
+  synonyms: [breathing, breath, breaths, breathe, breathes, breathing in and out, inhale and exhale, respiration, slow breathing]
+  written: [hhh, haah, huff]
+  loose: [panting, wheezing, sighing, heavy breathing, snoring, wind]
+  note: >-
+    Plain steady breathing is calm; if the breaths are fast and open-mouthed, look at panting, and if asleep and rattling, snoring.
+
+panting:
+  synonyms: [panting, pant, pants, heavy breathing, out of breath, breathless, puffing, huffing and puffing, gasping for breath, catching breath]
+  written: [huff huff, pant pant, hah hah]
+  loose: [breathing, gasping, wheezing, dog panting]
+  note: >-
+    "Heavy breathing" can mean slow loud breaths too; panting is specifically fast, short breaths after effort.
+
+snore:
+  synonyms: [snore, snores, snoring, snorer, loud snoring, sawing logs]
+  written: [zzz, zzzz, honk-shoo]
+  loose: [snort, grunt, rumble, purr, wheeze, breathing]
+  note: >-
+    A snore is a rattling breath while asleep, usually on the in-breath; a snort is an awake blast out through the nose.
+
+gargle:
+  synonyms: [gargle, gargles, gargling, mouthwash gargle, rinsing mouth]
+  written: [glglgl, gargle]
+  loose: [gurgle, bubbling, rinse, swish]
+  note: >-
+    "Gurgle" also covers drains and streams; gargling is water bubbled deliberately in the throat.
+
+# ================================================================ body
+
+footsteps:
+  synonyms: [footsteps, footstep, steps, walking, walks, footfalls, treads, pacing, stomping, tramping, plodding, heels clicking, approaching footsteps]
+  written: [clomp, clack, tap tap, stomp]
+  loose: [running, shuffling, creeping, tiptoeing, stamping, clip-clop]
+  note: >-
+    Hooves on a hard road also make a steady clop; human footsteps are two-beat (left, right) and lighter.
+
+clapping:
+  synonyms: [clap, claps, clapping, hand clap, handclap, single clap, slow clap, clapping hands]
+  written: [clap, clap clap]
+  loose: [applause, slap, smack, snap]
+  note: >-
+    One person's claps are clapping; many people at once is applause.
+
+applause:
+  synonyms: [applause, applauding, applauds, ovation, standing ovation, round of applause, audience clapping, crowd clapping]
+  written: [clap clap clap]
+  loose: [clapping, cheering, crowd, rain, crackling]
+  note: >-
+    Applause is a dense wash of many claps and can sound like heavy rain; listen for small hand slaps inside it.
+
+finger-snap:
+  synonyms: [finger snap, finger snaps, snap, snaps, snapping, snapping fingers, finger click, clicking fingers]
+  written: [snap, click]
+  loose: [click, clap, crack, tick]
+  note: >-
+    In British English people often say "clicking your fingers"; it means the same as snapping them.
+
+knock:
+  synonyms: [knock, knocks, knocking, knock on door, knock at the door, rap, raps, rapping, tapping, door knock, knuckles on wood]
+  written: [knock knock, rat-a-tat, tap tap, rap rap]
+  loose: [bang, banging, pounding, thump, hammering, tap]
+  note: >-
+    Loud pounding with the fist or side of the hand is still knocking; a hammer has a sharper, ringing blow.
+
+typing:
+  synonyms: [typing, types, keyboard, typing on keyboard, keystrokes, keyboard clicks, keyboard clacking, clacking keys, typewriter]
+  written: [clack clack, tap tap tap, click clack, clackety-clack]
+  loose: [clicking, tapping, clatter, mouse click]
+  note: >-
+    A typewriter is louder and ends lines with a bell and carriage return; a computer keyboard is lighter and more even.
+
+writing:
+  synonyms: [writing, writes, scribbling, scribble, scribbles, pen on paper, pencil on paper, pencil scratching, pen scratching, handwriting, scratching pen, signing]
+  written: [scritch, scratch scratch, scritch-scratch]
+  loose: [scratching, drawing, rustling, sketching, chalk on blackboard]
+
+chewing:
+  synonyms: [chewing, chews, chew, munching, munch, munches, crunching, crunch, eating, eats, chomping, chomp, gnawing, mastication]
+  written: [munch, crunch, chomp, nom nom, om nom]
+  loose: [slurping, biting, smacking lips, crackling, swallowing]
+
+drinking:
+  synonyms: [drinking, drink, gulping, gulp, gulps, swallowing, swallow, slurping, slurp, sipping, sip, guzzling, chugging, glug]
+  written: [gulp, glug, glug glug, slurp, sip]
+  loose: [pouring, gargling, hiccup, swig]
+
+heartbeat:
+  synonyms: [heartbeat, heartbeats, heart beating, heart pounding, heart thumping, pulse, pulsing, heart, beating heart, racing heart, palpitations]
+  written: [lub-dub, ba-dum, thump-thump, ba-dump]
+  loose: [thump, throb, thud, drum, pounding]
+
+crowd:
+  synonyms: [crowd, crowd chatter, chatter, chattering, murmur, murmuring, hubbub, babble, babbling voices, walla, background voices, people talking, din, restaurant noise, party noise]
+  written: [murmur, chatter]
+  loose: [noise, voices, buzz, conversation, cheering, ambience, talking]
+  note: >-
+    Crowd chatter is many voices at conversation level; if they are shouting in excitement, it is cheering.
+
+cheering:
+  synonyms: [cheering, cheer, cheers, crowd cheer, crowd cheering, roar of the crowd, whooping, whoop, hooray, hurrah, celebration, crowd roar]
+  written: [hooray, hurray, yay, woohoo, whoo, yeah]
+  loose: [applause, shouting, crowd, screaming, chanting, roar]
+  note: >-
+    Cheering is voices shouting with joy; clapping alone is applause, and a long low "boo" is booing.
+
+booing:
+  synonyms: [booing, boo, boos, booed, crowd booing, jeering, jeers, catcalls, heckling, hissing crowd]
+  written: [boo, booo, boooo]
+  loose: [jeer, heckle, hiss, crowd, groan]
+  note: >-
+    Jeering and heckling include shouted words; booing is the long, low, wordless "boo".
+
+# ================================================================ animals
+
+bark:
+  synonyms: [bark, barks, barking, dog bark, dog barking, woof, woofs, yap, yaps, yapping, bay, baying, ruff]
+  written: [woof, woof woof, arf, ruff, bow-wow, yip]
+  loose: [growl, yelp, howl, bowwow, cough]
+  note: >-
+    A yap or yip is a small dog's high bark; baying is a hound's long, musical bark close to a howl.
+
+growl:
+  synonyms: [growl, growls, growling, snarl, snarls, snarling, dog growl, dog growling, rumble]
+  written: [grr, grrr, grrrr]
+  loose: [roar, purr, bark]
+  note: >-
+    "Growl" is used for dogs, big cats and stomachs; this entry is a dog's low warning rumble.
+
+whine:
+  synonyms: [whine, whines, whining, whimper, whimpers, whimpering, dog whine, dog whining, dog whimpering, yelp, yelping, keening]
+  written: [whimper, hnnng]
+  loose: [whinge, cry, mewl, howl, squeak, squeal, mew]
+  note: >-
+    "Whine" also names engines and mosquitoes; for a dog, a whimper is softer and broken, a whine longer and more pleading, and a yelp is a sharp single cry of pain.
+
+dog-pant:
+  synonyms: [dog panting, dog pant, panting dog, dog breathing, dog huffing, dog puffing]
+  written: [hah hah hah, hhh hhh]
+  loose: [panting, breathing, wheezing]
+
+cat-meow:
+  synonyms: [meow, meows, meowing, miaow, miaowing, mew, mews, mewing, cat meow, cat meowing, cat crying, caterwaul, caterwauling, yowl, yowling]
+  written: [meow, miaow, mew, mrow, mrrp]
+  loose: [mewl, whine, cry, purr, chirp, trill]
+  note: >-
+    Mew is a small, soft meow (often kittens); yowl and caterwaul are long, loud cat cries, often at night or in a fight.
+
+cat-purr:
+  synonyms: [purr, purrs, purring, cat purr, cat purring, contented cat]
+  written: [purr, prrr, prrrr, rrr]
+  loose: [rumble, hum, whir, growl, motor]
+  note: >-
+    Purring is a soft, even rumble on both the in- and out-breath; a growl is harsher and only on the breath out.
+
+cat-hiss:
+  synonyms: [hiss, hisses, hissing, cat hiss, cat hissing, spit, spitting, angry cat, cat spitting]
+  written: [hiss, hsss, pssst, ffft]
+  loose: [growl, snarl, yowl, shush]
+  note: >-
+    Cats, snakes and air leaks all "hiss"; a cat's hiss is short and spitting, a snake's long and even, an air leak steady and mechanical.
+
+cow:
+  synonyms: [moo, moos, mooing, cow, cows, cattle, lowing, low, bellow, bellowing, cow mooing]
+  written: [moo, mooo, moooo]
+  loose: [bull, calf, ox, groan, foghorn]
+  note: >-
+    "Lowing" is the old-fashioned word for a cow's moo; a bellow is the louder call of a bull or distressed cow.
+
+horse-neigh:
+  synonyms: [neigh, neighs, neighing, whinny, whinnies, whinnying, nicker, nickering, horse neigh, horse whinny, bray]
+  written: [neigh, nay, whinny]
+  loose: [snort, horse snort, laugh]
+  note: >-
+    A whinny is the long, shaky call; a nicker is a soft low greeting; a bray is a donkey's "hee-haw".
+
+horse-hooves:
+  synonyms: [hooves, hoofbeats, hoof beats, clip-clop, clip clop, clopping, galloping, gallop, trotting, trot, cantering, horse walking, horse hooves]
+  written: [clip-clop, clippety-clop, clop clop, clop]
+  loose: [footsteps, knocking, tapping, stampede, horse]
+
+rooster:
+  synonyms: [rooster, rooster crowing, crow, crows, crowing, cockerel, cock, cock crow, cock-a-doodle-doo]
+  written: [cock-a-doodle-doo, cockadoodledoo, kikeriki]
+  loose: [chicken, hen, cluck, farm]
+  note: >-
+    "Crow" is also a bird; a rooster crows (a long dawn call) while a crow caws.
+
+chicken:
+  synonyms: [cluck, clucks, clucking, chicken, chickens, hen, hens, bawk, chicken clucking, hens clucking, cackle, cackling, squawk]
+  written: [cluck, cluck cluck, bawk, buk buk, bok bok, buck-buck-bacaw]
+  loose: [rooster, chick, peep, poultry]
+  note: >-
+    Hens cluck and cackle; the loud "cock-a-doodle-doo" belongs to a rooster.
+
+pig:
+  synonyms: [oink, oinks, oinking, pig, pigs, pig grunting, grunt, grunting, squeal, squealing, snuffling, hog, swine]
+  written: [oink, oink oink, snort, wee wee]
+  loose: [snort, piglet, snore]
+  note: >-
+    People say "snort" for pigs, but a pig's sound is mostly short nasal grunts plus high squeals.
+
+sheep:
+  synonyms: [baa, baas, baaing, bleat, bleats, bleating, sheep, sheep bleating, lamb, lambs, ewe]
+  written: [baa, baaa, meh, maa]
+  loose: [goat, flock]
+  note: >-
+    Sheep and goats both bleat; a sheep's "baa" is softer and more wavering, a goat's harsher and more like a person yelling.
+
+goat:
+  synonyms: [goat, goats, goat bleating, bleat, bleats, bleating, goat scream, screaming goat, kid, maa]
+  written: [meh, maa, baa, meeh]
+  loose: [sheep, baa, scream, yell]
+  note: >-
+    Sheep and goats both bleat; a goat is harsher and more human, which is why "screaming goat" videos sound like a person yelling.
+
+duck:
+  synonyms: [quack, quacks, quacking, duck, ducks, duck quacking, mallard, drake]
+  written: [quack, quack quack]
+  loose: [goose, honk, squawk, waterfowl]
+
+goose:
+  synonyms: [honk, honks, honking, goose, geese, goose honking, geese honking, gaggle, canada goose, hissing goose]
+  written: [honk, honk honk]
+  loose: [duck, quack, squawk, car horn, hiss]
+  note: >-
+    "Honk" also means a car horn; a goose's honk is brassy and nasal, usually from a flock overhead.
+
+crow:
+  synonyms: [caw, caws, cawing, crow, crows, crow cawing, raven, ravens, rook, rooks, jackdaw, croak of a raven]
+  written: [caw, caw caw, kraa, kraah]
+  loose: [squawk, croak, crowing, call]
+  note: >-
+    Crows and rooks caw; a raven's call is a deeper croak; and "crowing" is what a rooster does, not a crow.
+
+songbird:
+  synonyms: [birdsong, bird song, songbird, bird singing, singing bird, chirp, chirps, chirping, tweet, tweets, tweeting, warble, warbling, trill, twitter]
+  written: [tweet, tweet tweet, chirp, cheep, tweedle]
+  loose: [birds, whistle, chirrup, cheep, peep, dawn chorus]
+  note: >-
+    One bird singing is a songbird; many birds at once outdoors is the dawn chorus.
+
+owl:
+  synonyms: [hoot, hoots, hooting, owl, owls, owl hooting, owl call, tawny owl, screech owl, barn owl]
+  written: [hoo hoo, twit-twoo, to-whit to-whoo, whoo]
+  loose: [coo, call, screech, night bird]
+  note: >-
+    The classic "twit-twoo" is two tawny owls answering each other; a barn owl screeches rather than hoots.
+
+pigeon:
+  synonyms: [coo, coos, cooing, pigeon, pigeons, pigeon cooing, dove, doves, dove cooing, wood pigeon, turtle dove, mourning dove]
+  written: [coo, coo-coo, roo-coo]
+  loose: [hoot, owl, purr, warble]
+  note: >-
+    Doves and pigeons are the same family and both coo; a coo is throatier and more rolling than an owl's hollow hoot.
+
+seagull:
+  synonyms: [seagull, seagulls, gull, gulls, seagull call, gull call, seagull crying, squawk, squawking, seabird, kittiwake]
+  written: [kyow, kee-ow, squawk]
+  loose: [seaside, screech, cry, mew, laughing gull]
+
+frog:
+  synonyms: [croak, croaks, croaking, ribbit, frog, frogs, frog croaking, toad, toads, bullfrog, frog chorus, peepers]
+  written: [ribbit, croak]
+  loose: [burp, chirp, crickets, night sounds, quack]
+  note: >-
+    "Croak" is also a hoarse voice or a raven; frogs croak in a rhythmic, often chorused pattern near water at night.
+
+crickets:
+  synonyms: [crickets, cricket, cricket chirping, crickets chirping, chirping, cicada, cicadas, katydid, grasshopper, chirping insects, night insects, stridulation]
+  written: [chirp chirp, cri-cri]
+  loose: [insects, bugs, chirp, frogs, night ambience, buzz]
+  note: >-
+    Crickets pulse in short regular chirps; cicadas are a louder, continuous daytime buzz that rises and falls.
+
+bees:
+  synonyms: [bees, bee, buzz, buzzing, bees buzzing, beehive, hive, swarm, bumblebee, honeybee, wasp, wasps, drone]
+  written: [bzzz, buzz, zzz]
+  loose: [fly, insects, hum, hornet]
+  note: >-
+    One fly makes a loud buzz that comes and goes as it passes; bees are many overlapping buzzes at a steadier level.
+
+fly:
+  synonyms: [fly, flies, fly buzzing, housefly, bluebottle, buzzing fly, buzz, buzzing, blowfly]
+  written: [bzzz, bzz, zzz]
+  loose: [bee, insect, mosquito, gnat, drone]
+  note: >-
+    A fly's buzz is lower and fuller than a mosquito's thin, high whine.
+
+mosquito:
+  synonyms: [mosquito, mosquitoes, mosquito buzzing, mosquito whine, gnat, midge, whine, high-pitched buzz]
+  written: [eeee, zzzz, bzzzz, neeee]
+  loose: [buzz, fly, insect, bee]
+  note: >-
+    People call it a buzz, but a mosquito is a thin, high whine near the ear, much higher than a fly.
+
+wolf:
+  synonyms: [howl, howls, howling, wolf, wolves, wolf howling, wolf howl, coyote, coyotes, yip, yipping, pack howl]
+  written: [awoo, aroo, owooo]
+  loose: [dog howl, wail, whine, bark, wind howling, siren]
+  note: >-
+    "Howl" is also used for wind and dogs; a wolf's howl is a long gliding note that others answer, while coyotes yip and yelp between howls.
+
+lion:
+  synonyms: [roar, roars, roaring, lion, lions, lion roar, lion roaring, tiger, tiger roar, big cat, jaguar, leopard]
+  written: [roar, rawr, grrr]
+  loose: [growl, snarl, bellow, rumble]
+  note: >-
+    A big-cat roar is huge and deep and often ends in a run of grunts; a growl is lower, closed and continuous.
+
+elephant:
+  synonyms: [elephant, elephants, trumpet, trumpets, trumpeting, elephant trumpeting, elephant call, elephant roar]
+  written: []
+  loose: [honk, horn, rumble, bellow, roar]
+
+seal:
+  synonyms: [sea lion, sea lions, sea lion barking, seal, seals, seal barking, bark, barking, honk, honking, walrus]
+  written: [arf, arf arf]
+  loose: [grunt, bellow]
+  note: >-
+    People say "seal" for both, but the loud honking bark is usually a sea lion; true seals mostly grunt and growl.
+
+snake:
+  synonyms: [hiss, hisses, hissing, snake, snakes, snake hiss, snake hissing, rattlesnake, rattle, rattling, serpent, viper]
+  written: [hiss, sss, ssss, hsss]
+  loose: [cat hiss, air hiss, shush, buzz]
+  note: >-
+    A snake's hiss is long and even; a rattlesnake's warning is a dry, fast rattle from its tail rather than a hiss.
+
+# ================================================================ nature
+
+rain:
+  synonyms: [rain, raining, rainfall, rainstorm, downpour, drizzle, drizzling, pouring rain, heavy rain, patter, pattering, raindrops, rain on roof, rain on window]
+  written: [pitter-patter, drip drip, plip plop]
+  loose: [storm, water, wet, sizzle, applause, hiss, shower]
+  note: >-
+    "Shower" means both rain and a bathroom shower; rain falls on many surfaces outdoors, a shower is close, steady and echoes off tiles.
+
+thunder:
+  synonyms: [thunder, thunders, thundering, thunderclap, thunderstorm, thunder rumble, rumble of thunder, peal of thunder, crack of thunder, storm, lightning, rolling thunder]
+  written: [boom, kaboom, crack, rumble]
+  loose: [rumble, boom, explosion, rumbling]
+  note: >-
+    Close thunder starts with a sharp crack; distant thunder is a long, low roll that grows and fades.
+
+wind:
+  synonyms: [wind, winds, windy, gust, gusts, gusting, gale, breeze, blowing, howling wind, whistling wind, windstorm, blustery, draught, draft]
+  written: [whoosh, woosh, whoo, whooo]
+  loose: [howl, whistle, whoosh, air, storm, rustle, hiss]
+  note: >-
+    "Draught" (UK) and "draft" (US) are a small, steady flow of air indoors; outdoors moving air rises and falls in gusts.
+
+waves:
+  synonyms: [waves, wave, ocean waves, ocean, sea, surf, breaking waves, crashing waves, waves crashing, lapping waves, beach, seaside, shoreline, tide, breakers]
+  written: [whoosh, shhh, swoosh, crash]
+  loose: [water, splash, rumble, wind, traffic, roar]
+  note: >-
+    Waves come and go in a slow cycle of a few seconds; a steady roar without that cycle is more likely wind or traffic.
+
+brook:
+  synonyms: [stream, streams, brook, babbling brook, creek, river, running water, flowing water, babbling, burbling, trickling, trickle, rill, beck, burn]
+  written: [babble, burble, trickle, gurgle]
+  loose: [water, waterfall, gurgle, tap water, rapids, splashing]
+  note: >-
+    "Creek" is the usual US word and "beck" or "burn" are northern British; all mean a small stream with a bubbling babble.
+
+fire:
+  synonyms: [fire, fires, crackle, crackling, crackling fire, crackles, campfire, fireplace, bonfire, log fire, wood fire, burning, flames, open fire, hearth]
+  written: [crackle, pop, snap, fwoosh]
+  loose: [blaze, inferno, sizzle, popping, roar, frying, crunching]
+  note: >-
+    "Crackle" also describes frying, vinyl and radio static; a fire has a soft roar underneath with snaps and pops from the wood.
+
+birdsong-ambience:
+  synonyms: [dawn chorus, birdsong, birds singing, birds chirping, birds, bird sounds, forest ambience, woodland, forest, morning birds, chirping birds, garden birds, nature sounds]
+  written: [tweet tweet, chirp chirp, cheep cheep]
+  loose: [songbird, chirping, tweeting, jungle, wildlife, nature]
+  note: >-
+    Many birds singing at once is a chorus; if you can follow one clear melody, look at songbird.
+
+# ================================================================ home
+
+door:
+  synonyms: [door, door opening, door closing, door open, door close, door shuts, door closes, door opens, latch, latch clicks, door handle, doorknob, door clicks]
+  written: [click, clunk, creak]
+  loose: [slam, creak, knock, thump, shut]
+  note: >-
+    A normal door has a handle, latch click and soft thump; a hard bang with a frame rattle is a slam, and a long squeal is a creak.
+
+door-slam:
+  synonyms: [door slam, door slams, slam, slams, slamming, slammed door, slamming door, door bang, door banging, bang, banged shut]
+  written: [slam, bam, bang, wham]
+  loose: [thud, crash, knock, gunshot, door]
+  note: >-
+    A slam is one loud bang with a rattle of the frame; repeated bangs on a door are knocking.
+
+door-creak:
+  synonyms: [creak, creaks, creaking, creaky door, creaking door, door creaks, squeaky door, squeaky hinge, creaky hinge, squeak, squeaking, groaning door]
+  written: [creak, creeeak, eeek, squeak]
+  loose: [groan, squeal, whine, moan]
+  note: >-
+    A door "groans" in horror films; a creak is low and dry, a squeak short and higher.
+
+keys:
+  synonyms: [keys, keys jingling, jingle, jingles, jingling, jangle, jangling, keyring, key ring, bunch of keys, rattling keys]
+  written: [jingle, jangle, clink, jingle-jangle]
+  loose: [clink, rattle, tinkle, coins, chime]
+  note: >-
+    Keys and coins both jingle; keys are on one ring and clink against each other, coins drop and roll separately.
+
+dishes:
+  synonyms: [dishes, plates, cutlery, silverware, washing up, washing dishes, doing the dishes, clatter, clattering, clink, clinking, crockery, kitchen sounds, restaurant kitchen]
+  written: [clink, clank, clatter, clang]
+  loose: [clank, rattle, crash, glass, pots and pans]
+  note: >-
+    "Silverware" (US) and "cutlery" (UK) mean the same; a single toast of two glasses is glasses clinking.
+
+glass-break:
+  synonyms: [glass breaking, breaking glass, glass shattering, shatter, shatters, shattering, smash, smashing, glass smash, broken glass, window breaking, smashed window, tinkle]
+  written: [crash, smash]
+  loose: [crash, break, clink]
+  note: >-
+    "Smash" and "crash" also describe general collisions; glass breaking ends with small bright pieces tinkling and settling.
+
+tap-water:
+  synonyms: [tap, tap running, running tap, running water, faucet, faucet running, sink, water running, tap water, water from tap, filling sink]
+  written: [shhh, splash, fssh]
+  loose: [water, shower, pouring, stream, trickle, splashing, drip]
+  note: >-
+    "Tap" (UK) and "faucet" (US) mean the same; a tap is one stream into a sink, a shower many jets hitting a person and tiles.
+
+shower:
+  synonyms: [shower, showers, showering, shower running, running shower, taking a shower, bathroom shower, shower spray]
+  written: [shhh, ssshh, fssh]
+  loose: [rain, water, tap, running water, spray, bath]
+  note: >-
+    "Shower" also means light rain; a bathroom shower is close, steady and echoes off tiles.
+
+pour:
+  synonyms: [pour, pours, pouring, pouring water, pouring liquid, pouring a drink, filling a glass, filling glass, fill, poured, glugging]
+  written: [glug, glug glug, glug-glug, splash]
+  loose: [tap water, drinking, splash, trickle, gurgle]
+  note: >-
+    A pour into a glass rises in pitch as it fills; a steady stream into a sink is a running tap.
+
+toilet-flush:
+  synonyms: [toilet flush, toilet flushing, flush, flushes, flushing, flushing toilet, loo flush, cistern, toilet refilling]
+  written: [whoosh, swoosh, fwoosh, gurgle]
+  loose: [gurgle, drain, water, swirl, plumbing]
+  note: >-
+    "Loo" is the everyday British word; a flush is a rush, a swirling gurgle and then the tank refilling.
+
+microwave:
+  synonyms: [microwave, microwave oven, microwave beep, microwave beeping, microwave hum, microwave running, microwave ding, nuking]
+  written: [beep beep beep, ding, mmmm]
+  loose: [beep, hum, timer, oven, ding]
+  note: >-
+    Many appliances beep; a microwave is a low hum followed by three or so evenly spaced "done" beeps.
+
+kettle:
+  synonyms: [kettle, kettle boiling, boiling kettle, kettle whistle, whistling kettle, kettle whistling, boiling water, water boiling, electric kettle, teakettle, tea kettle]
+  written: [wheee, eeeee, tweeee]
+  loose: [whistle, boil, steam, hiss, shriek]
+  note: >-
+    "Whistle" also means a person whistling or a train whistle; a kettle's whistle rises steadily from a rumble of boiling water.
+
+frying:
+  synonyms: [frying, fry, fries, sizzle, sizzles, sizzling, frying pan, hot oil, deep frying, sizzling bacon, bacon frying, fried egg, searing, spitting oil]
+  written: [sizzle, tsss, ssss, tssst]
+  loose: [crackle, crackling, hiss, pop, rain, cooking]
+  note: >-
+    Frying is a tight, bright sizzle with spits and pops; a wood fire is softer underneath with bigger snaps.
+
+vacuum:
+  synonyms: [vacuum, vacuum cleaner, vacuuming, vacuums, hoover, hoovering, hoovered, hoover running, vac, hoovering the carpet]
+  written: [vrrr, vrrrm, vroom, whirr]
+  loose: [whir, whine, roar, motor, hairdryer, suction]
+  note: >-
+    "Hoover" is the everyday British word for vacuuming; the sound is a loud motor whine with rushing air that changes as it is pushed around.
+
+hairdryer:
+  synonyms: [hairdryer, hair dryer, hairdryers, blow dryer, blow-dryer, blowdryer, blow-drying, blow dry, hair drying]
+  written: [vrrr, whirr, fwoosh]
+  loose: [fan, vacuum, whir, whine, blower]
+  note: >-
+    A hairdryer is a smaller, steadier whine and whoosh than a vacuum, which roars and changes as it moves.
+
+blender:
+  synonyms: [blender, blending, blends, food processor, mixer, smoothie maker, liquidiser, liquidizer, whizzing, blitzing, stand mixer, hand blender]
+  written: [vrrr, whirr, bzzzz, rrrr]
+  loose: [grinder, whir, whine, motor, drill, juicer]
+  note: >-
+    "Liquidiser" is British and "blender" American; a blender's whine dips and changes as the food breaks down, unlike a drill's steady pitch.
+
+washing-machine:
+  synonyms: [washing machine, washer, laundry, doing laundry, spin cycle, spinning, washing cycle, wash cycle, washer dryer, tumble dryer, launderette]
+  written: [whirr, slosh, thunk thunk, rumble]
+  loose: [dryer, dishwasher, rumble, churning, sloshing, appliance]
+  note: >-
+    Washing machines and dishwashers both slosh; a washing machine has a turning drum and ends in a high, rattling spin.
+
+dishwasher:
+  synonyms: [dishwasher, dishwasher running, dishwashing machine, dish washer, dishwasher cycle, dishwasher spraying]
+  written: [swish, shhh, whirr]
+  loose: [washing machine, sloshing, spray, appliance, hum]
+  note: >-
+    A dishwasher is water spraying inside a closed box with a pump hum, without a washing machine's turning drum and spin.
+
+clock-tick:
+  synonyms: [clock ticking, ticking clock, tick, ticks, ticking, tick-tock, tick tock, ticktock, clock, wall clock, grandfather clock, pocket watch, watch ticking]
+  written: [tick, tick-tock, tick tock, tock]
+  loose: [click, metronome, clicking, countdown, timer]
+  note: >-
+    A clock and a metronome both tick; a clock is softer with an alternating tick-tock, a metronome a sharper click set to a tempo.
+
+metronome:
+  synonyms: [metronome, metronomes, metronome click, metronome ticking, click track, clicking metronome, tempo click, beat keeper]
+  written: [tick, tock, click, tick-tock]
+  loose: [clock, ticking, click, tick, beat]
+
+alarm-clock:
+  synonyms: [alarm clock, alarm, alarms, alarm going off, alarm ringing, alarm beeping, wake-up alarm, morning alarm, bell alarm clock, snooze, beep beep beep]
+  written: [beep beep beep, brrring, ring ring, bzzz]
+  loose: [beep, ringing, buzzer, timer, smoke alarm, bell]
+  note: >-
+    "Alarm" also covers smoke and car alarms; an alarm clock is a fast, insistent beeping or a frantic bell ring that goes on until stopped.
+
+doorbell:
+  synonyms: [doorbell, door bell, doorbells, doorbell ringing, ding-dong, ding dong, chime, chimes, door chime, doorbell chime, ring at the door]
+  written: [ding-dong, ding dong, bing bong, brrring]
+  loose: [bell, ring, buzzer, notification, intercom]
+  note: >-
+    "Bell" also covers church and bicycle bells; a doorbell is a two-tone "ding-dong" or a short buzz.
+
+phone-ring:
+  synonyms: [phone ringing, phone ring, ringing phone, telephone ringing, telephone, ring, rings, ringing, ringtone, landline, cell phone ringing, mobile ringing, phone call, incoming call]
+  written: [ring ring, brrring, ring-ring, trrring]
+  loose: [bell, buzz, alarm, notification, vibrate]
+  note: >-
+    "Ring" is used for bells and doorbells too; a phone ring comes in repeating bursts of a trilling bell or warble.
+
+phone-vibrate:
+  synonyms: [phone vibrating, phone vibrate, vibrating phone, vibration, vibrate, vibrates, buzz, buzzing, buzzes, phone buzzing, silent mode, vibrate mode]
+  written: [bzzz, bzzt, brrr, bzz bzz]
+  loose: [buzzer, hum, rattle, ring, electric razor]
+  note: >-
+    "Buzz" also means bees, electricity and buzzers; a phone vibrating is short bursts that rattle against the table it lies on.
+
+notification:
+  synonyms: [notification, notification sound, notifications, ding, dings, ping, pings, chime, alert, alert tone, message alert, text tone, new message, beep, blip]
+  written: [ding, ping, bing, boop, blip, dink]
+  loose: [bell, doorbell, tone, sound effect, ringtone]
+  note: >-
+    "Ding" and "ping" also describe glasses and bells; a notification is a short electronic chime from a phone or computer.
+
+camera-shutter:
+  synonyms: [camera shutter, shutter, shutter click, shutter sound, camera click, camera clicking, taking a photo, taking a picture, photo, snapshot, shutter release]
+  written: [click, snap, ka-chick, click-clack]
+  loose: [click, snap, flash, clicking]
+
+zipper:
+  synonyms: [zipper, zip, zips, zipping, unzipping, zipper opening, zipper closing, unzip, zip up, zipping up]
+  written: [zzzip, zip, zzzt, zrrrp]
+  loose: [ripping, tearing, velcro, rip]
+  note: >-
+    "Zip" is British and "zipper" American; a zip is a fast ratchety buzz, a paper tear a single smoother rip.
+
+paper-rustle:
+  synonyms: [rustle, rustles, rustling, paper rustling, rustling paper, crinkle, crinkling, crumple, scrunch, newspaper, plastic bag, wrapper]
+  written: [rustle, crinkle, scrunch, krsh]
+  loose: [crackle, crunch, shuffle, leaves, page turning, crisp packet]
+  note: >-
+    "Rustle" is also used for leaves in the wind; paper or a bag in someone's hands is crisp and irregular.
+
+paper-tear:
+  synonyms: [tear, tears, tearing, tearing paper, ripping, rip, rips, ripping paper, paper ripping, torn paper, rip up]
+  written: [rip, rrrip]
+  loose: [shred, zipper, velcro, tape, rustle]
+  note: >-
+    "Tear" and "rip" are the same sound; a tear is one stroke, while a zip is a ratchety buzz and tape a sticky screech.
+
+scissors:
+  synonyms: [scissors, scissor, snip, snips, snipping, cutting, cut, cutting paper, cutting hair, shears, haircut, clippers]
+  written: [snip, snip snip, snip-snip, shnk]
+  loose: [trimming, clip, clipping, scrape]
+
+tape:
+  synonyms: [tape, packing tape, sticky tape, sellotape, scotch tape, duct tape, parcel tape, masking tape, taping, tape gun, pulling tape, tape dispenser]
+  written: [rrrip]
+  loose: [rip, tearing, screech, zipper, peel]
+  note: >-
+    "Sellotape" (UK) and "Scotch tape" (US) are the everyday words; pulling tape off the roll is a sticky screech, not a clean rip.
+
+electric-razor:
+  synonyms: [electric razor, razor, shaver, electric shaver, shaving, shaves, beard trimmer, trimmer, hair clippers, clippers, buzz cut]
+  written: [bzzz, bzzzz, zzzz]
+  loose: [buzz, buzzing, hum, vibration, toothbrush]
+  note: >-
+    A razor or clippers is a steady buzz that changes slightly on skin and hair; a phone vibrating comes in short bursts.
+
+# ================================================================ vehicles
+
+car-idle:
+  synonyms: [car idling, idling, idle, idles, engine idling, engine running, engine ticking over, ticking over, car running, motor running, running engine, car engine, engine]
+  written: [rumble, brrrr, vrrr, putt putt]
+  loose: [rumble, purr, motor, revving, truck]
+  note: >-
+    "Ticking over" is the British phrase for idling; revving rises and falls, idling stays at one low pulse.
+
+car-pass:
+  synonyms: [car passing, car passes, car passing by, passing car, drive-by, drive by, pass-by, pass by, car driving by, car going past, whoosh, car zooming by]
+  written: [vroom, zoom, whoosh, nyeeow, vrooom]
+  loose: [traffic, zoom, swish, motorcycle, wind]
+  note: >-
+    One car going past swells and falls in pitch; a continuous roar of many cars is traffic.
+
+traffic:
+  synonyms: [traffic, traffic noise, road noise, road traffic, city traffic, busy road, busy street, city street, rush hour, highway, motorway, freeway, cars passing, urban ambience]
+  written: [vroom, honk, beep beep]
+  loose: [city, street, cars, roar, rumble, waves, wind, crowd]
+  note: >-
+    "Motorway" (UK), "freeway" and "highway" (US) all mean the steady roar of a busy road.
+
+car-horn:
+  synonyms: [car horn, horn, horns, honk, honks, honking, beep, beeps, beeping, hooter, hoot, toot, tooting, car alarm horn, horn blast]
+  written: [honk, honk honk, beep beep, toot toot, meep]
+  loose: [buzzer, klaxon, alarm, goose]
+  note: >-
+    "Honk" also means geese, and "beep" small electronic signals; a car horn is a loud, brassy two-note blast.
+
+car-door:
+  synonyms: [car door, car door closing, car door slam, car door shutting, car door opening, car doors, door clunk, clunk, thunk, boot closing, trunk closing]
+  written: [clunk, thunk, ka-chunk, chunk]
+  loose: [door, slam, thud, door slam, latch]
+  note: >-
+    A car door is a heavy, padded clunk; a house door slam is a sharper bang with a rattling frame.
+
+motorcycle:
+  synonyms: [motorcycle, motorcycles, motorbike, motorbikes, motor bike, bike, scooter, moped, dirt bike, revving, revs, revving engine, vroom]
+  written: [vroom, vrooom, brrrm, vrrrm, braap]
+  loose: [engine, chainsaw, roar, lawn mower, rev]
+  note: >-
+    "Bike" can also mean a bicycle; a motorbike is a buzzy, raspy engine that revs up through the gears.
+
+truck:
+  synonyms: [truck, trucks, lorry, lorries, diesel engine, diesel, bus, buses, semi, semi-truck, eighteen-wheeler, big rig, heavy vehicle, hgv, coach]
+  written: [rumble, vrrrm, brrrr]
+  loose: [engine, rumble, air brakes, traffic, van, tractor]
+  note: >-
+    "Lorry" (UK) and "truck" (US) mean the same; a diesel engine is deeper and more clattering than a car.
+
+air-brakes:
+  synonyms: [air brakes, air brake, air brake hiss, bus brakes, truck brakes, lorry brakes, brakes hissing, air release, pneumatic brakes, kneeling bus]
+  written: [psssh, pssht, tsssh, pshhh]
+  loose: [hiss, air hiss, steam, sigh, brakes, release]
+  note: >-
+    A truck or bus air brake is a sudden loud "pssssh" when it stops; a steady unbroken hiss is escaping air from a valve or leak.
+
+# ================================================================ machines
+
+air-hiss:
+  synonyms: [hiss, hissing, air hiss, escaping air, air leak, leak, steam, hissing steam, compressor, pressure release, valve, tyre deflating, puncture]
+  written: [hiss, sss, psss, tsss, fsssh]
+  loose: [whoosh, air brakes, shush, wind, fizz, spray]
+  note: >-
+    Cats, snakes and air leaks all "hiss"; escaping air is a steady, mechanical hiss with no breath behind it.
+
+# ================================================================ vehicles
+
+train:
+  synonyms: [train, trains, train passing, railway, railroad, freight train, goods train, locomotive, steam train, clickety-clack, clackety-clack, train on tracks, rail, chugging, choo choo]
+  written: [choo choo, chugga chugga, clickety-clack, clackety-clack]
+  loose: [subway, tram, rumble, thunder, horn, engine]
+  note: >-
+    "Railway" and "goods train" are British, "railroad" and "freight train" American; listen for the clickety-clack of wheels on rail joints.
+
+train-horn:
+  synonyms: [train horn, train whistle, locomotive horn, train horn blast, horn blast, air horn, whistle, train honk, steam whistle]
+  written: [toot toot, hoot, whooo, honk]
+  loose: [horn, foghorn, car horn, kettle]
+  note: >-
+    A train horn is a huge chord carrying for miles; a steam whistle is the shriller, older version, and a car horn is far smaller.
+
+subway:
+  synonyms: [subway, subway train, metro, underground, tube, tube train, underground train, metro train, train arriving, platform, tram, light rail]
+  written: [rumble, screech]
+  loose: [train, rumble, screech, tunnel, tire screech]
+  note: >-
+    "Underground" or "tube" (London), "metro" and "subway" (US) are the same; listen for a rumble in a tunnel, squealing brakes and hissing doors.
+
+airplane:
+  synonyms: [airplane, aeroplane, plane, planes, jet, jets, jet plane, airliner, aircraft, flyover, plane flying over, plane taking off, takeoff, jet engine, plane overhead]
+  written: [vrooom, nyeeow, whoosh, rrrrr]
+  loose: [roar, thunder, wind, rumble, helicopter, airport]
+  note: >-
+    "Aeroplane" is British and "airplane" American; a jet is a huge, tearing roar that slowly fades, with no rhythmic chop like a helicopter.
+
+helicopter:
+  synonyms: [helicopter, helicopters, chopper, choppers, copter, heli, rotor, rotor blades, helicopter overhead, helicopter flying, whirlybird]
+  written: [whup whup whup, chop chop chop, wop wop wop, thwup]
+  loose: [chop, thudding, plane, drone]
+  note: >-
+    A helicopter has a fast "whup-whup" rhythm from its rotor; a small toy or camera drone is a high buzz without the thud.
+
+bicycle-bell:
+  synonyms: [bicycle bell, bike bell, cycle bell, bell, bell ring, bicycle bell ringing, bike bell ringing, ding ding]
+  written: [ring ring, ding ding, brring, tring tring]
+  loose: [ring, ding, chime]
+  note: >-
+    "Bell" covers many sounds; a bike bell is a bright, quick "ring-ring" flicked by a thumb.
+
+tire-screech:
+  synonyms: [tire screech, tyre screech, tires screeching, tyres screeching, screeching tires, screeching tyres, squealing tyres, squealing tires, screech, screeching, skid, skidding, burnout, wheelspin]
+  written: [screech, skreee, eeeee, scree]
+  loose: [squeal, braking, brakes, crash, scream]
+  note: >-
+    "Tyre" is British and "tire" American; rubber skidding on tarmac is a harsh squeal, while train brakes are more metallic.
+
+# ================================================================ signals
+
+siren:
+  synonyms: [siren, sirens, police siren, ambulance siren, fire engine siren, fire truck siren, emergency siren, wail, wailing siren, yelp, hi-lo, nee-naw, air raid siren, tornado siren]
+  written: [nee-naw, wee-woo, weeoo, wooo, nee naw]
+  loose: [alarm, emergency, police, ambulance, fire engine, howl]
+  note: >-
+    "Nee-naw" is the British two-tone; American sirens are more often written "wee-woo" and use a rising and falling wail or a fast yelp.
+
+smoke-alarm:
+  synonyms: [smoke alarm, smoke detector, fire alarm, smoke alarm beeping, smoke detector chirp, low battery chirp, carbon monoxide alarm, co alarm, alarm beeping, beeping alarm]
+  written: [beep beep beep, beep, chirp, eep eep eep]
+  loose: [alarm, beep, beeping, alarm clock, siren, chirp]
+  note: >-
+    "Fire alarm" can mean a building's ringing bell too; a smoke detector is a piercing beep in threes, or a lone chirp when its battery is low.
+
+reversing-beeper:
+  synonyms: [reversing beeper, reversing alarm, reversing beep, backup alarm, backup beeper, back-up beeper, truck reversing, truck backing up, vehicle reversing, beep beep beep]
+  written: [beep beep beep, beep, meep meep]
+  loose: [beeping, alarm, truck, forklift, beeper]
+  note: >-
+    "Reversing" is British and "backing up" American; the beep is evenly spaced and steady, not in threes like a smoke alarm.
+
+buzzer:
+  synonyms: [buzzer, buzzers, buzz, buzzing, wrong answer, game show buzzer, error buzzer, intercom, door buzzer, entry buzzer, buzz in, buzzer sound, quiz buzzer]
+  written: [bzzt, bzzzt, errr]
+  loose: [alarm, horn, beep, doorbell, klaxon]
+  note: >-
+    "Buzz" also means bees, phones and electrical hum; a buzzer is a harsh, flat electronic buzz, usually short and deliberate.
+
+dial-tone:
+  synonyms: [dial tone, dialing tone, dialling tone, busy signal, busy tone, engaged tone, ringback tone, touch tones, touch-tone, dtmf, keypad tones, phone tones, off-hook tone]
+  written: [beep, boop, beep boop, doo doo doo]
+  loose: [tone, hum, beep, phone, telephone]
+  note: >-
+    "Engaged" (UK) and "busy" (US) name the same pulsing tone; a steady unbroken tone is the dial tone, and short pitched blips are keypad touch tones.
+
+church-bell:
+  synonyms: [church bell, church bells, bells, bell tower, bells tolling, toll, tolling, peal, pealing, chimes, carillon, knell, bong]
+  written: [ding dong, dong, bong, gong]
+  loose: [bell, chime, ringing, gong, clock chime]
+  note: >-
+    A tolled bell is one slow repeated stroke, a peal many bells in sequence; a gong is a struck disc that swells rather than rings at once.
+
+school-bell:
+  synonyms: [school bell, electric bell, fire bell, bell ringing, ringing bell, alarm bell, class bell, recess bell, break bell, bell going off, trill, clanging bell]
+  written: [brrring, rrrring, brrrrr, ring]
+  loose: [bell, alarm, fire alarm, phone ring, alarm clock]
+  note: >-
+    "Fire alarm" may mean this ringing bell or a beeping smoke detector; an electric bell is a clapper hammering the bell many times a second.
+
+foghorn:
+  synonyms: [foghorn, fog horn, foghorns, ship horn, ship's horn, boat horn, ship horn blast, lighthouse horn, diaphone, ship's whistle]
+  written: [booo, bwaaa, hooonk, braaam]
+  loose: [horn, train horn, moo, groan, hooter]
+  note: >-
+    A foghorn is very deep and long; a cow's moo is shorter, nasal and wavers.
+
+gong:
+  synonyms: [gong, gongs, gong strike, gong hit, gong crash, tam-tam, temple gong, dinner gong, gonging]
+  written: [gong, bong, bwong, bwaang]
+  loose: [bell, cymbal, crash, chime, church bell]
+  note: >-
+    A gong swells into a roar after it is struck; a bell starts loudest and fades.
+
+# ================================================================ machines
+
+drill:
+  synonyms: [drill, drills, drilling, power drill, electric drill, cordless drill, drill bit, screwdriver, electric screwdriver, drill driver, impact driver, hammer drill]
+  written: [vrrrr, wheeee, rrrrr, brrrr]
+  loose: [whine, whir, buzz, dentist drill, power tool, blender]
+  note: >-
+    A power drill whines up to speed and strains as it bites; a jackhammer, sometimes called a "road drill", is a rapid hammering instead.
+
+dentist-drill:
+  synonyms: [dentist drill, dentist's drill, dental drill, dentist, dentists, drilling teeth, dental handpiece, high-speed drill, air turbine drill]
+  written: [eeeee, wheeee, neeee]
+  loose: [drill, whine, shriek, mosquito, buzz]
+  note: >-
+    A dentist's drill is a much higher, thinner whine than a power drill and barely changes pitch.
+
+hammering:
+  synonyms: [hammering, hammer, hammers, hammered, nailing, hammering nails, banging, pounding, hammer blows, mallet, hammer and nail, clang]
+  written: [bang bang, tap tap, thunk, clang, bam]
+  loose: [knocking, tapping, construction, jackhammer]
+  note: >-
+    A hammer is a sharp, ringing blow in a steady rhythm; a knock on a door is softer knuckle on wood.
+
+handsaw:
+  synonyms: [sawing, saw, saws, sawed, handsaw, hand saw, sawing wood, cutting wood, wood saw, hacksaw, rasp, rasping, carpentry]
+  written: [rasp, scrape]
+  loose: [scraping, chainsaw, grinding, woodwork, snoring]
+  note: >-
+    "Saw" is also used for power saws; a handsaw is a rasping back-and-forth with a gap at each turn, not a continuous motor.
+
+chainsaw:
+  synonyms: [chainsaw, chain saw, chainsaws, chainsawing, chainsaw revving, chainsaw cutting, logging, cutting trees, tree felling, power saw]
+  written: [vrrrrm, brrrrr, rrrrrr]
+  loose: [saw, motorcycle, lawn mower, revving, engine, motor]
+  note: >-
+    A chainsaw revs and drops as it cuts; a motorbike revs too but moves through gears and passes by.
+
+jackhammer:
+  synonyms: [jackhammer, jackhammers, pneumatic drill, road drill, breaker, pneumatic hammer, concrete breaker, roadworks, road works, construction drilling]
+  written: [rat-a-tat-tat, brrrap, dadadada, tatatatat]
+  loose: [drill, hammering, construction, drilling, machine gun]
+  note: >-
+    "Pneumatic drill" and "road drill" are British for jackhammer, though it hammers rather than drills.
+
+lawn-mower:
+  synonyms: [lawn mower, lawnmower, lawnmowers, mower, mowing, mowing the lawn, mowing grass, ride-on mower, strimmer, string trimmer, weed whacker, weed eater, leaf blower, garden machine]
+  written: [vrrrrr, brrrrr, drrrrr]
+  loose: [engine, motor, chainsaw, motorcycle, drone, gardening]
+  note: >-
+    "Strimmer" (UK) and "weed whacker" (US) are higher and buzzier than a mower's steady drone.
+
+fan:
+  synonyms: [fan, electric fan, ceiling fan, desk fan, air conditioner, air conditioning, aircon, ac, ventilation, extractor fan, hvac, room tone, whirring]
+  written: [whirr, fwoosh, whooosh]
+  loose: [hum, whoosh, wind, air, motor, drone, hiss, white noise]
+  note: >-
+    A fan is a soft, steady whoosh of air with a faint motor hum; a pure low buzz with no air in it is electrical hum.
+
+printer:
+  synonyms: [printer, printers, printing, prints, inkjet, inkjet printer, laser printer, printer feeding paper, photocopier, copier, copy machine, fax machine, dot matrix]
+  written: [whirr, whirr-click]
+  loose: [whir, machine, scanner, office noise, typing, clicking]
+  note: >-
+    A printer whirrs, clicks and swishes paper through in bursts; a photocopier is similar but louder, with a scanning light sweep.
+
+electrical-hum:
+  synonyms: [electrical hum, hum, humming, mains hum, buzz, buzzing, electrical buzz, transformer, transformer hum, power lines, fluorescent light buzz, ground hum, 50 hz, 60 hz]
+  written: [mmmmm, hmmmm, bzzzz, zzzz]
+  loose: [drone, fan, static, interference, feedback, whine]
+  note: >-
+    "Hum" also means a person humming a tune and "buzz" means insects; electrical hum is a low, constant note at 50 or 60 Hz that never changes.
+
+# ================================================================ impacts
+
+gunshot:
+  synonyms: [gunshot, gunshots, gunfire, shot, shots, shots fired, shooting, gun, gun firing, firing, rifle, pistol, handgun, shotgun, bang]
+  written: [bang, pow, blam, bang bang, kapow, pew]
+  loose: [crack, pop, explosion, firecracker, backfire]
+  note: >-
+    A gunshot is an extremely sharp crack, often echoed; a firecracker is lighter and comes in strings, a car backfire is muffled.
+
+gun-cock:
+  synonyms: [gun cocking, gun cock, cocking, cocking a gun, cocked, rack, racking, racking the slide, slide racking, pump shotgun, bolt action, reload, reloading, chambering a round]
+  written: [click-clack, chk-chk, ka-chunk, click]
+  loose: [click, clack, metallic click, gun, camera shutter]
+  note: >-
+    A gun cocking is a heavy metallic double click; a camera shutter is lighter and quicker.
+
+car-backfire:
+  synonyms: [car backfire, backfire, backfires, backfiring, exhaust backfire, engine backfire, exhaust pop, exhaust bang, misfire]
+  written: [bang, pop, blam, pow, ka-pow]
+  loose: [bang, gunshot, pop, explosion]
+  note: >-
+    A backfire is a loud, muffled bang from an exhaust; a gunshot is sharper and cracks.
+
+explosion:
+  synonyms: [explosion, explosions, explode, explodes, exploding, blast, blasts, boom, detonation, bomb, bomb going off, kaboom, blow up, blowing up]
+  written: [boom, kaboom, ka-boom, ba-boom, bwoom]
+  loose: [bang, thunder, crash, gunshot, fireworks, rumble]
+  note: >-
+    An explosion is a deep boom followed by a roar and falling debris; thunder rolls on without debris.
+
+fireworks:
+  synonyms: [fireworks, firework, firework display, fireworks display, firecracker, firecrackers, bangers, rocket, rockets, sparklers, crackers, bang snaps, roman candle]
+  written: [bang, pop, whizz, fwoosh, crackle, whee]
+  loose: [explosion, bang, gunshot, crackling, celebration]
+  note: >-
+    Fireworks whistle up and burst with crackle and fizz; strings of fast pops are firecrackers, and a single sharp crack is more likely a gunshot.
+
+glass-clink:
+  synonyms: [glasses clinking, clinking glasses, glass clink, clink, clinks, clinking, cheers, toast, toasting, chink, tinkle, ting]
+  written: [clink, ting, tink, chink]
+  loose: [ding, ping, dishes, bell, chime]
+  note: >-
+    Two glasses touching is a single bright ringing "ting"; many glasses and plates handled at once is dishes.
+
+coins:
+  synonyms: [coins, coin, change, loose change, coins dropping, coins jingling, coin drop, spinning coin, money, cash, counting coins, jingle, jingling, piggy bank]
+  written: [clink, jingle, cha-ching, ka-ching, tink]
+  loose: [keys, clink, rattle, cash register, slot machine]
+  note: >-
+    "Ka-ching" is really a cash register; loose coins jingle and clink, and a dropped one rings and spins down.
+
+splash:
+  synonyms: [splash, splashes, splashing, splashed, plop, plops, plopping, sploosh, dive, diving, jump in water, jumping in, cannonball, belly flop, dropped in water]
+  written: [splash, sploosh, plop, kersplash, splosh]
+  loose: [water, waves, drip, swim, bubbling, slosh]
+  note: >-
+    A plop is a small object falling in; a splash is bigger, and a sploosh or cannonball a person jumping in.
+
+thud:
+  synonyms: [thud, thudding, thump, thumps, thumping, bump, fall, falls, falling, something dropping, dull thud, heavy thud, clunk, wallop]
+  written: [thud, thump, thunk, bump, whump]
+  loose: [bang, crash, knock, slam, boom, drop]
+  note: >-
+    A thud is a dull, low thump from something soft and heavy; if things clatter and break, it is a crash.
+
+crash:
+  synonyms: [crash, crashes, crashing, smash, smashing, collision, things falling, clatter, clattering, falling over, knocked over, crashing down, car crash, pileup]
+  written: [crash, smash, kerrash, clatter, bang, kablam]
+  loose: [bang, thud, glass breaking, explosion, slam, wreck]
+  note: >-
+    "Crash" covers many impacts; this entry is a messy clatter of objects, while one dull hit is a thud and breaking glass has its own entry.
+
+squeak:
+  synonyms: [squeak, squeaks, squeaking, squeaky, squeal, squealing, squeaky shoes, shoe squeak, rubber squeak, chair squeak, squeaky chair, squeaky floorboard, squeaky toy, squeegee]
+  written: [squeak, eek, skree, squee]
+  loose: [creak, chirp, mouse, screech]
+  note: >-
+    A squeak is short and high from rubber or wood rubbing; a creak is lower and slower, like a door hinge.

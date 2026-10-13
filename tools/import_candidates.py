@@ -61,9 +61,11 @@ def to_samples(c, label):
         return [{"src": "commons", "file": c["title"], "label": label, **window(c.get("notes"))}]
     if src == "opengameart" and c.get("file_url") and c["file_url"].lower().endswith(".zip"):
         inners = c.get("inner") or []
-        inners = inners if isinstance(inners, list) else [inners]
+        inners = [i for i in (inners if isinstance(inners, list) else [inners]) if not i.startswith("(")]
         return [{"src": "zip", "url": c["file_url"], "inner": i, "page": c.get("page_url"), "license": c["license"],
                  "author": c.get("author") or "Unknown author", "label": label} for i in inners]
+    if src == "opengameart" and c.get("file_url") and re.search(r"\.(7z|rar|zip|tar|gz)$", c["file_url"], re.I):
+        return []  # an archive without a named file inside can't be used directly
     if src == "opengameart" and c.get("file_url"):
         return [{"src": "url", "url": c["file_url"], "page": c.get("page_url"), "license": c["license"],
                  "author": c.get("author") or "Unknown author", "label": label, **window(c.get("notes"))}]

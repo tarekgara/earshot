@@ -48,6 +48,8 @@
       view = window.Views.compare(fresh, params); nav = 'compare'; title = 'Compare · Earshot';
     } else if (parts[0] === 'quiz') {
       view = window.Views.quiz(fresh, params); nav = 'quiz'; title = 'Quiz · Earshot';
+    } else if (parts[0] === 'words') {
+      view = window.Views.words(fresh, params); nav = 'words'; title = 'Words · Earshot';
     } else if (parts[0] === 'about') {
       view = window.Views.about(fresh, params); nav = null; title = 'About · Earshot';
     } else {
@@ -211,28 +213,32 @@
     hay: [i.name, i.sub, ...(i.aliases || []), famById.get(i.family).name, ...i.traits.tone].join(' ').toLowerCase(),
   }));
 
+  /** Sounds matching a query, through every word people use for them (synonyms,
+      written forms like "ugh", looser terms), plus family and texture. */
   function search(q) {
     q = q.trim().toLowerCase();
-    if (!q) return LIB.instruments.filter(i => i.samples.length).slice(0, 12);
+    if (!q) return LIB.instruments.filter(i => i.samples.length).slice(0, 12).map(inst => ({ inst }));
+    const best = new Map();
+    const bump = (inst, s, via) => {
+      const cur = best.get(inst);
+      if (!cur || s > cur.s) best.set(inst, { inst, s, via });
+    };
+    window.UI.findWords(q, 40).forEach(({ word, sounds, r }) =>
+      sounds.forEach(({ inst, kind }) => bump(inst, 10 - r * 2 - window.UI.KIND_RANK[kind], kind === 'name' ? null : word)));
     const terms = q.split(/\s+/);
-    return index
-      .map(({ inst, hay }) => {
-        if (!terms.every(t => hay.includes(t))) return null;
-        const name = inst.name.toLowerCase();
-        let s = name.startsWith(q) ? 3 : name.includes(q) ? 2 : 1;
-        if (inst.samples.length) s += 0.5;
-        return { inst, s };
-      })
-      .filter(Boolean).sort((a, b) => b.s - a.s).slice(0, 12).map(r => r.inst);
+    index.forEach(({ inst, hay }) => { if (terms.every(t => hay.includes(t))) bump(inst, 3, null); });
+    return [...best.values()]
+      .map(x => ({ ...x, s: x.s + (x.inst.samples.length ? 0.5 : 0) }))
+      .sort((a, b) => b.s - a.s).slice(0, 12);
   }
 
   function drawResults() {
     results = search(pInput.value);
     sel = Math.min(sel, Math.max(0, results.length - 1));
-    pList.innerHTML = results.length ? results.map((i, k) => `
+    pList.innerHTML = results.length ? results.map(({ inst: i, via }, k) => `
       <li role="option" id="pr-${k}" data-idx="${k}" data-fam="${i.family}" aria-selected="${k === sel}">
         <span class="dot"></span>
-        <span><strong>${esc(i.name)}</strong><small>${esc(famById.get(i.family).name)}${i.aliases.length ? ' · ' + esc(i.aliases.slice(0, 2).join(', ')) : ''}</small></span>
+        <span><strong>${esc(i.name)}</strong><small>${via ? `matches “${esc(via)}” · ` : ''}${esc(famById.get(i.family).name)}</small></span>
         ${i.samples.length ? '' : '<span class="tag tag-wanted">No recording yet</span>'}
       </li>`).join('') : `<li class="empty">No match. Try a texture like “buzzy” or “bell”.</li>`;
     pInput.setAttribute('aria-activedescendant', results.length ? 'pr-' + sel : '');
@@ -251,7 +257,7 @@
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
   function choose(k, addOnly) {
-    const inst = results[k];
+    const inst = results[k] && results[k].inst;
     if (!inst) return;
     if (addOnly) { compare.add(inst.id); toast(`${inst.name} added to Compare`); return; }
     closePalette();
@@ -266,7 +272,7 @@
     else if (e.key === 'Escape') { e.preventDefault(); closePalette(); }
     else if (e.key === ' ' && !pInput.value.trim()) {
       e.preventDefault();
-      const inst = results[sel];
+      const inst = results[sel] && results[sel].inst;
       if (inst && inst.samples.length) P.playSample(inst, canonical(inst));
     }
   });

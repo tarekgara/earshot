@@ -1,0 +1,1191 @@
+# Earshot context: how and why everyday sounds sound the way they do.
+# Families: nature, home, vehicles, signals, machines, impacts.
+
+# ---------------------------------------------------------------- nature
+
+rain:
+  how: >-
+    Millions of drops hit leaves, roofs, pavement and puddles. Each one makes a tiny click on impact, and a drop landing in water often traps a small air bubble that rings briefly as it forms.
+  why: >-
+    There are so many drops arriving at random times that the individual clicks blur into an even, rhythmless hiss, which is why rain sounds the same second after second. The surface sets the colour: soft and muffled on grass, sharper on tin or glass, and a high fizz on water from the ringing bubbles. Up close you can pick out single drips and splashes; far away only the smooth wash remains.
+  where: >-
+    Heard on windows, roofs, umbrellas and tents, and used constantly in film and relaxation recordings to signal gloom, calm or a sheltered interior.
+  vs:
+    applause: >-
+      Rain is millions of tiny random impacts, so it blurs into an even hiss with no rhythm. Applause is a few hundred hands, each clapping at its own steady rate, so it has individual slaps and swells and dies away as people stop. Listen for slaps and an ending.
+    frying: >-
+      Both are dense random pops, but frying comes from water bursting into steam in hot oil, which makes smaller, faster, higher pops packed into a tight space. Rain is spread over a wide area and sits lower and softer. Listen for a bright, close sizzle with sudden spits: that is the pan.
+    shower: >-
+      A shower is one spray of water hitting a tub and a person inside a hard tiled room, so it is a steady, concentrated hiss with a hollow, boxy echo. Rain falls over a wide outdoor area with no room around it. Listen for the bathroom echo and an even, unchanging spray.
+    fire: >-
+      Fire makes sound when pockets of gas and moisture in the wood burst, which happens a few times a second at irregular moments, over a soft roar of burning gas. Rain is so many drops that the clicks merge into a continuous hiss. Listen for separate loud snaps with gaps between them: that is fire.
+
+thunder:
+  how: >-
+    A lightning bolt heats a narrow channel of air almost instantly, the air expands violently and sends out a shock wave. Because the channel is kilometres long and branched, sound from different parts of it reaches you at different times.
+  why: >-
+    The nearest part of the bolt arrives first as a sharp crack or tearing sound, and the farther parts keep arriving for several seconds, which is why thunder rolls rather than stopping. Air absorbs high frequencies over distance, so distant thunder is only a deep, soft rumble, and hills and clouds add echoes that stretch it further. It has no regular rhythm and no steady pitch.
+  where: >-
+    Heard during storms, often after a visible flash, and used in film to mark tension or a change in mood.
+  vs:
+    explosion: >-
+      An explosion starts at one point, so it arrives as a single huge boom, often followed by falling debris and echoes. Thunder comes from a long lightning channel, so its sound keeps arriving from different distances and rolls and grumbles for seconds. Listen for a long rolling tail with no debris: that is thunder.
+    airplane: >-
+      A jet makes a continuous roar from its engines while it moves, so its sound rises smoothly, peaks and fades over many seconds, often with a whine under it. Thunder is uneven, lurching and growling with bursts of louder rumble. Listen for a smooth swell and fade: that is a plane.
+    truck: >-
+      A diesel truck's rumble comes from cylinders firing in sequence, so it has a fast, steady pulse and a mechanical clatter. Thunder has no engine rhythm and no repeating knock, just irregular rolling. Listen for a steady beat under the rumble: that is a truck.
+
+wind:
+  how: >-
+    Moving air is almost silent by itself. You hear it when it breaks into eddies around buildings, trees, wires and your ears, and when it shakes leaves and loose objects.
+  why: >-
+    Turbulent air makes broadband noise (energy across many pitches), so wind sounds like a whoosh rather than a note, rising and falling as gusts come and go. Thin edges and wires can shed eddies at a regular rate and produce whistles or moans whose pitch rises with wind speed. In recordings, wind hitting the microphone itself adds a low, buffeting rumble.
+  where: >-
+    Heard on exposed hills, coasts and in storms, and used in film for isolation, cold or danger, often with a howl around a building.
+  vs:
+    waves: >-
+      Waves break on a cycle of several seconds, so you hear a crash, then a long hiss of water pulling back, repeating at a fairly regular pace. Wind gusts arrive at random with no repeating crash. Listen for a regular impact followed by a wet drain-back: that is surf.
+    traffic: >-
+      Traffic noise comes from tyres and engines, so it is a fairly steady roar with individual vehicles swelling past and occasional engine notes or horns. Wind has no engines and swells and fades in irregular gusts. Listen for engine tones and passing whooshes on a constant bed: that is traffic.
+    air-hiss: >-
+      Escaping air is a jet forced through one small opening, so it is a narrow, steady, high hiss that stays exactly the same. Wind is a large mass of moving air and covers a wider, lower range that keeps changing. Listen for an unchanging thin hiss: that is a leak or valve.
+
+waves:
+  how: >-
+    As a wave breaks, it traps air and smashes into the shore, then the water runs back down the beach, dragging sand or pebbles with it.
+  why: >-
+    The crash is a burst of noise from churning water and bursting bubbles, and the draw-back is a long fizzing or rattling hiss as water drains through sand or rolls stones. Because waves arrive every several seconds, surf has a slow, breathing rhythm. From a distance the crashes blur into a low, continuous roar.
+  where: >-
+    Heard at beaches and rocky coasts, and used in film and sleep recordings to suggest calm, distance or a seaside location.
+  vs:
+    wind: >-
+      Wind has no water hitting anything, so it swells and fades in gusts with no crash. Waves have a clear impact followed by a wet retreat, on a slow regular cycle. Listen for the crash and the drain-back.
+    traffic: >-
+      A passing car is a whoosh that builds and falls in a couple of seconds, often with an engine note and a drop in pitch as it goes by. Waves are slower, wetter and break with a splash, then drain back with a fizz or pebble rattle. Listen for an engine and a quick pass: that is traffic.
+    breathing: >-
+      Breathing is air moving through a mouth or nose close to the microphone, on a cycle of a few seconds, with no splash. Surf has a heavier crash and a wet, gravelly hiss as it retreats. Listen for water texture: bubbles and stones mean waves.
+
+brook:
+  how: >-
+    Water flowing over and around stones folds in on itself, trapping small pockets of air that form bubbles and burst.
+  why: >-
+    Each trapped bubble rings at a pitch set by its size, small ones high and big ones lower, so a stream is a busy mixture of little pitched gurgles and plinks rather than a flat hiss. Because the flow keeps shifting around the rocks, the pattern never repeats exactly but the overall level stays steady. A fast, rocky stream is louder and brighter than a slow, deep one.
+  where: >-
+    Heard beside streams and in woodland, and used in film, games and nature recordings as a calm, outdoor bed.
+  vs:
+    tap-water: >-
+      A tap is one stream falling straight into a sink, so it is an even, steady splash with little variation. A brook flows over many stones at once, making many separate gurgles that bubble and change. Listen for a busy, shifting babble: that is a stream.
+    rain: >-
+      Rain is drops falling from above and striking surfaces, so it is a spread-out patter. A stream is flowing water churning over rocks, so it gurgles and bubbles with little pitched plinks. Listen for gurgling rather than pattering.
+    pour: >-
+      Pouring fills a container, and the air space above the liquid gets shorter, so its resonant pitch climbs steadily until the glass is full. A brook has no container and no rising pitch. Listen for a note that climbs: that is a pour.
+
+fire:
+  how: >-
+    Burning wood releases hot gases that burn in a turbulent flame, and trapped water and resin inside the wood heat up until their pockets burst.
+  why: >-
+    The flame itself makes a soft, airy roar from turbulent burning gas, while each bursting pocket makes a sharp crack or pop at an unpredictable moment. That mix of a quiet steady bed and random loud snaps is the signature of a wood fire. Resinous wood pops more often, and a big bonfire adds a deeper roar.
+  where: >-
+    Heard at fireplaces, campfires and bonfires, and used in film and videos for warmth, comfort or, at higher volume, danger.
+  vs:
+    rain: >-
+      Rain has so many small impacts that they merge into an even hiss. Fire has far fewer events, separate pops with gaps between them, over a soft roar. Listen for distinct snaps you could count: that is fire.
+    frying: >-
+      Frying is water bursting into steam in hot oil, many times a second, so it is a dense, high, continuous sizzle. Fire pops less often and has a soft, lower roar underneath. Listen for a constant high fizz: that is frying.
+    applause: >-
+      Applause is hundreds of hands clapping steadily, so it is dense and even and has a clear start and end. Fire is sparser, with random pops over a roar, and does not swell and stop. Listen for gaps between sharp snaps: that is fire.
+    paper-rustle: >-
+      Paper crackles only while someone handles it, so the sound comes in bursts that follow hand movements and has no roar underneath. Fire keeps going by itself with a steady airy roar under the pops. Listen for the roar.
+
+birdsong-ambience:
+  how: >-
+    Many birds of different species sing at once, each producing pitched song with its syrinx (the bird's voice box), from different distances and directions.
+  why: >-
+    Bird song is mostly high and tonal, with whistles, trills and rapid notes, and many overlapping singers fill the high range with constantly changing patterns. Nearby birds sound bright and detailed; distant ones are softer and duller because high frequencies fade over distance and are absorbed by leaves. The result is a layered texture where no single phrase dominates.
+  where: >-
+    Heard at dawn in gardens, parks and woodland, especially in spring, and used in film to signal morning, countryside or peace.
+  vs:
+    songbird: >-
+      A single songbird is one voice, so you hear clear phrases that start, stop and often repeat in a pattern. A dawn chorus is many birds overlapping, so no single phrase stands out and there are no gaps. Listen for silences between phrases: that is one bird.
+    crickets: >-
+      A cricket makes sound by rubbing a scraper over a ridged file on its wings, so it repeats one chirp on one pitch, over and over. A dawn chorus has many different melodies and pitches that keep changing. Listen for one pulsing note repeated: that is crickets.
+
+# ---------------------------------------------------------------- home
+
+door:
+  how: >-
+    Turning the handle pulls back a spring-loaded latch bolt; as the door closes the bolt rides over the strike plate and snaps into its hole, and the door panel bumps the frame.
+  why: >-
+    The latch is small, hard metal, so it gives a short, bright click, while the door is a big, fairly soft wooden or hollow panel, so its contact is a low, damped thump. A gentle close keeps both quiet and close together in time. Hinges may add a short creak.
+  where: >-
+    Heard throughout homes and offices, and used in film as a scene transition or to mark someone arriving or leaving.
+  vs:
+    door-slam: >-
+      In a slam the door hits the frame at speed, so the whole panel, frame and nearby walls shake, giving one loud bang and a rattle. A normal close is gentle, with a soft thud and an audible latch click. Listen for the latch: if you can hear it clearly, it was not slammed.
+    knock: >-
+      Knocking is knuckles striking the door surface two to four times in quick succession, with no latch or movement. Opening and closing a door is one movement, with a handle, a click and a single thump. Listen for repeated raps: that is a knock.
+    car-door: >-
+      A car door is heavy steel lined with rubber seals, and closing it pushes against the air in a sealed cabin, so you hear a dull, padded clunk with almost no ring. A house door is wood with an exposed latch, so you hear a click and a lighter, woody knock. Listen for the bright latch click and wood: that is a house door.
+
+door-slam:
+  how: >-
+    A door swung hard hits its frame at speed, and the impact shakes the panel, the frame and the walls around it.
+  why: >-
+    The large panel moves a lot of air and hits hard, so the bang is loud and low, and the frame, glass and loose objects then rattle for a moment after. The room adds a short echo. The sound is a sudden thump with a messy tail rather than a clean crack.
+  where: >-
+    Heard during arguments, drafts or rushed exits, and used in film to mark anger or a sudden end to a scene.
+  vs:
+    gunshot: >-
+      A gunshot is expanding gas bursting from a barrel, so it has an extremely sharp, cracking attack and, outdoors, a long echo. A slam is a wooden panel hitting a frame, so it is duller and lower with a rattle of the frame. Listen for a crack versus a thump with rattle.
+    thud: >-
+      A falling object hits the floor once and stops, so it is a single dull thump. A slammed door also has a latch and a frame that shakes, so a rattle and sometimes a click follow the bang. Listen for the rattle after the hit.
+    door: >-
+      A normal close is slow enough that the latch clicks and the panel meets the frame softly. A slam hits so hard that the bang drowns the latch and the frame shakes. Listen for loudness and rattle.
+
+door-creak:
+  how: >-
+    A dry hinge pin rubs against its sleeve as the door swings. The metal surfaces grip, then slip, then grip again, many times a second.
+  why: >-
+    This stick-slip motion (grab-and-release friction) makes a pitched squeal, because the hinge and door vibrate at a rate set by the friction and the pressure on the hinge. As the speed of the swing changes, the pitch wavers and wobbles, which gives the slow, groaning quality. Oiling the hinge stops the sticking and the sound disappears.
+  where: >-
+    Heard in old houses and with dry hinges, and used heavily in horror films to build suspense.
+  vs:
+    cat-meow: >-
+      A cat's meow comes from its vocal cords and mouth, so it has a nasal, vowel-like shape that opens and closes ("mee-ow"). A creak is friction in metal, so its pitch wobbles but has no vowel and often sounds scratchy. Listen for a mouth shape: that is a cat.
+    whine: >-
+      A dog's whine is voiced through the throat and nose, so it has breathy, wet edges and comes in breaths. A creak is dry metal friction, scratchier, and follows the door's swing. Listen for breathing between sounds: that is a dog.
+    squeak: >-
+      A squeak is the same stick-slip friction but over a tiny movement, so it is over in a fraction of a second. A door creak lasts as long as the door swings, often a second or more, slowly bending in pitch. Listen for length.
+
+keys:
+  how: >-
+    Several small, thin metal keys and a ring knock against each other as they are shaken or handled.
+  why: >-
+    Small, thin pieces of metal vibrate at high frequencies and stop ringing quickly, so each contact is a short, bright tink. Many keys touching at random give a jangle with no rhythm. Because the keys are light, the sound is high and delicate, with no heavy thump.
+  where: >-
+    Heard at front doors, in pockets and at reception desks, and used in film to signal someone arriving home, a jailer or a car about to start.
+  vs:
+    coins: >-
+      Coins are thicker, round discs, so they ring a little fuller and longer, and you may hear a coin spin with a whirr that speeds up before it stops. Keys are thin and threaded on a ring, so they jingle together in short, tinny clinks. Listen for a spinning whirr or round clinks: that is coins.
+    dishes: >-
+      Plates and cutlery are larger and heavier, so their clinks are lower and often include ceramic knocks and scraping. Keys are tiny and light, so they make a brighter, finer jingle. Listen for ceramic and larger knocks: that is dishes.
+
+dishes:
+  how: >-
+    Plates, bowls, glasses and cutlery strike and scrape against each other and against counters and sinks as they are handled.
+  why: >-
+    Ceramic gives short, hard clicks and knocks; glass rings at a clear high pitch; metal cutlery gives bright clinks and scrapes. Different sizes ring at different pitches, so the result is a busy, irregular clatter with a mix of materials. In a sink, water adds splashes and muffles some hits.
+  where: >-
+    Heard in kitchens, restaurants and cafes, and used in film as the background of a meal, a diner or a busy home.
+  vs:
+    keys: >-
+      Keys are small, light and all one material, so they make a fine, high jingle. Dishes include heavier ceramic and larger metal pieces, so the clinks are lower and more varied, with knocks and scrapes. Listen for ceramic knocks: that is dishes.
+    glass-break: >-
+      When glass breaks, a crack shoots through it and it splits into many pieces, so you hear a sudden crash followed by a shower of small tinkles settling. Dishes stay whole, so each clink is a separate, intact ring. Listen for the burst of shards: that is breaking glass.
+    glass-clink: >-
+      A toast is two glasses touched once, so it gives one clean, high ring that lasts a moment. Dishes are many objects handled, so you hear an irregular stream of clinks and knocks. Listen for one isolated ring: that is a toast.
+
+glass-break:
+  how: >-
+    A glass or pane struck hard cracks; the crack runs through it almost instantly and the piece splits into many fragments that fall and bounce.
+  why: >-
+    The first impact and fracture are a sharp, bright crash. Each fragment is a small, stiff piece of glass that rings at a high pitch when it hits something, so the crash is followed by a shower of tinkling that thins out as pieces settle. Thicker glass and bigger panes add a heavier, lower crash at the start.
+  where: >-
+    Heard in kitchen accidents and break-ins, and used in film for burglaries, fights and moments of shock.
+  vs:
+    dishes: >-
+      Dishes clink against each other but stay whole, so each sound is a single, complete ring or knock. Breaking glass has one loud crash and then many tiny pieces tinkling down. Listen for that falling shower of shards.
+    crash: >-
+      A crash of mixed objects such as furniture, pans or boxes is heavier and lower, with thuds and rattles. Breaking glass is dominated by high, bright fragments ringing. Listen for brightness and tinkle: that is glass.
+    keys: >-
+      Keys jingle when shaken, with no single impact and no falling pieces. Breaking glass starts with a sharp hit and then decays as shards settle. Listen for one crash with a tail that dies away.
+
+tap-water:
+  how: >-
+    A stream of water falls from the tap into a sink or basin, splashing and trapping small air bubbles as it lands.
+  why: >-
+    Because the flow is steady and comes from one place, the splashing produces an even, continuous noise with a fairly fixed texture. The sound changes a little with flow rate and with what the water lands on: standing water, metal or a plate. A sink and a small room add a slightly hollow resonance.
+  where: >-
+    Heard in kitchens and bathrooms, and used in film for washing up, brushing teeth or someone filling a glass.
+  vs:
+    shower: >-
+      A shower head breaks the water into many separate jets that land on a person and a wide tub, so it is a broader, softer spray with a strong bathroom echo. A tap is one narrow stream into a sink, so it is a more focused splash. Listen for width and room echo: that is a shower.
+    brook: >-
+      A stream flows over many stones, so it gurgles and bubbles unevenly from many places. A tap is one stream from one spot, so it stays even and unchanging. Listen for that steadiness: that is a tap.
+    toilet-flush: >-
+      A flush releases a tank of water at once, so it begins with a sudden rush, swirls and gurgles as the bowl drains, then the tank refills with a hiss. A tap runs at one steady level until turned off. Listen for a rush and gurgle: that is a flush.
+
+shower:
+  how: >-
+    A shower head splits the water into many fine jets that spray onto a person, the tub floor and tiled walls.
+  why: >-
+    Many jets landing at once make a dense, airy spray hiss, and the hard tiles of a small bathroom reflect sound, adding a hollow, boxy echo. When someone moves under the spray, the sound dulls and shifts as their body blocks the jets. The level stays steady while the water runs.
+  where: >-
+    Heard in bathrooms, and used in film for morning routines and in suspense scenes.
+  vs:
+    rain: >-
+      Rain falls over a whole outdoor area with no walls around it, so it has no echo and its texture varies with every surface it hits. A shower is a focused spray in a small, hard room, so it has a hollow ring around the hiss. Listen for the bathroom echo.
+    tap-water: >-
+      A tap is a single narrow stream into a sink, a more focused, lower splash. A shower is many fine jets over a wider area, so it is broader and hissier. Listen for that wide, airy spray: that is a shower.
+
+pour:
+  how: >-
+    Liquid falls from a bottle or jug into a glass, splashing and trapping air, while the air space above the rising liquid acts like a short pipe that resonates.
+  why: >-
+    The air column above the liquid has a natural pitch set by its length, like blowing across a bottle. As the glass fills, that column gets shorter, so the resonant pitch climbs steadily until the glass is full. Glugging from a bottle comes from air bubbling back up through the neck in pulses.
+  where: >-
+    Heard at tables, bars and kitchens, and used in film for drinks being served or a quiet domestic moment.
+  vs:
+    tap-water: >-
+      A tap usually runs into a sink that does not fill, so the air space above stays the same and the pitch does not change. Pouring fills a container, so the pitch rises. Listen for the climbing note.
+    drinking: >-
+      Drinking is swallowing, so you hear separate gulps in a throat with pauses and breaths between them. Pouring is a continuous stream into a glass with a rising pitch. Listen for gulps: that is drinking.
+
+toilet-flush:
+  how: >-
+    Pressing the handle releases the water in the tank into the bowl, where it swirls and starts a siphon (a suction flow through the bent pipe) that pulls the water down the drain; then a valve refills the tank.
+  why: >-
+    The sudden release is a loud rush, and when the siphon breaks, air is pulled through the pipe, making a deep gurgle. The refill afterwards is a steady hiss of water through a small valve that often changes in tone as the tank fills. That sequence of rush, gurgle and hiss is the signature.
+  where: >-
+    Heard in bathrooms, and used in film for bathroom scenes or as a punchline.
+  vs:
+    tap-water: >-
+      A tap runs at one steady level, without the sudden release. A flush starts loud, swirls, gurgles and then settles into a quieter refill hiss. Listen for the changing sequence.
+    waves: >-
+      Waves crash and drain back over and over, every several seconds. A flush happens once, with an indoor, enclosed sound and a gurgle down a pipe. Listen for repetition: if it does not repeat, it is a flush.
+
+microwave:
+  how: >-
+    A transformer powers a magnetron (the part that makes the microwaves), a fan cools it and a small motor turns the turntable. When the timer ends, a small electronic sounder beeps.
+  why: >-
+    The transformer vibrates at a multiple of the mains frequency, giving a low, steady hum, and the fan adds a soft whoosh; the turntable may rattle or rumble. The finishing beeps come from a small piezo buzzer (a vibrating crystal disc), which gives a pure, fixed electronic tone, often in a set of three. Some food also pops or crackles inside.
+  where: >-
+    Heard in kitchens and office break rooms, and used in film for late-night snacks or ready meals.
+  vs:
+    fan: >-
+      A fan's sound is mostly moving air, a soft whoosh, with no electrical drone and no beeps. A microwave has a heavier transformer hum, a turntable and finishes with beeps. Listen for the hum and the beeps at the end.
+    alarm-clock: >-
+      An alarm clock keeps beeping in a repeating pattern until someone stops it. A microwave beeps a fixed number of times, often three, and goes quiet. Listen for whether the beeping stops by itself.
+
+kettle:
+  how: >-
+    An element heats water; bubbles of steam form at the bottom and collapse in the cooler water above. In a whistling kettle, steam then forces its way through a small whistle in the spout.
+  why: >-
+    Before boiling, collapsing steam bubbles make a rising rumble and hiss, which often gets quieter just before full boil when the water is hot throughout. The whistle works by steam passing through two small holes, which sets the flow pulsing at one pitch. As more steam flows, the whistle gets louder and its pitch rises.
+  where: >-
+    Heard in kitchens, and used in film to mark a tea break, a home setting or rising tension.
+  vs:
+    whistling: >-
+      A person whistles through pursed lips, so the pitch moves freely, often in a tune, and pauses for breath. A kettle whistle is one note that rises and swells steadily without pausing. Listen for a melody or breath breaks: that is a person.
+    train-horn: >-
+      A train horn is huge, with several tuned bells sounding a chord, and is heard outdoors over distance. A kettle whistle is a single thin note from a small spout, indoors and close. Listen for a chord: that is a train.
+    air-hiss: >-
+      Escaping air from a leak or valve is noise with no pitch. A kettle whistle forces the steam through a shaped whistle, so it sings a clear note. Listen for a definite pitch: that is the kettle.
+
+frying:
+  how: >-
+    Food dropped into hot oil releases water, which boils instantly into steam; each little burst of steam breaks through the oil surface.
+  why: >-
+    Countless tiny steam bursts happen every second, so frying is a dense, high, bright sizzle. Larger pockets of water burst more violently, spitting oil and making louder pops. As the food dries out, the sizzle gets quieter and thinner.
+  where: >-
+    Heard in kitchens and restaurants, and used in film and cooking videos for breakfast, diners and busy kitchens.
+  vs:
+    rain: >-
+      Rain is spread out and lands on many surfaces, so it is softer, lower and wider. Frying is concentrated in one pan and packed with tiny high pops. Listen for a tight, bright sizzle in one place: that is frying.
+    applause: >-
+      Applause is many people clapping, so it has individual slaps, swells and then fades as people stop. Frying is far denser and higher, and stays at one level while the food cooks. Listen for an ending: that is applause.
+    fire: >-
+      Fire pops only a few times a second, over a soft roar of burning gas. Frying is a continuous, high fizz with many small pops. Listen for a constant sizzle: that is frying.
+
+vacuum:
+  how: >-
+    A fast electric motor spins a fan that pulls air in through the hose and nozzle, through filters and out of an exhaust.
+  why: >-
+    The motor and fan spinning at high speed make a high, pitched whine, and air rushing through the hose and filters adds a loud broadband roar. When the nozzle is blocked or pressed into a rug, less air flows, the motor works less and speeds up, and the whine rises in pitch. That shifting pitch as it is pushed around is a key tell.
+  where: >-
+    Heard in homes, hotels and offices during cleaning, and used in film as background for chores or to drown out a conversation.
+  vs:
+    hairdryer: >-
+      A hairdryer has a smaller motor and fan with an open path for air, so its whine is higher and steady and it is quieter. A vacuum is louder, lower and changes pitch as the nozzle hits carpet or gets blocked. Listen for pitch changes as it moves: that is a vacuum.
+    blender: >-
+      A blender's motor is loaded by food hitting its blades, so its pitch jumps and you hear chunks rattling against the jar. A vacuum's sound is dominated by rushing air. Listen for rattling chunks: that is a blender.
+    airplane: >-
+      A jet is a huge outdoor source, so it rises and fades over many seconds, with no room echo. A vacuum is close and indoors, with a steady level and a room around it. Listen for the slow swell and fade: that is a plane.
+
+hairdryer:
+  how: >-
+    A small electric motor spins a fan that blows air over a hot wire element and out through a nozzle.
+  why: >-
+    The small fan spins fast, giving a high, steady whine, and air forced through the narrow nozzle adds a whoosh. The heater makes no sound itself. Switching speeds changes the pitch in steps, but otherwise it stays steady while held.
+  where: >-
+    Heard in bathrooms, bedrooms and salons, and used in film as morning routine background.
+  vs:
+    vacuum: >-
+      A vacuum is bigger, louder and pulls air through a long hose, so its pitch changes as the nozzle meets the floor. A hairdryer stays at one steady, higher whine with a softer rush of air. Listen for steadiness: that is a hairdryer.
+
+blender:
+  how: >-
+    An electric motor spins blades at the bottom of a jar, hurling food and liquid against the walls and back into the blades.
+  why: >-
+    The motor makes a high whine, and chunks of food striking the blades and jar add rattles, knocks and grinding. Heavy, solid food loads the motor, so the pitch drops; as the contents break down into a smooth liquid, the load falls and the whine rises and evens out. That change from rough to smooth is the signature.
+  where: >-
+    Heard in kitchens and juice bars, and used in film for smoothies, early mornings or noisy interruptions.
+  vs:
+    drill: >-
+      A power drill is usually run in short bursts as it drills a hole, and its sound has a gearbox whir and a straining drop when it bites. A blender runs for longer, with food rattling and swirling inside a jar. Listen for chunky rattling: that is a blender.
+    vacuum: >-
+      A vacuum's sound is mostly rushing air through a hose. A blender's sound is a motor plus solid pieces hitting blades and the jar. Listen for the rattle and grind of food: that is a blender.
+
+washing-machine:
+  how: >-
+    A motor turns a drum back and forth, lifting and dropping wet clothes in water, then drains and spins the drum at high speed to throw out water.
+  why: >-
+    During washing the drum turns slowly, so clothes and water slosh and thump in a regular cycle, with pauses as it reverses. In the spin, the drum speeds up, so the motor whine rises in pitch, and an uneven load makes the machine thump or rattle on the floor. The pump adds a buzzing hum when draining.
+  where: >-
+    Heard in kitchens, utility rooms and laundromats, and used in film as domestic background or a laundromat setting.
+  vs:
+    dishwasher: >-
+      A dishwasher sprays water from spinning arms onto dishes inside a sealed, insulated box, so it is a muffled, swishing spray with no sloshing load. A washing machine lifts and drops clothes in water, so it sloshes and thumps, then spins with a rising whine. Listen for sloshing and a spin: that is a washing machine.
+    train: >-
+      A train's rhythm comes from wheels crossing rail joints, a sharp clickety-clack over a heavy rumble outdoors. A washing machine's rhythm is softer, wet sloshing indoors, and its spin is a smooth rising whine. Listen for metallic clacks: that is a train.
+
+dishwasher:
+  how: >-
+    A pump pushes water through spinning spray arms that shoot jets onto the dishes and the walls of a closed, insulated tub.
+  why: >-
+    The jets hitting dishes and steel walls make a swishing spray, and the insulation and closed door muffle it, cutting the high frequencies. As the spray arms rotate, the sound can swell and fade slightly in a cycle. The pump adds a low hum, and draining gives a gurgle.
+  where: >-
+    Heard in kitchens, often in the evening, and rarely featured in film except as quiet background.
+  vs:
+    washing-machine: >-
+      A washing machine turns a drum full of clothes and water, so it sloshes and thumps and later spins with a rising whine. A dishwasher sprays rather than sloshes, giving a muffled, steady swish behind a closed door. Listen for sloshing and spin: that is a washing machine.
+
+clock-tick:
+  how: >-
+    In a mechanical clock, an escapement (the part that releases the gears one step at a time) lets a toothed wheel advance one tooth with each swing of the pendulum or balance wheel. Each step is a small metal click.
+  why: >-
+    The escapement locks and releases at a fixed rate set by the pendulum or balance wheel, so the ticks are perfectly even, often once or twice a second. The parts are tiny, so each tick is small, dry and high, and the case can add a little resonance. Many clocks alternate a slightly different tick and tock.
+  where: >-
+    Heard in quiet rooms, and used in film to show time passing, silence or a countdown.
+  vs:
+    metronome: >-
+      A metronome is built to be heard by a musician, so its click is louder and sharper, its tempo can be set from slow to fast, and it often accents the first beat of a bar. A clock is quieter and fixed at its own steady rate. Listen for loudness and a musical tempo or accent: that is a metronome.
+    typing: >-
+      Typing follows fingers, so its clicks are uneven in timing and loudness, with a heavier thunk on the space bar. Clock ticks are perfectly regular. Listen for irregular timing: that is typing.
+    tongue-click: >-
+      A tongue click is one deliberate, wet "tsk" made in a mouth, usually once or twice. A clock keeps ticking indefinitely at the same pace. Listen for whether it keeps going.
+
+metronome:
+  how: >-
+    A mechanical metronome uses a wound spring and an escapement to swing an upside-down pendulum, clicking at each end of the swing; an electronic one plays a short synthesized click.
+  why: >-
+    Its purpose is to keep musicians in time, so the click is sharp and loud enough to hear over an instrument, and the tempo is adjustable by sliding a weight or setting a number. Many electronic metronomes play a higher or louder click on the first beat of each bar. The spacing is exactly even.
+  where: >-
+    Heard in music practice rooms and lessons, and used in recording studios as a click track and in film to suggest discipline or tension.
+  vs:
+    clock-tick: >-
+      A clock is a quiet mechanism designed to tick in the background at one fixed rate. A metronome is louder, crisper and set to a musical tempo, sometimes with an accent. Listen for a sharp, insistent click: that is a metronome.
+
+alarm-clock:
+  how: >-
+    A digital alarm clock drives a small electronic sounder with a repeating on-off pattern; a bell alarm clock uses a spring or electromagnet to hammer rapidly between two small metal bells.
+  why: >-
+    Waking someone needs a sound that is high, insistent and repeating, so digital alarms beep in groups that often speed up or get louder over time. A bell alarm's hammer hits many times a second, so it is a frantic, rattling ring. Both continue until someone switches them off.
+  where: >-
+    Heard in bedrooms in the morning, and used in film to open a scene or start a character's day.
+  vs:
+    smoke-alarm: >-
+      A smoke alarm must be heard through a whole house, so it is much louder and harsher, very high, and beeps in a fixed three-beep pattern with a pause. An alarm clock is gentler and its beeps follow a lighter, often faster rhythm, or it rings a bell. Listen for three loud beeps then a pause: that is a smoke alarm.
+    microwave: >-
+      A microwave beeps a few times, often three, and stops. An alarm clock keeps beeping until someone stops it. Listen for whether it carries on.
+    phone-ring: >-
+      A phone ring has bursts separated by long, regular silences. An alarm beeps or rings without those long pauses. Listen for the gap between bursts: that is a phone.
+
+doorbell:
+  how: >-
+    In a classic chime, pressing the button energizes an electromagnet that throws a plunger against a tuned metal bar ("ding"); releasing it lets a spring throw the plunger back against a second, lower bar ("dong"). Electronic doorbells play a recorded or synthesized chime.
+  why: >-
+    The two bars are tuned to different notes, so you hear two clear, ringing tones, usually high then low. Struck metal bars ring for a moment and fade, giving a soft, bell-like decay. Older buzzer-style bells instead use a vibrating contact, giving a flat, rough buzz.
+  where: >-
+    Heard at front doors, and used in film to announce a visitor, a delivery or a surprise.
+  vs:
+    notification: >-
+      A notification is a short synthesized sound from a phone or computer speaker, usually one brief ping, clean and quiet. A doorbell has two physical ringing tones that fade naturally and fill the house. Listen for the two-note ding-dong: that is a doorbell.
+    church-bell: >-
+      Church bells are huge cast bronze, so they are much deeper, louder, ring for many seconds and are struck repeatedly from a tower. A doorbell is small and indoors, with two short tones. Listen for size and a long hum: that is a church bell.
+
+phone-ring:
+  how: >-
+    Older phones had an electromagnetic hammer that rattled between two small bells, driven by a ringing current sent down the line; modern phones play synthesized tones or music through a speaker.
+  why: >-
+    The ring comes in bursts with long silences because the network sends the ringing signal in a set rhythm, for example one long ring in North America or a double ring in the UK. A bell phone's hammer strikes many times a second, so each burst is a rapid trill. The pattern repeats until someone answers.
+  where: >-
+    Heard in homes and offices, and used in film to interrupt scenes, deliver news or build tension.
+  vs:
+    alarm-clock: >-
+      An alarm clock beeps continuously or in short groups with no long pauses. A phone rings in trilling bursts separated by regular long silences. Listen for the long gaps: that is a phone.
+    doorbell: >-
+      A doorbell is one press, giving a single ding-dong that fades. A phone ring repeats burst after burst until answered. Listen for repetition: that is a phone.
+    school-bell: >-
+      An electric school bell rings continuously for as long as the switch is on. A phone rings in bursts with pauses. Listen for the gaps: that is a phone.
+
+phone-vibrate:
+  how: >-
+    A small motor spins an off-centre weight, or a linear actuator (a magnet moving back and forth) shakes the phone, in short programmed pulses.
+  why: >-
+    The vibration itself is a low hum, but on a hard table the phone rattles against the surface, turning it into a loud, buzzy rasp. It runs in pulses with gaps, so it sounds like "bzz, bzz". On a soft surface or in a hand, it is almost silent.
+  where: >-
+    Heard on desks, tables and in pockets, and used in film for a silent incoming call or a message in a quiet room.
+  vs:
+    fly: >-
+      A fly's wings beat continuously, so its buzz goes on unbroken and moves around, getting louder and softer as it passes. A phone buzzes in fixed pulses from one spot. Listen for regular on-off pulses: that is a phone.
+    electric-razor: >-
+      An electric razor runs continuously while switched on, a steady buzz. A phone vibrates in short bursts with pauses. Listen for the pulses.
+
+notification:
+  how: >-
+    A phone, computer or app plays a short sound file or synthesized tone through its speaker to signal an event.
+  why: >-
+    Notifications are designed to be noticed without being alarming, so they are brief, mid to high in pitch, cleanly tuned, and often one to three notes that fade quickly. Because they are electronic, they sound identical every time. Small device speakers make them thin, with little bass.
+  where: >-
+    Heard everywhere people carry devices, and used in film and video to signal a message, an alert or a social media post.
+  vs:
+    doorbell: >-
+      A doorbell has two physical tones that ring through a house, louder and longer. A notification is one brief electronic ping from a small speaker. Listen for the two-note ding-dong: that is a doorbell.
+    glass-clink: >-
+      A glass clink is a real glass vibrating, so it has a slightly uneven, shimmering ring and varies every time. A notification is synthesized, perfectly clean and repeatable. Listen for shimmer and variation: that is a glass.
+
+camera-shutter:
+  how: >-
+    In a mechanical camera, spring-driven shutter curtains open and close over the sensor, and in a single-lens reflex camera a mirror also flips up and back down. Phones and many digital cameras play a recorded imitation of this.
+  why: >-
+    Two quick mechanical events, opening then closing (or mirror up then down), give the characteristic double "click-clack". The parts are small and light, so the clicks are crisp and mid to high, with no ring. A fast motor drive repeats it in a rapid burst.
+  where: >-
+    Heard at events and from phones taking pictures, and used in film for paparazzi, crime scenes and photo shoots.
+  vs:
+    finger-snap: >-
+      A finger snap is a finger striking the base of the thumb and palm, so it is one fleshy, slightly hollow click. A shutter is two small mechanical events in quick succession, crisp and dry. Listen for the double click-clack: that is a camera.
+    gun-cock: >-
+      Racking a gun slides a heavy steel slide or bolt along a frame against a strong spring, so it is a longer, weightier metal slide followed by a hard snap. A shutter is tiny parts, quick and light. Listen for a scraping slide and heavy metal: that is a gun.
+
+zipper:
+  how: >-
+    The slider pulls the two rows of teeth together or apart, and each tooth clicks as it passes through the slider.
+  why: >-
+    Teeth pass so quickly that the individual clicks fuse into a buzzy rasp, and the faster the pull, the higher the buzz. Metal zips are brighter and more ratchety; plastic coil zips are softer. The sound is short and follows the hand's speed.
+  where: >-
+    Heard on jackets, bags and tents, and used in film for packing, getting dressed or a tent at a campsite.
+  vs:
+    paper-tear: >-
+      Tearing paper breaks fibres one after another at uneven rates, so it is a softer, crackly, fibrous rip. A zip is a regular row of teeth, so it has a more even, buzzy, mechanical texture. Listen for that ratchety evenness: that is a zip.
+    tape: >-
+      Packing tape peels with stick-slip friction (grab-and-release) along its sticky layer, producing a loud, screechy, almost pitched squeal. A zip is a quick buzz of teeth, shorter and quieter. Listen for a loud screech: that is tape.
+
+paper-rustle:
+  how: >-
+    Sheets of paper or a plastic bag are bent and crumpled by hands, and the material snaps suddenly between bent shapes.
+  why: >-
+    Each sudden buckle of a thin, stiff sheet is a tiny sharp click, and handling produces many of them at irregular moments, so you hear crisp crinkling. The sound follows the hands' movements, starting and stopping with them. Stiffer or crisper material crackles louder and higher.
+  where: >-
+    Heard at desks, in shops and when unwrapping food or gifts, and used in film for reading, searching documents or a rustle in a quiet cinema.
+  vs:
+    fire: >-
+      Fire pops by itself, with a soft, continuous roar underneath. Paper crinkles only when it is moved, in bursts, with no roar. Listen for the roar: if there is none, it is paper.
+    paper-tear: >-
+      Tearing is one continuous stroke as a single line of fibres breaks, so it is a long rip. Rustling is many small crinkles with no single rip. Listen for one clean stroke: that is tearing.
+
+paper-tear:
+  how: >-
+    A sheet is pulled apart, and the fibres along the tear line break one after another as the rip moves across the page.
+  why: >-
+    Each fibre breaking makes a tiny crackle, and they follow one line in sequence, so you hear one continuous, dry, fibrous rip. A fast tear is shorter and higher; a slow tear is longer and more crackly. Thick card makes a duller, lower rip.
+  where: >-
+    Heard at desks and when opening mail, and used in film for torn letters, cheques and contracts.
+  vs:
+    zipper: >-
+      A zip is a regular row of teeth passing through a slider, so it buzzes with a mechanical evenness. Tearing paper is fibres breaking unevenly, softer and drier. Listen for that uneven crackle: that is paper.
+    paper-rustle: >-
+      Rustling is many separate crinkles at random. Tearing is a single rip that travels along one line from start to finish. Listen for one stroke: that is tearing.
+
+scissors:
+  how: >-
+    Two sharpened blades slide past each other around a pivot, shearing the material between them, and the blades rub and click together as they close.
+  why: >-
+    The blades sliding against each other make a short metallic swish, and cutting fibres adds a crisp crunch, so each cut is a quick "snip". Repeated cuts give a regular rhythm. Cutting fabric is softer and duller than cutting paper or card.
+  where: >-
+    Heard at desks, hairdressers and in crafts, and used in film for haircuts, wrapping and cutting things free.
+  vs:
+    paper-tear: >-
+      Tearing pulls fibres apart along a rough line, with no metal at all. Scissors add a thin metallic slide as the blades meet. Listen for that metal edge: that is scissors.
+    camera-shutter: >-
+      A shutter is a dry double click with no cutting. Scissors combine a click with a short slicing swish of blades sliding. Listen for the slice: that is scissors.
+
+tape:
+  how: >-
+    Tape is pulled off its roll; the sticky layer grips, then lets go, then grips again along the line where it separates.
+  why: >-
+    This stick-slip peeling (grab-and-release friction) happens many times a second, so it makes a loud screech with a rough pitch that rises with pulling speed. The roll and the box it is being stuck to act like a sounding board, making it louder. It stops the moment the pulling stops.
+  where: >-
+    Heard when packing boxes and moving house, and used in film for packing up, sealing boxes or tying someone up.
+  vs:
+    zipper: >-
+      A zip is a quick buzz of teeth passing through a slider, short and ratchety. Tape is a louder, screechy squeal that can last as long as you keep pulling. Listen for the screech: that is tape.
+
+electric-razor:
+  how: >-
+    A small motor either spins rotary cutters or drives a blade back and forth behind a thin metal foil.
+  why: >-
+    The motor or vibrating blade runs at a fixed rate, so it gives a steady, pitched buzz, and the cutters rubbing the foil add a rattly edge. As it cuts stubble, small crackles and a slight drop in pitch join in. It stays continuous for as long as it is on.
+  where: >-
+    Heard in bathrooms and barbershops, and used in film for morning routines.
+  vs:
+    phone-vibrate: >-
+      A phone vibrates in programmed pulses with pauses, and rattles against a table. A razor buzzes steadily without stopping. Listen for the on-off pulses: that is a phone.
+
+# ---------------------------------------------------------------- vehicles
+
+car-idle:
+  how: >-
+    In a petrol engine, fuel and air are ignited by a spark in each cylinder in turn, each firing pushing a pulse of exhaust gas out through the pipes and silencer.
+  why: >-
+    At idle the engine turns slowly, but with several cylinders firing in turn the pulses come many times a second, so they fuse into a low, steady burble with a fast pulse you can just feel. The silencer smooths and lowers it. A cold engine idles faster and a little louder, and small rattles or valve ticks may sit on top.
+  where: >-
+    Heard at traffic lights, driveways and drive-throughs, and used in film for getaway cars and characters waiting outside.
+  vs:
+    truck: >-
+      A diesel truck ignites fuel by squeezing it until it is very hot, which makes each firing a harder knock in bigger cylinders, so it is deeper, louder and clattery. A petrol car idle is smaller and smoother. Listen for a hard, knocking clatter: that is a diesel truck.
+    cat-purr: >-
+      A purr is made by the cat's larynx muscles twitching on both the in-breath and out-breath, so it is soft and swells and shifts with each breath. A car idle is steady, does not breathe, and sits in a deeper, more mechanical register. Listen for a breath rhythm: that is a cat.
+    growl: >-
+      A growl is a voice from a dog's throat, so it wavers in pitch and loudness and comes in breaths. An engine idle stays mechanically steady. Listen for wavering and breaths: that is a dog.
+
+car-pass:
+  how: >-
+    A car approaches and drives past, producing engine noise, tyre noise on the road and wind noise around the body.
+  why: >-
+    The sound grows louder as the car nears, peaks as it passes and fades, giving a swelling whoosh. While it approaches, sound waves are squeezed together and the pitch is higher; after it passes they are stretched and the pitch drops (the Doppler effect). At higher speeds the tyre roar dominates the engine.
+  where: >-
+    Heard on any road, and used in film for street scenes, chases and transitions.
+  vs:
+    traffic: >-
+      Traffic is many cars at once, so it is a continuous roar with no single peak. A single car passing has a clear rise, peak and fade, often with a drop in pitch. Listen for one clear peak: that is a single car.
+    wind: >-
+      A gust is moving air with no engine and no tyres, so it has no engine note or pitch drop. A passing car has a definite whoosh with a mechanical tone that drops as it goes. Listen for an engine and a Doppler drop: that is a car.
+    motorcycle: >-
+      A motorcycle engine is usually less muffled and revs higher, so it is buzzier and raspier, and you hear gear changes. A car is smoother and lower, dominated by tyre whoosh at speed. Listen for a raspy engine: that is a motorcycle.
+
+traffic:
+  how: >-
+    Many vehicles on a road at once each make engine, tyre and wind noise, which mix together.
+  why: >-
+    With many sources at different distances, the sound becomes a continuous roar with no single rhythm, and individual vehicles swell past on top of it. Tyre noise on the road dominates at speed; engines, brakes and horns stand out in slower city traffic. Buildings reflect the sound, so city traffic seems to come from everywhere.
+  where: >-
+    Heard in cities and near main roads, and used in film as a constant background for urban scenes.
+  vs:
+    waves: >-
+      Waves break in a slow, regular cycle of several seconds, with a crash and a wet hiss. Traffic is a steady roar with passing swells at random times and engine tones. Listen for a regular crash and water texture: that is surf.
+    wind: >-
+      Wind gusts rise and fall irregularly with no engines or horns. Traffic has a steady bed with engine notes and passing vehicles. Listen for engines: that is traffic.
+    car-pass: >-
+      A single car approaches, peaks and fades away, then quiet returns. Traffic never fully fades, because there is always another vehicle. Listen for silence after the pass: that is a single car.
+
+car-horn:
+  how: >-
+    An electromagnet pulls a metal diaphragm, which breaks its own electrical contact and springs back, many times a second; the vibrating diaphragm drives air through a horn or trumpet shape.
+  why: >-
+    The diaphragm slaps back and forth at a steady rate, which gives a pitched but buzzy, brassy tone with many harmonics. Many cars use two horns tuned to different notes sounding together, which makes a harsher, more noticeable chord. It sounds for exactly as long as the button is pressed.
+  where: >-
+    Heard in traffic, and used in film for jams, warnings and impatience.
+  vs:
+    goose: >-
+      A goose honks with its voice, so each honk bends in pitch, varies in length and comes in a series, often from a flock. A car horn is a fixed, steady tone that does not bend. Listen for pitch bending and a repeating call: that is a goose.
+    train-horn: >-
+      A train horn uses compressed air through several large tuned bells, so it is much louder and deeper and sounds a wide chord that carries for miles. A car horn is smaller, higher and buzzier. Listen for a huge, sustained chord: that is a train.
+    buzzer: >-
+      A buzzer is often an electronic tone with a flat, square-wave quality (a harsh tone rich in odd harmonics) and no horn shape to project it. A car horn is brassier and louder and is usually heard outdoors in traffic. Listen for a brassy blast outdoors: that is a car horn.
+
+car-door:
+  how: >-
+    A heavy steel door swings shut against rubber seals, the latch engages inside the door, and the closing door pushes air out of a nearly sealed cabin.
+  why: >-
+    The heavy door and soft seals absorb vibration, so the sound is a dull, short thump with little ring, and the latch click is hidden inside the door. The air pushed out of the cabin adds a cushioned, sealed quality. Car makers tune this sound deliberately to feel solid.
+  where: >-
+    Heard in car parks and driveways, and used in film to mark arrivals, departures and someone getting into a car.
+  vs:
+    door: >-
+      A house door is wood or a hollow panel with an exposed metal latch, so you hear a clear latch click and a lighter, woody knock. A car door is heavy steel with seals, so it gives a dull, padded clunk. Listen for a clear click and wood: that is a house door.
+
+motorcycle:
+  how: >-
+    A motorcycle engine has one to a few cylinders firing in turn, at higher engine speeds than most cars, with a short, less muffled exhaust.
+  why: >-
+    Fewer cylinders and a less muffled exhaust let each firing pulse be heard, so the sound is raspy and buzzy rather than smooth. The engine revs high and the rider changes gear often, so you hear the pitch climb, drop at each gear change and climb again. As it passes, the Doppler effect drops the pitch.
+  where: >-
+    Heard on roads and at racetracks, and used in film for chases, rebels and road trips.
+  vs:
+    chainsaw: >-
+      A chainsaw is a small two-stroke engine that fires on every turn and revs very high, so it is higher and more snarling, and it stays in one place while revving up and down as it cuts. A motorcycle moves, passes by and steps up through gears. Listen for movement and gear changes: that is a motorcycle.
+    car-pass: >-
+      A car is more cylinders with a heavier silencer, so it is smoother and lower, often dominated by tyre noise. A motorcycle is buzzier and raspier, with audible revs. Listen for a rasp: that is a motorcycle.
+    lawn-mower: >-
+      A lawn mower engine is governed (held to one speed), so it drones steadily at one pitch. A motorcycle revs up and down and changes gear. Listen for revving and gear changes: that is a motorcycle.
+
+truck:
+  how: >-
+    A diesel engine squeezes air until it is very hot and then injects fuel, which ignites from the heat alone (compression ignition) in large cylinders.
+  why: >-
+    The fuel ignites suddenly, so each firing is a hard knock, and many knocks a second give the deep, clattering diesel rumble. Large cylinders and a heavy engine push the sound low, and turbochargers add a whistle as the truck pulls away. Air brakes, gear changes and a rattle of the trailer add to the picture.
+  where: >-
+    Heard on highways, in delivery yards and at building sites, and used in film for heavy traffic, freight and chases.
+  vs:
+    car-idle: >-
+      A petrol car has smaller cylinders ignited smoothly by a spark, so it is quieter and smoother. A diesel truck knocks harder and deeper with a clatter. Listen for the clatter: that is a truck.
+    thunder: >-
+      Thunder is one long irregular roll from a lightning channel, with no repeating beat. A truck has a steady engine pulse under its rumble. Listen for that steady beat: that is a truck.
+    air-brakes: >-
+      Air brakes are a sudden, loud hiss of compressed air being released, with no engine pulse. A truck engine is a continuous low knocking rumble. Listen for a sharp "pssh": that is the brakes.
+
+air-brakes:
+  how: >-
+    Trucks and buses use compressed air to work their brakes, and valves vent air to the outside when the brakes are released or the system lets off excess pressure.
+  why: >-
+    Air under high pressure rushing out through a valve becomes a fast, turbulent jet, which makes a loud, bright hiss with no pitch. It starts suddenly as the valve opens and stops or fades within a second or two. It often comes when a vehicle stops or parks.
+  where: >-
+    Heard at bus stops, traffic lights and truck stops, and used in film to signal a bus or truck arriving or stopping.
+  vs:
+    air-hiss: >-
+      A slow leak or valve releases air at a steady rate, so its hiss is quieter and continuous. Air brakes vent a large amount of air at once, so they are a loud, sudden burst that is over quickly. Listen for a sudden loud start: that is air brakes.
+    cat-hiss: >-
+      A cat hisses by forcing breath through its mouth, so the hiss is smaller and breathy and often has a sharp spit at the start. Air brakes are much louder and come from a vehicle, with no spit. Listen for size and a spit: that is a cat.
+    shush: >-
+      A shush is a breath shaped by the lips and tongue into "shhh", so it is softer, lower and limited by a person's breath. Air brakes are a loud, harsh burst of compressed air. Listen for loudness and suddenness: that is air brakes.
+
+train:
+  how: >-
+    Steel wheels roll on steel rails, carrying a heavy train; on jointed track, each wheel bumps over the small gaps where rails meet.
+  why: >-
+    Each joint gives a click as each wheel crosses it, and the wheels are grouped in pairs on bogies (wheel frames), so you hear the classic "clickety-clack" pattern repeating. The faster the train, the faster the rhythm. Under it, the engine, wheels and heavy cars make a deep, continuous rumble; modern welded track is much smoother and quieter.
+  where: >-
+    Heard near railway lines and on board trains, and used in film for journeys, departures and a sense of travel.
+  vs:
+    subway: >-
+      A metro runs in tunnels, so its rumble echoes and builds, and it often screeches on tight curves and when braking, with doors hissing at stops. An overground train is heard in the open, with clear, rhythmic clacks. Listen for a tunnel echo and squeals: that is a subway.
+    thunder: >-
+      Thunder rolls irregularly with no beat. A train's rumble carries a regular clickety-clack from the wheels crossing joints. Listen for that rhythm: that is a train.
+    washing-machine: >-
+      A washing machine sloshes and thumps indoors with a soft, wet rhythm. A train has metallic clacks and a heavy outdoor rumble. Listen for metal clacks: that is a train.
+
+train-horn:
+  how: >-
+    Compressed air vibrates a diaphragm at the base of each of several trumpet-shaped bells, and each bell is tuned to a different note.
+  why: >-
+    Several notes together form a chord, which is louder, more noticeable and carries farther than a single tone. The bells are long and the air supply strong, so the horn is deep and very loud, heard for kilometres. It sounds as long as the driver holds it, often in set patterns of long and short blasts at crossings.
+  where: >-
+    Heard near railway lines and level crossings, and used in film for approaching trains, departures and near misses.
+  vs:
+    car-horn: >-
+      A car horn is a small electric horn, usually one or two notes, buzzy and much quieter. A train horn is a big, sustained chord of air horns that fills a whole landscape. Listen for a wide chord: that is a train.
+    foghorn: >-
+      A foghorn is usually one deep, long note, chosen low because low sounds travel far over water. A train horn is a chord of several higher notes. Listen for one deep note: that is a foghorn.
+    kettle: >-
+      A kettle whistle is one thin, high note from a small spout, rising as the steam builds. A train horn is a massive, steady chord. Listen for a single thin rising note: that is a kettle.
+
+subway:
+  how: >-
+    An electric metro train runs on steel rails in tunnels, with electric motors, brakes, wheel flanges (the wheel's raised inner rim) rubbing on curves, and air-powered doors.
+  why: >-
+    Tunnels trap and reflect sound, so an arriving train builds into a rising, echoing rumble long before it appears. On curves and when braking, steel wheels slip against steel rails, which gives high, piercing squeals. Electric motors add a whine that rises and falls with speed, and doors open with a hiss and a chime.
+  where: >-
+    Heard in metro stations and on underground trains, and used in film for city life, commutes and chases.
+  vs:
+    train: >-
+      An overground train is heard in the open, where its clickety-clack is clear and its sound fades smoothly. A metro is enclosed, so it booms and echoes and squeals. Listen for tunnel echo: that is a subway.
+    tire-screech: >-
+      A tyre screech is rubber sliding on tarmac, so it is a short, rubbery squeal from a car. Subway squeals come from steel wheels on steel rails, so they are thinner, more metallic and go on through a curve. Listen for a metallic ring: that is a train.
+
+airplane:
+  how: >-
+    Jet engines take in air, burn fuel and blast hot exhaust out the back, while a large fan at the front pushes extra air around the engine core.
+  why: >-
+    The exhaust mixing with still air makes a huge, tearing roar, and the fan blades produce a whine. Air absorbs high frequencies over distance, so a far-off plane is a low rumble, getting brighter as it nears. As it passes, the Doppler effect lowers the pitch, and sound reflecting off the ground can add a slow, swirling whoosh.
+  where: >-
+    Heard near airports and under flight paths, and used in film for travel, arrivals and military scenes.
+  vs:
+    thunder: >-
+      Thunder comes in irregular rolling bursts from a lightning channel. A plane's roar is continuous, rising smoothly and fading slowly as it moves across the sky. Listen for a smooth swell: that is a plane.
+    wind: >-
+      Wind gusts rise and fall irregularly. A plane has one long, smooth rise and fall over many seconds, often with a whine under the roar. Listen for the whine and the smooth arc: that is a plane.
+    vacuum: >-
+      A vacuum is close and indoors, with a steady level and changes as it is pushed around. A plane is distant and outdoors, so it builds and fades over many seconds. Listen for the slow swell and fade: that is a plane.
+
+helicopter:
+  how: >-
+    Two to several long rotor blades spin overhead, and a small tail rotor spins at the back, both driven by an engine.
+  why: >-
+    Each blade passing gives a pressure pulse, and as blades cut through the swirling air left by the blade ahead they make sharp slaps, which gives the "whup-whup-whup" beat. The beat rate is set by rotor speed times the number of blades. The tail rotor adds a higher buzz, and the engine adds a turbine whine.
+  where: >-
+    Heard over cities, hospitals and coasts, and used in film for police, rescues and military action.
+  vs:
+    train: >-
+      A train's rhythm is metallic clacks of wheels crossing joints, with a ground-level rumble. A helicopter's rhythm is deep air thuds from rotor blades overhead. Listen for thuds rather than clacks: that is a helicopter.
+    washing-machine: >-
+      A washing machine's rhythm is slow sloshing indoors. A helicopter thuds rapidly and outdoors, getting louder or fading as it flies. Listen for fast air thuds: that is a helicopter.
+    heartbeat: >-
+      A heartbeat is a slow, paired "lub-dub", about once a second. A helicopter's thuds are much faster and evenly spaced. Listen for pairs: that is a heartbeat.
+
+bicycle-bell:
+  how: >-
+    A thumb lever drives a small striker or spinning mechanism that hits a metal dome on the handlebars.
+  why: >-
+    A small metal dome rings at a high pitch with bright, clashing overtones (higher tones that are not neatly in tune), which carries well over traffic. The rider flicks it once or twice, giving a quick "ring-ring". Each ring fades in a second or so.
+  where: >-
+    Heard on cycle paths and city streets, and used in film for cycling scenes, villages and childhood.
+  vs:
+    phone-ring: >-
+      A phone trill is usually electronic or a rapid hammer between two bells, in long bursts with pauses. A bike bell is one or two quick, bright rings that fade. Listen for a short flick: that is a bike bell.
+    glass-clink: >-
+      A glass clink rings once, softly and purely, as the glass bowl vibrates. A bike bell is harder metal, louder and brighter, usually rung twice. Listen for a double metallic ring: that is a bike bell.
+
+tire-screech:
+  how: >-
+    Under hard braking or cornering, tyre rubber slides across the road surface, gripping and slipping very rapidly.
+  why: >-
+    This stick-slip friction (grab-and-release) makes the rubber vibrate at high frequencies, giving a loud, high squeal with a rough pitch. The pitch and roughness change with speed and road surface. It lasts as long as the slide.
+  where: >-
+    Heard at near-misses and in car parks with smooth floors, and used heavily in film car chases.
+  vs:
+    subway: >-
+      Train brakes and wheels are steel on steel, so their squeal is thinner, more metallic and can last through a long curve. A tyre screech is rubber on tarmac, rougher and shorter. Listen for a rubbery rasp: that is a tyre.
+    scream: >-
+      A scream is a human voice, so it has a vowel shape, breath and a pitch that rises and falls with emotion. A tyre screech is mechanical friction with no vowel. Listen for a vowel: that is a person.
+
+# ---------------------------------------------------------------- signals
+
+siren:
+  how: >-
+    An electronic tone is swept up and down in pitch by a controller and pushed through a horn speaker on the vehicle. Older mechanical sirens chop air with a spinning rotor, and the pitch rises and falls with its speed.
+  why: >-
+    A changing pitch catches attention better than a steady one and is hard to tune out, so sirens use set patterns: a slow rising and falling wail, a fast yelp, or a two-tone hi-lo alternation. The tone sits in the range the ear is most sensitive to and cuts through traffic. As a vehicle passes, the whole pattern drops in pitch because of the Doppler effect.
+  where: >-
+    Heard on city streets from police cars, ambulances and fire engines, and used in film to signal emergencies, crime or a city at night.
+  vs:
+    wolf: >-
+      A wolf's howl is a voice, so it glides once and fades, varies from howl to howl and is often answered by others. A siren repeats the same mechanical sweep exactly, over and over. Listen for exact repetition: that is a siren.
+    scream: >-
+      A scream is a single human cry with a rough, vowel-like voice and a breath behind it. A siren is a clean electronic tone that cycles evenly. Listen for a voice and a single burst: that is a scream.
+    smoke-alarm: >-
+      A smoke alarm beeps on one fixed pitch in a three-beep pattern. A siren sweeps or alternates in pitch. Listen for pitch movement: that is a siren.
+
+smoke-alarm:
+  how: >-
+    A piezo sounder (a ceramic disc that flexes when voltage is applied) in a resonant housing is driven at a high, fixed pitch in the standard T3 pattern: three half-second beeps separated by half-second gaps, then a pause of about one and a half seconds, repeating.
+  why: >-
+    The piezo disc and its housing are tuned to resonate strongly, so the alarm is very loud and piercing, typically around 3 kHz, a region where hearing is especially sensitive. The T3 rhythm is an international standard so that anyone recognizes three beeps and a pause as a fire evacuation signal. A single short chirp every minute or so is the low-battery warning, not a fire alarm.
+  where: >-
+    Heard in homes, hotels and offices during fires, burnt cooking or tests, and used in film for fire scenes and rising panic.
+  vs:
+    alarm-clock: >-
+      An alarm clock is designed to wake one person, so it is quieter and gentler, with a lighter rhythm that often speeds up. A smoke alarm is far louder and harsher, locked into three beeps and a pause. Listen for the strict three-and-pause pattern: that is a smoke alarm.
+    reversing-beeper: >-
+      A reversing beeper is a single beep repeated at an even pace, usually at a lower pitch. A smoke alarm groups its beeps in threes with a longer pause. Listen for the groups of three: that is a smoke alarm.
+    crickets: >-
+      Crickets chirp by rubbing their wings together, so their chirps are softer, come from many insects at once and overlap in layers. A smoke alarm is one loud, piercing electronic tone in a strict pattern. Listen for layers of soft chirps: that is crickets.
+
+reversing-beeper:
+  how: >-
+    An electronic sounder on a truck or machine, switched on when reverse gear is selected, plays one tone on and off at an even rate.
+  why: >-
+    The evenly spaced, unchanging beep is meant to be recognized instantly as "vehicle reversing" by people nearby. A single pure tone is easy to hear over traffic but hard to locate, which is why some newer vehicles use a broadband "shh-shh" alarm instead. It continues for as long as the vehicle reverses.
+  where: >-
+    Heard on building sites, loading bays and streets with delivery trucks or bin lorries, and used in film for work sites and early-morning city life.
+  vs:
+    smoke-alarm: >-
+      A smoke alarm beeps in groups of three with a pause, at a higher, harsher pitch. A reversing beeper is a single beep at a steady, even interval. Listen for even spacing with no groups: that is a reversing beeper.
+    microwave: >-
+      A microwave beeps a few times, often three, and stops. A reversing beeper keeps going as long as the vehicle moves backward, outdoors. Listen for whether it stops: that is a microwave.
+
+buzzer:
+  how: >-
+    A buzzer is either an electromagnet that rapidly makes and breaks its own contact, rattling a metal plate, or an electronic circuit that switches a speaker on and off abruptly.
+  why: >-
+    Abrupt on-off switching makes a square-wave-like tone (a harsh tone full of odd harmonics), so it sounds flat, rough and nasal rather than musical. It usually sits low to mid in pitch and does not change while sounding. Because it is unpleasant and unmistakable, it is used for wrong answers, door entry and end-of-game signals.
+  where: >-
+    Heard at entry phones, game shows and sports arenas, and used in film for quiz shows and prison doors.
+  vs:
+    car-horn: >-
+      A car horn drives a diaphragm through a flared horn, so it is louder and brassier and often sounds two notes together. A buzzer is a flat, rough tone with no projection. Listen for a brassy blast outdoors: that is a car horn.
+    phone-vibrate: >-
+      A phone vibrates in short pulses and rattles against a table, a mechanical buzz with no real tone. A buzzer is one steady, pitched electronic tone. Listen for pulses and rattle: that is a phone.
+
+dial-tone:
+  how: >-
+    The telephone network generates fixed tones. In North America the dial tone is two tones of 350 Hz and 440 Hz together, and the busy signal is 480 Hz plus 620 Hz switched on and off every half second; much of Europe uses a single 425 Hz tone. Each touch-tone key sends one low and one high tone at once.
+  why: >-
+    Combining two pure tones gives a steady, slightly beating chord that does not sound like any natural sound, so it is easy to recognize. The busy signal pulses to mean "not available". Touch-tone pairs are chosen so that no key's pair can be confused with another, giving each key its own two-note blip.
+  where: >-
+    Heard on landline and office phones, and used in film for calls, hang-ups and hacking scenes.
+  vs:
+    electrical-hum: >-
+      Mains hum sits at 50 or 60 Hz and its multiples, much lower, and never pulses or changes. A dial tone is higher, cleaner and may pulse on and off. Listen for a low, buzzy drone that never changes: that is hum.
+    reversing-beeper: >-
+      A reversing beeper is a single harsh tone repeated evenly outdoors. Phone tones are smoother two-note chords heard through a handset or speaker. Listen for a soft chord: that is a phone tone.
+
+church-bell:
+  how: >-
+    A large cast bronze bell is swung or struck by a heavy clapper or hammer in a tower.
+  why: >-
+    A big, thick bronze bell vibrates for many seconds in several modes at once, giving a deep strike note with a cluster of other tones, including a prominent minor-third tone, which gives bells their complex, slightly sombre sound. The tower lets the sound carry over long distances. Several bells rung in sequence create patterns of different pitches.
+  where: >-
+    Heard in towns and villages on Sundays, at weddings and funerals and on the hour, and used in film for weddings, funerals and historical settings.
+  vs:
+    school-bell: >-
+      A school bell is small, with an electromagnetic clapper hitting it many times a second, so it is a fast, continuous, rattling ring. Church bells are struck one at a time and each hums for seconds. Listen for separate, long-ringing strikes: that is a church bell.
+    doorbell: >-
+      A doorbell is small and indoors, with two short tones. Church bells are huge, deep and keep ringing for seconds after each strike. Listen for depth and long ringing: that is a church bell.
+    gong: >-
+      A gong is a flat disc whose vibration spreads and builds after the strike, so it blooms into a shimmering roar with no single clear note. A church bell has a clear strike note and a recognizable pitch. Listen for a clear pitch: that is a bell.
+
+school-bell:
+  how: >-
+    An electromagnet pulls a clapper against a small metal bell, which breaks the circuit, lets the clapper spring back and remakes the circuit, many times a second.
+  why: >-
+    Because the clapper hits so fast, the strikes merge into a continuous, rattling ring at the bell's pitch. It sounds for as long as the switch is held and stops abruptly. The bell is small and loud, so the sound is bright and harsh.
+  where: >-
+    Heard in schools, factories and old fire alarms, and used in film to mark the end of class, a boxing round or an alarm.
+  vs:
+    phone-ring: >-
+      A phone rings in bursts with regular pauses. A school bell rings continuously until switched off. Listen for the absence of pauses: that is a school bell.
+    alarm-clock: >-
+      A bell alarm clock uses the same rapid hammer idea, but smaller and quieter, in a bedroom. A school bell is larger, louder and usually echoes in a corridor or yard. Listen for scale and echo: that is a school bell.
+
+foghorn:
+  how: >-
+    A large air horn or diaphone (a horn driven by a reciprocating piston in compressed air) on a ship or lighthouse blasts one note through a long horn.
+  why: >-
+    Low frequencies travel farther and are absorbed less by air and fog than high ones, so foghorns are deep. They sound long, steady blasts in set timing patterns that identify a particular lighthouse or ship. Over water the sound carries for kilometres and echoes off coasts.
+  where: >-
+    Heard at harbours and coasts in fog, and used in film for ports, fog and isolation at sea.
+  vs:
+    cow: >-
+      A cow's moo is a voice, so its pitch bends and its sound opens and closes like a vowel. A foghorn holds one steady pitch for the whole blast. Listen for bending: that is a cow.
+    train-horn: >-
+      A train horn sounds a chord of several higher notes. A foghorn is usually one deep note. Listen for a single low tone: that is a foghorn.
+
+gong:
+  how: >-
+    A large metal disc, usually bronze, is struck once with a padded mallet near its centre.
+  why: >-
+    The disc is thin and wide, so after the strike its vibration spreads into many higher modes over a second or two, and the sound swells into a roaring shimmer before slowly fading. Because its many tones are not neatly related, a large gong has no single clear pitch. The padded mallet softens the attack, so it starts dark and builds.
+  where: >-
+    Heard in temples, orchestras and meditation sessions, and used in film to announce, punctuate or suggest Asia, ritual or drama.
+  vs:
+    church-bell: >-
+      A bell is a thick, curved casting whose main vibrations are tuned, so it has a clear strike pitch from the first moment. A gong starts dark and blooms into a wash with no clear note. Listen for a clear note from the start: that is a bell.
+
+# ---------------------------------------------------------------- machines
+
+air-hiss:
+  how: >-
+    Compressed air or steam escapes through a small opening such as a valve, nozzle or leak.
+  why: >-
+    The escaping gas forms a fast, turbulent jet, which makes broadband noise concentrated in high frequencies, so it sounds like a steady "ssss". A smaller opening gives a higher, thinner hiss. As long as the pressure holds, the sound stays even.
+  where: >-
+    Heard at tyres, compressors, pressure cookers and steam pipes, and used in film for machinery, leaks and industrial settings.
+  vs:
+    cat-hiss: >-
+      A cat's hiss is a short, explosive breath, often with a spit at the start, and lasts only a second or two. Escaping air from a valve can hiss evenly for as long as the pressure lasts. Listen for a short, spitting burst: that is a cat.
+    wind: >-
+      Wind swells and fades in gusts, and covers a lower, broader range. Escaping air is a narrow, steady, high hiss. Listen for an unchanging thin hiss: that is escaping air.
+    shush: >-
+      A shush is a breath shaped by the lips into "shhh", so it is softer and lower and ends when the person runs out of breath. Escaping air is thinner and can go on indefinitely. Listen for a breath ending: that is a person.
+
+drill:
+  how: >-
+    An electric motor turns a drill bit through a set of gears, and in hammer mode a ratchet also knocks the bit forward many times a second.
+  why: >-
+    The fast motor and gears make a high, pitched whine that rises as the drill speeds up. When the bit bites into wood, metal or masonry, the load slows the motor, so the pitch drops and grinding noises join in. Drilling is usually done in bursts, so the whine starts, strains and stops.
+  where: >-
+    Heard during home improvements and building work, and used in film for renovation scenes and noisy neighbours.
+  vs:
+    blender: >-
+      A blender runs longer, with chunks of food rattling around a jar. A drill runs in short bursts and strains as it bites. Listen for short bursts with a pitch drop under load: that is a drill.
+    dentist-drill: >-
+      A dental drill is driven by a tiny air turbine at extremely high speed, so its whine is much higher and thinner, with no gearbox growl. A power drill is lower, grindier and slows when it bites. Listen for the grind: that is a power drill.
+    mosquito: >-
+      A mosquito's wing beat makes a quiet, thin whine that wavers as it flies around. A drill is loud, fixed in place and changes pitch with load. Listen for loudness and straining: that is a drill.
+
+dentist-drill:
+  how: >-
+    A small air-driven turbine in the handpiece spins the cutting burr at extremely high speed, cooled by a fine water spray.
+  why: >-
+    The turbine spins so fast that its whine is very high and thin, near the top of the range many people hear easily. When the burr touches the tooth, the load slows it slightly and the pitch dips. The suction tube adds a gurgling slurp in the background.
+  where: >-
+    Heard in dental surgeries, and used in film and comedy as shorthand for dread.
+  vs:
+    drill: >-
+      A power drill is an electric motor driving gears, so it is lower and grindier and drops clearly in pitch when it bites. A dental drill is a tiny turbine, much higher and thinner. Listen for an extremely high, thin whine: that is a dental drill.
+
+hammering:
+  how: >-
+    A steel hammer head strikes a nail, which drives into wood; the hammer, the nail and the wood all vibrate briefly.
+  why: >-
+    Steel hitting steel gives a short, bright ring, and the wood adds a duller knock, so each blow is a sharp "tok" with a metallic edge. Hand-driven blows come at a steady, human pace, a second or less apart, with a pause to reposition or start the next nail. The sound changes as the nail goes in and the wood underneath takes the impact.
+  where: >-
+    Heard on building sites, in workshops and during home repairs, and used in film for construction, coffins and carpentry.
+  vs:
+    knock: >-
+      Knuckles on a door are soft flesh on wood, so knocks are duller and quieter with no metal ring, usually in groups of two to four. A hammer is steel on steel, louder and ringing. Listen for metal: that is a hammer.
+    jackhammer: >-
+      A jackhammer is a machine driven by compressed air, so it hits many times a second in a continuous rattling stream. Hand hammering is far slower, one blow at a time. Listen for countable blows: that is a hammer.
+    footsteps: >-
+      Footsteps are softer heels and soles on a floor, in a walking rhythm that moves. Hammering is louder, metallic, and stays in one place. Listen for a ringing metal edge: that is hammering.
+
+handsaw:
+  how: >-
+    A blade with a row of teeth is pushed and pulled across wood, each tooth scraping out a small chip of wood fibre.
+  why: >-
+    Many teeth cutting in turn give a rough, rasping noise, and the stroke direction gives a back-and-forth rhythm, often louder on the cutting stroke. The pitch of the rasp rises with stroke speed. As the cut nears the end, the sound gets more hollow and the last fibres may snap.
+  where: >-
+    Heard in workshops and gardens, and used in film for carpentry and, in horror, for sinister work.
+  vs:
+    snore: >-
+      Snoring is a breath vibrating the soft palate, so it is slower, wetter and comes on the in-breath with a pause. A saw is a dry, rasping scrape with a faster, even back-and-forth. Listen for dry wood texture: that is a saw.
+    chainsaw: >-
+      A chainsaw is driven by an engine, so it roars and revs continuously. A handsaw is moved by an arm, so it rasps in strokes with no engine. Listen for an engine: that is a chainsaw.
+    writing: >-
+      Writing is a pen or pencil gliding on paper, so it is tiny, quiet and irregular. Sawing is loud, rough and rhythmic. Listen for loudness and a steady stroke: that is a saw.
+
+chainsaw:
+  how: >-
+    A small two-stroke petrol engine (one that fires on every turn) drives a toothed chain around a guide bar.
+  why: >-
+    A two-stroke fires on every turn and runs very fast, with a short exhaust, so it makes a high, raspy snarl. The operator revs it up to cut and lets it drop to idle between cuts, so the pitch jumps up and down. When the chain bites into wood the engine bogs down and the pitch drops, with chips spraying.
+  where: >-
+    Heard in forests, gardens and tree-felling work, and used in film for logging and, famously, horror.
+  vs:
+    motorcycle: >-
+      A motorcycle moves, passes by and steps through gears, with a Doppler pitch drop. A chainsaw stays in one place and snarls higher, revving and bogging as it cuts. Listen for movement and gear changes: that is a motorcycle.
+    lawn-mower: >-
+      A lawn mower's engine is governed (held to one speed), so it drones steadily and lower. A chainsaw revs sharply up and down. Listen for sharp revving: that is a chainsaw.
+
+jackhammer:
+  how: >-
+    Compressed air (or an electric motor) drives a heavy piston up and down inside the tool, hammering a chisel into concrete or rock many times a second.
+  why: >-
+    Each piston blow is a loud metallic hit, and they come so fast that they form a rattling, machine-gun stream. Exhaust air bursts from the tool with each cycle, adding a hiss, and breaking concrete adds crunching. The rhythm is fixed by the tool, not by a person's arm.
+  where: >-
+    Heard at roadworks and demolition sites, and used in film for construction and urban noise.
+  vs:
+    helicopter: >-
+      A helicopter's rotor thuds are deep air pulses from overhead, lower and softer, and the sound moves across the sky. A jackhammer is a hard, metallic rattle at ground level. Listen for metal and ground impact: that is a jackhammer.
+    hammering: >-
+      A hand hammer strikes slowly, one blow at a time, with pauses. A jackhammer hits many times a second in a continuous stream. Listen for countable blows: that is a hand hammer.
+    gunshot: >-
+      Gunfire is extremely sharp cracks at irregular intervals, with long echoes. A jackhammer is a steady, even rattle that lasts as long as the operator holds it. Listen for even spacing: that is a jackhammer.
+
+lawn-mower:
+  how: >-
+    A small petrol engine, usually a single cylinder, spins a horizontal blade under a deck; a governor (a speed regulator) holds the engine at a set speed.
+  why: >-
+    One cylinder firing at a steady rate gives a buzzy, pitched drone that stays fairly constant. When the blade hits thick or long grass, the load briefly slows the engine and the governor opens the throttle, so the pitch dips and recovers. As the mower turns and moves away, the sound shifts and fades.
+  where: >-
+    Heard in suburban gardens and parks on summer weekends, and used in film for suburbia and lazy afternoons.
+  vs:
+    chainsaw: >-
+      A chainsaw revs sharply up and down and snarls higher. A mower holds a steadier, lower drone. Listen for sharp revving: that is a chainsaw.
+    motorcycle: >-
+      A motorcycle revs up through gears and passes by with a Doppler drop. A mower drones in one place at roughly one speed. Listen for steadiness: that is a mower.
+
+fan:
+  how: >-
+    An electric motor spins blades that push air through a room or across a cooling coil.
+  why: >-
+    Blades cutting through air create turbulence, so the main sound is a soft, broadband whoosh. A faint tone from the blades passing and a low motor hum often sit underneath. Because the speed is fixed, the sound stays exactly the same for as long as it runs.
+  where: >-
+    Heard in bedrooms, offices and from air conditioners and computers, and used in film to suggest heat, a hotel room or quiet tension.
+  vs:
+    wind: >-
+      Wind rises and falls in gusts. A fan runs at one fixed speed, so its whoosh never changes. Listen for complete steadiness: that is a fan.
+    electrical-hum: >-
+      Electrical hum is a pure low buzz from electricity itself, with no air movement. A fan's sound is mostly moving air. Listen for a whoosh: that is a fan.
+    rain: >-
+      Rain is made of many separate impacts, so up close it has a patter and drips. A fan is a smooth whoosh with no individual events. Listen for patter: that is rain.
+
+printer:
+  how: >-
+    Small stepper motors (motors that move in precise steps) drive the print head back and forth and the rollers that feed paper, while solenoids click to engage mechanisms.
+  why: >-
+    Stepper motors turn in tiny fast steps, which gives a pitched whirr or buzz whose pitch matches their speed. The print head passes back and forth in a regular rhythm, and paper feeds with a swish and clicks between passes. The pattern is irregular overall, because it depends on what is being printed.
+  where: >-
+    Heard in offices and homes, and used in film for paperwork, deadlines and office life.
+  vs:
+    typing: >-
+      Typing is fingers hitting keys, so it is a stream of clicks with no motor whirr. A printer has whirring motors moving back and forth with occasional clicks. Listen for whirring passes: that is a printer.
+    washing-machine: >-
+      A washing machine is bigger, slower and wet, with sloshing water. A printer is small, dry and quick, with whirrs and paper swishes. Listen for water: that is a washing machine.
+
+electrical-hum:
+  how: >-
+    Mains electricity alternates direction 50 or 60 times a second, depending on the country, which makes transformer cores and magnetic parts vibrate, and leaks into audio equipment as a hum.
+  why: >-
+    The vibration and leakage are locked to the mains frequency, so the hum has a fixed pitch at 50 or 60 Hz and their multiples; transformers often hum loudest at twice the mains frequency because their cores flex on each half of the cycle. The pitch never wavers or moves. Faulty or poorly shielded equipment adds buzzy upper harmonics.
+  where: >-
+    Heard near transformers, fluorescent lights, amplifiers and power lines, and used in film for factories, hospitals and eerie stillness.
+  vs:
+    fan: >-
+      A fan moves air, so it has a soft whoosh. Electrical hum is a pure tonal buzz with no air in it. Listen for air: that is a fan.
+    bees: >-
+      Bees buzz with their wings, so their sound wavers, moves around and swells as they come and go. Electrical hum is perfectly steady and fixed in place. Listen for movement and wavering: that is bees.
+    dial-tone: >-
+      A dial tone is higher and cleaner, a chord of pure tones from the phone network. Mains hum is much lower and buzzier. Listen for a low buzz: that is hum.
+
+# ---------------------------------------------------------------- impacts
+
+gunshot:
+  how: >-
+    Burning propellant creates high-pressure gas that drives the bullet out of the barrel and then bursts from the muzzle as a blast; a supersonic bullet also trails its own small shock wave, a crack along its path.
+  why: >-
+    The muzzle blast rises almost instantly to a very high level, so it is an extremely sharp, short crack rather than a boom. Outdoors, the blast reflects off buildings, trees and hills, so the crack is followed by a rolling echo that tells you about the surroundings. Indoors it is a hard, painful bang with a short, harsh room reflection.
+  where: >-
+    Heard at shooting ranges and in hunting areas, and used constantly in film and games, usually exaggerated and deeper than real shots.
+  vs:
+    fireworks: >-
+      Fireworks usually launch with a whoosh or whistle, then burst with a bang followed by crackling or fizzing. A gunshot is one sharp crack with no launch and no crackle. Listen for a rising whistle or crackle: that is fireworks.
+    door-slam: >-
+      A slammed door is a wooden panel hitting a frame, so it is a duller, lower thud with the frame rattling. A gunshot is far sharper and louder. Listen for rattle after the hit: that is a door.
+    clapping: >-
+      A clap is two hands pushing out a small puff of air, a sharp but small slap at close range. A gunshot is vastly louder, with echoes rolling off surroundings. Listen for an echo tail: that is a gunshot.
+    car-backfire: >-
+      A backfire is unburnt fuel igniting inside an exhaust system, so the bang is muffled by the pipes and silencer: lower, rounder and often in a pop-pop pair. A gunshot is a sharper, higher crack. Listen for a deeper, muffled pop from a car: that is a backfire.
+
+gun-cock:
+  how: >-
+    A gun's slide or bolt is pulled back against a strong spring and released, sliding steel over steel and snapping into position.
+  why: >-
+    The steel parts scrape as they slide, then slam home under spring force, so you hear a short, gritty slide followed by a hard, heavy metal snap. The parts are heavy and tightly fitted, so the click is lower and more solid than small mechanisms.
+  where: >-
+    Heard at shooting ranges and gun shops, and used heavily in film and games, often added for drama even where it would not happen.
+  vs:
+    camera-shutter: >-
+      A shutter is tiny, light parts moving quickly, so its click-clack is light and crisp with no sliding. Racking a gun is heavier, with a scrape of steel before a weighty snap. Listen for the slide and weight: that is a gun.
+
+car-backfire:
+  how: >-
+    Unburnt fuel passes into the hot exhaust system and ignites there, making a small explosion inside the pipes.
+  why: >-
+    The explosion happens inside metal pipes and a silencer, which muffle the high frequencies, so the bang is deep, rounded and popping rather than sharp. Backfires often come in one or two pops when the driver lifts off the accelerator or the engine is badly tuned. The pipe can give a slightly hollow, resonant quality.
+  where: >-
+    Heard from old or modified cars, and used in film as a gag where characters mistake it for a gunshot.
+  vs:
+    gunshot: >-
+      A gunshot is high-pressure gas bursting from an open muzzle, so it is an extremely sharp, high crack. A backfire happens inside a muffled exhaust, so it is lower and rounder. Listen for a crack versus a muffled pop.
+
+explosion:
+  how: >-
+    A chemical reaction or sudden release of pressure creates a large volume of hot gas in an instant, sending out a blast wave that pushes air and throws debris.
+  why: >-
+    A large blast has huge energy at low frequencies, so it is a deep boom you can feel. Close up it starts with a sharp crack; at distance, air absorbs high frequencies and only a deep thump remains. Debris falling, glass breaking and echoes from the surroundings follow, giving a long rumbling tail.
+  where: >-
+    Heard at quarries, demolitions and in war, and used constantly in action films, usually with exaggerated low rumble.
+  vs:
+    thunder: >-
+      Thunder comes from a long lightning channel, so it rolls and grumbles for many seconds with no debris. An explosion comes from one point, so it is one huge boom, then debris and echoes. Listen for falling debris: that is an explosion.
+    gunshot: >-
+      A gunshot is a small, extremely sharp crack. An explosion is massive and low, with a rumble and debris after. Listen for depth and size: that is an explosion.
+    fireworks: >-
+      Fireworks burst many times, often with a launch whistle and crackling showers after each bang. An explosion is usually one huge blast. Listen for repeated bangs and crackles: that is fireworks.
+
+fireworks:
+  how: >-
+    A rocket or shell is launched by a lifting charge, sometimes with a whistling mix that screams as it burns, then a burst charge explodes it high in the air, scattering burning stars that may crackle.
+  why: >-
+    The launch is a whoosh or a rising whistle, followed by a sharp bang when the shell bursts. Crackling effects are many tiny bursts, which give a fizzing, popping shower after the bang. Because the bursts are high and far away, the bang arrives after the flash and echoes off buildings and hills.
+  where: >-
+    Heard at New Year, national holidays and festivals, and used in film for celebrations and romantic endings.
+  vs:
+    gunshot: >-
+      A gunshot is a single sharp crack with no launch and no crackle. Fireworks whistle or whoosh up, bang, then crackle and fizz. Listen for the whistle and crackle: that is fireworks.
+    thunder: >-
+      Thunder is one long rolling rumble without sharp repeated bangs. Fireworks are many separate bangs, crackles and whistles. Listen for repeated pops: that is fireworks.
+
+glass-clink:
+  how: >-
+    Two glasses are touched together, and the thin glass bowls vibrate briefly after the contact.
+  why: >-
+    The bowl of a glass vibrates in bending modes at a high, clear pitch set by its size, thickness and how full it is, so a clink is a bright, pure "ting". Two glasses with slightly different pitches can produce a gentle shimmer as their tones beat against each other. Thin crystal rings longer; thick tumblers give a duller tick.
+  where: >-
+    Heard at dinners, bars and weddings, and used in film for toasts and celebrations.
+  vs:
+    glass-break: >-
+      Breaking glass shatters into fragments, so you hear a crash and a shower of tinkling pieces. A clink is one ring from two intact glasses. Listen for a single clean ring: that is a clink.
+    notification: >-
+      A notification is synthesized, perfectly clean and the same every time. A glass clink is a real object, with slight shimmer and variation. Listen for that natural shimmer: that is a glass.
+    bicycle-bell: >-
+      A bike bell is a metal dome rung by a striker, usually twice, louder and harsher. A glass clink is one softer, purer ring. Listen for a double metallic ring: that is a bike bell.
+
+coins:
+  how: >-
+    Small metal discs hit each other or a hard surface when dropped, counted or spun.
+  why: >-
+    Small, dense metal discs ring at high pitches, so each contact is a bright clink. A spinning coin rolls on its edge in a shrinking circle, and as it settles the contact goes round faster and faster, so its whirr rises in pitch until it stops abruptly. A pile of coins gives a rich jingle with many overlapping clinks.
+  where: >-
+    Heard at tills, in pockets and at piggy banks, and used in film for wealth, paying and slot machines.
+  vs:
+    keys: >-
+      Keys are thin and on a ring, so they make a light, tinny jangle as they swing together. Coins are thicker discs, so they clink rounder and can spin. Listen for a spinning whirr: that is coins.
+    dishes: >-
+      Cutlery and plates are heavier and include ceramic, so the clatter is lower and more varied. Coins are small and all metal, so they are higher and brighter. Listen for ceramic knocks: that is dishes.
+
+splash:
+  how: >-
+    An object or person hits a water surface, punching a cavity into the water that then collapses, throwing up spray that falls back.
+  why: >-
+    The impact makes a sharp, wet slap, and as the cavity closes it can trap air bubbles that ring briefly, giving a "plunk". The thrown water falls back in a shower of smaller splashes. Bigger objects make a deeper, longer splash; a small stone gives a quick, high plop.
+  where: >-
+    Heard at pools, lakes and harbours, and used in film for diving, falling overboard and things thrown into water.
+  vs:
+    waves: >-
+      Waves break over and over in a slow cycle. A splash happens once, followed by water falling back and settling. Listen for repetition: if it does not repeat, it is a splash.
+    toilet-flush: >-
+      A flush is a rushing release of water with a swirl and gurgle down a pipe, then a refill hiss. A splash is one sudden impact and a falling spray. Listen for a gurgle and refill: that is a flush.
+
+thud:
+  how: >-
+    A heavy, fairly soft object such as a bag, a body or a box lands on a floor or ground.
+  why: >-
+    Soft, heavy objects deform on impact and absorb the high frequencies, so the sound is dull and low, with little ring. The floor itself vibrates briefly, adding a short boom, especially on wooden floors. It is over quickly, with no rattle.
+  where: >-
+    Heard when things fall or are dropped, and used in film for falls, fights and something heavy hitting the ground.
+  vs:
+    door-slam: >-
+      A slam is a door hitting its frame, so it is sharper and followed by a rattle of the frame and room. A thud is one dull blow with no rattle. Listen for the rattle: that is a door.
+    heartbeat: >-
+      A heartbeat is a soft pair of thumps, "lub-dub", that repeats. A thud happens once. Listen for repetition: that is a heartbeat.
+    explosion: >-
+      An explosion is huge, with a sharp start, rolling rumble and debris. A thud is a single small, dull blow. Listen for size and a tail: that is an explosion.
+
+crash:
+  how: >-
+    Several objects fall or collide at once: furniture, pans, boxes or shelving hitting each other and the floor.
+  why: >-
+    Many different materials hitting in quick succession give a loud, chaotic clatter with a mix of thuds, rattles and rings. After the main impact, smaller pieces bounce, roll and settle, so the sound has a messy tail that slowly stops. No single pitch dominates.
+  where: >-
+    Heard during accidents at home and in workplaces, and used in film for clumsy moments, fights and falling shelves.
+  vs:
+    glass-break: >-
+      Breaking glass is dominated by high, bright tinkles from shards. A mixed crash is heavier and lower, with thuds and rattles. Listen for brightness: that is glass.
+    thud: >-
+      A thud is one soft, dull blow. A crash is many impacts with rattling and settling pieces. Listen for multiple impacts: that is a crash.
+    explosion: >-
+      An explosion starts with a deep boom from a blast wave before any debris falls. A crash starts with the objects hitting, without a boom. Listen for a low boom first: that is an explosion.
+
+squeak:
+  how: >-
+    Two surfaces such as rubber on a floor, a shoe sole or wood on wood rub together briefly, gripping and slipping.
+  why: >-
+    The stick-slip friction (grab-and-release) makes the surfaces vibrate at a high rate, giving a short, high-pitched squeal. Because the movement is brief, the squeak lasts only a fraction of a second. Rubber squeaks tend to be higher and cleaner than wood.
+  where: >-
+    Heard on gym floors, shoes, floorboards and toys, and used in film for sneaking, basketball courts and comic moments.
+  vs:
+    door-creak: >-
+      A door creak is the same friction stretched out over a door's whole swing, so it is longer and slower and wavers in pitch. A squeak is over in a moment. Listen for length: that is a creak.

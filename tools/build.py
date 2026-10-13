@@ -53,7 +53,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / ".cache"
 AUDIO = ROOT / "audio"
 SR = 44100
-BUILD_VERSION = 1
+BUILD_VERSION = 2
 UA = "EarshotBuild/1.0 (open-source sound reference; sample sourcing)"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 DEFAULT_DUR = {"once": 4.0, "repeats": 6.0, "steady": 6.0, "irregular": 6.0}
@@ -329,10 +329,67 @@ def speech_noise(n, seed=5):
     return band * env
 
 
-def under_speech(x):
-    n = len(x) + int(0.3 * SR)
+# Real speech for the "Under speech" versions: LibriVox volunteers reading public-domain
+# stories (Short Story Collection Vol. 055, CC0). Each file is a different reader.
+SPEECH = {
+    "page": "https://archive.org/details/short_story_055_1304_librivox",
+    "license": "CC0-1.0",
+    "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+    "files": [
+        "shortstory055_03_sphinxwithoutasecret_rb_64kb.mp3",
+        "shortstory055_05_manwhowouldmanage_rg_64kb.mp3",
+        "shortstory055_06_encounter_bm_64kb.mp3",
+        "shortstory055_10_fromtheteethofthetide_jt_64kb.mp3",
+    ],
+}
+SPEECH_BASE = "https://archive.org/download/short_story_055_1304_librivox/"
+
+
+_SPEECH_AUDIO = {}
+
+
+def speech_audio(name):
+    if name not in _SPEECH_AUDIO:
+        _SPEECH_AUDIO[name] = load(speech_file(name))
+    return _SPEECH_AUDIO[name]
+
+
+def speech_file(name):
+    dest = CACHE / "speech" / name
+    if not dest.exists():
+        http_get(SPEECH_BASE + name, dest)
+    return dest
+
+
+def conversation(n, seed):
+    """Two readers taking turns, like people talking nearby. Starts well past the
+    LibriVox introduction; each sound gets its own pair of voices and passages."""
+    rng = np.random.default_rng(seed)
+    voices = rng.choice(len(SPEECH["files"]), size=2, replace=False)
+    out = np.zeros(n, dtype=np.float32)
+    pos, turn = 0, 0
+    while pos < n:
+        f = SPEECH["files"][voices[turn % 2]]
+        full = speech_audio(f)
+        length = int(rng.uniform(1.6, 3.2) * SR)
+        start = int(rng.uniform(60, max(61, len(full) / SR - 10)) * SR)
+        seg = full[start:start + length].copy()
+        k = min(len(seg), int(0.03 * SR))
+        seg[:k] *= np.linspace(0, 1, k)
+        seg[len(seg) - k:] *= np.linspace(1, 0, k)
+        end = min(n, pos + len(seg))
+        out[pos:end] += normalize(seg, -20)[: end - pos]
+        pos = end + int(rng.uniform(0.05, 0.35) * SR)
+        turn += 1
+    return out
+
+
+def under_speech(x, seed=0):
+    """The sound with two people talking over it, the way it is usually heard in video."""
+    n = len(x) + int(0.6 * SR)
     a = np.pad(normalize(x, -20), (0, n - len(x)))
-    return normalize(a + normalize(speech_noise(n), -21), -18)
+    talk = reverb(conversation(n, seed), secs=0.6, wet=0.18)[:n]
+    return normalize(a + normalize(talk, -23), -18)
 
 
 def far_away(x):
@@ -389,8 +446,9 @@ def build_sound(snd):
 
     if first is not None:
         x, origin = first
-        emit("speech", "Under speech", "context", under_speech(x),
-             [origin, {"source": "generated", "preset": "speech-shaped noise"}])
+        emit("speech", "Under speech", "context", under_speech(x, seed=int(short_hash(sid), 16)),
+             [origin, {"source": "url", "file": "LibriVox readings (two voices)", "url": SPEECH["page"],
+                       "license": SPEECH["license"], "author": SPEECH["author"]}])
         emit("far", "Far away", "context", far_away(x), [origin, {"source": "generated", "preset": "distance and room"}])
         emit("phone", "Through a phone", "context", small_speaker(x), origin)
     return samples
@@ -457,6 +515,9 @@ def main():
         todo = [dict(s, samples=[sp for sp in s["samples"] if available(sp)]) for s in todo]
         todo = [s for s in todo if s["samples"]]
 
+    for f in SPEECH["files"]:
+        speech_file(f)
+
     # Remote hosts rate-limit parallel downloads, so fetch everything one at a time first.
     remote = [sp for s in todo for sp in s["samples"] if sp["src"] != "generated"]
     for n, sp in enumerate(remote, 1):
@@ -483,6 +544,17 @@ def main():
             except Exception as e:
                 failures.append(sid)
                 log(f"  ! {sid:22s} FAILED: {e}")
+
+    # Explanatory text: how it's made, why it sounds that way, why look-alikes differ.
+    context = {}
+    for f in sorted((ROOT / "data" / "context").glob("*.yaml")):
+        context.update(yaml.safe_load(f.read_text(encoding="utf-8")) or {})
+
+    def why_differ(a, b):
+        return ((context.get(a) or {}).get("vs") or {}).get(b) or ((context.get(b) or {}).get("vs") or {}).get(a)
+
+    words_path = ROOT / "data" / "words.yaml"
+    words = yaml.safe_load(words_path.read_text(encoding="utf-8")) if words_path.exists() else {}
 
     conf = {s["id"]: {c["id"]: c["cue"] for c in s.get("confusions", [])} for s in sounds}
     for a in list(conf):
@@ -511,7 +583,12 @@ def main():
             "aliases": s.get("aliases", []), "status": "ready" if slim else "wanted",
             "traits": {k: (v if isinstance(v, list) else [v]) for k, v in s["traits"].items()},
             "summary": s.get("summary", ""), "listen": s.get("listen", []), "note": s.get("note"),
-            "confusions": [{"id": k, "cue": v} for k, v in conf[s["id"]].items()],
+            "confusions": [{"id": k, "cue": v, "why": why_differ(s["id"], k)} for k, v in conf[s["id"]].items()],
+            "how": (context.get(s["id"]) or {}).get("how"),
+            "why": (context.get(s["id"]) or {}).get("why"),
+            "music": (context.get(s["id"]) or {}).get("where"),
+            "words": {k: (words.get(s["id"]) or {}).get(k) or [] for k in ("synonyms", "written", "loose")},
+            "wordNote": (words.get(s["id"]) or {}).get("note"),
             "range": None, "samples": slim,
         })
 
@@ -521,11 +598,29 @@ def main():
                                          + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
     (ROOT / "data" / "provenance.json").write_text(json.dumps(provenance, indent=1, ensure_ascii=False), encoding="utf-8")
     write_sources_md(provenance)
+    stamp_assets()
     ready = sum(1 for s in out if s["samples"])
     log(f"\n{ready} sounds with audio, {sum(len(s['samples']) for s in out)} clips, {len(out) - ready} listed without audio.")
     if failures:
         log(f"{len(failures)} failed: " + ", ".join(failures))
         sys.exit(1)
+
+
+def stamp_assets():
+    """Add a content hash to every script and stylesheet link in index.html, so
+    browsers never mix new data with cached old code after an update."""
+    index = ROOT / "index.html"
+    html = index.read_text(encoding="utf-8")
+
+    def stamp(m):
+        path = ROOT / m.group(2)
+        if not path.exists():
+            return m.group(0)
+        return f'{m.group(1)}{m.group(2)}?v={hashlib.sha1(path.read_bytes()).hexdigest()[:10]}"'
+
+    new = re.sub(r'((?:src|href)=")((?:js|css)/[^"?]+\.(?:js|css))(?:\?v=[^"]*)?"', stamp, html)
+    if new != html:
+        index.write_text(new, encoding="utf-8")
 
 
 def write_sources_md(provenance):

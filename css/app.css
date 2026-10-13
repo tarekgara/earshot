@@ -551,6 +551,16 @@ svg { width: 18px; height: 18px; flex: none; }
 .clip canvas { width: 64px; height: 24px; }
 
 .side { display: grid; gap: 30px; position: sticky; top: 24px; }
+.explain { margin-top: 40px; padding-top: 28px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 32px; }
+.explain-title { grid-column: 1 / -1; font: 400 32px/1.1 var(--f-serif); }
+.explain-item p { margin-top: 8px; color: var(--text-2); font-size: 15px; line-height: 1.6; max-width: 62ch; }
+.conf-cue p + p { margin-top: 6px; }
+.conf-tell { color: var(--text-3); font-size: 13.5px; }
+.conf-tell b { color: var(--text-2); font-weight: 600; }
+.report-line { margin-top: 10px; font-size: 13px; color: var(--text-3); }
+.report-line a { color: var(--text-2); text-underline-offset: 3px; }
+.report-line a:hover { color: var(--accent); }
+@media (max-width: 860px) { .explain { grid-template-columns: minmax(0, 1fr); } }
 .cues { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 12px; counter-reset: cue; }
 .cues li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; color: var(--text-2); font-size: 14.5px; counter-increment: cue; }
 .cues li::before { content: counter(cue); font: 400 20px/1 var(--f-serif); color: var(--accent); }
@@ -821,6 +831,51 @@ svg { width: 18px; height: 18px; flex: none; }
 .quiz-learn a { color: var(--text-3); }
 .quiz-tricky { margin-top: 48px; }
 .quiz-tricky .confusions-head h2 { font: 400 28px/1.1 var(--f-serif); }
+
+/* ------------------------------------------------------------ words */
+
+.word-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.word-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  height: 28px; padding: 0 11px;
+  border: 1px solid var(--line); border-radius: 99px;
+  color: var(--text-2); text-decoration: none; font-size: 13.5px;
+  transition: border-color .15s var(--ease), color .15s var(--ease), background .15s var(--ease);
+}
+.word-chip:hover { border-color: var(--accent); color: var(--text); background: var(--accent-soft); }
+.word-chip.small { height: 24px; padding: 0 9px; font-size: 12.5px; }
+.word-count { min-width: 18px; padding: 0 5px; border-radius: 99px; background: var(--raise); color: var(--text-3); font-size: 11px; font-weight: 600; text-align: center; }
+.word-sub { margin-top: 10px; font-size: 13.5px; color: var(--text-3); }
+.word-sub a { color: var(--text-2); }
+.word-note { margin-top: 10px; font-size: 13.5px; color: var(--text-2); padding: 10px 12px; border-radius: var(--r); background: var(--surface-2); }
+.words-search input {
+  width: 100%; max-width: 560px; height: 52px; padding: 0 18px;
+  border: 1px solid var(--line-strong); border-radius: var(--r-lg);
+  background: var(--surface); color: var(--text); font: 18px var(--f-sans);
+}
+.words-search input:focus-visible { box-shadow: var(--focus); }
+.word-hint { margin: 22px 0 6px; color: var(--text-3); font-size: 14px; }
+.word-letter { margin-top: 22px; }
+.word-letter h2 { font: 400 26px/1 var(--f-serif); color: var(--text-3); }
+.word-focus { margin-top: 26px; }
+.word-title { font: 400 30px/1.15 var(--f-serif); margin-bottom: 8px; }
+.word-sound { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.word-sound-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; }
+.word-sound-head a { font-weight: 600; font-size: 16px; text-decoration: none; }
+.word-sound-head a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.word-kind { font-size: 12px; color: var(--text-3); text-transform: uppercase; letter-spacing: .05em; }
+.word-sound-sum { margin-top: 4px; color: var(--text-2); font-size: 14.5px; max-width: 70ch; }
+.word-apart { margin-top: 32px; }
+.word-pair { padding: 14px 0; border-bottom: 1px solid var(--line); max-width: 75ch; }
+.word-pair p { color: var(--text-2); font-size: 14.5px; margin-top: 6px; }
+.word-pair-head { display: flex; align-items: center; gap: 8px; font-weight: 600; color: var(--text) !important; }
+.word-pair-head span { color: var(--text-3); font-weight: 400; }
+.word-pair-head a { text-decoration: none; }
+.word-pair-head .btn { margin-left: auto; }
+.word-more { margin-top: 30px; }
+.word-loose { margin-top: 26px; }
+.word-loose summary { cursor: pointer; color: var(--text-2); font-weight: 500; padding: 8px 0; }
+.word-loose summary:hover { color: var(--text); }
 
 /* ------------------------------------------------------------ transport */
 

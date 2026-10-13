@@ -136,9 +136,9 @@ sounds:
       - { id: laugh, cue: "Laughter is pitched and rhythmic: 'ha-ha-ha'." }
       - { id: bark, cue: "A dog bark is pitched and voiced; a cough is noise." }
     samples:
+      - {"src": "commons", "file": "File:Woman coughing three times.wav", "label": "Recording"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_cough.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_cough.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
-      - {"src": "commons", "file": "File:Woman coughing three times.wav", "label": "Recording 3"}
 
   - id: throat-clear
     name: Throat clearing
@@ -155,7 +155,6 @@ sounds:
     samples:
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_throatclearing.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_throatclearing.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
-      - {"src": "commons", "file": "File:Laughter and clearing voice.ogg", "label": "Recording 3"}
 
   - id: sneeze
     name: Sneeze
@@ -169,9 +168,9 @@ sounds:
       - { id: cough, cue: "A cough has no build-up and repeats more." }
       - { id: sniff, cue: "A sniff goes in, not out." }
     samples:
+      - {"src": "commons", "file": "File:Double sneeze (man).ogg", "label": "Recording"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_sneeze.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_sneeze.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
-      - {"src": "commons", "file": "File:Double sneeze (man).ogg", "label": "Recording 3"}
 
   - id: sniff
     name: Sniff
@@ -186,9 +185,9 @@ sounds:
       - { id: sigh, cue: "A sigh is a long breath out through the mouth." }
       - { id: scoff, cue: "A scoff is a short puff out, often with attitude." }
     samples:
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/sniff.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_sniff.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_sniff.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
-      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/sniff.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 3"}
 
   - id: laugh
     name: Laugh
@@ -204,9 +203,9 @@ sounds:
       - { id: chuckle, cue: "A chuckle is low and mostly kept in the chest." }
       - { id: cough, cue: "A cough is noisy and unpitched." }
     samples:
+      - {"src": "commons", "file": "File:Bursting out laughing.ogg", "label": "Recording"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_laughter.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_laughter.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
-      - {"src": "commons", "file": "File:Bursting out laughing.ogg", "label": "Recording 3"}
 
   - id: giggle
     name: Giggle
@@ -281,9 +280,9 @@ sounds:
       - { id: scoff, cue: "A scoff is a quick puff." }
       - { id: groan, cue: "A groan is voiced and strained." }
     samples:
+      - {"src": "commons", "file": "File:Three sighs.ogg", "label": "Recording"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_sigh.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
       - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_sigh.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
-      - {"src": "commons", "file": "File:Three sighs.ogg", "label": "Recording 3"}
 
   - id: gasp
     name: Gasp
@@ -859,7 +858,6 @@ sounds:
     samples:
       - {"src": "commons", "file": "File:Potential-Sources-of-High-Frequency-and-Biphonic-Vocalization-in-the-Dhole-(Cuon-alpinus)-pone.0146330.s001.oga", "label": "Recording 1"}
       - {"src": "commons", "file": "File:Puppy at a night.ogg", "label": "Recording 2"}
-      - {"src": "url", "url": "https://opengameart.org/sites/default/files/dog.7z", "page": "https://opengameart.org/content/dog-sounds", "license": "CC0", "author": "pauliuw", "label": "Recording 3"}
 
   - id: dog-pant
     name: Dog panting
@@ -1017,7 +1015,6 @@ sounds:
     samples:
       - {"src": "commons", "file": "File:Pig grunt - Erdie.ogg", "label": "Recording 1"}
       - {"src": "commons", "file": "File:Mudchute pig 2.ogg", "label": "Recording 2"}
-      - {"src": "url", "url": "https://opengameart.org/sites/default/files/mudchuteanimals.7z", "page": "https://opengameart.org/content/farm-animals", "license": "CC-BY-SA 3.0", "author": "qubodup", "label": "Recording 3"}
 
   - id: sheep
     name: Sheep bleating
@@ -1286,7 +1283,7 @@ sounds:
       - {"src": "commons", "file": "File:Elephant voice - trumpeting.ogg", "label": "Recording 1"}
 
   - id: seal
-    name: Seal barking
+    name: Sea lion barking
     family: animals
     sub: Wild
     aliases: [sea lion]
@@ -2392,7 +2389,6 @@ sounds:
       - { id: hammering, cue: "A hammer strikes slowly, by hand." }
       - { id: gunshot, cue: "Gunfire is sharper, with echo, and irregular." }
     samples:
-      - {"src": "commons", "file": "File:Pneumatic drill - The Cleveland Pneumatic Tool Company.ogg", "label": "Recording 1"}
       - {"src": "commons", "file": "File:WWS PneumatichammerZ300.ogg", "label": "Recording 2"}
       - {"src": "commons", "file": "File:WWS Pneumaticdrill.ogg", "label": "Recording 3"}
 
@@ -2480,7 +2476,6 @@ sounds:
     samples:
       - {"src": "commons", "file": "File:Wurstelprater Wien 2024 Luftgewehr Pressluft schießt zweimal.ogg", "label": "Recording 1"}
       - {"src": "commons", "file": "File:Gunshots 8.ogg", "label": "Recording 2"}
-      - {"src": "url", "url": "https://opengameart.org/sites/default/files/shots.7z", "page": "https://opengameart.org/content/chaingun-pistol-rifle-shotgun-shots", "license": "CC-BY 3.0", "author": "qubodup", "label": "Recording 3"}
 
   - id: gun-cock
     name: Gun cocking
@@ -2519,7 +2514,6 @@ sounds:
     samples:
       - {"src": "commons", "file": "File:Explosion-LS100155.ogg", "label": "Recording 1"}
       - {"src": "commons", "file": "File:Explosions-LS100152.ogg", "label": "Recording 2"}
-      - {"src": "url", "url": "https://opengameart.org/sites/default/files/explosions.7z", "page": "https://opengameart.org/content/2-high-quality-explosions", "license": "CC-BY 3.0", "author": "qubodup", "label": "Recording 3"}
 
   - id: fireworks
     name: Fireworks
@@ -2583,7 +2577,6 @@ sounds:
       - { id: toilet-flush, cue: "A flush is a rush, then a gurgle." }
     samples:
       - {"src": "commons", "file": "File:Jump into Water (Gravity Sound).mp3", "label": "Recording 1"}
-      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/water-splash-slime-sfx.zip", "inner": "(splash files)", "page": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx", "license": "CC0", "author": "rubberduck", "label": "Recording 2"}
 
   - id: thud
     name: Thud
@@ -2615,7 +2608,6 @@ sounds:
       - { id: thud, cue: "A thud is a single soft blow." }
       - { id: explosion, cue: "An explosion booms first." }
     samples:
-      - {"src": "commons", "file": "File:Crash hit (Gravity Sound).wav", "label": "Recording 1"}
       - {"src": "commons", "file": "File:Pots and pans hits 1 (Gravity Sound).wav", "label": "Recording 2"}
 
   - id: squeak
