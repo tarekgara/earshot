@@ -137,8 +137,8 @@ sounds:
       - { id: bark, cue: "A dog bark is pitched and voiced; a cough is noise." }
     samples:
       - {"src": "commons", "file": "File:Woman coughing three times.wav", "label": "Recording"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_cough.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_cough.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/f*_cough.wav", "pick": 0, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/m*_cough.wav", "pick": 1, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
 
   - id: throat-clear
     name: Throat clearing
@@ -153,8 +153,8 @@ sounds:
       - { id: grunt, cue: "A grunt comes from effort, not the throat." }
       - { id: scoff, cue: "A scoff is a puff of air through the nose or lips." }
     samples:
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_throatclearing.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_throatclearing.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/f*_throatclearing.wav", "pick": 0, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/m*_throatclearing.wav", "pick": 1, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
 
   - id: sneeze
     name: Sneeze
@@ -169,8 +169,8 @@ sounds:
       - { id: sniff, cue: "A sniff goes in, not out." }
     samples:
       - {"src": "commons", "file": "File:Double sneeze (man).ogg", "label": "Recording"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_sneeze.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_sneeze.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/f*_sneeze.wav", "pick": 25, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/m*_sneeze.wav", "pick": 1, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
 
   - id: sniff
     name: Sniff
@@ -186,8 +186,8 @@ sounds:
       - { id: scoff, cue: "A scoff is a short puff out, often with attitude." }
     samples:
       - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/sniff.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_sniff.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_sniff.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/f*_sniff.wav", "pick": 25, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/m*_sniff.wav", "pick": 1, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
 
   - id: laugh
     name: Laugh
@@ -204,8 +204,8 @@ sounds:
       - { id: cough, cue: "A cough is noisy and unpitched." }
     samples:
       - {"src": "commons", "file": "File:Bursting out laughing.ogg", "label": "Recording"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_laughter.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_laughter.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/f*_laughter.wav", "pick": 2, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/m*_laughter.wav", "pick": 1, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
 
   - id: giggle
     name: Giggle
@@ -281,8 +281,8 @@ sounds:
       - { id: groan, cue: "A groan is voiced and strained." }
     samples:
       - {"src": "commons", "file": "File:Three sighs.ogg", "label": "Recording"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/f*_sigh.wav", "pick": 7, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
-      - {"src": "zip", "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1", "inner": "audio_16k/m*_sigh.wav", "pick": 11, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/f*_sigh.wav", "pick": 2, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Woman"}
+      - {"src": "zip", "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1", "inner": "data_44k/m*_sigh.wav", "pick": 1, "page": "https://github.com/YuanGongND/vocalsound", "license": "CC BY-SA 4.0", "author": "VocalSound dataset (Gong, Yu and Glass, MIT)", "label": "Man"}
 
   - id: gasp
     name: Gasp
@@ -2294,7 +2294,6 @@ sounds:
     name: Gong
     family: signals
     sub: Bells
-    status: wanted
     traits: { source: signal, shape: [once], tone: [ringing, rumble], pitched: "no", register: [low] }
     summary: A large bronze disc struck once, swelling into a roar.
     listen: ["A dark strike that blooms louder"]
@@ -2302,6 +2301,11 @@ sounds:
       - { id: church-bell, cue: "Bells have a clear pitch." }
 
   # ---------------------------------------------------------------- machines
+    samples:
+      - {"src": "url", "url": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Gong%201/gong_2_f.wav", "page": "https://github.com/sgossner/VCSL", "license": "CC0-1.0", "author": "Versilian Studios (VCSL)", "label": "Struck hard", "dur": 6}
+      - {"src": "url", "url": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Gong%201/gong_2_mp.wav", "page": "https://github.com/sgossner/VCSL", "license": "CC0-1.0", "author": "Versilian Studios (VCSL)", "label": "Struck", "dur": 6}
+      - {"src": "url", "url": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Gong%201/gong_scrape_mf.wav", "page": "https://github.com/sgossner/VCSL", "license": "CC0-1.0", "author": "Versilian Studios (VCSL)", "label": "Scraped", "dur": 6}
+
   - id: drill
     name: Drill
     family: machines

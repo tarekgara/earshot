@@ -13,22 +13,22 @@
  "cough/ex-2": [
   {
    "source": "zip",
-   "file": "audio_16k/f0027_0_cough.wav",
+   "file": "data_44k/f0003_0_cough.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "2.2-6.2s",
+   "excerpt": "0.0-4.0s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
  "cough/ex-3": [
   {
    "source": "zip",
-   "file": "audio_16k/m0020_0_cough.wav",
+   "file": "data_44k/m0002_0_cough.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.0-3.4s",
+   "excerpt": "0.0-3.1s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
@@ -82,33 +82,33 @@
  "throat-clear/ex-1": [
   {
    "source": "zip",
-   "file": "audio_16k/f0027_0_throatclearing.wav",
+   "file": "data_44k/f0003_0_throatclearing.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.1-4.0s",
+   "excerpt": "0.0-3.1s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
  "throat-clear/ex-2": [
   {
    "source": "zip",
-   "file": "audio_16k/m0020_0_throatclearing.wav",
+   "file": "data_44k/m0002_0_throatclearing.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "1.0-5.0s",
+   "excerpt": "0.0-2.4s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
  "throat-clear/speech": [
   {
    "source": "zip",
-   "file": "audio_16k/f0027_0_throatclearing.wav",
+   "file": "data_44k/f0003_0_throatclearing.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.1-4.0s",
+   "excerpt": "0.0-3.1s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   },
   {
@@ -123,11 +123,11 @@
  "throat-clear/far": [
   {
    "source": "zip",
-   "file": "audio_16k/f0027_0_throatclearing.wav",
+   "file": "data_44k/f0003_0_throatclearing.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.1-4.0s",
+   "excerpt": "0.0-3.1s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   },
   {
@@ -140,11 +140,11 @@
  "throat-clear/phone": [
   {
    "source": "zip",
-   "file": "audio_16k/f0027_0_throatclearing.wav",
+   "file": "data_44k/f0003_0_throatclearing.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.1-4.0s",
+   "excerpt": "0.0-3.1s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
@@ -162,22 +162,22 @@
  "sneeze/ex-2": [
   {
    "source": "zip",
-   "file": "audio_16k/f0027_0_sneeze.wav",
+   "file": "data_44k/f0085_0_sneeze.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.0-4.0s",
+   "excerpt": "0.0-3.2s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
  "sneeze/ex-3": [
   {
    "source": "zip",
-   "file": "audio_16k/m0020_0_sneeze.wav",
+   "file": "data_44k/m0002_0_sneeze.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.0-3.1s",
+   "excerpt": "0.0-4.0s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
@@ -242,22 +242,22 @@
  "sniff/ex-2": [
   {
    "source": "zip",
-   "file": "audio_16k/f0027_0_sniff.wav",
+   "file": "data_44k/f0085_0_sniff.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.1-4.1s",
+   "excerpt": "0.8-4.8s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
  "sniff/ex-3": [
   {
    "source": "zip",
-   "file": "audio_16k/m0020_0_sniff.wav",
+   "file": "data_44k/m0002_0_sniff.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.0-4.0s",
+   "excerpt": "0.0-2.6s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
@@ -322,22 +322,22 @@
  "laugh/ex-2": [
   {
    "source": "zip",
-   "file": "audio_16k/f0027_0_laughter.wav",
+   "file": "data_44k/f0007_0_laughter.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.1-6.1s",
+   "excerpt": "0.0-3.4s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
  "laugh/ex-3": [
   {
    "source": "zip",
-   "file": "audio_16k/m0020_0_laughter.wav",
+   "file": "data_44k/m0002_0_laughter.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.0-3.3s",
+   "excerpt": "0.0-2.4s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
@@ -620,7 +620,7 @@
  "sigh/ex-2": [
   {
    "source": "zip",
-   "file": "audio_16k/f0027_0_sigh.wav",
+   "file": "data_44k/f0007_0_sigh.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
@@ -631,11 +631,11 @@
  "sigh/ex-3": [
   {
    "source": "zip",
-   "file": "audio_16k/m0020_0_sigh.wav",
+   "file": "data_44k/m0002_0_sigh.wav",
    "url": "https://github.com/YuanGongND/vocalsound",
    "license": "CC BY-SA 4.0",
    "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
-   "excerpt": "0.0-2.9s",
+   "excerpt": "0.0-3.2s",
    "credit": "VocalSound dataset (Gong, Yu and Glass, MIT)"
   }
  ],
@@ -9026,6 +9026,86 @@
    "author": "ezwa",
    "excerpt": "9.5-15.5s",
    "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "gong/ex-1": [
+  {
+   "source": "url",
+   "file": "gong_2_f.wav",
+   "url": "https://github.com/sgossner/VCSL",
+   "license": "CC0-1.0",
+   "author": "Versilian Studios (VCSL)",
+   "excerpt": "0.0-6.0s",
+   "credit": "Versilian Studios (VCSL)"
+  }
+ ],
+ "gong/ex-2": [
+  {
+   "source": "url",
+   "file": "gong_2_mp.wav",
+   "url": "https://github.com/sgossner/VCSL",
+   "license": "CC0-1.0",
+   "author": "Versilian Studios (VCSL)",
+   "excerpt": "0.0-6.0s",
+   "credit": "Versilian Studios (VCSL)"
+  }
+ ],
+ "gong/ex-3": [
+  {
+   "source": "url",
+   "file": "gong_scrape_mf.wav",
+   "url": "https://github.com/sgossner/VCSL",
+   "license": "CC0-1.0",
+   "author": "Versilian Studios (VCSL)",
+   "excerpt": "0.0-6.0s",
+   "credit": "Versilian Studios (VCSL)"
+  }
+ ],
+ "gong/speech": [
+  {
+   "source": "url",
+   "file": "gong_2_f.wav",
+   "url": "https://github.com/sgossner/VCSL",
+   "license": "CC0-1.0",
+   "author": "Versilian Studios (VCSL)",
+   "excerpt": "0.0-6.0s",
+   "credit": "Versilian Studios (VCSL)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "gong/far": [
+  {
+   "source": "url",
+   "file": "gong_2_f.wav",
+   "url": "https://github.com/sgossner/VCSL",
+   "license": "CC0-1.0",
+   "author": "Versilian Studios (VCSL)",
+   "excerpt": "0.0-6.0s",
+   "credit": "Versilian Studios (VCSL)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "gong/phone": [
+  {
+   "source": "url",
+   "file": "gong_2_f.wav",
+   "url": "https://github.com/sgossner/VCSL",
+   "license": "CC0-1.0",
+   "author": "Versilian Studios (VCSL)",
+   "excerpt": "0.0-6.0s",
+   "credit": "Versilian Studios (VCSL)"
   }
  ],
  "drill/ex-1": [

@@ -91,8 +91,8 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | coins | [Coins dropped on wooden floor.ogg](https://commons.wikimedia.org/wiki/File:Coins_dropped_on_wooden_floor.ogg) | ezwa | Public domain |
 | coins | [Coins 5 (Gravity Sound).mp3](https://commons.wikimedia.org/wiki/File:Coins_5_(Gravity_Sound).mp3) | Gravity Sound | CC BY 4.0 |
 | cough | [Woman coughing three times.wav](https://commons.wikimedia.org/wiki/File:Woman_coughing_three_times.wav) | Ashe Kirk | CC0 |
-| cough | [audio_16k/f0027_0_cough.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
-| cough | [audio_16k/m0020_0_cough.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| cough | [data_44k/f0003_0_cough.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| cough | [data_44k/m0002_0_cough.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
 | cough | [LibriVox readings (two voices)](https://archive.org/details/short_story_055_1304_librivox) | LibriVox volunteers (Short Story Collection Vol. 055) | CC0-1.0 |
 | cow | [Single Cow Moo.ogg](https://commons.wikimedia.org/wiki/File:Single_Cow_Moo.ogg) | MichaeltheFox8621 | CC BY-SA 4.0 |
 | cow | [Mudchute cow 1.ogg](https://commons.wikimedia.org/wiki/File:Mudchute_cow_1.ogg) | Secretlondon | CC BY-SA 3.0 |
@@ -168,6 +168,9 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | glass-clink | [Audio/impactGlass_light_000.ogg](https://kenney.nl/assets/impact-sounds) | Kenney (kenney.nl) | CC0 |
 | goat | [Herd of goats bleating.ogg](https://commons.wikimedia.org/wiki/File:Herd_of_goats_bleating.ogg) | stephan | Public domain |
 | goat | [Chèvre Angora cri.ogg](https://commons.wikimedia.org/wiki/File:Ch%C3%A8vre_Angora_cri.ogg) | Pitchpanther | CC BY-SA 4.0 |
+| gong | [gong_2_f.wav](https://github.com/sgossner/VCSL) | Versilian Studios (VCSL) | CC0-1.0 |
+| gong | [gong_2_mp.wav](https://github.com/sgossner/VCSL) | Versilian Studios (VCSL) | CC0-1.0 |
+| gong | [gong_scrape_mf.wav](https://github.com/sgossner/VCSL) | Versilian Studios (VCSL) | CC0-1.0 |
 | goose | [Geese Honking (loud).ogg](https://commons.wikimedia.org/wiki/File:Geese_Honking_(loud).ogg) | U.S. Fish and Wildlife Service | Public domain |
 | goose | [Geese Honking (distant).ogg](https://commons.wikimedia.org/wiki/File:Geese_Honking_(distant).ogg) | U.S. Fish and Wildlife Service | Public domain |
 | goose | [Screaming geese.ogg](https://commons.wikimedia.org/wiki/File:Screaming_geese.ogg) | Filo gèn' | CC BY-SA 4.0 |
@@ -213,8 +216,8 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | knock | [Shave and a haircut - Knocking on door.ogg](https://commons.wikimedia.org/wiki/File:Shave_and_a_haircut_-_Knocking_on_door.ogg) | Wobuzowatsj | CC BY-SA 4.0 |
 | knock | [Knocking on wood or door.ogg](https://commons.wikimedia.org/wiki/File:Knocking_on_wood_or_door.ogg) | stephan | Public domain |
 | laugh | [Bursting out laughing.ogg](https://commons.wikimedia.org/wiki/File:Bursting_out_laughing.ogg) | ezwa | Public domain |
-| laugh | [audio_16k/f0027_0_laughter.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
-| laugh | [audio_16k/m0020_0_laughter.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| laugh | [data_44k/f0007_0_laughter.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| laugh | [data_44k/m0002_0_laughter.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
 | lawn-mower | [WWS Lawnmower.ogg](https://commons.wikimedia.org/wiki/File:WWS_Lawnmower.ogg) | Work With Sounds / Werstas | CC BY 4.0 |
 | lawn-mower | [El terror de la clorofila.ogg](https://commons.wikimedia.org/wiki/File:El_terror_de_la_clorofila.ogg) | Hippocampuz | CC BY-SA 4.0 |
 | lawn-mower | [Lawnmover diesel.ogg](https://commons.wikimedia.org/wiki/File:Lawnmover_diesel.ogg) | stephan | Public domain |
@@ -277,14 +280,14 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | shout | [Street parade carnival people yelling kamelle kamelle.ogg](https://commons.wikimedia.org/wiki/File:Street_parade_carnival_people_yelling_kamelle_kamelle.ogg) | stephan | Public domain |
 | shush | [Human/shh1.wav](https://opengameart.org/content/sound-effects-pack) | OwlishMedia | CC0 |
 | sigh | [Three sighs.ogg](https://commons.wikimedia.org/wiki/File:Three_sighs.ogg) | ezwa | Public domain |
-| sigh | [audio_16k/f0027_0_sigh.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
-| sigh | [audio_16k/m0020_0_sigh.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| sigh | [data_44k/f0007_0_sigh.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| sigh | [data_44k/m0002_0_sigh.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
 | sneeze | [Double sneeze (man).ogg](https://commons.wikimedia.org/wiki/File:Double_sneeze_(man).ogg) | Nikolay Komarov | CC BY-SA 4.0 |
-| sneeze | [audio_16k/f0027_0_sneeze.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
-| sneeze | [audio_16k/m0020_0_sneeze.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| sneeze | [data_44k/f0085_0_sneeze.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| sneeze | [data_44k/m0002_0_sneeze.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
 | sniff | [Human/sniff.wav](https://opengameart.org/content/sound-effects-pack) | OwlishMedia | CC0 |
-| sniff | [audio_16k/f0027_0_sniff.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
-| sniff | [audio_16k/m0020_0_sniff.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| sniff | [data_44k/f0085_0_sniff.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| sniff | [data_44k/m0002_0_sniff.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
 | snore | [Joseph Sardin - Ronflements.oga](https://commons.wikimedia.org/wiki/File:Joseph_Sardin_-_Ronflements.oga) | Joseph Sardin | CC0 |
 | snore | [Schnarchen 01.ogg](https://commons.wikimedia.org/wiki/File:Schnarchen_01.ogg) | Huhu Uet | CC BY-SA 3.0 |
 | snore | [Snore man 50 years 160 kg.ogg](https://commons.wikimedia.org/wiki/File:Snore_man_50_years_160_kg.ogg) | Vladlen666 | CC BY-SA 3.0 |
@@ -298,8 +301,8 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | tap-water | [Tapsinkwaternoise.ogg](https://commons.wikimedia.org/wiki/File:Tapsinkwaternoise.ogg) | Secretlondon | CC BY-SA 3.0 |
 | tap-water | [Water tap (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Water_tap_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
 | tap-water | [Faucet water into sink.ogg](https://commons.wikimedia.org/wiki/File:Faucet_water_into_sink.ogg) | stephan | Public domain |
-| throat-clear | [audio_16k/f0027_0_throatclearing.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
-| throat-clear | [audio_16k/m0020_0_throatclearing.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| throat-clear | [data_44k/f0003_0_throatclearing.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
+| throat-clear | [data_44k/m0002_0_throatclearing.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
 | thud | [Dull thud.ogg](https://commons.wikimedia.org/wiki/File:Dull_thud.ogg) | gregoryweir | Public domain |
 | thud | [Audio/impactSoft_heavy_000.ogg](https://kenney.nl/assets/impact-sounds) | Kenney (kenney.nl) | CC0 |
 | thud | [Audio/impactSoft_heavy_001.ogg](https://kenney.nl/assets/impact-sounds) | Kenney (kenney.nl) | CC0 |

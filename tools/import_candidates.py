@@ -25,7 +25,7 @@ ALIAS = {
 }
 
 VOCALSOUND = {
-    "url": "https://www.dropbox.com/s/c5ace70qh1vbyzb/vs_release_16k.zip?dl=1",
+    "url": "https://www.dropbox.com/s/ybgaprezl8ubcce/vs_release_44k.zip?dl=1",
     "page": "https://github.com/YuanGongND/vocalsound",
     "license": "CC BY-SA 4.0",
     "author": "VocalSound dataset (Gong, Yu and Glass, MIT)",
@@ -106,8 +106,8 @@ def main():
             continue  # hand-made signal lists stay as they are
         picks = []
         if sid in VS_CLASS:  # two different speakers from VocalSound, one female, one male
-            for sex, n in (("f", 7), ("m", 11)):
-                picks.append({"src": "zip", "url": VOCALSOUND["url"], "inner": f"audio_16k/{sex}*_{VS_CLASS[sid]}.wav",
+            for sex, n in (("f", 0), ("m", 1)):  # quiet, full-band speakers (checked: >11 kHz, >30 dB SNR)
+                picks.append({"src": "zip", "url": VOCALSOUND["url"], "inner": f"data_44k/{sex}*_{VS_CLASS[sid]}.wav",
                               "pick": n, "page": VOCALSOUND["page"], "license": VOCALSOUND["license"],
                               "author": VOCALSOUND["author"], "label": "Woman" if sex == "f" else "Man"})
         ranked = sorted(pool.get(sid, []), key=lambda c: (c.get("isolated") is False, c["source"] == "opengameart"))

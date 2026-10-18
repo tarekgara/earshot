@@ -4,7 +4,8 @@ Identify everyday sounds by ear. By Tarek Gara.
 
 A cough or a throat clear? Rain or applause? A drill or a blender? Earshot is a reference library of real recordings, built to help you tell look-alike sounds apart.
 
-- **Library**: sounds in nine families (voice and mouth, body and actions, animals, nature, home, vehicles, alarms and signals, tools and machines, impacts). Each has several different recordings, plus versions under speech, far away, and through a phone. Every clip is loudness-matched.
+- **Library**: sounds in nine families (voice and mouth, body and actions, animals, nature, home, vehicles, alarms and signals, tools and machines, impacts). Each has several different recordings, plus versions with people talking over it (real speech), far away, and through a phone. Every clip is loudness-matched, and every sound explains how it is made and why it sounds the way it does.
+- **Words**: a synonym finder. Type any word for a sound (a noun, a verb, or how it's written in captions, like "ugh" or "achoo") to see every sound it can describe, the other words for each, and how to tell look-alikes apart. Search understands all of these words too.
 - **Not sure?**: a few questions answered by ear (what made it, how it plays out over time, its texture), each illustrated with sounds that still fit your earlier answers.
 - **Quiz**: hear a sound, pick from look-alikes, learn how to tell them apart. Sounds you miss come back more often.
 - **Compare**: put sounds side by side and flip between them with the number keys. You can drop in a recording of your own, too; it never leaves your device.
@@ -26,7 +27,7 @@ pip install numpy scipy pyyaml pillow pyloudnorm
 python tools/build.py
 ```
 
-It needs `ffmpeg` on PATH (or `FFMPEG=` set). Recordings are downloaded once, one at a time to respect rate limits, and cached in `.cache/`. Alarms, sirens and phone tones that follow published patterns are generated in [`tools/signals.py`](tools/signals.py).
+It needs `ffmpeg` on PATH (or `FFMPEG=` set). Recordings are downloaded once, one at a time to respect rate limits, and cached in `.cache/`. Alarms, sirens and phone tones that follow published patterns are generated in [`tools/signals.py`](tools/signals.py). Explanations live in `data/context/`, and the vocabulary for the synonym finder in `data/words.yaml`.
 
 ### Adding a sound
 
