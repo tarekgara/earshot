@@ -1,0 +1,1094 @@
+{
+ "scoff": [
+  {
+   "source": "commons",
+   "title": "File:LL-Q150 (fra)-Jules78120-pfff.wav",
+   "page_url": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-Jules78120-pfff.wav",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/LL-Q150_%28fra%29-Jules78120-pfff.wav",
+   "license": "CC0",
+   "author": "Jules78120 (Lingua Libre)",
+   "length": 1.1,
+   "isolated": true,
+   "notes": "Lingua Libre recording of the French interjection 'pfff' - a dismissive puff of air through the lips. One puff, 0.3-0.8 s (checked: unvoiced, centroid ~3 kHz)."
+  },
+  {
+   "source": "commons",
+   "title": "File:LL-Q150 (fra)-Mecanautes-pfff.wav",
+   "page_url": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-Mecanautes-pfff.wav",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/LL-Q150_%28fra%29-Mecanautes-pfff.wav",
+   "license": "CC0",
+   "author": "Mecanautes (Lingua Libre)",
+   "length": 1.1,
+   "isolated": true,
+   "notes": "Second speaker saying the interjection 'pfff' (Lingua Libre, CC0). One short puff."
+  },
+  {
+   "source": "commons",
+   "title": "File:Harrumphing.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Harrumphing.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Harrumphing.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Jeuwre",
+   "length": 1.4,
+   "isolated": true,
+   "notes": "'Sound of harrumphing' - a short dismissive 'hmph' through the nose (Jeuwre, CC BY-SA 4.0). One event 0.1-1.0 s (checked)."
+  },
+  {
+   "source": "commons",
+   "title": "File:Nl-hmpf.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Nl-hmpf.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Nl-hmpf.ogg",
+   "license": "CC0",
+   "author": "Marcel coenders",
+   "length": 1.2,
+   "isolated": true,
+   "notes": "Dutch Wiktionary recording of the interjection 'hmpf' (CC0): one 'hm-pf' 0.5-1.2 s (checked: nasal hum then puff). A pronunciation recording, so check it sounds performed."
+  },
+  {
+   "source": "commons",
+   "title": "File:En-us-hmph.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:En-us-hmph.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/En-us-hmph.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Paul2520",
+   "length": 0.7,
+   "isolated": true,
+   "notes": "English Wiktionary recording of the sound 'hmph' (CC BY-SA 4.0): a short voiced nasal 'hm' 0.0-0.6 s (checked) - more a hum than a puff."
+  }
+ ],
+ "moan": [
+  {
+   "source": "opengameart",
+   "title": "Undead Moans: undead-1.ogg",
+   "page_url": "https://opengameart.org/content/undead-moans",
+   "file_url": "https://opengameart.org/sites/default/files/undead-moans.zip",
+   "inner": "undead-1.ogg",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "length": 2.3,
+   "isolated": true,
+   "notes": "A man moaning 'like the undead' (own voice, edited in Audacity). Long, low, voiced moan 0.2-2.2 s; theatrical rather than pain, but the right sound shape. No grunt."
+  },
+  {
+   "source": "opengameart",
+   "title": "Undead Moans: undead-3.ogg",
+   "page_url": "https://opengameart.org/content/undead-moans",
+   "file_url": "https://opengameart.org/sites/default/files/undead-moans.zip",
+   "inner": "undead-3.ogg",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "length": 2.1,
+   "isolated": true,
+   "notes": "Second take from the same pack, voiced moan 0.3-1.9 s."
+  },
+  {
+   "source": "opengameart",
+   "title": "Various Sound Effects: moan.wav",
+   "page_url": "https://opengameart.org/content/various-sound-effects-0",
+   "file_url": "https://opengameart.org/sites/default/files/moan.wav",
+   "license": "CC0",
+   "author": "Spring Spring",
+   "length": 1.7,
+   "isolated": true,
+   "notes": "Short low voiced moan 0.1-1.4 s (strongly voiced, centroid ~0.7 kHz). From a CC0 scrap pack of game sounds; origin of the voice not stated."
+  }
+ ],
+ "booing": [
+  {
+   "source": "archive",
+   "title": "Mitte, Berlin - nachbarn buhen baergida aus (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_33572_38625",
+   "file_url": "https://archive.org/download/aporee_33572_38625/20160926nachbarnbuhenbaergidaaus.mp3",
+   "license": "Public Domain Mark 1.0",
+   "author": "colaboradio",
+   "length": 172.0,
+   "isolated": false,
+   "notes": "Neighbours booing a small right-wing march in Berlin (street recording). Sustained crowd 'buuuh' 1.0-9.0 s; whistles from ~16 s and street noise later. Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  }
+ ],
+ "kiss": [
+  {
+   "source": "commons",
+   "title": "File:Clic bilabial sourd.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Clic_bilabial_sourd.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Clic_bilabial_sourd.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Vincent Ramos at French Wikipedia",
+   "length": 0.6,
+   "isolated": true,
+   "notes": "Phonetics recording of a voiceless bilabial click - the lip 'kiss' smack - single click 0.0-0.5 s (checked), isolated (Vincent Ramos, CC BY-SA 3.0)."
+  },
+  {
+   "source": "commons",
+   "title": "File:Bilabial click.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Bilabial_click.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Bilabial_click.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Peter Isotalo (uploader)",
+   "length": 2.1,
+   "isolated": true,
+   "notes": "IPA demonstration of the bilabial ('kiss') click, 2.1 s; sound events 0.2-2.0 s, partly voiced, so probably clicks in a vowel context - trim to one click. No author field on the page; uploaded by Peter Isotalo."
+  }
+ ],
+ "dog-pant": [
+  {
+   "source": "commons",
+   "title": "File:Irish Wolfhound mix, panting.ogv",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Irish_Wolfhound_mix,_panting.ogv",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Irish_Wolfhound_mix%2C_panting.ogv",
+   "license": "CC BY-SA 3.0",
+   "author": "Sage Ross",
+   "length": 50.5,
+   "isolated": true,
+   "notes": "VIDEO file (Ogg Theora/Vorbis, 30 MB): an Irish Wolfhound mix named Nora panting, 51 s. Real panting; needs the audio track extracted."
+  },
+  {
+   "source": "archive",
+   "title": "The Designer's Choice UCS Collection - ANIMALS: Jasper Panting",
+   "page_url": "https://archive.org/details/Designers-Choice-Collection-Animals",
+   "file_url": "https://archive.org/download/Designers-Choice-Collection-Animals/ANIMALS/DOG/ANMLDog_Jasper%20Panting_The%20Designer%27s%20Choice_GNRL1.wav",
+   "license": "CC0",
+   "author": "Nicholas A. Judy (The Designer's Choice)",
+   "length": 1.9,
+   "isolated": true,
+   "notes": "Close-up dog panting, 1.9 s. Provenance caveat: a one-person CC0 library on archive.org that says it is 'recorded, edited and designed by' the uploader; this file names his dog (Jasper) so is likely his own, but other files in the item are less clearly original."
+  },
+  {
+   "source": "archive",
+   "title": "Poznan, Mateckigo road - fenced dog (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_23408_27179",
+   "file_url": "https://archive.org/download/aporee_23408_27179/dog33.mp3",
+   "license": "Public Domain Mark 1.0",
+   "author": "maciej janasik",
+   "length": 122.3,
+   "isolated": false,
+   "notes": "Dog behind a gate 'jumping around, baying, panting with anger' - panting mixed with barks; needs a hand-picked window. Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  }
+ ],
+ "seal": [
+  {
+   "source": "archive",
+   "title": "Caleta Portales - Sea Lion (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_37576_43021",
+   "file_url": "https://archive.org/download/aporee_37576_43021/LoboMarinoCaletaPortalesBIS.mp3",
+   "license": "Public Domain Mark 1.0",
+   "author": "Felix Blume",
+   "length": 70.4,
+   "isolated": true,
+   "notes": "South American sea lion barking at Caleta Portales port (Valparaiso), Schoeps MS pair. Five clear barks 0.0-8.0 s (checked in spectrogram); later some handling clicks and gulls. Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  },
+  {
+   "source": "archive",
+   "title": "Sea Lions and Marine Traffic, Petersburg Alaska (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_69662_81117",
+   "file_url": "https://archive.org/download/aporee_69662_81117/sealionsboatsnarrows914.wav",
+   "license": "Public Domain Mark 1.0",
+   "author": "isaiahbowenkarlyn",
+   "length": 128.4,
+   "isolated": false,
+   "notes": "Steller sea lions barking on a buoy, recorded from a kayak; a boat passes and water noise in background. Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  },
+  {
+   "source": "archive",
+   "title": "Sea lions as a tourist attraction, Newport OR (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_65238_75337",
+   "file_url": "https://archive.org/download/aporee_65238_75337/0011257SealionsNewportedit.mp3",
+   "license": "Public Domain Mark 1.0",
+   "author": "Peter Cusack",
+   "length": 558.6,
+   "isolated": false,
+   "notes": "California sea lions on a raft 10 m away, roaring and barking; long recording with cafe-terrace ambience - pick a dense barking stretch. Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  },
+  {
+   "source": "commons",
+   "title": "File:Arctocephalus forsteri - sound.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Arctocephalus_forsteri_-_sound.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Arctocephalus_forsteri_-_sound.ogg",
+   "license": "CC BY 4.0",
+   "author": "Department of Conservation",
+   "length": 31.3,
+   "isolated": false,
+   "notes": "New Zealand fur seals (eared seal, same family as sea lions) barking and competing on rocks, Stephens Island; NZ Department of Conservation."
+  }
+ ],
+ "snake": [
+  {
+   "source": "commons",
+   "title": "File:Alligatorhiss.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Alligatorhiss.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Alligatorhiss.ogg",
+   "license": "Public domain",
+   "author": "U.S. Fish and Wildlife Service",
+   "length": 11.3,
+   "isolated": true,
+   "notes": "SUBSTITUTE: an alligator's warning hiss (US Fish and Wildlife Service, public domain), continuous unvoiced hiss for the full 11 s (checked). A long, even reptile hiss, but not a snake - label accordingly or skip."
+  },
+  {
+   "source": "commons",
+   "title": "File:Rattlesnake.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rattlesnake.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Rattlesnake.ogg",
+   "license": "Public domain",
+   "author": "U.S. Fish and Wildlife Service",
+   "length": 15.1,
+   "isolated": true,
+   "notes": "SUBSTITUTE: rattlesnake warning rattle (US Fish and Wildlife Service, public domain), 15 s. A dry buzz/rattle rather than a hiss."
+  }
+ ],
+ "shower": [
+  {
+   "source": "commons",
+   "title": "File:Shower.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Shower.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Shower.ogg",
+   "license": "Public domain",
+   "author": "natalie",
+   "length": 24.9,
+   "isolated": true,
+   "notes": "pdsounds (natalie): shower turned on, running, then off; 25 s. Steady spray 3.0-11.0 s (water runs 1.4-17.0 s, checked)."
+  },
+  {
+   "source": "commons",
+   "title": "File:Having a shower.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Having_a_shower.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Having_a_shower.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "length": 244.1,
+   "isolated": false,
+   "notes": "pdsounds (ezwa): someone showering, 4 min; includes some voice and body-rubbing - choose a stretch of plain running water."
+  }
+ ],
+ "pour": [
+  {
+   "source": "commons",
+   "title": "File:Pouring wine.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Pouring_wine.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Pouring_wine.ogg",
+   "license": "Public domain",
+   "author": "cori",
+   "length": 20.6,
+   "isolated": true,
+   "notes": "pdsounds (cori): chilled white wine poured from the bottle into a tumbler, 21 s. The pour is 4.7-10.0 s (checked); quiet recording (-31 dBFS peak), needs gain."
+  },
+  {
+   "source": "commons",
+   "title": "File:Pouring iced tea.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Pouring_iced_tea.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Pouring_iced_tea.ogg",
+   "license": "Public domain",
+   "author": "chocoholic",
+   "length": 10.4,
+   "isolated": true,
+   "notes": "pdsounds (chocoholic): ice dropped into a glass (loud clinks 0.4-3.1 s), then iced tea poured more quietly after ~3.5 s; 10 s. Weaker candidate."
+  },
+  {
+   "source": "commons",
+   "title": "File:Pouring water in mug in sink.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Pouring_water_in_mug_in_sink.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Pouring_water_in_mug_in_sink.ogg",
+   "license": "Public domain",
+   "author": "earthcalling",
+   "length": 22.2,
+   "isolated": false,
+   "notes": "pdsounds (earthcalling): water poured into a mug over a sink, 22 s."
+  }
+ ],
+ "frying": [
+  {
+   "source": "commons",
+   "title": "File:Frying fries going in and out of oil.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Frying_fries_going_in_and_out_of_oil.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Frying_fries_going_in_and_out_of_oil.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "length": 30.0,
+   "isolated": true,
+   "notes": "pdsounds (ezwa): fries lowered into and lifted out of hot oil, 30 s; strong sizzle."
+  },
+  {
+   "source": "commons",
+   "title": "File:Sauteing leeks.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Sauteing_leeks.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Sauteing_leeks.ogg",
+   "license": "Public domain",
+   "author": "hugh",
+   "length": 23.5,
+   "isolated": true,
+   "notes": "pdsounds (hugh): leeks sauteing in olive oil in a steel frying pan, 23.5 s."
+  },
+  {
+   "source": "opengameart",
+   "title": "General Household Sound Effects: fryingpan01.wav",
+   "page_url": "https://opengameart.org/content/general-household-sound-effects",
+   "file_url": "https://opengameart.org/sites/default/files/fryingpan01.wav",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "length": 60.0,
+   "isolated": true,
+   "notes": "Home recording of a frying pan sizzling, 60 s of continuous bright sizzle (checked: steady, centroid ~4.7 kHz). Any 8 s window, e.g. 10.0-18.0 s."
+  },
+  {
+   "source": "commons",
+   "title": "File:WWS Pre-cookingoffrenchfriesandventilation.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:WWS_Pre-cookingoffrenchfriesandventilation.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/WWS_Pre-cookingoffrenchfriesandventilation.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "length": 39.3,
+   "isolated": false,
+   "notes": "Belgian chip shop: fries pre-cooking in a fryer, with extractor-fan hum (Work With Sounds / La Fonderie), 39 s."
+  }
+ ],
+ "hairdryer": [
+  {
+   "source": "archive",
+   "title": "Blow Dryer 1 D. D. Teoli Jr.",
+   "page_url": "https://archive.org/details/BlowDryer1D.D.TeoliJr.",
+   "file_url": "https://archive.org/download/BlowDryer1D.D.TeoliJr./Blow%20dryer%201%20D.D.%20Teoli%20Jr..mp3",
+   "license": "Public Domain Mark 1.0",
+   "author": "D.D. Teoli Jr.",
+   "length": 37.1,
+   "isolated": true,
+   "notes": "Hair blow-dryer running, 37 s of steady whine and whoosh (checked: continuous to 34 s). Window e.g. 4.0-12.0 s. Uploader's own recording released with the PD Mark (not CC0)."
+  },
+  {
+   "source": "archive",
+   "title": "Blow Dryer 1 D. D. Teoli Jr. (take 2)",
+   "page_url": "https://archive.org/details/BlowDryer1D.D.TeoliJr.",
+   "file_url": "https://archive.org/download/BlowDryer1D.D.TeoliJr./Blow%20dryer%202%20D.D.%20Teoli%20Jr..mp3",
+   "license": "Public Domain Mark 1.0",
+   "author": "D.D. Teoli Jr.",
+   "length": 24.9,
+   "isolated": true,
+   "notes": "Second take in the same item."
+  }
+ ],
+ "dishwasher": [
+  {
+   "source": "commons",
+   "title": "File:Dishwasher end droning hissing humming.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Dishwasher_end_droning_hissing_humming.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Dishwasher_end_droning_hissing_humming.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "length": 275.8,
+   "isolated": true,
+   "notes": "pdsounds (stephan): end of a dishwasher cycle - droning, hissing, humming; 4.6 min (silences cut). Pick a stretch with water spray audible."
+  },
+  {
+   "source": "archive",
+   "title": "Poznan, Mateckiego street, kitchen - dishwasher (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_14738_46150",
+   "file_url": "https://archive.org/download/aporee_14738_46150/szer.mp3",
+   "license": "Public Domain Mark 1.0",
+   "author": "maciej janasik",
+   "length": 120.0,
+   "isolated": true,
+   "notes": "Dishwasher running its wash cycle in a home kitchen (Sony D50), 2 min of steady spray and pump (checked: continuous). Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  },
+  {
+   "source": "archive",
+   "title": "Poznan - dishwasher beat (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_63838_73592",
+   "file_url": "https://archive.org/download/aporee_63838_73592/dhiswasherbeat.mp3",
+   "license": "Public Domain Mark 1.0",
+   "author": "maciej janasik",
+   "length": 130.0,
+   "isolated": true,
+   "notes": "Recorder pressed against the dishwasher door: rotating spray hitting the dishes in a rhythm, 130 s. Close and a bit unusual-sounding. Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  }
+ ],
+ "tape": [
+  {
+   "source": "commons",
+   "title": "File:Sticky tape.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Sticky_tape.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Sticky_tape.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "length": 12.4,
+   "isolated": true,
+   "notes": "pdsounds (stephan): sticky tape pulled from a dispenser, cut off and applied, 12 s. Longest rasp (probably the pull) 2.8-4.0 s; other short events at 0.2-0.9, 5.9-6.6 and 9.0-9.6 s (checked envelope, not by ear)."
+  },
+  {
+   "source": "opengameart",
+   "title": "202 More Sound Effects: Stationery_39.wav",
+   "page_url": "https://opengameart.org/content/202-more-sound-effects",
+   "file_url": "https://opengameart.org/sites/default/files/MoreSounds.zip",
+   "inner": "Paper & Stationery/Stationery_39.wav",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "length": 0.4,
+   "isolated": true,
+   "notes": "Probably the masking-tape pull from this pack (pack lists 'masking tape'; this file is a 0.4 s tonal stick-slip screech in the spectrogram, unlike the paper files). File names are unlabelled - confirm by ear."
+  }
+ ],
+ "electric-razor": [
+  {
+   "source": "commons",
+   "title": "File:Elektrorasur-01.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Elektrorasur-01.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Elektrorasur-01.ogg",
+   "license": "Public domain",
+   "author": "Priwo",
+   "length": 20.0,
+   "isolated": true,
+   "notes": "Shaving with an electric razor, 20 s (Priwo, PD)."
+  },
+  {
+   "source": "opengameart",
+   "title": "Electric Razor SFX",
+   "page_url": "https://opengameart.org/content/electric-razor-sfx",
+   "file_url": "https://opengameart.org/sites/default/files/electric_razor.wav",
+   "license": "CC BY 3.0",
+   "author": "Vinrax",
+   "length": 5.1,
+   "isolated": true,
+   "notes": "Electric razor buzzing, recorded with a Zoom H1n and cleaned up; 5 s continuous (checked)."
+  }
+ ],
+ "traffic": [
+  {
+   "source": "commons",
+   "title": "File:Ambient sound street traffic Berlin 2026-05-17.oga",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Ambient_sound_street_traffic_Berlin_2026-05-17.oga",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ambient_sound_street_traffic_Berlin_2026-05-17.oga",
+   "license": "CC BY-SA 4.0",
+   "author": "SchlurcherBot",
+   "length": 30.0,
+   "isolated": true,
+   "notes": "Cars driving by on an asphalt street in Berlin, 30 s."
+  },
+  {
+   "source": "opengameart",
+   "title": "Free General Ambience Sounds: city_ambience_-_traffic_-_street_-_cars_and_tram.mp3",
+   "page_url": "https://opengameart.org/content/free-general-ambience-sounds",
+   "file_url": "https://opengameart.org/sites/default/files/city_ambience_-_traffic_-_street_-_cars_and_tram.mp3",
+   "license": "CC BY-SA 4.0",
+   "author": "Gregor Quendel",
+   "length": 320.5,
+   "isolated": true,
+   "notes": "Street traffic with cars and a tram, 5.3 min field recording; busiest from ~15 s on (the rainy-street file from this pack is already in use)."
+  },
+  {
+   "source": "commons",
+   "title": "File:2023-Mai-20 14h34min Wien innerer Lerchenfelder Gürtel Thaliagasse Nachmittagsverkehr.wav",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2023-Mai-20_14h34min_Wien_innerer_Lerchenfelder_G%C3%BCrtel_Thaliagasse_Nachmittagsverkehr.wav",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/2023-Mai-20_14h34min_Wien_innerer_Lerchenfelder_G%C3%BCrtel_Thaliagasse_Nachmittagsverkehr.wav",
+   "license": "CC BY-SA 4.0",
+   "author": "DrTrumpet",
+   "length": 29.7,
+   "isolated": true,
+   "notes": "Afternoon traffic on Vienna's Guertel ring road, 30 s (DrTrumpet)."
+  },
+  {
+   "source": "commons",
+   "title": "File:141977 lg traffic-karl-liebknechtstrasse-111223.wav",
+   "page_url": "https://commons.wikimedia.org/wiki/File:141977_lg_traffic-karl-liebknechtstrasse-111223.wav",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/141977_lg_traffic-karl-liebknechtstrasse-111223.wav",
+   "license": "CC BY-SA 3.0",
+   "author": "LG",
+   "length": 112.9,
+   "isolated": true,
+   "notes": "Busy intersection, Karl-Liebknecht-Strasse, Berlin, 113 s (LG, Freesound import)."
+  }
+ ],
+ "car-door": [
+  {
+   "source": "opengameart",
+   "title": "Car Sound Effects Pack (Low Quality): Car_Door_Close.ogg",
+   "page_url": "https://opengameart.org/content/car-sound-effects-pack-low-quality",
+   "file_url": "https://opengameart.org/sites/default/files/car_sound_effects_pack.zip",
+   "inner": "Car_Door_Close.ogg",
+   "license": "CC0",
+   "author": "GGBotNet",
+   "length": 0.6,
+   "isolated": true,
+   "notes": "A real car door closing, one clunk 0.0-0.6 s (checked, clunk in the first 0.3 s). Phone recording at 64 kb/s - low fidelity."
+  },
+  {
+   "source": "commons",
+   "title": "File:Parkhaus Einsteigen und wegfahren 01.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Parkhaus_Einsteigen_und_wegfahren_01.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Parkhaus_Einsteigen_und_wegfahren_01.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Huhu Uet",
+   "length": 17.7,
+   "isolated": false,
+   "notes": "Getting into a Dacia Logan in a car park: door shuts, engine starts, drives off; 17.7 s. Loudest transient (the door slam) 2.8-4.2 s, engine from 4.8 s (checked envelope)."
+  }
+ ],
+ "air-brakes": [
+  {
+   "source": "archive",
+   "title": "Poznan, Gorczyn, bus depot - bus idling and departing (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_19056_22101",
+   "file_url": "https://archive.org/download/aporee_19056_22101/bus53.mp3",
+   "license": "Public Domain Mark 1.0",
+   "author": "maciej janasik",
+   "length": 95.0,
+   "isolated": false,
+   "notes": "City bus idling at a depot; description mentions 'suspension hiss'. Spectrogram shows a broadband air-release burst about 62-67 s over engine throb (also short bursts ~12 s and ~81 s). Verify by ear. Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  },
+  {
+   "source": "commons",
+   "title": "File:WWS CityBusMANSG220dooropeningclosing.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:WWS_CityBusMANSG220dooropeningclosing.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/WWS_CityBusMANSG220dooropeningclosing.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "length": 20.5,
+   "isolated": true,
+   "notes": "SUBSTITUTE: pneumatic doors of a 1991 MAN city bus opening and closing (Work With Sounds), 20 s - three loud compressed-air 'pssh' bursts at 0.4-3.8 s, 6.1-13.9 s and 16.2-19.4 s (checked: unvoiced broadband). Same bus air release, but from the doors, not the brakes."
+  },
+  {
+   "source": "archive",
+   "title": "Tirana - Bus Brake as Urban Rhythm (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_72417_84565",
+   "file_url": "https://archive.org/download/aporee_72417_84565/BusBreak.wav",
+   "license": "Public Domain Mark 1.0",
+   "author": "Ugur Aslan",
+   "length": 84.7,
+   "isolated": false,
+   "notes": "City bus braking in traffic, Tirana. Not verified that the brake event is an air release (could be squeal); traffic throughout. Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  }
+ ],
+ "air-hiss": [
+  {
+   "source": "commons",
+   "title": "File:WWS SteamlocomotiveS06-018Steamrelease.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:WWS_SteamlocomotiveS06-018Steamrelease.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/WWS_SteamlocomotiveS06-018Steamrelease.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "length": 54.4,
+   "isolated": true,
+   "notes": "Steam released from a steam locomotive (Work With Sounds), 54 s."
+  },
+  {
+   "source": "commons",
+   "title": "File:WWS Thetyreisdeflated.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:WWS_Thetyreisdeflated.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/WWS_Thetyreisdeflated.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "length": 64.2,
+   "isolated": true,
+   "notes": "A bicycle tyre being deflated in a bike shop (Work With Sounds / La Fonderie), 64 s - steady air hiss."
+  },
+  {
+   "source": "commons",
+   "title": "File:Air duster.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Air_duster.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Air_duster.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "length": 20.9,
+   "isolated": true,
+   "notes": "pdsounds (stephan): compressed-air duster can, released harder and harder ('sounds like a gas leak'), 21 s."
+  },
+  {
+   "source": "opengameart",
+   "title": "Steam release sounds: steam hisses - Marker #1.wav",
+   "page_url": "https://opengameart.org/content/steam-release-sounds",
+   "file_url": "https://opengameart.org/sites/default/files/steam_hisses.zip",
+   "inner": "steam hisses - Marker #1.wav",
+   "license": "CC0",
+   "author": "bart",
+   "length": 1.9,
+   "isolated": true,
+   "notes": "Short steam hiss, 0.0-0.7 s (checked); 5 takes in the zip (Marker #1-#5)."
+  }
+ ],
+ "tire-screech": [
+  {
+   "source": "opengameart",
+   "title": "Car tire squeal skid loop",
+   "page_url": "https://opengameart.org/content/car-tire-squeal-skid-loop",
+   "file_url": "https://opengameart.org/sites/default/files/tires_squal_loop.wav",
+   "license": "CC BY 3.0",
+   "author": "qubodup",
+   "length": 3.0,
+   "isolated": true,
+   "notes": "3 s seamless loop cut from a real tyre-squeal recording (Freesound 71739 by audible-edge, CC BY; qubodup took three seconds from the middle and looped them, no other processing). Continuous squeal, no attack or tail - credit both authors."
+  }
+ ],
+ "foghorn": [
+  {
+   "source": "commons",
+   "title": "File:East Brother Light Diaphone Foghorn.oga",
+   "page_url": "https://commons.wikimedia.org/wiki/File:East_Brother_Light_Diaphone_Foghorn.oga",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/East_Brother_Light_Diaphone_Foghorn.oga",
+   "license": "CC BY-SA 3.0",
+   "author": "Frank Schulenburg",
+   "length": 11.0,
+   "isolated": true,
+   "notes": "Diaphone foghorn of East Brother Island Light Station, California, 11 s."
+  },
+  {
+   "source": "commons",
+   "title": "File:Original foghorn at East Brother Island Lighthouse.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Original_foghorn_at_East_Brother_Island_Lighthouse.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Original_foghorn_at_East_Brother_Island_Lighthouse.ogg",
+   "license": "CC0",
+   "author": "Elwood P. Dowd",
+   "length": 5.0,
+   "isolated": true,
+   "notes": "Same lighthouse, separate recording, 5 s."
+  },
+  {
+   "source": "commons",
+   "title": "File:Fog signal Bremerhaven.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Fog_signal_Bremerhaven.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Fog_signal_Bremerhaven.ogg",
+   "license": "CC0",
+   "author": "Tvabutzku1234",
+   "length": 128.1,
+   "isolated": false,
+   "notes": "Foghorn at the Nordschleuse lock, Bremerhaven; a 5 s double signal repeating at alternating 20 s and 10 s gaps, 128 s - take one signal."
+  },
+  {
+   "source": "commons",
+   "title": "File:WWS Foghorn.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:WWS_Foghorn.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/WWS_Foghorn.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Torsten Nilsson",
+   "length": 133.2,
+   "isolated": false,
+   "notes": "Harbour foghorn used to guide fishing boats home (Work With Sounds / Torsten Nilsson), 133 s."
+  }
+ ],
+ "gong": [
+  {
+   "source": "commons",
+   "title": "File:240382 the-very-real-horst chinese-gong-finish-session-2014-06-10-29-143.wav",
+   "page_url": "https://commons.wikimedia.org/wiki/File:240382_the-very-real-horst_chinese-gong-finish-session-2014-06-10-29-143.wav",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/240382_the-very-real-horst_chinese-gong-finish-session-2014-06-10-29-143.wav",
+   "license": "CC0",
+   "author": "the_very_Real_Horst",
+   "length": 29.1,
+   "isolated": true,
+   "notes": "Large Chinese gong struck to end a session in a dojo (Freesound import), 29 s. One stroke and swell 1.2-9.2 s (decays to ~20 s; checked, strongly low-pitched)."
+  },
+  {
+   "source": "archive",
+   "title": "checking a gong, Chinese Culture Center Calgary (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_6568_8125",
+   "file_url": "https://archive.org/download/aporee_6568_8125/ChineseculturecenterCalgary.mp3",
+   "license": "CC BY-SA 3.0",
+   "author": "john grzinich",
+   "length": 149.6,
+   "isolated": false,
+   "notes": "Gong played in a shop, shop ambience. Longest sustained strokes at about 37.7-44.0 s and 62.0-69.0 s (strongly tonal). Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  }
+ ],
+ "dentist-drill": [
+  {
+   "source": "commons",
+   "title": "File:WWS Dentaldrill.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:WWS_Dentaldrill.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/WWS_Dentaldrill.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "length": 35.5,
+   "isolated": true,
+   "notes": "KaVo 642 B dental air turbine running in a dental practice (Work With Sounds / La Fonderie), 35 s."
+  },
+  {
+   "source": "archive",
+   "title": "madrid, Calle de Isaac Peral, dentist (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_3879_5229",
+   "file_url": "https://archive.org/download/aporee_3879_5229/dentistaMadrid.mp3",
+   "license": "CC BY-SA 3.0",
+   "author": "laura_aragoneses",
+   "length": 182.6,
+   "isolated": false,
+   "notes": "In a dentist's surgery, no description. Spectrogram shows long tonal machine runs about 70-85 s and 100-115 s (drill or suction - unverified); 128 kbps MP3 cut at 12 kHz. Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  }
+ ],
+ "gun-cock": [
+  {
+   "source": "opengameart",
+   "title": "Shotgun Reload Sound effects: ShotgunSounds/Rack.mp3",
+   "page_url": "https://opengameart.org/content/shotgun-reload-sound-effects",
+   "file_url": "https://opengameart.org/sites/default/files/shotgunsounds.zip",
+   "inner": "ShotgunSounds/Rack.mp3",
+   "license": "CC0",
+   "author": "zer0_sol",
+   "length": 1.1,
+   "isolated": true,
+   "notes": "Pump shotgun racked back and forward, 0.6-1.0 s (checked)."
+  },
+  {
+   "source": "opengameart",
+   "title": "Gun reload sounds: shotguncock_0.wav",
+   "page_url": "https://opengameart.org/content/gun-reload-sounds",
+   "file_url": "https://opengameart.org/sites/default/files/shotguncock_0.wav",
+   "license": "CC0",
+   "author": "SpringySpringo",
+   "length": 0.5,
+   "isolated": true,
+   "notes": "Pump-shotgun cocking recorded with an airsoft gun (real mechanism, lighter than a firearm), 0.5 s; slight background noise."
+  },
+  {
+   "source": "opengameart",
+   "title": "Handgun Reload Sound Effect: reload.wav",
+   "page_url": "https://opengameart.org/content/handgun-reload-sound-effect",
+   "file_url": "https://opengameart.org/sites/default/files/reload.wav",
+   "license": "CC0",
+   "author": "zer0_sol",
+   "length": 1.6,
+   "isolated": true,
+   "notes": "Handgun magazine dropped, new one inserted, slide racked; the rack is the last event, about 1.0-1.5 s."
+  }
+ ],
+ "car-backfire": [],
+ "squeak": [
+  {
+   "source": "commons",
+   "title": "File:Rubber squeaking.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rubber_squeaking.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Rubber_squeaking.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "length": 10.7,
+   "isolated": true,
+   "notes": "pdsounds (stephan): 'high pitched squeaking of two rubber objects, dragging rubber', 10.7 s. Continuous squeaking 0.6-5.3 s (checked)."
+  },
+  {
+   "source": "opengameart",
+   "title": "Squeak toy sounds: squeak toy - squeak1.wav",
+   "page_url": "https://opengameart.org/content/squeak-toy-sounds",
+   "file_url": "https://opengameart.org/sites/default/files/squeak_toy.zip",
+   "inner": "squeak toy/squeak toy - squeak1.wav",
+   "license": "CC0",
+   "author": "bart",
+   "length": 0.8,
+   "isolated": true,
+   "notes": "Rubber squeak toy, one pitched squeak 0.0-0.7 s (checked)."
+  },
+  {
+   "source": "opengameart",
+   "title": "Squeak toy sounds: squeak toy - squeak3.wav",
+   "page_url": "https://opengameart.org/content/squeak-toy-sounds",
+   "file_url": "https://opengameart.org/sites/default/files/squeak_toy.zip",
+   "inner": "squeak toy/squeak toy - squeak3.wav",
+   "license": "CC0",
+   "author": "bart",
+   "length": 0.9,
+   "isolated": true,
+   "notes": "Second squeak, 0.0-0.7 s."
+  },
+  {
+   "source": "commons",
+   "title": "File:Creaky wooden swivel chair.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Creaky_wooden_swivel_chair.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Creaky_wooden_swivel_chair.ogg",
+   "license": "Public domain",
+   "author": "chocoholic",
+   "length": 6.6,
+   "isolated": true,
+   "notes": "pdsounds (chocoholic): old oak swivel chair squeaking/creaking, 6.6 s - wood creak rather than a high squeal."
+  }
+ ],
+ "snort": [
+  {
+   "source": "commons",
+   "title": "File:Voiceless Velopharyngeal Fricative Trill.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Voiceless_Velopharyngeal_Fricative_Trill.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Voiceless_Velopharyngeal_Fricative_Trill.ogg",
+   "license": "CC0",
+   "author": "HuiXingMusic",
+   "length": 3.2,
+   "isolated": true,
+   "notes": "Phonetics demo of the voiceless velopharyngeal trill - the soft-palate rattle of a snort - use 0.5-1.3 s for a snort-length burst (sound is sustained from 0.4 to 2.5 s, checked). Produced deliberately, not a laugh-snort."
+  },
+  {
+   "source": "opengameart",
+   "title": "80 CC0 creature SFX: nose.ogg",
+   "page_url": "https://opengameart.org/content/80-cc0-creature-sfx",
+   "file_url": "https://opengameart.org/sites/default/files/80-CC0-creature-SFX_0.zip",
+   "inner": "nose.ogg",
+   "license": "CC0",
+   "author": "rubberduck",
+   "length": 0.35,
+   "isolated": true,
+   "notes": "A single nasal snort-like burst, 0.0-0.3 s. Part of a creature-SFX pack, so it may be a processed human voice - check by ear."
+  }
+ ],
+ "groan": [
+  {
+   "source": "commons",
+   "title": "File:Frustration.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Frustration.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Frustration.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "length": 6.0,
+   "isolated": true,
+   "notes": "pdsounds (ezwa): 'Attempted to express frustration for a part' - two voiced vocalisations of annoyance, 1.0-2.3 s and 3.6-4.8 s (checked: voiced, isolated, silence between). Confirm by ear that they are groans rather than words."
+  },
+  {
+   "source": "commons",
+   "title": "File:LL-Q1860 (eng)-Wodencafe-ugh.wav",
+   "page_url": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Wodencafe-ugh.wav",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/LL-Q1860_%28eng%29-Wodencafe-ugh.wav",
+   "license": "CC0",
+   "author": "Wodencafe (Lingua Libre)",
+   "length": 0.7,
+   "isolated": true,
+   "notes": "Lingua Libre recording of 'ugh' (CC0), 0.7 s - a short groan-like interjection, said as a word."
+  },
+  {
+   "source": "commons",
+   "title": "File:En-us-ugh-3.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:En-us-ugh-3.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/En-us-ugh-3.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Tharthan",
+   "length": 1.6,
+   "isolated": true,
+   "notes": "'Alternative pronunciation of ugh' (Tharthan, CC BY-SA 4.0): one 'ugh' 0.2-1.0 s (checked) - a spoken interjection, weak as a groan."
+  }
+ ],
+ "shush": [
+  {
+   "source": "commons",
+   "title": "File:De-pscht.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:De-pscht.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/De-pscht.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Jeuwre",
+   "length": 1.4,
+   "isolated": true,
+   "notes": "German Wiktionary recording of the interjection 'pscht' (a 'shh' for quiet): one unvoiced hiss 0.4-1.1 s (checked, centroid ~3.8 kHz) - short rather than long (CC BY-SA 4.0)."
+  },
+  {
+   "source": "commons",
+   "title": "File:Shhhwwshhhw.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Shhhwwshhhw.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Shhhwwshhhw.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "length": 27.6,
+   "isolated": true,
+   "notes": "pdsounds (ezwa) 'Shhhwwshhhw' - mouth 'shh'/'wsh' sounds, ~20 s of continuous unvoiced hiss 1.3-21.5 s (checked: centroid ~4 kHz). Not a deliberate 'be quiet' shush; pick a single long 'shhh'."
+  }
+ ],
+ "bees": [
+  {
+   "source": "commons",
+   "title": "File:Bombus buzz.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Bombus_buzz.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Bombus_buzz.ogg",
+   "license": "Public domain",
+   "author": "Mysid",
+   "length": 10.9,
+   "isolated": true,
+   "notes": "A bumblebee buzzing as it flies from flower to flower, Southern Finland (Mysid), 11 s."
+  },
+  {
+   "source": "commons",
+   "title": "File:Zumbido de abejorro.wav",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Zumbido_de_abejorro.wav",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Zumbido_de_abejorro.wav",
+   "license": "CC BY-SA 4.0",
+   "author": "Luis Alvaz",
+   "length": 21.4,
+   "isolated": true,
+   "notes": "Bumblebee buzzing (Luis Alvaz), 21 s."
+  },
+  {
+   "source": "commons",
+   "title": "File:Hummel bee.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Hummel_bee.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Hummel_bee.ogg",
+   "license": "Public domain",
+   "author": "soerena",
+   "length": 44.1,
+   "isolated": true,
+   "notes": "pdsounds (soerena): close-up bumblebee on garden flowers, Denmark, 44 s; possible distant lawn mower."
+  },
+  {
+   "source": "commons",
+   "title": "File:Honeybee-hive.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Honeybee-hive.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Honeybee-hive.ogg",
+   "license": "CC0",
+   "author": "Skinkie",
+   "length": 226.8,
+   "isolated": true,
+   "notes": "Inside a Carnica honeybee hive, 3.8 min - the dense hive drone."
+  }
+ ],
+ "fly": [
+  {
+   "source": "archive",
+   "title": "rural idyll: house flies (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_62024_74718",
+   "file_url": "https://archive.org/download/aporee_62024_74718/housefliesinatrapforestgarden1443EDIT2462024MIXPRE1251.wav",
+   "license": "CC BY 3.0",
+   "author": "Sophie Standford",
+   "length": 184.5,
+   "isolated": true,
+   "notes": "House flies buzzing in a trap in a garden, 3 min (53 MB WAV). Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  },
+  {
+   "source": "archive",
+   "title": "Ruse, Slovenija - flies (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_14253_16593",
+   "file_url": "https://archive.org/download/aporee_14253_16593/12070802a.wav",
+   "license": "Public Domain Mark 1.0",
+   "author": "ana.pecar",
+   "length": 76.8,
+   "isolated": false,
+   "notes": "Flies in the woods, 77 s. Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  }
+ ],
+ "elephant": [
+  {
+   "source": "archive",
+   "title": "Tuli, Botswana, Elephants trumpeting and Rumbling (radio aporee)",
+   "page_url": "https://archive.org/details/aporee_7693_9441",
+   "file_url": "https://archive.org/download/aporee_7693_9441/Tulielephants2008.mp3",
+   "license": "CC BY-SA 3.0",
+   "author": "soundz",
+   "length": 51.8,
+   "isolated": false,
+   "notes": "Wild African elephant herd trumpeting, growling and rumbling. Loud broadband trumpet blasts about 41.5-46.5 s; harmonic trumpeting/roars 3.3-9.3 s (from spectrogram). Radio aporee field recording mirrored on archive.org; license is the recordist's choice shown on the item."
+  }
+ ],
+ "phone-vibrate": [
+  {
+   "source": "opengameart",
+   "title": "202 More Sound Effects: Phone/Phone3.wav",
+   "page_url": "https://opengameart.org/content/202-more-sound-effects",
+   "file_url": "https://opengameart.org/sites/default/files/MoreSounds.zip",
+   "inner": "Phone/Phone3.wav",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "length": 10.6,
+   "isolated": true,
+   "notes": "Phone vibration motor: continuous buzz to ~6.8 s, then short on/off buzz bursts 6.8-10.6 s (spectrogram: ~0.4 s pulses with harmonics to 3 kHz). Quiet (-27 dBFS). Unlabelled in the pack - confirm by ear."
+  },
+  {
+   "source": "opengameart",
+   "title": "202 More Sound Effects: Phone/Phone1.wav",
+   "page_url": "https://opengameart.org/content/202-more-sound-effects",
+   "file_url": "https://opengameart.org/sites/default/files/MoreSounds.zip",
+   "inner": "Phone/Phone1.wav",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "length": 1.2,
+   "isolated": true,
+   "notes": "Single 1.1 s buzz, same pack; probably one vibration burst."
+  }
+ ],
+ "handsaw": [
+  {
+   "source": "commons",
+   "title": "File:WWS Wheelwrightwoodsaw.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:WWS_Wheelwrightwoodsaw.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/WWS_Wheelwrightwoodsaw.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Museum of Municipal Engineering",
+   "length": 40.8,
+   "isolated": true,
+   "notes": "Wheelwright cutting wood with a handsaw, Szreniawa museum (Work With Sounds), 41 s."
+  },
+  {
+   "source": "commons",
+   "title": "File:WWS Hacksaw8220Lokarica8221.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:WWS_Hacksaw8220Lokarica8221.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/WWS_Hacksaw8220Lokarica8221.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "length": 30.0,
+   "isolated": true,
+   "notes": "Sawing wood by hand with a 'lokarica' frame saw, Slovenia (Work With Sounds), 30 s."
+  }
+ ],
+ "splash": [
+  {
+   "source": "commons",
+   "title": "File:Bathtub water splashes.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Bathtub_water_splashes.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Bathtub_water_splashes.ogg",
+   "license": "Public domain",
+   "author": "gradha",
+   "length": 48.1,
+   "isolated": true,
+   "notes": "pdsounds (gradha): splashes made by plunging an object into a half-full bathtub, one every ~4-5 s; e.g. 6.5-13.5 s holds two splashes (checked). Occasional bubbles."
+  },
+  {
+   "source": "opengameart",
+   "title": "Water Splash and sand footsteps: splash1_0.wav",
+   "page_url": "https://opengameart.org/content/water-splash-and-sand-footsteps",
+   "file_url": "https://opengameart.org/sites/default/files/splash1_0.wav",
+   "license": "CC0",
+   "author": "Peludo",
+   "length": 2.6,
+   "isolated": true,
+   "notes": "Real splash into a bucket of water (webcam mic), 0.4-1.8 s (checked; splash 0.5-1.3 s plus tail)."
+  },
+  {
+   "source": "opengameart",
+   "title": "Water Splash and sand footsteps: splash2_0.wav",
+   "page_url": "https://opengameart.org/content/water-splash-and-sand-footsteps",
+   "file_url": "https://opengameart.org/sites/default/files/splash2_0.wav",
+   "license": "CC0",
+   "author": "Peludo",
+   "length": 1.7,
+   "isolated": true,
+   "notes": "Second bucket splash, 0.5-1.7 s (splash 0.6-1.1 s plus tail)."
+  }
+ ],
+ "crash": [
+  {
+   "source": "commons",
+   "title": "File:Pots and pans hits 2 (Gravity Sound).wav",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Pots_and_pans_hits_2_(Gravity_Sound).wav",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Pots_and_pans_hits_2_%28Gravity_Sound%29.wav",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "length": 5.9,
+   "isolated": true,
+   "notes": "Pots and pans falling/clattering 0.0-4.0 s (checked: several hits 0.2-3.5 s); a different take from the one in use."
+  },
+  {
+   "source": "commons",
+   "title": "File:WWS Emptyingsteelscrapfromatruck.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:WWS_Emptyingsteelscrapfromatruck.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/WWS_Emptyingsteelscrapfromatruck.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "length": 56.9,
+   "isolated": false,
+   "notes": "Steel scrap dumped from a truck at a steelworks (Work With Sounds), 57 s - big metallic crashing clatter building up from 10 s; loudest 42.0-50.0 s (checked)."
+  },
+  {
+   "source": "commons",
+   "title": "File:Crash hit 3 (Gravity Sound).wav",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Crash_hit_3_(Gravity_Sound).wav",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Crash_hit_3_%28Gravity_Sound%29.wav",
+   "license": "CC BY 4.0",
+   "author": "Gravity Sound",
+   "length": 3.8,
+   "isolated": true,
+   "notes": "Object crash with ringing tail 0.0-2.8 s (checked); very quiet file (-38 dBFS peak), needs gain; may be a designed hit rather than a plain recording."
+  },
+  {
+   "source": "commons",
+   "title": "File:Hardcover books dropped.ogg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Hardcover_books_dropped.ogg",
+   "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Hardcover_books_dropped.ogg",
+   "license": "Public domain",
+   "author": "stilgar",
+   "length": 7.6,
+   "isolated": true,
+   "notes": "pdsounds (stilgar): a couple of hardcover books dropped onto a wood floor, 7.6 s - slams more than clatter."
+  }
+ ]
+}

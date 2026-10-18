@@ -840,7 +840,7 @@ sounds:
       - { id: car-idle, cue: "An engine idle is steadier and mechanical." }
       - { id: snore, cue: "Snoring cycles with breathing." }
     samples:
-      - {"src": "commons", "file": "File:Madsen-audio-01.flac", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Madsen-audio-01.flac", "label": "Recording 1", "author": "Kent Madsen"}
       - {"src": "commons", "file": "File:Dogs'-Expectation-about-Signalers'-Body-Size-by-Virtue-of-Their-Growls-pone.0015175.s007.ogg", "label": "Recording 2"}
       - {"src": "url", "url": "https://opengameart.org/sites/default/files/dog-frieda-grunt-96khz-01.flac", "page": "https://opengameart.org/content/dog-grunt", "license": "CC0", "author": "qubodup", "label": "Recording 3"}
 

@@ -122,7 +122,10 @@ def fetch_commons(title):
         raise RuntimeError(f"not found on Commons: {title}")
     ii = page["imageinfo"][0]
     em = ii.get("extmetadata", {})
-    strip = lambda v: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", v or "")).strip()
+    # list items and line breaks become "; " so multi-part credits don't run together
+    breaks = lambda v: re.sub(r"(?i)</li>\s*<li[^>]*>|<br\s*/?>|</p>\s*<p[^>]*>", "; ",
+                              re.sub(r"(?is)<(style|script)\b.*?</\1>", "", v or ""))
+    strip = lambda v: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", breaks(v))).strip()
     meta = {"source": "commons", "file": title, "url": ii["descriptionurl"],
             "license": strip(em.get("LicenseShortName", {}).get("value")),
             "author": strip(em.get("Artist", {}).get("value")) or "Unknown author"}
@@ -178,7 +181,9 @@ def fetch_zip(spec):
 def fetch(spec):
     src = spec["src"]
     if src == "commons":
-        return fetch_commons(spec["file"])
+        path, meta = fetch_commons(spec["file"])
+        # some file pages put a template (or a paragraph) in the Artist field
+        return path, ({**meta, "author": spec["author"]} if spec.get("author") else meta)
     if src == "url":
         return fetch_url(spec)
     if src == "zip":
