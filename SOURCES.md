@@ -7,6 +7,11 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 
 | Sound | File | Author | License |
 | --- | --- | --- | --- |
+| air-brakes | [WWS CityBusMANSG220dooropeningclosing.ogg](https://commons.wikimedia.org/wiki/File:WWS_CityBusMANSG220dooropeningclosing.ogg) | Work With Sounds / Technical Museum of Slovenia | CC BY 4.0 |
+| air-brakes | [bus53.mp3](https://archive.org/details/aporee_19056_22101) | maciej janasik | Public Domain Mark 1.0 |
+| air-hiss | [WWS Thetyreisdeflated.ogg](https://commons.wikimedia.org/wiki/File:WWS_Thetyreisdeflated.ogg) | Work With Sounds / La Fonderie | CC BY 4.0 |
+| air-hiss | [WWS SteamlocomotiveS06-018Steamrelease.ogg](https://commons.wikimedia.org/wiki/File:WWS_SteamlocomotiveS06-018Steamrelease.ogg) | Work With Sounds / Technical Museum of Slovenia | CC BY 4.0 |
+| air-hiss | [Air duster.ogg](https://commons.wikimedia.org/wiki/File:Air_duster.ogg) | stephan | Public domain |
 | airplane | [Jet airliner overhead.ogg](https://commons.wikimedia.org/wiki/File:Jet_airliner_overhead.ogg) | Jud McCranie | CC BY-SA 4.0 |
 | airplane | [428086 inspectorj airplane-boeing-flyby-right-to-left-a.wav](https://commons.wikimedia.org/wiki/File:428086_inspectorj_airplane-boeing-flyby-right-to-left-a.wav) | InspectorJ | CC BY 4.0 |
 | airplane | [Start einer Airbus A320 (Air Berlin).oga](https://commons.wikimedia.org/wiki/File:Start_einer_Airbus_A320_(Air_Berlin).oga) | Huhu Uet | CC BY 3.0 |
@@ -25,6 +30,8 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | bark | [Woof (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Woof_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
 | bark | [Perro labrador ladrando 01.ogg](https://commons.wikimedia.org/wiki/File:Perro_labrador_ladrando_01.ogg) | Luis Alvaz | CC BY-SA 4.0 |
 | bees | [Bee sounds near Cologne, Germany - reinsamba.wav](https://commons.wikimedia.org/wiki/File:Bee_sounds_near_Cologne,_Germany_-_reinsamba.wav) | reinsamba | CC BY 3.0 |
+| bees | [Bombus buzz.ogg](https://commons.wikimedia.org/wiki/File:Bombus_buzz.ogg) | Mysid | Public domain |
+| bees | [Honeybee-hive.ogg](https://commons.wikimedia.org/wiki/File:Honeybee-hive.ogg) | Skinkie | CC0 |
 | bicycle-bell | [Bell-ring.flac](https://commons.wikimedia.org/wiki/File:Bell-ring.flac) | qubodup | CC0 |
 | bicycle-bell | [Bicycle-bell-1.wav](https://commons.wikimedia.org/wiki/File:Bicycle-bell-1.wav) | Soundscape_Leuphana | CC0 |
 | bicycle-bell | [186096 marcel-farres bicycle-bell.wav](https://commons.wikimedia.org/wiki/File:186096_marcel-farres_bicycle-bell.wav) | marcel_farres | CC BY 3.0 |
@@ -33,6 +40,7 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | birdsong-ambience | [Forest ambience (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Forest_ambience_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
 | blender | [Licuadora.ogg](https://commons.wikimedia.org/wiki/File:Licuadora.ogg) | Armartinell | CC BY-SA 4.0 |
 | blender | [Het vermalen van fruit in een blender - SoundCloud - marloeskunst.ogg](https://commons.wikimedia.org/wiki/File:Het_vermalen_van_fruit_in_een_blender_-_SoundCloud_-_marloeskunst.ogg) | marloeskunst | CC BY 3.0 |
+| booing | [20160926nachbarnbuhenbaergidaaus.mp3](https://archive.org/details/aporee_33572_38625) | colaboradio | Public Domain Mark 1.0 |
 | breathing | [Breathing man.ogg](https://commons.wikimedia.org/wiki/File:Breathing_man.ogg) | hugh | Public domain |
 | breathing | [Heavy breathing 3.ogg](https://commons.wikimedia.org/wiki/File:Heavy_breathing_3.ogg) | ezwa | Public domain |
 | breathing | [Human/breath-female.wav](https://opengameart.org/content/sound-effects-pack) | OwlishMedia | CC0 |
@@ -45,6 +53,7 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | camera-shutter | [Canon T50 shutter noise.ogg](https://commons.wikimedia.org/wiki/File:Canon_T50_shutter_noise.ogg) | Francois C | CC BY-SA 3.0 |
 | camera-shutter | [Holga shuttersound.ogg](https://commons.wikimedia.org/wiki/File:Holga_shuttersound.ogg) | Doitashimashite at Dutch Wikipedia | Public domain |
 | camera-shutter | [Auslösegeräusch SLR Serienaufnahme mit AF Schärfepriorität.ogg](https://commons.wikimedia.org/wiki/File:Ausl%C3%B6seger%C3%A4usch_SLR_Serienaufnahme_mit_AF_Sch%C3%A4rfepriorit%C3%A4t.ogg) | Smial (talk) | CC0 |
+| car-door | [Parkhaus Einsteigen und wegfahren 01.ogg](https://commons.wikimedia.org/wiki/File:Parkhaus_Einsteigen_und_wegfahren_01.ogg) | Huhu Uet | CC BY-SA 3.0 |
 | car-horn | [Car Horn.wav](https://commons.wikimedia.org/wiki/File:Car_Horn.wav) | 15HPanska_Ruttner_Jan | CC0 |
 | car-horn | [WWS VolkswagenBeetle8211horn.ogg](https://commons.wikimedia.org/wiki/File:WWS_VolkswagenBeetle8211horn.ogg) | Work With Sounds / Technical Museum of Slovenia | CC BY 4.0 |
 | car-horn | [Peugeot 204, claxonneren - SoundCloud - Beeld en Geluid.ogg](https://commons.wikimedia.org/wiki/File:Peugeot_204,_claxonneren_-_SoundCloud_-_Beeld_en_Geluid.ogg) | Beeld en Geluid | CC BY-SA 3.0 |
@@ -98,6 +107,7 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | cow | [Mudchute cow 1.ogg](https://commons.wikimedia.org/wiki/File:Mudchute_cow_1.ogg) | Secretlondon | CC BY-SA 3.0 |
 | cow | [Boerlaedje vatches.ogg](https://commons.wikimedia.org/wiki/File:Boerlaedje_vatches.ogg) | Lucyin | CC BY-SA 4.0 |
 | crash | [Pots and pans hits 1 (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Pots_and_pans_hits_1_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
+| crash | [WWS Emptyingsteelscrapfromatruck.ogg](https://commons.wikimedia.org/wiki/File:WWS_Emptyingsteelscrapfromatruck.ogg) | Work With Sounds / Technical Museum of Slovenia | CC BY 4.0 |
 | crickets | [Gryllus campestris 02 (HS).ogg](https://commons.wikimedia.org/wiki/File:Gryllus_campestris_02_(HS).ogg) | Harald Süpfle | CC BY-SA 3.0 |
 | crickets | [Field cricket Gryllus pennsylvanicus.ogg](https://commons.wikimedia.org/wiki/File:Field_cricket_Gryllus_pennsylvanicus.ogg) | Thatcher | CC BY-SA 3.0 |
 | crickets | [crickets_0.mp3](https://opengameart.org/content/crickets) | dklon | CC-BY 3.0 |
@@ -110,9 +120,14 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | crying | [Male crying and weeping.ogg](https://commons.wikimedia.org/wiki/File:Male_crying_and_weeping.ogg) | jacobmathiassen | CC BY 3.0 |
 | crying | [Woman crying.ogg](https://commons.wikimedia.org/wiki/File:Woman_crying.ogg) | bulbastre | CC BY 3.0 |
 | crying | [Man Crying .ogg](https://commons.wikimedia.org/wiki/File:Man_Crying_.ogg) | Iwan ‘qubodup’ Gabovitch | CC BY 3.0 |
+| dentist-drill | [WWS Dentaldrill.ogg](https://commons.wikimedia.org/wiki/File:WWS_Dentaldrill.ogg) | Work With Sounds / La Fonderie | CC BY 4.0 |
 | dishes | [Sorting cutlery (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Sorting_cutlery_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
 | dishes | [Rustling cutlery 4 (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Rustling_cutlery_4_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
 | dishes | [Cutlery on table.ogg](https://commons.wikimedia.org/wiki/File:Cutlery_on_table.ogg) | thore | Public domain |
+| dishwasher | [szer.mp3](https://archive.org/details/aporee_14738_46150) | maciej janasik | Public Domain Mark 1.0 |
+| dishwasher | [Dishwasher end droning hissing humming.ogg](https://commons.wikimedia.org/wiki/File:Dishwasher_end_droning_hissing_humming.ogg) | stephan | Public domain |
+| dog-pant | [Irish Wolfhound mix, panting.ogv](https://commons.wikimedia.org/wiki/File:Irish_Wolfhound_mix,_panting.ogv) | Sage Ross | CC BY-SA 3.0 |
+| dog-pant | [ANMLDog_Jasper%20Panting_The%20Designer%27s%20Choice_GNRL1.wav](https://archive.org/details/Designers-Choice-Collection-Animals) | Nicholas A. Judy (The Designer's Choice) | CC0 |
 | door | [Open and close bathroom door (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Open_and_close_bathroom_door_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
 | door | [Open and close closet door (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Open_and_close_closet_door_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
 | door | [Closing an old door.ogg](https://commons.wikimedia.org/wiki/File:Closing_an_old_door.ogg) | ezwa | Public domain |
@@ -133,7 +148,10 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | duck | [Domestic duck sound 01.wav](https://commons.wikimedia.org/wiki/File:Domestic_duck_sound_01.wav) | Ganesh Mohan T | CC BY-SA 4.0 |
 | duck | [Anas platyrhynchos - Mallard XC62258.mp3](https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_-_Mallard_XC62258.mp3) | Jonathon Jongsma | CC BY-SA 3.0 |
 | duck | [Ducks snatching.ogg](https://commons.wikimedia.org/wiki/File:Ducks_snatching.ogg) | Bert76 | CC0 |
+| electric-razor | [Elektrorasur-01.ogg](https://commons.wikimedia.org/wiki/File:Elektrorasur-01.ogg) | Priwo | Public domain |
+| electric-razor | [electric_razor.wav](https://opengameart.org/content/electric-razor-sfx) | Vinrax | CC BY 3.0 |
 | elephant | [Elephant voice - trumpeting.ogg](https://commons.wikimedia.org/wiki/File:Elephant_voice_-_trumpeting.ogg) | தகவலுழவன் | CC0 |
+| elephant | [Tulielephants2008.mp3](https://archive.org/details/aporee_7693_9441) | soundz | CC BY-SA 3.0 |
 | explosion | [Explosion-LS100155.ogg](https://commons.wikimedia.org/wiki/File:Explosion-LS100155.ogg) | Fg2 | Public domain |
 | explosion | [Explosions-LS100152.ogg](https://commons.wikimedia.org/wiki/File:Explosions-LS100152.ogg) | Fg2 | Public domain |
 | fan | [Fan (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Fan_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
@@ -148,12 +166,19 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | fireworks | [Fireworks in distance 1.ogg](https://commons.wikimedia.org/wiki/File:Fireworks_in_distance_1.ogg) | ezwa | Public domain |
 | fireworks | [Silvester fireworks from the street 03 end.ogg](https://commons.wikimedia.org/wiki/File:Silvester_fireworks_from_the_street_03_end.ogg) | stephan | Public domain |
 | fly | [Zumbido de mosca doméstica.ogg](https://commons.wikimedia.org/wiki/File:Zumbido_de_mosca_dom%C3%A9stica.ogg) | Luisalvaz | CC BY-SA 4.0 |
+| fly | [housefliesinatrapforestgarden1443EDIT2462024MIXPRE1251.wav](https://archive.org/details/aporee_62024_74718) | Sophie Standford | CC BY 3.0 |
+| foghorn | [WWS Foghorn.ogg](https://commons.wikimedia.org/wiki/File:WWS_Foghorn.ogg) | Work With Sounds / Torsten Nilsson | CC BY 4.0 |
+| foghorn | [East Brother Light Diaphone Foghorn.oga](https://commons.wikimedia.org/wiki/File:East_Brother_Light_Diaphone_Foghorn.oga) | Frank Schulenburg | CC BY-SA 3.0 |
+| foghorn | [Original foghorn at East Brother Island Lighthouse.ogg](https://commons.wikimedia.org/wiki/File:Original_foghorn_at_East_Brother_Island_Lighthouse.ogg) | Elwood P. Dowd | CC0 |
 | footsteps | [Walking on gravel (Gravity Sound).mp3](https://commons.wikimedia.org/wiki/File:Walking_on_gravel_(Gravity_Sound).mp3) | Gravity Sound | CC BY 4.0 |
 | footsteps | [Walking on small wooden bridge (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Walking_on_small_wooden_bridge_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
 | footsteps | [Walking through snow.mp3](https://commons.wikimedia.org/wiki/File:Walking_through_snow.mp3) | Lukas Beck | CC BY 4.0 |
 | frog | [Marsh frog (Pelophylax ridibundus) call.ogg](https://commons.wikimedia.org/wiki/File:Marsh_frog_(Pelophylax_ridibundus)_call.ogg) | Llivermore | CC BY-SA 4.0 |
 | frog | [Single Frog Croak.oga](https://commons.wikimedia.org/wiki/File:Single_Frog_Croak.oga) | MichaeltheFox8621 | CC BY-SA 4.0 |
 | frog | [Bufo bufo call1.ogg](https://commons.wikimedia.org/wiki/File:Bufo_bufo_call1.ogg) | Unknown author | CC BY-SA 3.0 |
+| frying | [fryingpan01.wav](https://opengameart.org/content/general-household-sound-effects) | bretbernhoft | CC0 |
+| frying | [Sauteing leeks.ogg](https://commons.wikimedia.org/wiki/File:Sauteing_leeks.ogg) | hugh | Public domain |
+| frying | [Frying fries going in and out of oil.ogg](https://commons.wikimedia.org/wiki/File:Frying_fries_going_in_and_out_of_oil.ogg) | ezwa | Public domain |
 | gargle | [Gargling.ogg](https://commons.wikimedia.org/wiki/File:Gargling.ogg) | Jeuwre | CC BY-SA 4.0 |
 | gargle | [Gargle.ogg](https://commons.wikimedia.org/wiki/File:Gargle.ogg) | User:Keffy | CC BY-SA 2.5 |
 | gasp | [Human/gasp1.wav](https://opengameart.org/content/sound-effects-pack) | OwlishMedia | CC0 |
@@ -170,23 +195,31 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | goat | [Chèvre Angora cri.ogg](https://commons.wikimedia.org/wiki/File:Ch%C3%A8vre_Angora_cri.ogg) | Pitchpanther | CC BY-SA 4.0 |
 | gong | [gong_2_f.wav](https://github.com/sgossner/VCSL) | Versilian Studios (VCSL) | CC0-1.0 |
 | gong | [gong_2_mp.wav](https://github.com/sgossner/VCSL) | Versilian Studios (VCSL) | CC0-1.0 |
-| gong | [gong_scrape_mf.wav](https://github.com/sgossner/VCSL) | Versilian Studios (VCSL) | CC0-1.0 |
+| gong | [240382 the-very-real-horst chinese-gong-finish-session-2014-06-10-29-143.wav](https://commons.wikimedia.org/wiki/File:240382_the-very-real-horst_chinese-gong-finish-session-2014-06-10-29-143.wav) | the_very_Real_Horst | CC0 |
 | goose | [Geese Honking (loud).ogg](https://commons.wikimedia.org/wiki/File:Geese_Honking_(loud).ogg) | U.S. Fish and Wildlife Service | Public domain |
 | goose | [Geese Honking (distant).ogg](https://commons.wikimedia.org/wiki/File:Geese_Honking_(distant).ogg) | U.S. Fish and Wildlife Service | Public domain |
 | goose | [Screaming geese.ogg](https://commons.wikimedia.org/wiki/File:Screaming_geese.ogg) | Filo gèn' | CC BY-SA 4.0 |
 | groan | [female_hurt_grunts_groans_1.ogg](https://opengameart.org/content/female-hurt-grunts-groans) | Nocturnal_Vanguard | CC0 |
+| groan | [Frustration.ogg](https://commons.wikimedia.org/wiki/File:Frustration.ogg) | ezwa | Public domain |
 | growl | [Madsen-audio-01.flac](https://commons.wikimedia.org/wiki/File:Madsen-audio-01.flac) | Kent Madsen | CC BY-SA 4.0 |
 | growl | [Dogs'-Expectation-about-Signalers'-Body-Size-by-Virtue-of-Their-Growls-pone.0015175.s007.ogg](https://commons.wikimedia.org/wiki/File:Dogs%27-Expectation-about-Signalers%27-Body-Size-by-Virtue-of-Their-Growls-pone.0015175.s007.ogg) | Faragó T, Pongrácz P, Miklósi Á, Huber L, Virányi Z, Range F | CC BY 2.5 |
 | growl | [dog-frieda-grunt-96khz-01.flac](https://opengameart.org/content/dog-grunt) | qubodup | CC0 |
 | grunt | [Male grunts jumps.ogg](https://commons.wikimedia.org/wiki/File:Male_grunts_jumps.ogg) | stilgar | Public domain |
 | grunt | [Male pain grunts.ogg](https://commons.wikimedia.org/wiki/File:Male_pain_grunts.ogg) | stilgar | Public domain |
 | grunt | [01._effort_grunt_male.wav](https://opengameart.org/content/effort-sounds-male-audio-pack) | VoiceBosch | CC-BY-SA 4.0 |
+| gun-cock | [ShotgunSounds/Rack.mp3](https://opengameart.org/content/shotgun-reload-sound-effects) | zer0_sol | CC0 |
+| gun-cock | [shotguncock_0.wav](https://opengameart.org/content/gun-reload-sounds) | SpringySpringo | CC0 |
+| gun-cock | [reload.wav](https://opengameart.org/content/handgun-reload-sound-effect) | zer0_sol | CC0 |
 | gunshot | [Wurstelprater Wien 2024 Luftgewehr Pressluft schießt zweimal.ogg](https://commons.wikimedia.org/wiki/File:Wurstelprater_Wien_2024_Luftgewehr_Pressluft_schie%C3%9Ft_zweimal.ogg) | DrTrumpet | CC BY-SA 4.0 |
 | gunshot | [Gunshots 8.ogg](https://commons.wikimedia.org/wiki/File:Gunshots_8.ogg) | aradlaw | Public domain |
+| hairdryer | [Blow%20dryer%201%20D.D.%20Teoli%20Jr..mp3](https://archive.org/details/BlowDryer1D.D.TeoliJr.) | D.D. Teoli Jr. | Public Domain Mark 1.0 |
+| hairdryer | [Blow%20dryer%202%20D.D.%20Teoli%20Jr..mp3](https://archive.org/details/BlowDryer1D.D.TeoliJr.) | D.D. Teoli Jr. | Public Domain Mark 1.0 |
 | hammering | [Ruido de martillo.ogg](https://commons.wikimedia.org/wiki/File:Ruido_de_martillo.ogg) | Armartinell | CC BY-SA 4.0 |
 | hammering | [forger_0.ogg](https://opengameart.org/content/hammer-on-anvil) | themightyglider | CC0 |
 | hammering | [hjm-smithing.wav](https://opengameart.org/content/smithing-sound) | Varkalandar | CC-BY 3.0, CC-BY-SA 3.0, GPL 2.0, GPL 3.0, OGA-BY 3.0 |
 | handsaw | [Sawing an empty toilet paper roll.ogg](https://commons.wikimedia.org/wiki/File:Sawing_an_empty_toilet_paper_roll.ogg) | qubodup | Public domain |
+| handsaw | [WWS Wheelwrightwoodsaw.ogg](https://commons.wikimedia.org/wiki/File:WWS_Wheelwrightwoodsaw.ogg) | Work With Sounds / Museum of Municipal Engineering | CC BY 4.0 |
+| handsaw | [WWS Hacksaw8220Lokarica8221.ogg](https://commons.wikimedia.org/wiki/File:WWS_Hacksaw8220Lokarica8221.ogg) | Work With Sounds / Technical Museum of Slovenia | CC BY 4.0 |
 | heartbeat | [Heartbeat.ogg](https://commons.wikimedia.org/wiki/File:Heartbeat.ogg) | HerbertBoland | CC BY 3.0 |
 | heartbeat | [Human heart beating at 61 bpm (Cc-by-3.0).ogg](https://commons.wikimedia.org/wiki/File:Human_heart_beating_at_61_bpm_(Cc-by-3.0).ogg) | "Benboncan" at Freesound.org http://www.freesound.org/people/Benboncan/ | CC BY 3.0 |
 | heartbeat | [Athletic bradycardia wav.wav](https://commons.wikimedia.org/wiki/File:Athletic_bradycardia_wav.wav) | Athletearrhythmia | CC0 |
@@ -226,6 +259,9 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | microwave | [Panasonic NN-E225M microwave.flac](https://commons.wikimedia.org/wiki/File:Panasonic_NN-E225M_microwave.flac) | Andy Mabbett | CC BY-SA 3.0 |
 | microwave | [Microwave oven.ogg](https://commons.wikimedia.org/wiki/File:Microwave_oven.ogg) | stephan | Public domain |
 | microwave | [microwave01.wav](https://opengameart.org/content/general-household-sound-effects) | bretbernhoft | CC0 |
+| moan | [undead-1.ogg](https://opengameart.org/content/undead-moans) | AntumDeluge | CC0 |
+| moan | [undead-3.ogg](https://opengameart.org/content/undead-moans) | AntumDeluge | CC0 |
+| moan | [moan.wav](https://opengameart.org/content/various-sound-effects-0) | Spring Spring | CC0 |
 | mosquito | [Komar.flac](https://commons.wikimedia.org/wiki/File:Komar.flac) | Muczek123 | CC BY-SA 4.0 |
 | mosquito | [Wiki Mosquito.wav](https://commons.wikimedia.org/wiki/File:Wiki_Mosquito.wav) | Vega16 | CC BY-SA 4.0 |
 | motorcycle | [Kawasaki ER-5.oga](https://commons.wikimedia.org/wiki/File:Kawasaki_ER-5.oga) | OllemanW | CC BY-SA 3.0 |
@@ -246,11 +282,14 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | phone-ring | [Klingelton FeTAp 751.wav](https://commons.wikimedia.org/wiki/File:Klingelton_FeTAp_751.wav) | Rotkaeppchen68 | CC BY-SA 4.0 |
 | phone-ring | [Automatic telephone Iskra ATA 2 - ringing.webm](https://commons.wikimedia.org/wiki/File:Automatic_telephone_Iskra_ATA_2_-_ringing.webm) | Work With Sounds | CC BY 3.0 |
 | phone-vibrate | [Technology/Phone_vibrate.wav](https://opengameart.org/content/sound-effects-pack) | OwlishMedia | CC0 |
+| phone-vibrate | [Phone/Phone3.wav](https://opengameart.org/content/202-more-sound-effects) | OwlishMedia | CC0 |
 | pig | [Pig grunt - Erdie.ogg](https://commons.wikimedia.org/wiki/File:Pig_grunt_-_Erdie.ogg) | erdie | CC BY 3.0 |
 | pig | [Mudchute pig 2.ogg](https://commons.wikimedia.org/wiki/File:Mudchute_pig_2.ogg) | Secretlondon | CC BY-SA 3.0 |
 | pigeon | [Columba livia - Rock Dove XC541143.mp3](https://commons.wikimedia.org/wiki/File:Columba_livia_-_Rock_Dove_XC541143.mp3) | Marie-Lan Taÿ Pamart | CC BY-SA 4.0 |
 | pigeon | [Dove cooing.ogg](https://commons.wikimedia.org/wiki/File:Dove_cooing.ogg) | mary905 | Public domain |
 | pigeon | [Blue rock pigeon song recorded in May 2012 at Sangli.wav](https://commons.wikimedia.org/wiki/File:Blue_rock_pigeon_song_recorded_in_May_2012_at_Sangli.wav) | Sharadapte | CC BY-SA 4.0 |
+| pour | [Pouring wine.ogg](https://commons.wikimedia.org/wiki/File:Pouring_wine.ogg) | cori | Public domain |
+| pour | [Pouring water in mug in sink.ogg](https://commons.wikimedia.org/wiki/File:Pouring_water_in_mug_in_sink.ogg) | earthcalling | Public domain |
 | printer | [Star-LC-10-printer-01.ogg](https://commons.wikimedia.org/wiki/File:Star-LC-10-printer-01.ogg) | Priwo | Public domain |
 | printer | [Bachgasse Wiki Theresa Obermair Druckergeraeusche v2.ogg](https://commons.wikimedia.org/wiki/File:Bachgasse_Wiki_Theresa_Obermair_Druckergeraeusche_v2.ogg) | Kartoffel.3.7 | CC BY-SA 4.0 |
 | printer | [Inkjet printer on and off.ogg](https://commons.wikimedia.org/wiki/File:Inkjet_printer_on_and_off.ogg) | stephan | Public domain |
@@ -266,19 +305,27 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | scissors | [WWS Paper-cuttingscissorsSloveniaPartisanPrintingShop.ogg](https://commons.wikimedia.org/wiki/File:WWS_Paper-cuttingscissorsSloveniaPartisanPrintingShop.ogg) | Work With Sounds / Technical Museum of Slovenia | CC BY 4.0 |
 | scissors | [scissors_0.ogg](https://opengameart.org/content/scissors) | themightyglider | CC0 |
 | scissors | [hair_scissors_01.mp3](https://opengameart.org/content/various-scissors) | sinny | CC0 |
+| scoff | [LL-Q150 (fra)-Jules78120-pfff.wav](https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-Jules78120-pfff.wav) | Speaker: Jules78120; Recorder: Jules78120 | CC0 |
+| scoff | [Harrumphing.ogg](https://commons.wikimedia.org/wiki/File:Harrumphing.ogg) | Jeuwre | CC BY-SA 4.0 |
+| scoff | [LL-Q150 (fra)-Mecanautes-pfff.wav](https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-Mecanautes-pfff.wav) | Speaker: Mecanautes; Recorder: Mecanautes | CC0 |
 | scream | [NOW screaming.ogg](https://commons.wikimedia.org/wiki/File:NOW_screaming.ogg) | Ranch9613 | CC0 |
 | scream | [UncleSigmund - ahhh (cc0) (freesound).mp3](https://commons.wikimedia.org/wiki/File:UncleSigmund_-_ahhh_(cc0)_(freesound).mp3) | UncleSigmund | CC0 |
 | scream | [Scream-c.wav](https://commons.wikimedia.org/wiki/File:Scream-c.wav) | Raspberry Pi Foundation, Andy Oakley | CC BY-SA 4.0 |
 | seagull | [Möwengeschrei.ogg](https://commons.wikimedia.org/wiki/File:M%C3%B6wengeschrei.ogg) | Moehre1992 | CC BY-SA 3.0 |
 | seagull | [Western Gull Golden Gate National Recreation Area.ogg](https://commons.wikimedia.org/wiki/File:Western_Gull_Golden_Gate_National_Recreation_Area.ogg) | National Park Service | Public domain |
 | seagull | [Gull 2.ogg](https://commons.wikimedia.org/wiki/File:Gull_2.ogg) | avphillips | Public domain |
+| seal | [LoboMarinoCaletaPortalesBIS.mp3](https://archive.org/details/aporee_37576_43021) | Felix Blume | Public Domain Mark 1.0 |
+| seal | [sealionsboatsnarrows914.wav](https://archive.org/details/aporee_69662_81117) | isaiahbowenkarlyn | Public Domain Mark 1.0 |
+| seal | [0011257SealionsNewportedit.mp3](https://archive.org/details/aporee_65238_75337) | Peter Cusack | Public Domain Mark 1.0 |
 | sheep | [Sheep bleating.ogg](https://commons.wikimedia.org/wiki/File:Sheep_bleating.ogg) | earthcalling | Public domain |
 | sheep | [Sheep bleat.ogg](https://commons.wikimedia.org/wiki/File:Sheep_bleat.ogg) | Eviatar Bach | CC0 |
 | sheep | [Lamb bleating and its mother's response.flac](https://commons.wikimedia.org/wiki/File:Lamb_bleating_and_its_mother%27s_response.flac) | Yosef Ben Melamed | CC BY-SA 4.0 |
 | shout | [Goal Shout.ogg](https://commons.wikimedia.org/wiki/File:Goal_Shout.ogg) | Frogfriend99 | CC BY-SA 3.0 |
 | shout | [Wikipedistas en las luchas 01.wav](https://commons.wikimedia.org/wiki/File:Wikipedistas_en_las_luchas_01.wav) | Luis Alvaz | CC BY-SA 4.0 |
 | shout | [Street parade carnival people yelling kamelle kamelle.ogg](https://commons.wikimedia.org/wiki/File:Street_parade_carnival_people_yelling_kamelle_kamelle.ogg) | stephan | Public domain |
+| shower | [Shower.ogg](https://commons.wikimedia.org/wiki/File:Shower.ogg) | natalie | Public domain |
 | shush | [Human/shh1.wav](https://opengameart.org/content/sound-effects-pack) | OwlishMedia | CC0 |
+| shush | [De-pscht.ogg](https://commons.wikimedia.org/wiki/File:De-pscht.ogg) | Jeuwre | CC BY-SA 4.0 |
 | sigh | [Three sighs.ogg](https://commons.wikimedia.org/wiki/File:Three_sighs.ogg) | ezwa | Public domain |
 | sigh | [data_44k/f0007_0_sigh.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
 | sigh | [data_44k/m0002_0_sigh.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
@@ -295,12 +342,16 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | songbird | [Robin (Erithacus rubecula) song - Bærum, Norway 2021-04-03 (02).mp3](https://commons.wikimedia.org/wiki/File:Robin_(Erithacus_rubecula)_song_-_B%C3%A6rum,_Norway_2021-04-03_(02).mp3) | Ryan Hodnett | CC BY-SA 4.0 |
 | songbird | [Erithacus rubecula - European Robin XC510540.mp3](https://commons.wikimedia.org/wiki/File:Erithacus_rubecula_-_European_Robin_XC510540.mp3) | Marie-Lan Taÿ Pamart | CC BY-SA 4.0 |
 | splash | [Jump into Water (Gravity Sound).mp3](https://commons.wikimedia.org/wiki/File:Jump_into_Water_(Gravity_Sound).mp3) | Gravity Sound | CC BY 4.0 |
+| splash | [Bathtub water splashes.ogg](https://commons.wikimedia.org/wiki/File:Bathtub_water_splashes.ogg) | gradha | Public domain |
+| squeak | [Rubber squeaking.ogg](https://commons.wikimedia.org/wiki/File:Rubber_squeaking.ogg) | stephan | Public domain |
+| squeak | [squeak toy/squeak toy - squeak1.wav](https://opengameart.org/content/squeak-toy-sounds) | bart | CC0 |
 | subway | [London Underground 1996 Stock train arriving in a station.ogg](https://commons.wikimedia.org/wiki/File:London_Underground_1996_Stock_train_arriving_in_a_station.ogg) | Philt3r | CC BY 4.0 |
 | subway | [London Underground 1996 Stock train departing a station.ogg](https://commons.wikimedia.org/wiki/File:London_Underground_1996_Stock_train_departing_a_station.ogg) | Philt3r | CC BY 4.0 |
 | subway | [BVG Warnsignal U-Bahn.mp3](https://commons.wikimedia.org/wiki/File:BVG_Warnsignal_U-Bahn.mp3) | Geoprofi Lars | CC BY-SA 4.0 |
 | tap-water | [Tapsinkwaternoise.ogg](https://commons.wikimedia.org/wiki/File:Tapsinkwaternoise.ogg) | Secretlondon | CC BY-SA 3.0 |
 | tap-water | [Water tap (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Water_tap_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
 | tap-water | [Faucet water into sink.ogg](https://commons.wikimedia.org/wiki/File:Faucet_water_into_sink.ogg) | stephan | Public domain |
+| tape | [Sticky tape.ogg](https://commons.wikimedia.org/wiki/File:Sticky_tape.ogg) | stephan | Public domain |
 | throat-clear | [data_44k/f0003_0_throatclearing.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
 | throat-clear | [data_44k/m0002_0_throatclearing.wav](https://github.com/YuanGongND/vocalsound) | VocalSound dataset (Gong, Yu and Glass, MIT) | CC BY-SA 4.0 |
 | thud | [Dull thud.ogg](https://commons.wikimedia.org/wiki/File:Dull_thud.ogg) | gregoryweir | Public domain |
@@ -309,12 +360,16 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | thunder | [Thunder crack 2B.wav](https://commons.wikimedia.org/wiki/File:Thunder_crack_2B.wav) | Jud McCranie | CC BY-SA 4.0 |
 | thunder | [Very close thunder cracks.flac](https://commons.wikimedia.org/wiki/File:Very_close_thunder_cracks.flac) | Delorean76 | CC BY-SA 3.0 |
 | thunder | [Booming Thunder 2023-10-09 2-07-34 am.ogg](https://commons.wikimedia.org/wiki/File:Booming_Thunder_2023-10-09_2-07-34_am.ogg) | KTerPalmers | CC BY-SA 4.0 |
+| tire-screech | [tires_squal_loop.wav](https://opengameart.org/content/car-tire-squeal-skid-loop) | qubodup, from a recording by audible-edge (Freesound 71739) | CC BY 3.0 |
 | toilet-flush | [Toilet flush stereo low-flow high-quality 2020.10.13.wav](https://commons.wikimedia.org/wiki/File:Toilet_flush_stereo_low-flow_high-quality_2020.10.13.wav) | Leopardragon | CC BY-SA 4.0 |
 | toilet-flush | [Toilet-flush.ogg](https://commons.wikimedia.org/wiki/File:Toilet-flush.ogg) | DrTrumpet | CC BY-SA 4.0 |
 | toilet-flush | [Toilet flush (Gravity Sound).wav](https://commons.wikimedia.org/wiki/File:Toilet_flush_(Gravity_Sound).wav) | Gravity Sound | CC BY 4.0 |
 | tongue-click | [Postalveolar click.ogg](https://commons.wikimedia.org/wiki/File:Postalveolar_click.ogg) | Unknown author | CC BY-SA 3.0 |
 | tongue-click | [Dental click.ogg](https://commons.wikimedia.org/wiki/File:Dental_click.ogg) | Unknown author | CC BY-SA 3.0 |
 | tongue-click | [Alveolar lateral click.ogg](https://commons.wikimedia.org/wiki/File:Alveolar_lateral_click.ogg) | Unknown author | CC BY-SA 3.0 |
+| traffic | [Ambient sound street traffic Berlin 2026-05-17.oga](https://commons.wikimedia.org/wiki/File:Ambient_sound_street_traffic_Berlin_2026-05-17.oga) | SchlurcherBot | CC BY-SA 4.0 |
+| traffic | [2023-Mai-20 14h34min Wien innerer Lerchenfelder Gürtel Thaliagasse Nachmittagsverkehr.wav](https://commons.wikimedia.org/wiki/File:2023-Mai-20_14h34min_Wien_innerer_Lerchenfelder_G%C3%BCrtel_Thaliagasse_Nachmittagsverkehr.wav) | DrTrumpet | CC BY-SA 4.0 |
+| traffic | [141977 lg traffic-karl-liebknechtstrasse-111223.wav](https://commons.wikimedia.org/wiki/File:141977_lg_traffic-karl-liebknechtstrasse-111223.wav) | LG | CC BY-SA 3.0 |
 | train | [Het voorbijrijden over een wissel van een elektrische trein - SoundCloud - Beeld en Geluid.ogg](https://commons.wikimedia.org/wiki/File:Het_voorbijrijden_over_een_wissel_van_een_elektrische_trein_-_SoundCloud_-_Beeld_en_Geluid.ogg) | Beeld en Geluid | CC BY-SA 3.0 |
 | train | [Train passing by in the Wirikuta Desert (Mexico, SLP).wav](https://commons.wikimedia.org/wiki/File:Train_passing_by_in_the_Wirikuta_Desert_(Mexico,_SLP).wav) | https://freesound.org/people/felix.blume/ | CC0 |
 | train | [Nmbs class41-departing.ogg](https://commons.wikimedia.org/wiki/File:Nmbs_class41-departing.ogg) | Bert76 | CC0 |

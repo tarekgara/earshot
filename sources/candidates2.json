@@ -20,7 +20,7 @@
    "author": "Mecanautes (Lingua Libre)",
    "length": 1.1,
    "isolated": true,
-   "notes": "Second speaker saying the interjection 'pfff' (Lingua Libre, CC0). One short puff."
+   "notes": "Second speaker saying the interjection 'pfff' (Lingua Libre, CC0). One unvoiced puff 0.2-0.9 s (checked)."
   },
   {
    "source": "commons",
@@ -304,7 +304,7 @@
    "author": "ezwa",
    "length": 30.0,
    "isolated": true,
-   "notes": "pdsounds (ezwa): fries lowered into and lifted out of hot oil, 30 s; strong sizzle."
+   "notes": "pdsounds (ezwa): fries lowered into and lifted out of hot oil, 30 s. Sizzle bursts 2.4-9.5 s (checked: 2.4-5.1, 5.5-7.6, 8.3-9.5 s) and again 20-30 s. Fairly quiet (-28 dBFS peak)."
   },
   {
    "source": "commons",
@@ -374,7 +374,7 @@
    "author": "stephan",
    "length": 275.8,
    "isolated": true,
-   "notes": "pdsounds (stephan): end of a dishwasher cycle - droning, hissing, humming; 4.6 min (silences cut). Pick a stretch with water spray audible."
+   "notes": "pdsounds (stephan): end of a dishwasher cycle - droning, hissing, humming; 4.6 min (silences cut). Continuous running 5.0-13.0 s (checked; machine runs 0-36 s, later stretches are mostly pump hum)."
   },
   {
    "source": "archive",
@@ -434,7 +434,7 @@
    "author": "Priwo",
    "length": 20.0,
    "isolated": true,
-   "notes": "Shaving with an electric razor, 20 s (Priwo, PD)."
+   "notes": "Shaving with an electric razor, steady buzz for the full 20 s (checked); e.g. 2.0-10.0 s (Priwo, PD)."
   },
   {
    "source": "opengameart",
@@ -646,7 +646,7 @@
    "author": "Tvabutzku1234",
    "length": 128.1,
    "isolated": false,
-   "notes": "Foghorn at the Nordschleuse lock, Bremerhaven; a 5 s double signal repeating at alternating 20 s and 10 s gaps, 128 s - take one signal."
+   "notes": "Foghorn at the Nordschleuse lock, Bremerhaven; a 5 s double signal repeating at alternating 20 s and 10 s gaps, 128 s. Envelope shows a continuous low drone under it (harbour/engine), so blasts are less distinct - take one signal by ear."
   },
   {
    "source": "commons",
@@ -656,8 +656,8 @@
    "license": "CC BY 4.0",
    "author": "Work With Sounds / Torsten Nilsson",
    "length": 133.2,
-   "isolated": false,
-   "notes": "Harbour foghorn used to guide fishing boats home (Work With Sounds / Torsten Nilsson), 133 s."
+   "isolated": true,
+   "notes": "Harbour foghorn used to guide fishing boats home (Work With Sounds / Torsten Nilsson). Double blast 2.5-10.5 s (checked: 2.6-4.5 s and 5.9-10.4 s, strongly tonal), repeated at 62 s and 122 s with near-silence between."
   }
  ],
  "gong": [
@@ -839,7 +839,7 @@
    "author": "Wodencafe (Lingua Libre)",
    "length": 0.7,
    "isolated": true,
-   "notes": "Lingua Libre recording of 'ugh' (CC0), 0.7 s - a short groan-like interjection, said as a word."
+   "notes": "Lingua Libre recording of 'ugh' (CC0): one 'ugh' 0.1-0.6 s (checked) - a short groan-like interjection, said as a word."
   },
   {
    "source": "commons",

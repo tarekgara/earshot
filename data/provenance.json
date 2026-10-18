@@ -548,6 +548,86 @@
    "credit": "Wildgruber D, Szameitat D, Ethofer T, Bruck C, Alter K, Grodd W, Kreifelts B (Wikimedia Commons)"
   }
  ],
+ "scoff/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:LL-Q150 (fra)-Jules78120-pfff.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-Jules78120-pfff.wav",
+   "license": "CC0",
+   "author": "Speaker: Jules78120; Recorder: Jules78120",
+   "excerpt": "0.1-1.1s",
+   "credit": "Speaker: Jules78120; Recorder: Jules78120 (Wikimedia Commons)"
+  }
+ ],
+ "scoff/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Harrumphing.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Harrumphing.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Jeuwre",
+   "excerpt": "0.0-1.2s",
+   "credit": "Jeuwre (Wikimedia Commons)"
+  }
+ ],
+ "scoff/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:LL-Q150 (fra)-Mecanautes-pfff.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-Mecanautes-pfff.wav",
+   "license": "CC0",
+   "author": "Speaker: Mecanautes; Recorder: Mecanautes",
+   "excerpt": "0.0-1.1s",
+   "credit": "Speaker: Mecanautes; Recorder: Mecanautes (Wikimedia Commons)"
+  }
+ ],
+ "scoff/speech": [
+  {
+   "source": "commons",
+   "file": "File:LL-Q150 (fra)-Jules78120-pfff.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-Jules78120-pfff.wav",
+   "license": "CC0",
+   "author": "Speaker: Jules78120; Recorder: Jules78120",
+   "excerpt": "0.1-1.1s",
+   "credit": "Speaker: Jules78120; Recorder: Jules78120 (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "scoff/far": [
+  {
+   "source": "commons",
+   "file": "File:LL-Q150 (fra)-Jules78120-pfff.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-Jules78120-pfff.wav",
+   "license": "CC0",
+   "author": "Speaker: Jules78120; Recorder: Jules78120",
+   "excerpt": "0.1-1.1s",
+   "credit": "Speaker: Jules78120; Recorder: Jules78120 (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "scoff/phone": [
+  {
+   "source": "commons",
+   "file": "File:LL-Q150 (fra)-Jules78120-pfff.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-Jules78120-pfff.wav",
+   "license": "CC0",
+   "author": "Speaker: Jules78120; Recorder: Jules78120",
+   "excerpt": "0.1-1.1s",
+   "credit": "Speaker: Jules78120; Recorder: Jules78120 (Wikimedia Commons)"
+  }
+ ],
  "snort/ex-1": [
   {
    "source": "commons",
@@ -766,6 +846,17 @@
    "credit": "Nocturnal_Vanguard"
   }
  ],
+ "groan/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Frustration.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Frustration.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "0.8-5.0s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
  "groan/speech": [
   {
    "source": "url",
@@ -811,6 +902,86 @@
    "author": "Nocturnal_Vanguard",
    "excerpt": "3.6-7.6s",
    "credit": "Nocturnal_Vanguard"
+  }
+ ],
+ "moan/ex-1": [
+  {
+   "source": "zip",
+   "file": "undead-1.ogg",
+   "url": "https://opengameart.org/content/undead-moans",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "excerpt": "0.1-2.3s",
+   "credit": "AntumDeluge"
+  }
+ ],
+ "moan/ex-2": [
+  {
+   "source": "zip",
+   "file": "undead-3.ogg",
+   "url": "https://opengameart.org/content/undead-moans",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "excerpt": "0.2-2.0s",
+   "credit": "AntumDeluge"
+  }
+ ],
+ "moan/ex-3": [
+  {
+   "source": "url",
+   "file": "moan.wav",
+   "url": "https://opengameart.org/content/various-sound-effects-0",
+   "license": "CC0",
+   "author": "Spring Spring",
+   "excerpt": "0.0-1.6s",
+   "credit": "Spring Spring"
+  }
+ ],
+ "moan/speech": [
+  {
+   "source": "zip",
+   "file": "undead-1.ogg",
+   "url": "https://opengameart.org/content/undead-moans",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "excerpt": "0.1-2.3s",
+   "credit": "AntumDeluge"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "moan/far": [
+  {
+   "source": "zip",
+   "file": "undead-1.ogg",
+   "url": "https://opengameart.org/content/undead-moans",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "excerpt": "0.1-2.3s",
+   "credit": "AntumDeluge"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "moan/phone": [
+  {
+   "source": "zip",
+   "file": "undead-1.ogg",
+   "url": "https://opengameart.org/content/undead-moans",
+   "license": "CC0",
+   "author": "AntumDeluge",
+   "excerpt": "0.1-2.3s",
+   "credit": "AntumDeluge"
   }
  ],
  "grunt/ex-1": [
@@ -1680,6 +1851,17 @@
    "author": "OwlishMedia",
    "excerpt": "0.0-0.5s",
    "credit": "OwlishMedia"
+  }
+ ],
+ "shush/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:De-pscht.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:De-pscht.ogg",
+   "license": "CC BY-SA 4.0",
+   "author": "Jeuwre",
+   "excerpt": "0.3-1.2s",
+   "credit": "Jeuwre (Wikimedia Commons)"
   }
  ],
  "shush/speech": [
@@ -3067,6 +3249,64 @@
    "credit": "Yhos- (Wikimedia Commons)"
   }
  ],
+ "booing/ex-1": [
+  {
+   "source": "url",
+   "file": "20160926nachbarnbuhenbaergidaaus.mp3",
+   "url": "https://archive.org/details/aporee_33572_38625",
+   "license": "Public Domain Mark 1.0",
+   "author": "colaboradio",
+   "excerpt": "1.0-9.0s",
+   "credit": "colaboradio"
+  }
+ ],
+ "booing/speech": [
+  {
+   "source": "url",
+   "file": "20160926nachbarnbuhenbaergidaaus.mp3",
+   "url": "https://archive.org/details/aporee_33572_38625",
+   "license": "Public Domain Mark 1.0",
+   "author": "colaboradio",
+   "excerpt": "1.0-9.0s",
+   "credit": "colaboradio"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "booing/far": [
+  {
+   "source": "url",
+   "file": "20160926nachbarnbuhenbaergidaaus.mp3",
+   "url": "https://archive.org/details/aporee_33572_38625",
+   "license": "Public Domain Mark 1.0",
+   "author": "colaboradio",
+   "excerpt": "1.0-9.0s",
+   "credit": "colaboradio"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "booing/phone": [
+  {
+   "source": "url",
+   "file": "20160926nachbarnbuhenbaergidaaus.mp3",
+   "url": "https://archive.org/details/aporee_33572_38625",
+   "license": "Public Domain Mark 1.0",
+   "author": "colaboradio",
+   "excerpt": "1.0-9.0s",
+   "credit": "colaboradio"
+  }
+ ],
  "bark/ex-1": [
   {
    "source": "commons",
@@ -3294,6 +3534,75 @@
    "author": "Frey R, Volodin I, Fritsch G, Volodina E",
    "excerpt": "0.0-3.1s",
    "credit": "Frey R, Volodin I, Fritsch G, Volodina E (Wikimedia Commons)"
+  }
+ ],
+ "dog-pant/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Irish Wolfhound mix, panting.ogv",
+   "url": "https://commons.wikimedia.org/wiki/File:Irish_Wolfhound_mix,_panting.ogv",
+   "license": "CC BY-SA 3.0",
+   "author": "Sage Ross",
+   "excerpt": "41.5-49.5s",
+   "credit": "Sage Ross (Wikimedia Commons)"
+  }
+ ],
+ "dog-pant/ex-2": [
+  {
+   "source": "url",
+   "file": "ANMLDog_Jasper%20Panting_The%20Designer%27s%20Choice_GNRL1.wav",
+   "url": "https://archive.org/details/Designers-Choice-Collection-Animals",
+   "license": "CC0",
+   "author": "Nicholas A. Judy (The Designer's Choice)",
+   "excerpt": "0.0-1.9s",
+   "credit": "Nicholas A. Judy (The Designer's Choice)"
+  }
+ ],
+ "dog-pant/speech": [
+  {
+   "source": "commons",
+   "file": "File:Irish Wolfhound mix, panting.ogv",
+   "url": "https://commons.wikimedia.org/wiki/File:Irish_Wolfhound_mix,_panting.ogv",
+   "license": "CC BY-SA 3.0",
+   "author": "Sage Ross",
+   "excerpt": "41.5-49.5s",
+   "credit": "Sage Ross (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "dog-pant/far": [
+  {
+   "source": "commons",
+   "file": "File:Irish Wolfhound mix, panting.ogv",
+   "url": "https://commons.wikimedia.org/wiki/File:Irish_Wolfhound_mix,_panting.ogv",
+   "license": "CC BY-SA 3.0",
+   "author": "Sage Ross",
+   "excerpt": "41.5-49.5s",
+   "credit": "Sage Ross (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dog-pant/phone": [
+  {
+   "source": "commons",
+   "file": "File:Irish Wolfhound mix, panting.ogv",
+   "url": "https://commons.wikimedia.org/wiki/File:Irish_Wolfhound_mix,_panting.ogv",
+   "license": "CC BY-SA 3.0",
+   "author": "Sage Ross",
+   "excerpt": "41.5-49.5s",
+   "credit": "Sage Ross (Wikimedia Commons)"
   }
  ],
  "cat-meow/ex-1": [
@@ -4885,6 +5194,28 @@
    "credit": "reinsamba (Wikimedia Commons)"
   }
  ],
+ "bees/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Bombus buzz.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Bombus_buzz.ogg",
+   "license": "Public domain",
+   "author": "Mysid",
+   "excerpt": "1.2-9.2s",
+   "credit": "Mysid (Wikimedia Commons)"
+  }
+ ],
+ "bees/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Honeybee-hive.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Honeybee-hive.ogg",
+   "license": "CC0",
+   "author": "Skinkie",
+   "excerpt": "1.1-9.1s",
+   "credit": "Skinkie (Wikimedia Commons)"
+  }
+ ],
  "bees/speech": [
   {
    "source": "commons",
@@ -4941,6 +5272,17 @@
    "author": "Luisalvaz",
    "excerpt": "18.3-24.3s",
    "credit": "Luisalvaz (Wikimedia Commons)"
+  }
+ ],
+ "fly/ex-2": [
+  {
+   "source": "url",
+   "file": "housefliesinatrapforestgarden1443EDIT2462024MIXPRE1251.wav",
+   "url": "https://archive.org/details/aporee_62024_74718",
+   "license": "CC BY 3.0",
+   "author": "Sophie Standford",
+   "excerpt": "35.0-43.0s",
+   "credit": "Sophie Standford"
   }
  ],
  "fly/speech": [
@@ -5208,6 +5550,17 @@
    "credit": "தகவலுழவன் (Wikimedia Commons)"
   }
  ],
+ "elephant/ex-2": [
+  {
+   "source": "url",
+   "file": "Tulielephants2008.mp3",
+   "url": "https://archive.org/details/aporee_7693_9441",
+   "license": "CC BY-SA 3.0",
+   "author": "soundz",
+   "excerpt": "41.0-47.0s",
+   "credit": "soundz"
+  }
+ ],
  "elephant/speech": [
   {
    "source": "commons",
@@ -5253,6 +5606,86 @@
    "author": "தகவலுழவன்",
    "excerpt": "0.0-1.4s",
    "credit": "தகவலுழவன் (Wikimedia Commons)"
+  }
+ ],
+ "seal/ex-1": [
+  {
+   "source": "url",
+   "file": "LoboMarinoCaletaPortalesBIS.mp3",
+   "url": "https://archive.org/details/aporee_37576_43021",
+   "license": "Public Domain Mark 1.0",
+   "author": "Felix Blume",
+   "excerpt": "0.0-8.0s",
+   "credit": "Felix Blume"
+  }
+ ],
+ "seal/ex-2": [
+  {
+   "source": "url",
+   "file": "sealionsboatsnarrows914.wav",
+   "url": "https://archive.org/details/aporee_69662_81117",
+   "license": "Public Domain Mark 1.0",
+   "author": "isaiahbowenkarlyn",
+   "excerpt": "22.0-30.0s",
+   "credit": "isaiahbowenkarlyn"
+  }
+ ],
+ "seal/ex-3": [
+  {
+   "source": "url",
+   "file": "0011257SealionsNewportedit.mp3",
+   "url": "https://archive.org/details/aporee_65238_75337",
+   "license": "Public Domain Mark 1.0",
+   "author": "Peter Cusack",
+   "excerpt": "454.8-462.8s",
+   "credit": "Peter Cusack"
+  }
+ ],
+ "seal/speech": [
+  {
+   "source": "url",
+   "file": "LoboMarinoCaletaPortalesBIS.mp3",
+   "url": "https://archive.org/details/aporee_37576_43021",
+   "license": "Public Domain Mark 1.0",
+   "author": "Felix Blume",
+   "excerpt": "0.0-8.0s",
+   "credit": "Felix Blume"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "seal/far": [
+  {
+   "source": "url",
+   "file": "LoboMarinoCaletaPortalesBIS.mp3",
+   "url": "https://archive.org/details/aporee_37576_43021",
+   "license": "Public Domain Mark 1.0",
+   "author": "Felix Blume",
+   "excerpt": "0.0-8.0s",
+   "credit": "Felix Blume"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "seal/phone": [
+  {
+   "source": "url",
+   "file": "LoboMarinoCaletaPortalesBIS.mp3",
+   "url": "https://archive.org/details/aporee_37576_43021",
+   "license": "Public Domain Mark 1.0",
+   "author": "Felix Blume",
+   "excerpt": "0.0-8.0s",
+   "credit": "Felix Blume"
   }
  ],
  "rain/ex-1": [
@@ -6364,6 +6797,133 @@
    "credit": "Secretlondon (Wikimedia Commons)"
   }
  ],
+ "shower/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Shower.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Shower.ogg",
+   "license": "Public domain",
+   "author": "natalie",
+   "excerpt": "3.0-11.0s",
+   "credit": "natalie (Wikimedia Commons)"
+  }
+ ],
+ "shower/speech": [
+  {
+   "source": "commons",
+   "file": "File:Shower.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Shower.ogg",
+   "license": "Public domain",
+   "author": "natalie",
+   "excerpt": "3.0-11.0s",
+   "credit": "natalie (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "shower/far": [
+  {
+   "source": "commons",
+   "file": "File:Shower.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Shower.ogg",
+   "license": "Public domain",
+   "author": "natalie",
+   "excerpt": "3.0-11.0s",
+   "credit": "natalie (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "shower/phone": [
+  {
+   "source": "commons",
+   "file": "File:Shower.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Shower.ogg",
+   "license": "Public domain",
+   "author": "natalie",
+   "excerpt": "3.0-11.0s",
+   "credit": "natalie (Wikimedia Commons)"
+  }
+ ],
+ "pour/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Pouring wine.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Pouring_wine.ogg",
+   "license": "Public domain",
+   "author": "cori",
+   "excerpt": "4.7-10.0s",
+   "credit": "cori (Wikimedia Commons)"
+  }
+ ],
+ "pour/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Pouring water in mug in sink.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Pouring_water_in_mug_in_sink.ogg",
+   "license": "Public domain",
+   "author": "earthcalling",
+   "excerpt": "13.2-17.1s",
+   "credit": "earthcalling (Wikimedia Commons)"
+  }
+ ],
+ "pour/speech": [
+  {
+   "source": "commons",
+   "file": "File:Pouring wine.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Pouring_wine.ogg",
+   "license": "Public domain",
+   "author": "cori",
+   "excerpt": "4.7-10.0s",
+   "credit": "cori (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "pour/far": [
+  {
+   "source": "commons",
+   "file": "File:Pouring wine.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Pouring_wine.ogg",
+   "license": "Public domain",
+   "author": "cori",
+   "excerpt": "4.7-10.0s",
+   "credit": "cori (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "pour/phone": [
+  {
+   "source": "commons",
+   "file": "File:Pouring wine.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Pouring_wine.ogg",
+   "license": "Public domain",
+   "author": "cori",
+   "excerpt": "4.7-10.0s",
+   "credit": "cori (Wikimedia Commons)"
+  }
+ ],
  "toilet-flush/ex-1": [
   {
    "source": "commons",
@@ -6604,6 +7164,86 @@
    "credit": "Secretlondon (Wikimedia Commons)"
   }
  ],
+ "frying/ex-1": [
+  {
+   "source": "url",
+   "file": "fryingpan01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "10.0-18.0s",
+   "credit": "bretbernhoft"
+  }
+ ],
+ "frying/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Sauteing leeks.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Sauteing_leeks.ogg",
+   "license": "Public domain",
+   "author": "hugh",
+   "excerpt": "1.1-9.1s",
+   "credit": "hugh (Wikimedia Commons)"
+  }
+ ],
+ "frying/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Frying fries going in and out of oil.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Frying_fries_going_in_and_out_of_oil.ogg",
+   "license": "Public domain",
+   "author": "ezwa",
+   "excerpt": "2.4-9.5s",
+   "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "frying/speech": [
+  {
+   "source": "url",
+   "file": "fryingpan01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "10.0-18.0s",
+   "credit": "bretbernhoft"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "frying/far": [
+  {
+   "source": "url",
+   "file": "fryingpan01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "10.0-18.0s",
+   "credit": "bretbernhoft"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "frying/phone": [
+  {
+   "source": "url",
+   "file": "fryingpan01.wav",
+   "url": "https://opengameart.org/content/general-household-sound-effects",
+   "license": "CC0",
+   "author": "bretbernhoft",
+   "excerpt": "10.0-18.0s",
+   "credit": "bretbernhoft"
+  }
+ ],
  "vacuum/ex-1": [
   {
    "source": "url",
@@ -6671,6 +7311,75 @@
    "author": "bretbernhoft",
    "excerpt": "20.8-26.8s",
    "credit": "bretbernhoft"
+  }
+ ],
+ "hairdryer/ex-1": [
+  {
+   "source": "url",
+   "file": "Blow%20dryer%201%20D.D.%20Teoli%20Jr..mp3",
+   "url": "https://archive.org/details/BlowDryer1D.D.TeoliJr.",
+   "license": "Public Domain Mark 1.0",
+   "author": "D.D. Teoli Jr.",
+   "excerpt": "4.0-12.0s",
+   "credit": "D.D. Teoli Jr."
+  }
+ ],
+ "hairdryer/ex-2": [
+  {
+   "source": "url",
+   "file": "Blow%20dryer%202%20D.D.%20Teoli%20Jr..mp3",
+   "url": "https://archive.org/details/BlowDryer1D.D.TeoliJr.",
+   "license": "Public Domain Mark 1.0",
+   "author": "D.D. Teoli Jr.",
+   "excerpt": "1.0-9.0s",
+   "credit": "D.D. Teoli Jr."
+  }
+ ],
+ "hairdryer/speech": [
+  {
+   "source": "url",
+   "file": "Blow%20dryer%201%20D.D.%20Teoli%20Jr..mp3",
+   "url": "https://archive.org/details/BlowDryer1D.D.TeoliJr.",
+   "license": "Public Domain Mark 1.0",
+   "author": "D.D. Teoli Jr.",
+   "excerpt": "4.0-12.0s",
+   "credit": "D.D. Teoli Jr."
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "hairdryer/far": [
+  {
+   "source": "url",
+   "file": "Blow%20dryer%201%20D.D.%20Teoli%20Jr..mp3",
+   "url": "https://archive.org/details/BlowDryer1D.D.TeoliJr.",
+   "license": "Public Domain Mark 1.0",
+   "author": "D.D. Teoli Jr.",
+   "excerpt": "4.0-12.0s",
+   "credit": "D.D. Teoli Jr."
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "hairdryer/phone": [
+  {
+   "source": "url",
+   "file": "Blow%20dryer%201%20D.D.%20Teoli%20Jr..mp3",
+   "url": "https://archive.org/details/BlowDryer1D.D.TeoliJr.",
+   "license": "Public Domain Mark 1.0",
+   "author": "D.D. Teoli Jr.",
+   "excerpt": "4.0-12.0s",
+   "credit": "D.D. Teoli Jr."
   }
  ],
  "blender/ex-1": [
@@ -6820,6 +7529,75 @@
    "author": "ezwa",
    "excerpt": "1.0-7.0s",
    "credit": "ezwa (Wikimedia Commons)"
+  }
+ ],
+ "dishwasher/ex-1": [
+  {
+   "source": "url",
+   "file": "szer.mp3",
+   "url": "https://archive.org/details/aporee_14738_46150",
+   "license": "Public Domain Mark 1.0",
+   "author": "maciej janasik",
+   "excerpt": "7.6-15.6s",
+   "credit": "maciej janasik"
+  }
+ ],
+ "dishwasher/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Dishwasher end droning hissing humming.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Dishwasher_end_droning_hissing_humming.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "5.0-13.0s",
+   "credit": "stephan (Wikimedia Commons)"
+  }
+ ],
+ "dishwasher/speech": [
+  {
+   "source": "url",
+   "file": "szer.mp3",
+   "url": "https://archive.org/details/aporee_14738_46150",
+   "license": "Public Domain Mark 1.0",
+   "author": "maciej janasik",
+   "excerpt": "7.6-15.6s",
+   "credit": "maciej janasik"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "dishwasher/far": [
+  {
+   "source": "url",
+   "file": "szer.mp3",
+   "url": "https://archive.org/details/aporee_14738_46150",
+   "license": "Public Domain Mark 1.0",
+   "author": "maciej janasik",
+   "excerpt": "7.6-15.6s",
+   "credit": "maciej janasik"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dishwasher/phone": [
+  {
+   "source": "url",
+   "file": "szer.mp3",
+   "url": "https://archive.org/details/aporee_14738_46150",
+   "license": "Public Domain Mark 1.0",
+   "author": "maciej janasik",
+   "excerpt": "7.6-15.6s",
+   "credit": "maciej janasik"
   }
  ],
  "clock-tick/ex-1": [
@@ -7204,6 +7982,17 @@
    "license": "CC0",
    "author": "OwlishMedia",
    "excerpt": "4.5-10.5s",
+   "credit": "OwlishMedia"
+  }
+ ],
+ "phone-vibrate/ex-2": [
+  {
+   "source": "zip",
+   "file": "Phone/Phone3.wav",
+   "url": "https://opengameart.org/content/202-more-sound-effects",
+   "license": "CC0",
+   "author": "OwlishMedia",
+   "excerpt": "6.0-10.6s",
    "credit": "OwlishMedia"
   }
  ],
@@ -7694,6 +8483,133 @@
    "credit": "Work With Sounds / Technical Museum of Slovenia (Wikimedia Commons)"
   }
  ],
+ "tape/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Sticky tape.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Sticky_tape.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "2.6-4.4s",
+   "credit": "stephan (Wikimedia Commons)"
+  }
+ ],
+ "tape/speech": [
+  {
+   "source": "commons",
+   "file": "File:Sticky tape.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Sticky_tape.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "2.6-4.4s",
+   "credit": "stephan (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "tape/far": [
+  {
+   "source": "commons",
+   "file": "File:Sticky tape.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Sticky_tape.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "2.6-4.4s",
+   "credit": "stephan (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "tape/phone": [
+  {
+   "source": "commons",
+   "file": "File:Sticky tape.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Sticky_tape.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "2.6-4.4s",
+   "credit": "stephan (Wikimedia Commons)"
+  }
+ ],
+ "electric-razor/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Elektrorasur-01.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Elektrorasur-01.ogg",
+   "license": "Public domain",
+   "author": "Priwo",
+   "excerpt": "2.0-10.0s",
+   "credit": "Priwo (Wikimedia Commons)"
+  }
+ ],
+ "electric-razor/ex-2": [
+  {
+   "source": "url",
+   "file": "electric_razor.wav",
+   "url": "https://opengameart.org/content/electric-razor-sfx",
+   "license": "CC BY 3.0",
+   "author": "Vinrax",
+   "excerpt": "0.0-5.0s",
+   "credit": "Vinrax"
+  }
+ ],
+ "electric-razor/speech": [
+  {
+   "source": "commons",
+   "file": "File:Elektrorasur-01.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Elektrorasur-01.ogg",
+   "license": "Public domain",
+   "author": "Priwo",
+   "excerpt": "2.0-10.0s",
+   "credit": "Priwo (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "electric-razor/far": [
+  {
+   "source": "commons",
+   "file": "File:Elektrorasur-01.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Elektrorasur-01.ogg",
+   "license": "Public domain",
+   "author": "Priwo",
+   "excerpt": "2.0-10.0s",
+   "credit": "Priwo (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "electric-razor/phone": [
+  {
+   "source": "commons",
+   "file": "File:Elektrorasur-01.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Elektrorasur-01.ogg",
+   "license": "Public domain",
+   "author": "Priwo",
+   "excerpt": "2.0-10.0s",
+   "credit": "Priwo (Wikimedia Commons)"
+  }
+ ],
  "car-idle/ex-1": [
   {
    "source": "commons",
@@ -7854,6 +8770,86 @@
    "credit": "Beeld en Geluid (Wikimedia Commons)"
   }
  ],
+ "traffic/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Ambient sound street traffic Berlin 2026-05-17.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Ambient_sound_street_traffic_Berlin_2026-05-17.oga",
+   "license": "CC BY-SA 4.0",
+   "author": "SchlurcherBot",
+   "excerpt": "14.7-22.6s",
+   "credit": "SchlurcherBot (Wikimedia Commons)"
+  }
+ ],
+ "traffic/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:2023-Mai-20 14h34min Wien innerer Lerchenfelder Gürtel Thaliagasse Nachmittagsverkehr.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:2023-Mai-20_14h34min_Wien_innerer_Lerchenfelder_G%C3%BCrtel_Thaliagasse_Nachmittagsverkehr.wav",
+   "license": "CC BY-SA 4.0",
+   "author": "DrTrumpet",
+   "excerpt": "1.0-9.0s",
+   "credit": "DrTrumpet (Wikimedia Commons)"
+  }
+ ],
+ "traffic/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:141977 lg traffic-karl-liebknechtstrasse-111223.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:141977_lg_traffic-karl-liebknechtstrasse-111223.wav",
+   "license": "CC BY-SA 3.0",
+   "author": "LG",
+   "excerpt": "88.7-96.7s",
+   "credit": "LG (Wikimedia Commons)"
+  }
+ ],
+ "traffic/speech": [
+  {
+   "source": "commons",
+   "file": "File:Ambient sound street traffic Berlin 2026-05-17.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Ambient_sound_street_traffic_Berlin_2026-05-17.oga",
+   "license": "CC BY-SA 4.0",
+   "author": "SchlurcherBot",
+   "excerpt": "14.7-22.6s",
+   "credit": "SchlurcherBot (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "traffic/far": [
+  {
+   "source": "commons",
+   "file": "File:Ambient sound street traffic Berlin 2026-05-17.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Ambient_sound_street_traffic_Berlin_2026-05-17.oga",
+   "license": "CC BY-SA 4.0",
+   "author": "SchlurcherBot",
+   "excerpt": "14.7-22.6s",
+   "credit": "SchlurcherBot (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "traffic/phone": [
+  {
+   "source": "commons",
+   "file": "File:Ambient sound street traffic Berlin 2026-05-17.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:Ambient_sound_street_traffic_Berlin_2026-05-17.oga",
+   "license": "CC BY-SA 4.0",
+   "author": "SchlurcherBot",
+   "excerpt": "14.7-22.6s",
+   "credit": "SchlurcherBot (Wikimedia Commons)"
+  }
+ ],
  "car-horn/ex-1": [
   {
    "source": "commons",
@@ -7932,6 +8928,64 @@
    "author": "15HPanska_Ruttner_Jan",
    "excerpt": "0.0-3.5s",
    "credit": "15HPanska_Ruttner_Jan (Wikimedia Commons)"
+  }
+ ],
+ "car-door/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Parkhaus Einsteigen und wegfahren 01.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Parkhaus_Einsteigen_und_wegfahren_01.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Huhu Uet",
+   "excerpt": "2.6-4.4s",
+   "credit": "Huhu Uet (Wikimedia Commons)"
+  }
+ ],
+ "car-door/speech": [
+  {
+   "source": "commons",
+   "file": "File:Parkhaus Einsteigen und wegfahren 01.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Parkhaus_Einsteigen_und_wegfahren_01.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Huhu Uet",
+   "excerpt": "2.6-4.4s",
+   "credit": "Huhu Uet (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "car-door/far": [
+  {
+   "source": "commons",
+   "file": "File:Parkhaus Einsteigen und wegfahren 01.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Parkhaus_Einsteigen_und_wegfahren_01.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Huhu Uet",
+   "excerpt": "2.6-4.4s",
+   "credit": "Huhu Uet (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "car-door/phone": [
+  {
+   "source": "commons",
+   "file": "File:Parkhaus Einsteigen und wegfahren 01.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Parkhaus_Einsteigen_und_wegfahren_01.ogg",
+   "license": "CC BY-SA 3.0",
+   "author": "Huhu Uet",
+   "excerpt": "2.6-4.4s",
+   "credit": "Huhu Uet (Wikimedia Commons)"
   }
  ],
  "motorcycle/ex-1": [
@@ -8092,6 +9146,155 @@
    "author": "Beeld en Geluid",
    "excerpt": "7.4-13.4s",
    "credit": "Beeld en Geluid (Wikimedia Commons)"
+  }
+ ],
+ "air-brakes/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:WWS CityBusMANSG220dooropeningclosing.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_CityBusMANSG220dooropeningclosing.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "excerpt": "0.2-4.0s",
+   "credit": "Work With Sounds / Technical Museum of Slovenia (Wikimedia Commons)"
+  }
+ ],
+ "air-brakes/ex-2": [
+  {
+   "source": "url",
+   "file": "bus53.mp3",
+   "url": "https://archive.org/details/aporee_19056_22101",
+   "license": "Public Domain Mark 1.0",
+   "author": "maciej janasik",
+   "excerpt": "61.5-67.5s",
+   "credit": "maciej janasik"
+  }
+ ],
+ "air-brakes/speech": [
+  {
+   "source": "commons",
+   "file": "File:WWS CityBusMANSG220dooropeningclosing.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_CityBusMANSG220dooropeningclosing.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "excerpt": "0.2-4.0s",
+   "credit": "Work With Sounds / Technical Museum of Slovenia (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "air-brakes/far": [
+  {
+   "source": "commons",
+   "file": "File:WWS CityBusMANSG220dooropeningclosing.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_CityBusMANSG220dooropeningclosing.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "excerpt": "0.2-4.0s",
+   "credit": "Work With Sounds / Technical Museum of Slovenia (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "air-brakes/phone": [
+  {
+   "source": "commons",
+   "file": "File:WWS CityBusMANSG220dooropeningclosing.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_CityBusMANSG220dooropeningclosing.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "excerpt": "0.2-4.0s",
+   "credit": "Work With Sounds / Technical Museum of Slovenia (Wikimedia Commons)"
+  }
+ ],
+ "air-hiss/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:WWS Thetyreisdeflated.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Thetyreisdeflated.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "excerpt": "50.0-56.0s",
+   "credit": "Work With Sounds / La Fonderie (Wikimedia Commons)"
+  }
+ ],
+ "air-hiss/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:WWS SteamlocomotiveS06-018Steamrelease.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_SteamlocomotiveS06-018Steamrelease.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "excerpt": "40.4-46.4s",
+   "credit": "Work With Sounds / Technical Museum of Slovenia (Wikimedia Commons)"
+  }
+ ],
+ "air-hiss/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Air duster.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Air_duster.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "12.2-18.1s",
+   "credit": "stephan (Wikimedia Commons)"
+  }
+ ],
+ "air-hiss/speech": [
+  {
+   "source": "commons",
+   "file": "File:WWS Thetyreisdeflated.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Thetyreisdeflated.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "excerpt": "50.0-56.0s",
+   "credit": "Work With Sounds / La Fonderie (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "air-hiss/far": [
+  {
+   "source": "commons",
+   "file": "File:WWS Thetyreisdeflated.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Thetyreisdeflated.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "excerpt": "50.0-56.0s",
+   "credit": "Work With Sounds / La Fonderie (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "air-hiss/phone": [
+  {
+   "source": "commons",
+   "file": "File:WWS Thetyreisdeflated.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Thetyreisdeflated.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "excerpt": "50.0-56.0s",
+   "credit": "Work With Sounds / La Fonderie (Wikimedia Commons)"
   }
  ],
  "train/ex-1": [
@@ -8574,6 +9777,64 @@
    "credit": "qubodup (Wikimedia Commons)"
   }
  ],
+ "tire-screech/ex-1": [
+  {
+   "source": "url",
+   "file": "tires_squal_loop.wav",
+   "url": "https://opengameart.org/content/car-tire-squeal-skid-loop",
+   "license": "CC BY 3.0",
+   "author": "qubodup, from a recording by audible-edge (Freesound 71739)",
+   "excerpt": "0.0-3.0s",
+   "credit": "qubodup, from a recording by audible-edge (Freesound 71739)"
+  }
+ ],
+ "tire-screech/speech": [
+  {
+   "source": "url",
+   "file": "tires_squal_loop.wav",
+   "url": "https://opengameart.org/content/car-tire-squeal-skid-loop",
+   "license": "CC BY 3.0",
+   "author": "qubodup, from a recording by audible-edge (Freesound 71739)",
+   "excerpt": "0.0-3.0s",
+   "credit": "qubodup, from a recording by audible-edge (Freesound 71739)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "tire-screech/far": [
+  {
+   "source": "url",
+   "file": "tires_squal_loop.wav",
+   "url": "https://opengameart.org/content/car-tire-squeal-skid-loop",
+   "license": "CC BY 3.0",
+   "author": "qubodup, from a recording by audible-edge (Freesound 71739)",
+   "excerpt": "0.0-3.0s",
+   "credit": "qubodup, from a recording by audible-edge (Freesound 71739)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "tire-screech/phone": [
+  {
+   "source": "url",
+   "file": "tires_squal_loop.wav",
+   "url": "https://opengameart.org/content/car-tire-squeal-skid-loop",
+   "license": "CC BY 3.0",
+   "author": "qubodup, from a recording by audible-edge (Freesound 71739)",
+   "excerpt": "0.0-3.0s",
+   "credit": "qubodup, from a recording by audible-edge (Freesound 71739)"
+  }
+ ],
  "siren/ex-1": [
   {
    "source": "generated",
@@ -9028,6 +10289,86 @@
    "credit": "ezwa (Wikimedia Commons)"
   }
  ],
+ "foghorn/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:WWS Foghorn.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Foghorn.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Torsten Nilsson",
+   "excerpt": "2.3-10.7s",
+   "credit": "Work With Sounds / Torsten Nilsson (Wikimedia Commons)"
+  }
+ ],
+ "foghorn/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:East Brother Light Diaphone Foghorn.oga",
+   "url": "https://commons.wikimedia.org/wiki/File:East_Brother_Light_Diaphone_Foghorn.oga",
+   "license": "CC BY-SA 3.0",
+   "author": "Frank Schulenburg",
+   "excerpt": "5.4-9.4s",
+   "credit": "Frank Schulenburg (Wikimedia Commons)"
+  }
+ ],
+ "foghorn/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:Original foghorn at East Brother Island Lighthouse.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Original_foghorn_at_East_Brother_Island_Lighthouse.ogg",
+   "license": "CC0",
+   "author": "Elwood P. Dowd",
+   "excerpt": "0.2-4.2s",
+   "credit": "Elwood P. Dowd (Wikimedia Commons)"
+  }
+ ],
+ "foghorn/speech": [
+  {
+   "source": "commons",
+   "file": "File:WWS Foghorn.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Foghorn.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Torsten Nilsson",
+   "excerpt": "2.3-10.7s",
+   "credit": "Work With Sounds / Torsten Nilsson (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "foghorn/far": [
+  {
+   "source": "commons",
+   "file": "File:WWS Foghorn.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Foghorn.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Torsten Nilsson",
+   "excerpt": "2.3-10.7s",
+   "credit": "Work With Sounds / Torsten Nilsson (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "foghorn/phone": [
+  {
+   "source": "commons",
+   "file": "File:WWS Foghorn.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Foghorn.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Torsten Nilsson",
+   "excerpt": "2.3-10.7s",
+   "credit": "Work With Sounds / Torsten Nilsson (Wikimedia Commons)"
+  }
+ ],
  "gong/ex-1": [
   {
    "source": "url",
@@ -9052,13 +10393,13 @@
  ],
  "gong/ex-3": [
   {
-   "source": "url",
-   "file": "gong_scrape_mf.wav",
-   "url": "https://github.com/sgossner/VCSL",
-   "license": "CC0-1.0",
-   "author": "Versilian Studios (VCSL)",
-   "excerpt": "0.0-6.0s",
-   "credit": "Versilian Studios (VCSL)"
+   "source": "commons",
+   "file": "File:240382 the-very-real-horst chinese-gong-finish-session-2014-06-10-29-143.wav",
+   "url": "https://commons.wikimedia.org/wiki/File:240382_the-very-real-horst_chinese-gong-finish-session-2014-06-10-29-143.wav",
+   "license": "CC0",
+   "author": "the_very_Real_Horst",
+   "excerpt": "1.0-10.0s",
+   "credit": "the_very_Real_Horst (Wikimedia Commons)"
   }
  ],
  "gong/speech": [
@@ -9177,6 +10518,64 @@
    "credit": "Work With Sounds / Technical Museum of Slovenia (Wikimedia Commons)"
   }
  ],
+ "dentist-drill/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:WWS Dentaldrill.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Dentaldrill.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "excerpt": "28.1-34.0s",
+   "credit": "Work With Sounds / La Fonderie (Wikimedia Commons)"
+  }
+ ],
+ "dentist-drill/speech": [
+  {
+   "source": "commons",
+   "file": "File:WWS Dentaldrill.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Dentaldrill.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "excerpt": "28.1-34.0s",
+   "credit": "Work With Sounds / La Fonderie (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "dentist-drill/far": [
+  {
+   "source": "commons",
+   "file": "File:WWS Dentaldrill.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Dentaldrill.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "excerpt": "28.1-34.0s",
+   "credit": "Work With Sounds / La Fonderie (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "dentist-drill/phone": [
+  {
+   "source": "commons",
+   "file": "File:WWS Dentaldrill.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Dentaldrill.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / La Fonderie",
+   "excerpt": "28.1-34.0s",
+   "credit": "Work With Sounds / La Fonderie (Wikimedia Commons)"
+  }
+ ],
  "hammering/ex-1": [
   {
    "source": "commons",
@@ -9266,6 +10665,28 @@
    "author": "qubodup",
    "excerpt": "64.0-70.0s",
    "credit": "qubodup (Wikimedia Commons)"
+  }
+ ],
+ "handsaw/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:WWS Wheelwrightwoodsaw.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Wheelwrightwoodsaw.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Museum of Municipal Engineering",
+   "excerpt": "24.7-32.7s",
+   "credit": "Work With Sounds / Museum of Municipal Engineering (Wikimedia Commons)"
+  }
+ ],
+ "handsaw/ex-3": [
+  {
+   "source": "commons",
+   "file": "File:WWS Hacksaw8220Lokarica8221.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Hacksaw8220Lokarica8221.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "excerpt": "18.9-26.9s",
+   "credit": "Work With Sounds / Technical Museum of Slovenia (Wikimedia Commons)"
   }
  ],
  "handsaw/speech": [
@@ -9827,6 +11248,86 @@
    "credit": "DrTrumpet (Wikimedia Commons)"
   }
  ],
+ "gun-cock/ex-1": [
+  {
+   "source": "zip",
+   "file": "ShotgunSounds/Rack.mp3",
+   "url": "https://opengameart.org/content/shotgun-reload-sound-effects",
+   "license": "CC0",
+   "author": "zer0_sol",
+   "excerpt": "0.4-1.1s",
+   "credit": "zer0_sol"
+  }
+ ],
+ "gun-cock/ex-2": [
+  {
+   "source": "url",
+   "file": "shotguncock_0.wav",
+   "url": "https://opengameart.org/content/gun-reload-sounds",
+   "license": "CC0",
+   "author": "SpringySpringo",
+   "excerpt": "0.0-0.5s",
+   "credit": "SpringySpringo"
+  }
+ ],
+ "gun-cock/ex-3": [
+  {
+   "source": "url",
+   "file": "reload.wav",
+   "url": "https://opengameart.org/content/handgun-reload-sound-effect",
+   "license": "CC0",
+   "author": "zer0_sol",
+   "excerpt": "0.9-1.6s",
+   "credit": "zer0_sol"
+  }
+ ],
+ "gun-cock/speech": [
+  {
+   "source": "zip",
+   "file": "ShotgunSounds/Rack.mp3",
+   "url": "https://opengameart.org/content/shotgun-reload-sound-effects",
+   "license": "CC0",
+   "author": "zer0_sol",
+   "excerpt": "0.4-1.1s",
+   "credit": "zer0_sol"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "gun-cock/far": [
+  {
+   "source": "zip",
+   "file": "ShotgunSounds/Rack.mp3",
+   "url": "https://opengameart.org/content/shotgun-reload-sound-effects",
+   "license": "CC0",
+   "author": "zer0_sol",
+   "excerpt": "0.4-1.1s",
+   "credit": "zer0_sol"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "gun-cock/phone": [
+  {
+   "source": "zip",
+   "file": "ShotgunSounds/Rack.mp3",
+   "url": "https://opengameart.org/content/shotgun-reload-sound-effects",
+   "license": "CC0",
+   "author": "zer0_sol",
+   "excerpt": "0.4-1.1s",
+   "credit": "zer0_sol"
+  }
+ ],
  "explosion/ex-1": [
   {
    "source": "commons",
@@ -10147,6 +11648,17 @@
    "credit": "Gravity Sound (Wikimedia Commons)"
   }
  ],
+ "splash/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:Bathtub water splashes.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Bathtub_water_splashes.ogg",
+   "license": "Public domain",
+   "author": "gradha",
+   "excerpt": "6.5-13.5s",
+   "credit": "gradha (Wikimedia Commons)"
+  }
+ ],
  "splash/speech": [
   {
    "source": "commons",
@@ -10285,6 +11797,17 @@
    "credit": "Gravity Sound (Wikimedia Commons)"
   }
  ],
+ "crash/ex-2": [
+  {
+   "source": "commons",
+   "file": "File:WWS Emptyingsteelscrapfromatruck.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:WWS_Emptyingsteelscrapfromatruck.ogg",
+   "license": "CC BY 4.0",
+   "author": "Work With Sounds / Technical Museum of Slovenia",
+   "excerpt": "42.0-50.0s",
+   "credit": "Work With Sounds / Technical Museum of Slovenia (Wikimedia Commons)"
+  }
+ ],
  "crash/speech": [
   {
    "source": "commons",
@@ -10330,6 +11853,75 @@
    "author": "Gravity Sound",
    "excerpt": "0.1-4.1s",
    "credit": "Gravity Sound (Wikimedia Commons)"
+  }
+ ],
+ "squeak/ex-1": [
+  {
+   "source": "commons",
+   "file": "File:Rubber squeaking.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Rubber_squeaking.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "0.5-5.3s",
+   "credit": "stephan (Wikimedia Commons)"
+  }
+ ],
+ "squeak/ex-2": [
+  {
+   "source": "zip",
+   "file": "squeak toy/squeak toy - squeak1.wav",
+   "url": "https://opengameart.org/content/squeak-toy-sounds",
+   "license": "CC0",
+   "author": "bart",
+   "excerpt": "0.0-0.8s",
+   "credit": "bart"
+  }
+ ],
+ "squeak/speech": [
+  {
+   "source": "commons",
+   "file": "File:Rubber squeaking.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Rubber_squeaking.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "0.5-5.3s",
+   "credit": "stephan (Wikimedia Commons)"
+  },
+  {
+   "source": "url",
+   "file": "LibriVox readings (two voices)",
+   "url": "https://archive.org/details/short_story_055_1304_librivox",
+   "license": "CC0-1.0",
+   "author": "LibriVox volunteers (Short Story Collection Vol. 055)",
+   "credit": "LibriVox volunteers (Short Story Collection Vol. 055)"
+  }
+ ],
+ "squeak/far": [
+  {
+   "source": "commons",
+   "file": "File:Rubber squeaking.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Rubber_squeaking.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "0.5-5.3s",
+   "credit": "stephan (Wikimedia Commons)"
+  },
+  {
+   "source": "generated",
+   "preset": "distance and room",
+   "license": "CC0-1.0",
+   "credit": "Earshot (generated)"
+  }
+ ],
+ "squeak/phone": [
+  {
+   "source": "commons",
+   "file": "File:Rubber squeaking.ogg",
+   "url": "https://commons.wikimedia.org/wiki/File:Rubber_squeaking.ogg",
+   "license": "Public domain",
+   "author": "stephan",
+   "excerpt": "0.5-5.3s",
+   "credit": "stephan (Wikimedia Commons)"
   }
  ]
 }

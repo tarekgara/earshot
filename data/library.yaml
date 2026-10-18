@@ -242,7 +242,6 @@ sounds:
   - id: scoff
     name: Scoff
     family: voice
-    status: wanted
     sub: Emotional
     aliases: [pff, pfft, snort laugh, derisive laugh]
     traits: { source: voice, shape: [once], tone: [airy], pitched: "no", register: [mid] }
@@ -253,6 +252,10 @@ sounds:
       - { id: sigh, cue: "A sigh is long and slow; a scoff is instant." }
       - { id: chuckle, cue: "A chuckle is voiced and repeats." }
       - { id: sniff, cue: "A sniff goes inward." }
+    samples:
+      - {"src": "commons", "file": "File:LL-Q150 (fra)-Jules78120-pfff.wav", "label": "Recording 1", "start": 0.1, "dur": 1.0}
+      - {"src": "commons", "file": "File:Harrumphing.ogg", "label": "Recording 2", "start": 0.0, "dur": 1.2}
+      - {"src": "commons", "file": "File:LL-Q150 (fra)-Mecanautes-pfff.wav", "label": "Recording 3", "start": 0.0, "dur": 1.1}
   - id: snort
     name: Snort
     family: voice
@@ -311,12 +314,12 @@ sounds:
       - { id: grunt, cue: "A grunt is short and clipped." }
       - { id: sigh, cue: "A sigh is mostly breath, not voice." }
     samples:
-      - {"src": "url", "url": "https://opengameart.org/sites/default/files/female_hurt_grunts_groans_1.ogg", "page": "https://opengameart.org/content/female-hurt-grunts-groans", "license": "CC0", "author": "Nocturnal_Vanguard", "label": "Recording 3"}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/female_hurt_grunts_groans_1.ogg", "page": "https://opengameart.org/content/female-hurt-grunts-groans", "license": "CC0", "author": "Nocturnal_Vanguard", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Frustration.ogg", "label": "Recording 2", "start": 0.8, "dur": 4.2}
 
   - id: moan
     name: Moan
     family: voice
-    status: wanted
     sub: Emotional
     traits: { source: voice, shape: [once, irregular], tone: [voiced], pitched: "yes", register: [low, mid] }
     summary: A long, low, wavering voiced sound, usually of pain or discomfort.
@@ -324,6 +327,10 @@ sounds:
     confusions:
       - { id: groan, cue: "A groan is rougher and more annoyed." }
       - { id: hum, cue: "Humming follows a tune." }
+    samples:
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/undead-moans.zip", "inner": "undead-1.ogg", "page": "https://opengameart.org/content/undead-moans", "license": "CC0", "author": "AntumDeluge", "label": "Recording 1", "start": 0.1, "dur": 2.2}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/undead-moans.zip", "inner": "undead-3.ogg", "page": "https://opengameart.org/content/undead-moans", "license": "CC0", "author": "AntumDeluge", "label": "Recording 2", "start": 0.2, "dur": 1.8}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/moan.wav", "page": "https://opengameart.org/content/various-sound-effects-0", "license": "CC0", "author": "Spring Spring", "label": "Recording 3", "start": 0.0, "dur": 1.6}
   - id: grunt
     name: Grunt
     family: voice
@@ -522,6 +529,7 @@ sounds:
       - { id: wind, cue: "Wind rises and falls slowly." }
     samples:
       - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Human/shh1.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:De-pscht.ogg", "label": "Recording 2", "start": 0.3, "dur": 0.9}
 
   - id: tongue-click
     name: Tongue click
@@ -800,7 +808,6 @@ sounds:
   - id: booing
     name: Booing
     family: body
-    status: wanted
     sub: Crowd
     traits: { source: body, shape: [steady], tone: [voiced], pitched: "yes", register: [low] }
     summary: A crowd voicing disapproval with a long, low "boooo".
@@ -808,6 +815,8 @@ sounds:
     confusions:
       - { id: cheering, cue: "Cheering is higher and brighter." }
       - { id: wind, cue: "Wind howling has no voices in it." }
+    samples:
+      - {"src": "url", "url": "https://archive.org/download/aporee_33572_38625/20160926nachbarnbuhenbaergidaaus.mp3", "page": "https://archive.org/details/aporee_33572_38625", "license": "Public Domain Mark 1.0", "author": "colaboradio", "label": "Recording 1", "start": 1.0, "dur": 8.0}
 
   # ---------------------------------------------------------------- animals
   - id: bark
@@ -869,6 +878,9 @@ sounds:
     confusions:
       - { id: panting, cue: "A person pants slower and deeper." }
       - { id: train, cue: "A steam train chuffs in a slower rhythm." }
+    samples:
+      - {"src": "commons", "file": "File:Irish Wolfhound mix, panting.ogv", "label": "Recording 1", "dur": 8.0}
+      - {"src": "url", "url": "https://archive.org/download/Designers-Choice-Collection-Animals/ANIMALS/DOG/ANMLDog_Jasper%20Panting_The%20Designer%27s%20Choice_GNRL1.wav", "page": "https://archive.org/details/Designers-Choice-Collection-Animals", "license": "CC0", "author": "Nicholas A. Judy (The Designer's Choice)", "label": "Recording 2", "start": 0.0, "dur": 1.9}
 
   - id: cat-meow
     name: Cat meowing
@@ -1208,6 +1220,8 @@ sounds:
       - { id: drill, cue: "A drill is a harder, mechanical whine." }
     samples:
       - {"src": "commons", "file": "File:Bee sounds near Cologne, Germany - reinsamba.wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Bombus buzz.ogg", "label": "Recording 2", "dur": 8.0}
+      - {"src": "commons", "file": "File:Honeybee-hive.ogg", "label": "Recording 3", "dur": 8.0}
 
   - id: fly
     name: Fly buzzing
@@ -1222,6 +1236,7 @@ sounds:
       - { id: bees, cue: "Bees are many, a steady drone." }
     samples:
       - {"src": "commons", "file": "File:Zumbido de mosca doméstica.ogg", "label": "Recording 1"}
+      - {"src": "url", "url": "https://archive.org/download/aporee_62024_74718/housefliesinatrapforestgarden1443EDIT2462024MIXPRE1251.wav", "page": "https://archive.org/details/aporee_62024_74718", "license": "CC BY 3.0", "author": "Sophie Standford", "label": "Recording 2", "dur": 8.0}
 
   - id: mosquito
     name: Mosquito
@@ -1281,18 +1296,22 @@ sounds:
       - { id: goose, cue: "A goose is smaller and repeats." }
     samples:
       - {"src": "commons", "file": "File:Elephant voice - trumpeting.ogg", "label": "Recording 1"}
+      - {"src": "url", "url": "https://archive.org/download/aporee_7693_9441/Tulielephants2008.mp3", "page": "https://archive.org/details/aporee_7693_9441", "license": "CC BY-SA 3.0", "author": "soundz", "label": "Recording 2", "start": 41.0, "dur": 6.0}
 
   - id: seal
     name: Sea lion barking
     family: animals
     sub: Wild
     aliases: [sea lion]
-    status: wanted
     traits: { source: animal, shape: [repeats], tone: [rough, voiced], pitched: "yes", register: [mid] }
     summary: A sea lion's honking bark.
     listen: ["Rough, honking barks"]
     confusions:
       - { id: bark, cue: "A dog's bark is cleaner and punchier." }
+    samples:
+      - {"src": "url", "url": "https://archive.org/download/aporee_37576_43021/LoboMarinoCaletaPortalesBIS.mp3", "page": "https://archive.org/details/aporee_37576_43021", "license": "Public Domain Mark 1.0", "author": "Felix Blume", "label": "Recording 1", "start": 0.0, "dur": 8.0}
+      - {"src": "url", "url": "https://archive.org/download/aporee_69662_81117/sealionsboatsnarrows914.wav", "page": "https://archive.org/details/aporee_69662_81117", "license": "Public Domain Mark 1.0", "author": "isaiahbowenkarlyn", "label": "Recording 2", "start": 22.0, "dur": 8.0}
+      - {"src": "url", "url": "https://archive.org/download/aporee_65238_75337/0011257SealionsNewportedit.mp3", "page": "https://archive.org/details/aporee_65238_75337", "license": "Public Domain Mark 1.0", "author": "Peter Cusack", "label": "Recording 3", "dur": 8.0}
 
   - id: snake
     name: Snake hissing
@@ -1548,13 +1567,14 @@ sounds:
     name: Shower
     family: home
     sub: Water
-    status: wanted
     traits: { source: object, shape: [steady], tone: [watery, airy], pitched: "no", register: [mid, high] }
     summary: A shower running in a tiled bathroom.
     listen: ["A dense spray hiss with a hollow room sound"]
     confusions:
       - { id: rain, cue: "Rain is outdoors, without the tiled echo." }
       - { id: tap-water, cue: "A tap is one narrower stream." }
+    samples:
+      - {"src": "commons", "file": "File:Shower.ogg", "label": "Recording 1", "start": 3.0, "dur": 8.0}
 
   - id: pour
     name: Pouring liquid
@@ -1567,6 +1587,9 @@ sounds:
     confusions:
       - { id: tap-water, cue: "A tap runs steadily with no rising pitch." }
       - { id: drinking, cue: "Drinking is gulps in a throat." }
+    samples:
+      - {"src": "commons", "file": "File:Pouring wine.ogg", "label": "Recording 1", "start": 4.7, "dur": 5.3}
+      - {"src": "commons", "file": "File:Pouring water in mug in sink.ogg", "label": "Recording 2"}
 
   - id: toilet-flush
     name: Toilet flushing
@@ -1629,6 +1652,10 @@ sounds:
       - { id: rain, cue: "Rain is softer and lower." }
       - { id: applause, cue: "Applause has individual claps and fades." }
       - { id: fire, cue: "Fire pops less often, with a soft roar." }
+    samples:
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/fryingpan01.wav", "page": "https://opengameart.org/content/general-household-sound-effects", "license": "CC0", "author": "bretbernhoft", "label": "Recording 1", "start": 10.0, "dur": 8.0}
+      - {"src": "commons", "file": "File:Sauteing leeks.ogg", "label": "Recording 2", "dur": 8.0}
+      - {"src": "commons", "file": "File:Frying fries going in and out of oil.ogg", "label": "Recording 3", "start": 2.4, "dur": 7.1}
 
   - id: vacuum
     name: Vacuum cleaner
@@ -1650,12 +1677,14 @@ sounds:
     name: Hairdryer
     family: home
     sub: Appliances
-    status: wanted
     traits: { source: machine, shape: [steady], tone: [drone, airy], pitched: "yes", register: [high] }
     summary: A small motor blowing hot air, a steady whine and whoosh.
     listen: ["A steady high whine and rush of air"]
     confusions:
       - { id: vacuum, cue: "A vacuum is louder and changes as it moves." }
+    samples:
+      - {"src": "url", "url": "https://archive.org/download/BlowDryer1D.D.TeoliJr./Blow%20dryer%201%20D.D.%20Teoli%20Jr..mp3", "page": "https://archive.org/details/BlowDryer1D.D.TeoliJr.", "license": "Public Domain Mark 1.0", "author": "D.D. Teoli Jr.", "label": "Recording 1", "start": 4.0, "dur": 8.0}
+      - {"src": "url", "url": "https://archive.org/download/BlowDryer1D.D.TeoliJr./Blow%20dryer%202%20D.D.%20Teoli%20Jr..mp3", "page": "https://archive.org/details/BlowDryer1D.D.TeoliJr.", "license": "Public Domain Mark 1.0", "author": "D.D. Teoli Jr.", "label": "Recording 2", "dur": 8.0}
 
   - id: blender
     name: Blender
@@ -1692,12 +1721,14 @@ sounds:
     name: Dishwasher
     family: home
     sub: Appliances
-    status: wanted
     traits: { source: machine, shape: [steady], tone: [watery, drone], pitched: "no", register: [mid] }
     summary: Water spraying inside a closed box, with a pump hum.
     listen: ["A muffled spraying swish"]
     confusions:
       - { id: washing-machine, cue: "A washing machine sloshes and spins." }
+    samples:
+      - {"src": "url", "url": "https://archive.org/download/aporee_14738_46150/szer.mp3", "page": "https://archive.org/details/aporee_14738_46150", "license": "Public Domain Mark 1.0", "author": "maciej janasik", "label": "Recording 1", "dur": 8.0}
+      - {"src": "commons", "file": "File:Dishwasher end droning hissing humming.ogg", "label": "Recording 2", "start": 5.0, "dur": 8.0}
 
   - id: clock-tick
     name: Clock ticking
@@ -1793,6 +1824,7 @@ sounds:
       - { id: electric-razor, cue: "A razor buzzes steadily." }
     samples:
       - {"src": "zip", "url": "https://opengameart.org/sites/default/files/Owlish%20Media%20Sound%20Effects.zip", "inner": "Technology/Phone_vibrate.wav", "page": "https://opengameart.org/content/sound-effects-pack", "license": "CC0", "author": "OwlishMedia", "label": "Recording 1"}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/MoreSounds.zip", "inner": "Phone/Phone3.wav", "page": "https://opengameart.org/content/202-more-sound-effects", "license": "CC0", "author": "OwlishMedia", "label": "Recording 2", "start": 6.0, "dur": 4.6}
 
   - id: notification
     name: Notification sound
@@ -1893,23 +1925,26 @@ sounds:
     name: Packing tape
     family: home
     sub: Small objects
-    status: wanted
     traits: { source: object, shape: [once], tone: [creak], pitched: "no", register: [high] }
     summary: Tape pulled off a roll. A loud, sticky screech.
     listen: ["A loud, ripping screech"]
     confusions:
       - { id: zipper, cue: "A zip is shorter and ratchety." }
+    samples:
+      - {"src": "commons", "file": "File:Sticky tape.ogg", "label": "Recording 1", "start": 2.6, "dur": 1.8}
 
   - id: electric-razor
     name: Electric razor
     family: home
     sub: Appliances
-    status: wanted
     traits: { source: machine, shape: [steady], tone: [drone], pitched: "yes", register: [mid] }
     summary: A shaver's steady buzz.
     listen: ["A steady, rattly buzz"]
     confusions:
       - { id: phone-vibrate, cue: "A phone buzzes in pulses." }
+    samples:
+      - {"src": "commons", "file": "File:Elektrorasur-01.ogg", "label": "Recording 1", "start": 2.0, "dur": 8.0}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/electric_razor.wav", "page": "https://opengameart.org/content/electric-razor-sfx", "license": "CC BY 3.0", "author": "Vinrax", "label": "Recording 2", "start": 0.0, "dur": 5.0}
 
   # ---------------------------------------------------------------- vehicles
   - id: car-idle
@@ -1958,6 +1993,10 @@ sounds:
       - { id: waves, cue: "Waves break in a slow rhythm." }
       - { id: wind, cue: "Wind gusts with no engines." }
       - { id: car-pass, cue: "A single car comes and goes." }
+    samples:
+      - {"src": "commons", "file": "File:Ambient sound street traffic Berlin 2026-05-17.oga", "label": "Recording 1", "dur": 8.0}
+      - {"src": "commons", "file": "File:2023-Mai-20 14h34min Wien innerer Lerchenfelder Gürtel Thaliagasse Nachmittagsverkehr.wav", "label": "Recording 2", "dur": 8.0}
+      - {"src": "commons", "file": "File:141977 lg traffic-karl-liebknechtstrasse-111223.wav", "label": "Recording 3", "dur": 8.0}
 
   - id: car-horn
     name: Car horn
@@ -1980,12 +2019,13 @@ sounds:
     name: Car door
     family: vehicles
     sub: Car
-    status: wanted
     traits: { source: object, shape: [once], tone: [knock], pitched: "no", register: [low] }
     summary: A car door closing. A heavy, padded, solid clunk.
     listen: ["A dull, heavy, sealed thump"]
     confusions:
       - { id: door, cue: "A house door has a latch and a wooden knock." }
+    samples:
+      - {"src": "commons", "file": "File:Parkhaus Einsteigen und wegfahren 01.ogg", "label": "Recording 1", "start": 2.6, "dur": 1.8}
 
   - id: motorcycle
     name: Motorcycle
@@ -2033,6 +2073,9 @@ sounds:
       - { id: air-hiss, cue: "A slow leak is quieter and continuous." }
       - { id: cat-hiss, cue: "A cat's hiss is smaller and spits." }
       - { id: shush, cue: "A shush is a human voice." }
+    samples:
+      - {"src": "commons", "file": "File:WWS CityBusMANSG220dooropeningclosing.ogg", "label": "Recording 1", "start": 0.2, "dur": 3.8}
+      - {"src": "url", "url": "https://archive.org/download/aporee_19056_22101/bus53.mp3", "page": "https://archive.org/details/aporee_19056_22101", "license": "Public Domain Mark 1.0", "author": "maciej janasik", "label": "Recording 2", "start": 61.5, "dur": 6.0}
 
   - id: air-hiss
     name: Escaping air
@@ -2046,6 +2089,10 @@ sounds:
       - { id: cat-hiss, cue: "A cat's hiss is short and explosive." }
       - { id: wind, cue: "Wind swells and fades." }
       - { id: shush, cue: "A shush is a breath." }
+    samples:
+      - {"src": "commons", "file": "File:WWS Thetyreisdeflated.ogg", "label": "Recording 1", "dur": 6.0}
+      - {"src": "commons", "file": "File:WWS SteamlocomotiveS06-018Steamrelease.ogg", "label": "Recording 2", "dur": 6.0}
+      - {"src": "commons", "file": "File:Air duster.ogg", "label": "Recording 3", "dur": 6.0}
 
   - id: train
     name: Train
@@ -2158,6 +2205,8 @@ sounds:
     confusions:
       - { id: subway, cue: "Train brakes are metallic." }
       - { id: scream, cue: "A scream is a voice." }
+    samples:
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/tires_squal_loop.wav", "page": "https://opengameart.org/content/car-tire-squeal-skid-loop", "license": "CC BY 3.0", "author": "qubodup, from a recording by audible-edge (Freesound 71739)", "label": "Recording 1", "start": 0.0, "dur": 3.0}
 
   # ---------------------------------------------------------------- signals
   - id: siren
@@ -2282,13 +2331,16 @@ sounds:
     name: Foghorn
     family: signals
     sub: Horns
-    status: wanted
     traits: { source: signal, shape: [once], tone: [drone, rumble], pitched: "yes", register: [low] }
     summary: A deep warning horn from a ship or lighthouse.
     listen: ["One deep, long, blaring note"]
     confusions:
       - { id: cow, cue: "A cow's moo is a voice that bends." }
       - { id: train-horn, cue: "A train horn is a chord, higher." }
+    samples:
+      - {"src": "commons", "file": "File:WWS Foghorn.ogg", "label": "Recording 1", "start": 2.3, "dur": 8.4}
+      - {"src": "commons", "file": "File:East Brother Light Diaphone Foghorn.oga", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Original foghorn at East Brother Island Lighthouse.ogg", "label": "Recording 3"}
 
   - id: gong
     name: Gong
@@ -2304,7 +2356,7 @@ sounds:
     samples:
       - {"src": "url", "url": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Gong%201/gong_2_f.wav", "page": "https://github.com/sgossner/VCSL", "license": "CC0-1.0", "author": "Versilian Studios (VCSL)", "label": "Struck hard", "dur": 6}
       - {"src": "url", "url": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Gong%201/gong_2_mp.wav", "page": "https://github.com/sgossner/VCSL", "license": "CC0-1.0", "author": "Versilian Studios (VCSL)", "label": "Struck", "dur": 6}
-      - {"src": "url", "url": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Gong%201/gong_scrape_mf.wav", "page": "https://github.com/sgossner/VCSL", "license": "CC0-1.0", "author": "Versilian Studios (VCSL)", "label": "Scraped", "dur": 6}
+      - {"src": "commons", "file": "File:240382 the-very-real-horst chinese-gong-finish-session-2014-06-10-29-143.wav", "label": "Recording 3", "start": 1.0, "dur": 9.0}
 
   - id: drill
     name: Drill
@@ -2326,12 +2378,13 @@ sounds:
     name: Dentist's drill
     family: machines
     sub: Power tools
-    status: wanted
     traits: { source: machine, shape: [irregular], tone: [shrill], pitched: "yes", register: [high] }
     summary: An air-driven dental drill. A piercing, very high whine.
     listen: ["An extremely high, thin whine"]
     confusions:
       - { id: drill, cue: "A power drill is lower and grindier." }
+    samples:
+      - {"src": "commons", "file": "File:WWS Dentaldrill.ogg", "label": "Recording 1", "dur": 6.0}
 
   - id: hammering
     name: Hammering
@@ -2364,6 +2417,8 @@ sounds:
       - { id: writing, cue: "Writing is tiny and quiet." }
     samples:
       - {"src": "commons", "file": "File:Sawing an empty toilet paper roll.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:WWS Wheelwrightwoodsaw.ogg", "label": "Recording 2", "dur": 8.0}
+      - {"src": "commons", "file": "File:WWS Hacksaw8220Lokarica8221.ogg", "label": "Recording 3", "dur": 8.0}
 
   - id: chainsaw
     name: Chainsaw
@@ -2393,8 +2448,8 @@ sounds:
       - { id: hammering, cue: "A hammer strikes slowly, by hand." }
       - { id: gunshot, cue: "Gunfire is sharper, with echo, and irregular." }
     samples:
-      - {"src": "commons", "file": "File:WWS PneumatichammerZ300.ogg", "label": "Recording 2"}
-      - {"src": "commons", "file": "File:WWS Pneumaticdrill.ogg", "label": "Recording 3"}
+      - {"src": "commons", "file": "File:WWS PneumatichammerZ300.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:WWS Pneumaticdrill.ogg", "label": "Recording 2"}
 
   - id: lawn-mower
     name: Lawn mower
@@ -2485,12 +2540,15 @@ sounds:
     name: Gun cocking
     family: impacts
     sub: Weapons
-    status: wanted
     traits: { source: object, shape: [once], tone: [knock], pitched: "no", register: [mid] }
     summary: A slide or bolt racked back. A heavy, metallic double click.
     listen: ["A sliding, then snapping metal 'click-clack'"]
     confusions:
       - { id: camera-shutter, cue: "A shutter is lighter and quicker." }
+    samples:
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/shotgunsounds.zip", "inner": "ShotgunSounds/Rack.mp3", "page": "https://opengameart.org/content/shotgun-reload-sound-effects", "license": "CC0", "author": "zer0_sol", "label": "Recording 1", "start": 0.4, "dur": 0.8}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/shotguncock_0.wav", "page": "https://opengameart.org/content/gun-reload-sounds", "license": "CC0", "author": "SpringySpringo", "label": "Recording 2", "start": 0.0, "dur": 0.5}
+      - {"src": "url", "url": "https://opengameart.org/sites/default/files/reload.wav", "page": "https://opengameart.org/content/handgun-reload-sound-effect", "license": "CC0", "author": "zer0_sol", "label": "Recording 3", "start": 0.9, "dur": 0.7}
 
   - id: car-backfire
     name: Car backfire
@@ -2581,6 +2639,7 @@ sounds:
       - { id: toilet-flush, cue: "A flush is a rush, then a gurgle." }
     samples:
       - {"src": "commons", "file": "File:Jump into Water (Gravity Sound).mp3", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Bathtub water splashes.ogg", "label": "Recording 2", "start": 6.5, "dur": 7.0}
 
   - id: thud
     name: Thud
@@ -2612,16 +2671,19 @@ sounds:
       - { id: thud, cue: "A thud is a single soft blow." }
       - { id: explosion, cue: "An explosion booms first." }
     samples:
-      - {"src": "commons", "file": "File:Pots and pans hits 1 (Gravity Sound).wav", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:Pots and pans hits 1 (Gravity Sound).wav", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:WWS Emptyingsteelscrapfromatruck.ogg", "label": "Recording 2", "start": 42.0, "dur": 8.0}
 
   - id: squeak
     name: Squeak
     family: impacts
     sub: Friction
-    status: wanted
     aliases: [squeaky shoes, rubber squeak, chair squeak]
     traits: { source: object, shape: [once], tone: [creak, shrill], pitched: "yes", register: [high] }
     summary: Rubber or wood rubbing. A short, high squeal.
     listen: ["A short, high, rubbery squeal"]
     confusions:
       - { id: door-creak, cue: "A creak is slower and longer." }
+    samples:
+      - {"src": "commons", "file": "File:Rubber squeaking.ogg", "label": "Recording 1", "start": 0.5, "dur": 4.8}
+      - {"src": "zip", "url": "https://opengameart.org/sites/default/files/squeak_toy.zip", "inner": "squeak toy/squeak toy - squeak1.wav", "page": "https://opengameart.org/content/squeak-toy-sounds", "license": "CC0", "author": "bart", "label": "Recording 2", "start": 0.0, "dur": 0.8}
