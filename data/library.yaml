@@ -1320,9 +1320,9 @@ sounds:
       - { id: shower, cue: "A shower is a steady spray with a hollow room sound." }
       - { id: fire, cue: "Fire crackles in irregular pops." }
     samples:
-      - {"src": "commons", "file": "File:Heavy Rain in Summer.ogg", "label": "Recording 1"}
+      - {"src": "commons", "file": "File:Bourne woods rain 2020-05-10 0800.mp3", "label": "Recording 1"}
       - {"src": "commons", "file": "File:Sound of rain.ogg", "label": "Recording 2"}
-      - {"src": "commons", "file": "File:Rain.ogg", "label": "Recording 3"}
+      - {"src": "commons", "file": "File:October rain in Nepal.ogg", "label": "Recording 3"}
 
   - id: thunder
     name: Thunder
@@ -1389,7 +1389,7 @@ sounds:
       - { id: pour, cue: "Pouring rises in pitch as the glass fills." }
     samples:
       - {"src": "commons", "file": "File:Brook sound.ogg", "label": "Recording 1"}
-      - {"src": "commons", "file": "File:Hemlock stream.ogg", "label": "Recording 2"}
+      - {"src": "commons", "file": "File:433589 jackthemurray stream-river-water-up-close.wav", "label": "Recording 2"}
       - {"src": "commons", "file": "File:River flowing (Gravity Sound).mp3", "label": "Recording 3"}
 
   - id: fire

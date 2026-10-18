@@ -37,7 +37,7 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | breathing | [Heavy breathing 3.ogg](https://commons.wikimedia.org/wiki/File:Heavy_breathing_3.ogg) | ezwa | Public domain |
 | breathing | [Human/breath-female.wav](https://opengameart.org/content/sound-effects-pack) | OwlishMedia | CC0 |
 | brook | [Brook sound.ogg](https://commons.wikimedia.org/wiki/File:Brook_sound.ogg) | TwoWings | CC BY 3.0 |
-| brook | [Hemlock stream.ogg](https://commons.wikimedia.org/wiki/File:Hemlock_stream.ogg) | Dirtslayer | Public domain |
+| brook | [433589 jackthemurray stream-river-water-up-close.wav](https://commons.wikimedia.org/wiki/File:433589_jackthemurray_stream-river-water-up-close.wav) | jackthemurray | CC0 |
 | brook | [River flowing (Gravity Sound).mp3](https://commons.wikimedia.org/wiki/File:River_flowing_(Gravity_Sound).mp3) | Gravity Sound | CC BY 4.0 |
 | burp | [Burp.opus](https://commons.wikimedia.org/wiki/File:Burp.opus) | HoTxStrike | CC BY-SA 4.0 |
 | burp | [Burp.ogg](https://commons.wikimedia.org/wiki/File:Burp.ogg) | ezwa | Public domain |
@@ -254,9 +254,9 @@ filtering and reverb. Per-clip detail is in [`data/provenance.json`](data/proven
 | printer | [Star-LC-10-printer-01.ogg](https://commons.wikimedia.org/wiki/File:Star-LC-10-printer-01.ogg) | Priwo | Public domain |
 | printer | [Bachgasse Wiki Theresa Obermair Druckergeraeusche v2.ogg](https://commons.wikimedia.org/wiki/File:Bachgasse_Wiki_Theresa_Obermair_Druckergeraeusche_v2.ogg) | Kartoffel.3.7 | CC BY-SA 4.0 |
 | printer | [Inkjet printer on and off.ogg](https://commons.wikimedia.org/wiki/File:Inkjet_printer_on_and_off.ogg) | stephan | Public domain |
-| rain | [Heavy Rain in Summer.ogg](https://commons.wikimedia.org/wiki/File:Heavy_Rain_in_Summer.ogg) | Fiver, der Hellseher | CC BY-SA 3.0 |
+| rain | [Bourne woods rain 2020-05-10 0800.mp3](https://commons.wikimedia.org/wiki/File:Bourne_woods_rain_2020-05-10_0800.mp3) | Robert EA Harvey | CC BY-SA 4.0 |
 | rain | [Sound of rain.ogg](https://commons.wikimedia.org/wiki/File:Sound_of_rain.ogg) | Effib | CC BY-SA 3.0 |
-| rain | [Rain.ogg](https://commons.wikimedia.org/wiki/File:Rain.ogg) | ジダネ | Public domain |
+| rain | [October rain in Nepal.ogg](https://commons.wikimedia.org/wiki/File:October_rain_in_Nepal.ogg) | Nirmal Dulal | CC BY-SA 4.0 |
 | rooster | [Coq qui chante (DenisChardonnet).wav](https://commons.wikimedia.org/wiki/File:Coq_qui_chante_(DenisChardonnet).wav) | DenisChardonnet | CC0 |
 | rooster | [Rooster crowing.ogg](https://commons.wikimedia.org/wiki/File:Rooster_crowing.ogg) | Filo gèn' | CC BY-SA 4.0 |
 | rooster | [Medium rooster crowing.ogg](https://commons.wikimedia.org/wiki/File:Medium_rooster_crowing.ogg) | alys | Public domain |
